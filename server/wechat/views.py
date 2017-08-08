@@ -40,10 +40,10 @@ class WeChat(View):
             return HttpResponse(echostr)
 
     def post(self, request):
-        str_xml = ET.fromstring(request.body)
-        fromUser = str_xml.find('FromUserName').text
-        toUser = str_xml.find('ToUserName').text
-        content = str_xml.find('Content').text
+        strXml = ET.fromstring(request.body)
+        fromUser = strXml.find('FromUserName').text
+        toUser = strXml.find('ToUserName').text
+        content = strXml.find('Content').text
         currentTime = str(int(time.time()))
         if self.is_super(fromUser):
             result = core.bot.chat().response(content, True)
@@ -51,7 +51,7 @@ class WeChat(View):
             result = core.bot.chat().response(content, False)
         template = loader.get_template('wechat/text_message_template.xml')
         context = Context({'toUser': fromUser, 'fromUser': toUser, 'currentTime': currentTime, 'content': result})
-        context_xml = template.render(context)
-        log_str = '\nUser:   ' + fromUser + '\nAsk:    ' + content + '\nAnswer: ' + result + '\n'
-        core.misc.write_log(log_str)
-        return HttpResponse(context_xml)
+        contextXml = template.render(context)
+        logStr = '\nUser:   ' + fromUser + '\nAsk:    ' + content + '\nAnswer: ' + result + '\n'
+        core.misc.write_log(logStr)
+        return HttpResponse(contextXml)

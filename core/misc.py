@@ -1,7 +1,8 @@
-# This are misc functions
-
-import os, sys
-import urllib.parse, urllib.request
+# They are misc functions
+import os
+import sys
+import urllib.parse
+import urllib.request
 import time
 import re
 
@@ -10,24 +11,21 @@ def baiduSearch(keyword):
     return "http://www.baidu.com/s?"+urllib.parse.urlencode(p)
 
 def write_log(input_str):
-    current_dir = os.path.dirname(__file__)
-    current_dir_list = current_dir.split('/')
-    current_dir_list.pop()
-    upper_dir_list = current_dir_list
-    upper_dir = ''
-    for path in upper_dir_list:
-        upper_dir += path + r'/'
-    log_dir = upper_dir + r'data/log.txt'
-    this_time = time.strftime('[%Y-%m-%d %H:%M:%S] ',time.localtime())
-    text = this_time + input_str
-    f = open(log_dir,'a')
+    curDir = os.path.dirname(__file__)
+    curDirList = curDir.split('/')
+    curDirList.pop()
+    upperDir = r'/'.join(curDirList)
+    logDir = os.path.join(upperDir, r'data/log')
+    curTime = time.strftime('[%Y-%m-%d %H:%M:%S] ',time.localtime())
+    text = curTime + input_str
+    f = open(logDir,'a')
     f.write(text + '\n')
     f.close()
     return text
 
 def printLog(Str): 
-    this_time = time.strftime('[%Y-%m-%d %H:%M:%S] ',time.localtime())
-    print(this_time + str(Str))
+    curTime = time.strftime('[%Y-%m-%d %H:%M:%S] ',time.localtime())
+    print(curTime + str(Str))
 
 def get_public_ip():
     reg = 'fk="\d+\.\d+\.\d+\.\d+" '
