@@ -1,0 +1,98 @@
+que: 
+- aimlequal equal
+ans: Learnequal 
+
+que: 
+- learn equal
+ans: 
+ - OK, then
+ - Sure
+ - Alright
+  
+que: 
+- test equal
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+  
+que: 
+- successor 0
+ans: 1
+
+que: 
+- successor 1
+ans: 2
+
+que: 
+- successor 2
+ans: 3
+
+que: 
+- successor 3
+ans: 4
+
+que: 
+- successor 4
+ans: 5
+
+que: 
+- successor 5
+ans: 6
+
+que: 
+- successor 6
+ans: 7
+
+que: 
+- successor 7
+ans: 8
+
+que: 
+- successor 8
+ans: 9
+
+que: 
+- successor 9
+ans: 10
+
+que: 
+- successor 9
+ans: Successor  0
+
+que: 
+- successor
+ans: Successor 
+
+que: 
+- successor 9 9
+ans: Successor  0 0
+
+que: 
+- successor 9 9 9
+ans: Successor  0 0 0
+
+que: 
+- successor
+ans: Successor  
+
+que: 
+- successor
+ans: 0
+
+que: 
+- successor
+ans: 0
+
+que: 
+- successor
+ans: 0
+
+que: 
+- add 1 plus
+ans: Successor 
+
+que: 
+- add plus
+ans: Predecessor 
+

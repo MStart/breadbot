@@ -1,0 +1,29 @@
+# Software theories
+
+que:
+- what is forward compatibility and backward compatibility
+- what is the differents between forward compatibility and backward compatibility
+ans: |
+ - Forward compatibility means forward version support current version, based on forward version.
+ - Backward compatibility means current version support forward version, based on current version.
+
+que:
+- how to make code easy to read
+- how to read code better
+ans: Just make it like nature language.
+
+que:
+- how to write readme
+ans: |
+ - Firest, remember to add the version number of every library and development tool.
+
+que:
+- how to quick develop
+- how to develop software fast
+ans: |
+ - prepare a lot of modules, can help the conceptual product development become more quickly
+ - a lot of equivalent alternative conditions can help locating and fixing the faults
+ - rapid prototype development: I think focing on the special stage function and the speed is very important
+ - rapid prototype development: do before speak!
+ - do not keep coding for a long time, it will finally become very low effective. leave the computer for enough time will make it much better
+ - without communication, without quick development

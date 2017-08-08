@@ -1,0 +1,54 @@
+# Embedded device problems
+
+que:
+- can not printf on stm32 mdk
+ans: Target -> Use MicroLIB must be selected.
+
+que:
+- how to build stm32 project
+- how to build a stm32 project
+- how to build stm32 mdk project
+ans: |
+ - 1. Create 5 folders for the code files, 
+ - Libraries (CMSIS STM32F10x_StdPeriph_Driver)
+ - List (listing files)
+ - Obj (output files)
+ - Project (* .uvproj files)
+ - User (main.c)
+ - 2. Open the MDK, create 4 groups, 
+ - Startup (startup files)
+ - CMSIS (core_cm3.c, system_stm32f2xx.c)
+ - User (main.c)
+ - StdPeriph_Driver (stm32f2xx_gpio.c, stm32f2xx_rcc.c, and so on)
+ - 3. Options for Target, 
+ - Output
+ - Listing
+ - C/C++ -> Include Paths (to include the header file path); Define (add USE_STDPERIPH_DRIVER, STM32F2XX_CL)
+
+que:
+- how to install gstc-isp on ubuntu
+ans: |
+ - When I run ./configure, there're some errors, so I did, 
+ - sudo apt-get install gnome-core-devel
+ - sudo apt-get install gawk
+ - When make, there are errors, too. So I did, 
+ - sudo apt-get install libvte-dev
+ - Then edit src/main.c, alter the line to _#include <vte-0.0/vte/vte.h>_
+
+que:
+- what is the meaning of flex
+ans: A lower power and upgraded timer or bus.
+
+que:
+- dxp how to automatically check the pcb layout error
+ans: reports -> board information -> report
+
+que:
+- what is dummy
+- what is the meaning of dummy
+ans: It means virtual, null pointer.
+
+que:
+- where to put the switch
+ans: Put in the positive pole, not GND, or the MCU will reboot again and again.
+

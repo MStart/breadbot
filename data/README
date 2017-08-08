@@ -1,0 +1,32 @@
+How to write data files:
+- All the data files are YAML files. You'd better learn more about YAML before you write them. 
+- The data files are in the 'yaml' folder
+  the 'dia' folder is for dialy dialogs, 
+  the 'nom' folder is for nomarl information,
+  the 'sec' folder is for security information only for super users. 
+
+Examples: 
+
+que:
+- how are you?
+- how do you do?
+ans:
+ - Fine, thank you.
+ - I am OK.
+
+que:
+- hello
+ans: |
+  Hi, 
+  I'm fine, 
+  thanks
+
+Attention:
+- 'que' items must all be lower case and without any punctuations. 
+- 'ans' items will display randomly, but display all at once if you use 'ans: |'. 
+- You should not write ':' in 'ans' items or it will be error when insert the data. 
+- add ' when your yaml data is start with [ and end with ].
+
+After create YAML files:
+- Run insert_data.py to insert yaml files into databse. 
+- You can use show_data.py to check the database. 

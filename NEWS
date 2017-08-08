@@ -1,0 +1,36 @@
+2017-05-05:
+- Version: 1.0.0
+- First open source code
+
+2017-05-08:
+- Version: 1.0.1
+- Add log function
+
+2017-06-21:
+- Version: 1.0.2
+- Add 4908 new dialogs
+
+2017-06-25:
+- Version 1.0.3
+- Add 564 new dialogs
+- Add new Tag 'random'
+
+2017-07-28:
+- Version 1.0.4
+- Add 87326 new dialogs
+- Fix a bug of insert_data.py
+
+2017-07-28:
+- Version 1.0.5
+- Fix the bug of bool value in data
+
+2017-07-31:
+- Version: 1.0.6
+- Rename yaml and database files
+- Merge random tag with answer tag
+- simplify question and answer tag names
+
+2017-08-08:
+- Version: 1.0.7
+- Fix lots of bugs
+- Makes the code more clean

@@ -1,0 +1,11 @@
+# System QA about Bread-AI
+
+que:
+- help
+- h
+ans: |
+ - Search Baidu, "d <your_content>"
+ - Search dictionary, "s <your_word>"
+ - Search question, "search <your_content>"
+ - Show next message, send "n" or "next“
+

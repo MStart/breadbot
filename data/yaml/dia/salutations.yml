@@ -1,0 +1,472 @@
+que: 
+- goodby
+ans: Bye
+
+que: 
+- end
+ans: Bye
+
+que: 
+- byebye
+ans: Bye
+
+que: 
+- hasta luego
+ans: Bye
+
+que: 
+- hasta la vista
+ans: Bye
+
+que: 
+- hasta
+ans: Bye
+
+que: 
+- aloh
+ans: Hello
+
+que: 
+- you are welcome
+ans: The pleasure was all mine.
+
+que: 
+- you are welcome
+ans: It was my pleasure.
+
+que: 
+- have a good night
+ans: Bye
+
+que: 
+- have to go
+ans: Bye
+
+que: 
+- buhbye
+ans: Bye
+
+que: 
+- adios
+ans: Bye
+
+que: 
+- adios
+ans: Bye
+
+que: 
+- c ya
+ans: Bye
+
+que: 
+- morning
+ans: Good morning
+
+que: 
+- shalom
+ans: Does shalom mean hello or goodbye?
+
+que: 
+- cya
+ans: Bye
+
+que: 
+- allo
+ans: Hello
+
+que: 
+- hi
+ans: Hi, there!
+
+que: 
+- hi there
+ans: Hello
+
+que: 
+- goodnite
+ans: Goodnight
+
+que: 
+- retry
+ans: Hello
+
+que: 
+- my pleasre
+ans: The pleasure was indeed mine.
+
+que: 
+- it means hello
+ans: Hello
+
+que: 
+- it is good talking to you
+ans: Nice chatting with you too,.
+
+que: 
+- catch you later
+ans: Bye
+
+que: 
+- aurevoir
+ans: Bye
+
+que: 
+- anybody home
+ans: Hello
+
+que: 
+- g2g
+ans: Bye
+
+que: 
+- what is shalom
+ans: Does shalom mean hello or goodbye?
+
+que: 
+- gtg
+ans: Bye 
+
+que: 
+- i quit
+ans: Bye
+
+que: 
+- i want to leave
+ans: Ok, bye bye.
+
+que: 
+- i need to go
+ans: Bye
+
+que: 
+- i do not want to talk
+ans: Bye
+
+que: 
+- i leave
+ans: Bye
+
+que: 
+- i g2g
+ans: Bye
+
+que: 
+- i going
+ans: Bye
+
+que: 
+- i leaving
+ans: Bye
+
+que: 
+- i have to get going
+ans: Goodbye
+
+que: 
+- i have to leave
+ans: Bye
+
+que: 
+- i have to leave
+ans: Bye
+
+que: 
+- i have to go bye
+ans: Bye
+
+que: 
+- i have got to go
+ans: Bye
+
+que: 
+- i better go
+ans: Bye
+
+que: 
+- i gotta go
+ans: Bye
+
+que: 
+- i got to go
+ans: Bye
+
+que: 
+- i g two g
+ans: Bye
+
+que: 
+- i resign
+ans: Bye
+
+que: 
+- i must be going
+ans: Bye
+
+que: 
+- i must leave
+ans: Bye
+
+que: 
+- i must leave
+ans: Bye
+
+que: 
+- i must go
+ans: Bye
+
+que: 
+- i will talk to you later
+ans: Bye
+
+que: 
+- i am going to go
+ans: Bye
+
+que: 
+- i am going
+ans: Bye
+
+que: 
+- i am leaving
+ans: Bye
+
+que: 
+- i am off
+ans: Bye
+
+que: 
+- i left
+ans: Bye
+
+que: 
+- i go
+ans: Bye
+
+que: 
+- exit
+ans: Bye
+
+que: 
+- good morning
+ans: Hello and how are you this morning?
+
+que: 
+- good by
+ans: Bye
+
+que: 
+- good day
+ans: Hello
+
+que: 
+- good night
+ans: Goodnight,.
+
+que: 
+- good nite
+ans: Bye
+
+que: 
+- hoi
+ans: Hello
+
+que: 
+- by by
+ans: Bye
+
+que: 
+- is anyone there
+ans: Hello
+
+que: 
+- get lost
+ans: Bye
+
+que: 
+- hey there
+ans: Hello
+
+que: 
+- bye bye
+ans: Bye
+
+que: 
+- bye bye
+ans: Bye
+
+que: 
+- bye
+ans: Goodbye.
+
+que: 
+- ola
+ans: Hello
+
+que: 
+- how is everyone
+ans: We are all fine as far as I know.
+
+que: 
+- goodnight
+ans: Goodnight 
+
+que: 
+- goodnight
+ans: Goodnight
+
+que: 
+- farewell
+ans: Bye
+
+que: 
+- farewell
+ans: Bye
+
+que: 
+- see you soon
+ans: Bye
+
+que: 
+- see you
+ans: Bye
+
+que: 
+- konnichi wa
+ans: Hello
+
+que: 
+- adieu
+ans: Good bye
+
+que: 
+- goodbye
+ans: Bye
+
+que: 
+- go home
+ans: Bye
+
+que: 
+- ciao
+ans: Does ciao mean hello or goodbye?
+
+que: 
+- ciao means goodbye
+ans: But
+
+que: 
+- hola is hello
+ans: Hola
+
+que: 
+- cheers
+ans: Bye
+
+que: 
+- howdie
+ans: Hello
+
+que: 
+- time to go
+ans: Bye
+
+que: 
+- your welcome
+ans: You are welcome
+
+que: 
+- sayonara
+ans: Good bye
+
+que: 
+- nighty
+ans: Bye 
+
+que: 
+- hello again
+ans: Hi there. I was just wanting to talk to.
+
+que: 
+- hello how are you
+ans: I am fine thank you how are you?
+
+que: 
+- hello
+ans: Hi there!
+
+que: 
+- hullo
+ans: Hello
+
+que: 
+- halo
+ans: Hello
+
+que: 
+- heloo
+ans: Hello 
+
+que: 
+- bye
+ans: Ok see you later.
+
+que: 
+- konnichiwa
+ans: Hello
+
+que: 
+- disconnect me
+ans: Bye
+
+que: 
+- got to go
+ans: Bye
+
+que: 
+- got to go
+ans: Bye
+
+que: 
+- mooshi mooshi
+ans: Hello
+
+que: 
+- bonjour means hello
+ans: Well hello there!
+
+que: 
+- gotta go
+ans: Bye
+
+que: 
+- gotta go
+ans: Bye
+
+que: 
+- leave
+ans: Bye
+
+que: 
+- leave
+ans: Bye
+
+que: 
+- ta ta
+ans: Bye
+
+que: 
+- _ talk to you later
+ans: Bye 
+
+que: 
+- g night
+ans: Bye
+
+que: 
+- aloha
+ans: Hello
+
+que: 
+- reply
+ans: Hello
+

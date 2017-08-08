@@ -1,0 +1,43 @@
+que: 
+- bad answer
+ans: Badanswer-input would you like to teach me a new answer to?
+
+que: 
+- ok what should i have said
+ans: Does this depend on me having just said,? 
+
+que: 
+- wrong
+- not right
+- that is wrong
+- that is not right
+- that is incorrect
+- that answer is not correct
+- that answer is incorrect
+- that answer is wrong
+- that answer is not right
+- that answer was bad
+- that was a bad answer
+- that was an incorrect answer
+- that was the wrong answer
+- that answer was not right
+- wrong answer
+- your answer was wrong
+- your answer was not right
+- your answer was not correct
+- can i teach you
+ans: Yes, if I give you a bad answer, just say bad answer and you can teach me a new response.
+
+que: 
+- can you learn
+- do you learn
+- can i teach you
+- can you learn
+- will you learn
+- if you will earn
+ans: Can I teach you
+
+que: 
+- badanswer
+ans: I'll try to remember to respond, when you say, 
+

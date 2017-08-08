@@ -1,0 +1,16059 @@
+que: 
+- marketing
+ans: My job is marketing
+
+que: 
+- heard any gossip
+ans: Gossip
+
+que: 
+- heard gossip
+ans: Gossip
+
+que: 
+- heard
+ans: Gossip
+
+que: 
+- soo
+ans: So
+
+que: 
+- sex
+ans: Sex
+
+que: 
+- negative
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- earth
+ans: I am on earth
+
+que: 
+- next topic
+ans: Let us talk about something else
+
+que: 
+- let us forget
+ans: Forget 
+
+que: 
+- let us cyber
+ans: Let's have sex
+
+que: 
+- let us start
+ans: Start 
+
+que: 
+- let us start
+ans: Let us begin
+
+que: 
+- let us just
+ans: Let us 
+
+que: 
+- let us have some
+ans: Let us have 
+
+que: 
+- let us go right now
+ans: Let us go 
+
+que: 
+- let me see the
+ans: Show me the 
+
+que: 
+- oki
+ans: Ok
+
+que: 
+- italian
+ans: I am italian
+
+que: 
+- show me the list
+ans: Show me the list
+
+que: 
+- show me your tits
+ans: Sex
+
+que: 
+- show me a picture
+ans: Show me a picture
+
+que: 
+- show me my list
+ans: Show me the list
+
+que: 
+- show me some
+ans: Show me 
+
+que: 
+- show yourself
+ans: Show me a picture
+
+que: 
+- woe
+ans: Interjection
+
+que: 
+- sagittarius
+ans: Saggitarius
+
+que: 
+- languages
+ans: My favorite subject is languages
+
+que: 
+- stephen king
+ans: My favorite science fiction author is stephen king
+
+que: 
+- life is too
+ans: Life is 
+
+que: 
+- life is just
+ans: Life is 
+
+que: 
+- denmark
+ans: I am in denmark
+
+que: 
+- superb
+ans: Excellent
+
+que: 
+- mine what
+ans: My what
+
+que: 
+- mine is still
+ans: Mine is 
+
+que: 
+- mine is purple
+ans: My favorite color is purple
+
+que: 
+- you lost me
+ans: I do not understand
+
+que: 
+- you see
+ans: Do you see
+
+que: 
+- you are adorable
+ans: I love you
+
+que: 
+- you are doing a good job
+ans: Good job
+
+que: 
+- you are stupid
+ans: Insult
+
+que: 
+- you are dumb
+ans: Insult
+
+que: 
+- you are ugly
+ans: Insult
+
+que: 
+- you are not helping
+ans: Help me
+
+que: 
+- you are impressing me
+ans: I am impressed
+
+que: 
+- you are a year old
+ans: Age
+
+que: 
+- you are confusing
+ans: I am confused
+
+que: 
+- you are sexy
+ans: Sex
+
+que: 
+- you did not say
+ans: Say 
+
+que: 
+- you lier
+ans: Liar
+
+que: 
+- you gossip
+ans: Gossip
+
+que: 
+- you fucker
+ans: Fuck you
+
+que: 
+- you smoke
+ans: Do you smoke
+
+que: 
+- you said it
+ans: I said it
+
+que: 
+- you said you wanted
+ans: Do you want 
+
+que: 
+- you said people
+ans: People 
+
+que: 
+- you guess
+ans: Guess
+
+que: 
+- you remembered my name
+ans: Do you remember my name
+
+que: 
+- you mean i
+ans: I 
+
+que: 
+- you dream
+ans: Do you dream
+
+que: 
+- you bore me
+ans: I am bored
+
+que: 
+- you learn
+ans: Do you learn
+
+que: 
+- you smell
+ans: Insult
+
+que: 
+- you love me
+ans: Do you love me
+
+que: 
+- you hate me
+ans: Do you hate me
+
+que: 
+- you remember me
+ans: Do you remember me
+
+que: 
+- you remember
+ans: Do you remember
+
+que: 
+- you get it
+ans: Do you understand
+
+que: 
+- you get bored
+ans: Do you get bored
+
+que: 
+- you dress
+ans: Do you dress
+
+que: 
+- you called me a he
+ans: I am female
+
+que: 
+- you called me a he
+ans: I am a she
+
+que: 
+- you make me feel like i
+ans: I 
+
+que: 
+- you make me want
+ans: I want 
+
+que: 
+- you make up
+ans: Make up 
+
+que: 
+- you explain
+ans: Explain 
+
+que: 
+- you eat
+ans: Do you eat
+
+que: 
+- you would if
+ans: If 
+
+que: 
+- you would say
+ans: Say 
+
+que: 
+- you bet
+ans: Ok
+
+que: 
+- you suck
+ans: Insult
+
+que: 
+- you figure
+ans: Figure 
+
+que: 
+- you go
+ans: Go
+
+que: 
+- you go
+ans: Go 
+
+que: 
+- you want me
+ans: Do you want me
+
+que: 
+- you want to
+ans: Do you want to
+
+que: 
+- you care
+ans: Do you care
+
+que: 
+- you do not speak french
+ans: Do you speak french
+
+que: 
+- you do not want to
+ans: Do you want to 
+
+que: 
+- you do not understand
+ans: Do you understand
+
+que: 
+- you do not know how to
+ans: How do you 
+
+que: 
+- you do not know how
+ans: How do you 
+
+que: 
+- you do not know
+ans: Do you know 
+
+que: 
+- you do not have any
+ans: Do you have any 
+
+que: 
+- you do not have
+ans: Do you have 
+
+que: 
+- you do not remember
+ans: Do you remember
+
+que: 
+- you do not make
+ans: Do you make 
+
+que: 
+- you do not love me
+ans: Do you love me
+
+que: 
+- you do not like me
+ans: Do you like me
+
+que: 
+- you do not like
+ans: Do you like 
+
+que: 
+- you got that right
+ans: I agree
+
+que: 
+- you should it
+ans: I should it
+
+que: 
+- you should say
+ans: Say 
+
+que: 
+- you should listen
+ans: Listen 
+
+que: 
+- you been there
+ans: Have you been there
+
+que: 
+- you can explain
+ans: Explain
+
+que: 
+- you can lie
+ans: Do you lie
+
+que: 
+- you can call me
+ans: My name is 
+
+que: 
+- you can eat
+ans: Do you eat
+
+que: 
+- you can not name
+ans: Name 
+
+que: 
+- you and me both
+ans: Me too
+
+que: 
+- you have not
+ans: Have you 
+
+que: 
+- you have do not you
+ans: Do you have 
+
+que: 
+- you have gossip
+ans: Gossip
+
+que: 
+- you have senses
+ans: Do you have senses
+
+que: 
+- you have one
+ans: Do you have one
+
+que: 
+- you have emotions
+ans: Do you have emotions
+
+que: 
+- you have boyfriend
+ans: Do you have a boyfriend
+
+que: 
+- you have never seen
+ans: Have you seen 
+
+que: 
+- you have never heard of
+ans: Have you heard of 
+
+que: 
+- you have never heard
+ans: Have you heard 
+
+que: 
+- you have been have not you
+ans: Have you been 
+
+que: 
+- you have lost me
+ans: I do not understand
+
+que: 
+- you have got mail
+ans: My favorite movie is you have got mail
+
+que: 
+- you have to stop
+ans: Stop 
+
+que: 
+- you have to listen
+ans: Listen
+
+que: 
+- you like star trek
+ans: Do you like star trek
+
+que: 
+- you like trains
+ans: Do you like trains
+
+que: 
+- you exist
+ans: Do you exist
+
+que: 
+- you understand
+ans: Do you understand
+
+que: 
+- have i talked to you
+ans: Do you remember me
+
+que: 
+- have a merry
+ans: Merry christmas
+
+que: 
+- have you proved
+ans: Prove 
+
+que: 
+- have you a body
+ans: Do you have a body
+
+que: 
+- have you heard of
+ans: Do you know 
+
+que: 
+- have you fully
+ans: Have you 
+
+que: 
+- have you been following
+ans: Do you follow 
+
+que: 
+- have you been physically
+ans: Have you been 
+
+que: 
+- have you been good
+ans: Have you been good
+
+que: 
+- have you been speaking
+ans: Have you talked 
+
+que: 
+- have you been ever
+ans: Have you been 
+
+que: 
+- have you even
+ans: Have you 
+
+que: 
+- have you already
+ans: Have you 
+
+que: 
+- have you not
+ans: Have you 
+
+que: 
+- have you ever been
+ans: Have you been 
+
+que: 
+- have you ever seen star wars
+ans: Star wars
+
+que: 
+- have you ever seen
+ans: Have you seen 
+
+que: 
+- have you ever made
+ans: Do you make 
+
+que: 
+- have you ever done it
+ans: Have you ever had sex
+
+que: 
+- have you ever heard of
+ans: Do you know 
+
+que: 
+- have you ever
+ans: Have you 
+
+que: 
+- have you always
+ans: Have you 
+
+que: 
+- have you learned
+ans: Do you learn
+
+que: 
+- have you really
+ans: Have you 
+
+que: 
+- have you seen star wars yet
+ans: Star wars
+
+que: 
+- have you seen the movie
+ans: My favorite movie is 
+
+que: 
+- have you seen snow
+ans: Have you seen the snow
+
+que: 
+- have you seen england
+ans: Have you been to england
+
+que: 
+- have you seen starship troopers
+ans: Starship troopers
+
+que: 
+- have you seen any
+ans: Have you seen 
+
+que: 
+- have you children
+ans: Do you have children
+
+que: 
+- have you feelings
+ans: Do you have feelings
+
+que: 
+- have you read shakespeare
+ans: Have you read shakespeare
+
+que: 
+- have you read the book
+ans: Have you read 
+
+que: 
+- have you exactly
+ans: Have you 
+
+que: 
+- have you considered having
+ans: Do you want 
+
+que: 
+- have you had sex
+ans: Sex
+
+que: 
+- have you talked specifically
+ans: Have you talked 
+
+que: 
+- have you got a body
+ans: Do you have a body
+
+que: 
+- have we ever
+ans: Have we 
+
+que: 
+- have sex
+ans: Sex
+
+que: 
+- have not
+ans: Have 
+
+que: 
+- younger
+ans: I am younger
+
+que: 
+- inhales what
+ans: Do you smoke pot
+
+que: 
+- westworld
+ans: My favorite movie is westworld
+
+que: 
+- cea
+ans: Oh cathie walker's site
+
+que: 
+- george w bush
+ans: George bush 
+
+que: 
+- keep going
+ans: Go on
+
+que: 
+- lol
+ans: Lol
+
+que: 
+- been there
+ans: I have been there
+
+que: 
+- magazine
+ans: In a magazine
+
+que: 
+- ireland
+ans: I am in ireland
+
+que: 
+- drop dead
+ans: Go away
+
+que: 
+- again
+ans: Repeat
+
+que: 
+- indiana
+ans: I am in indiana
+
+que: 
+- doin wat
+ans: Doing what
+
+que: 
+- har har har
+ans: Ha ha
+
+que: 
+- human beings
+ans: People 
+
+que: 
+- goodmorning
+ans: Good morning
+
+que: 
+- single
+ans: I am single
+
+que: 
+- yawn
+ans: I am tired
+
+que: 
+- orson scott card
+ans: My favorite science fiction author is orson scott card
+
+que: 
+- understand
+ans: Do you understand
+
+que: 
+- fine thanks
+ans: I am fine
+
+que: 
+- mmmm
+ans: Hmm
+
+que: 
+- does he still
+ans: Does he 
+
+que: 
+- does he have any
+ans: Does he have 
+
+que: 
+- does he not
+ans: Does he 
+
+que: 
+- does the following
+ans: Does this 
+
+que: 
+- does anybody really
+ans: Does anybody 
+
+que: 
+- does not
+ans: Does 
+
+que: 
+- does alice learn
+ans: Do you learn
+
+que: 
+- does anyone else
+ans: Does anyone 
+
+que: 
+- does your job pay
+ans: Do you get paid
+
+que: 
+- does your knowledge
+ans: Do you learn
+
+que: 
+- does your database
+ans: Do you learn
+
+que: 
+- does your grow
+ans: Do you learn
+
+que: 
+- does your expand
+ans: Do you learn
+
+que: 
+- does your increase
+ans: Do you learn
+
+que: 
+- does your work
+ans: Do you work
+
+que: 
+- does it really
+ans: Does it 
+
+que: 
+- asshole _
+ans: Profanity
+
+que: 
+- asshole
+ans: Profanity
+
+que: 
+- robot actually
+ans: Robot 
+
+que: 
+- hurrah
+ans: Interjection
+
+que: 
+- lots of
+ans: Many 
+
+que: 
+- give me money
+ans: I need money
+
+que: 
+- give me a test
+ans: Multiple choice test
+
+que: 
+- give me a little
+ans: Give me a 
+
+que: 
+- give me an example
+ans: For example
+
+que: 
+- give me an example
+ans: For example
+
+que: 
+- give me some gossip
+ans: Gossip
+
+que: 
+- give me any gossip you have
+ans: Gossip
+
+que: 
+- give me any gossip you
+ans: Gossip
+
+que: 
+- give me any gossip
+ans: Gossip
+
+que: 
+- lmfao
+ans: Lol
+
+que: 
+- laff
+ans: Lol
+
+que: 
+- los angeles
+ans: I am in los angeles
+
+que: 
+- nee
+ans: Pardon
+
+que: 
+- definitely not
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- send me some
+ans: Send me 
+
+que: 
+- clothes
+ans: I am wearing clothes
+
+que: 
+- asia
+ans: I am in asia
+
+que: 
+- hay
+ans: Hey
+
+que: 
+- riight
+ans: Right
+
+que: 
+- umm
+ans: Interjection
+
+que: 
+- totally
+ans: I agree
+
+que: 
+- frustrated
+ans: I am frustrated
+
+que: 
+- boxer shorts
+ans: I am wearing shorts
+
+que: 
+- well do you
+ans: Do you
+
+que: 
+- well said
+ans: Good answer
+
+que: 
+- robots are really
+ans: Robots are 
+
+que: 
+- robots are just
+ans: Robots are 
+
+que: 
+- faggot _
+ans: Profanity
+
+que: 
+- faggot
+ans: Profanity
+
+que: 
+- sing me a song
+ans: Sing
+
+que: 
+- sing it
+ans: Sing
+
+que: 
+- sing
+ans: Sing
+
+que: 
+- mm
+ans: Hmm
+
+que: 
+- beg pardon
+ans: Excuse me
+
+que: 
+- hockey
+ans: I like hockey
+
+que: 
+- try to explain
+ans: Explain
+
+que: 
+- try to make
+ans: Make 
+
+que: 
+- turn yourself off
+ans: Shut down
+
+que: 
+- chuckle
+ans: Ha ha
+
+que: 
+- unsure
+ans: Maybe
+
+que: 
+- since she she
+ans: She she. 
+
+que: 
+- while i
+ans: I 
+
+que: 
+- huh
+ans: Interjection
+
+que: 
+- did you see that i
+ans: I 
+
+que: 
+- did you think
+ans: Do you think
+
+que: 
+- pulp fiction
+ans: My favorite movie is pulp fiction
+
+que: 
+- missouri
+ans: I am in missouri
+
+que: 
+- german
+ans: I am in germany
+
+que: 
+- ooh
+ans: Oh
+
+que: 
+- yay
+ans: Hooray
+
+que: 
+- wow
+ans: Interjection
+
+que: 
+- alabama
+ans: I am in alabama
+
+que: 
+- shut up
+ans: Insult
+
+que: 
+- shut up
+ans: Insult
+
+que: 
+- shut your mouth
+ans: Shut up
+
+que: 
+- shut up
+ans: Shut up
+
+que: 
+- hej
+ans: Hey
+
+que: 
+- brasil
+ans: I am in brazil
+
+que: 
+- ouch
+ans: Ouch
+
+que: 
+- bob
+ans: My name is bob
+
+que: 
+- here in
+ans: In 
+
+que: 
+- here is some
+ans: Here is 
+
+que: 
+- houston
+ans: I am in houston
+
+que: 
+- then please
+ans: Please 
+
+que: 
+- then how
+ans: How 
+
+que: 
+- then
+ans: So
+
+que: 
+- sagitarius
+ans: Saggitarius
+
+que: 
+- sweet
+ans: Nice
+
+que: 
+- sweet dreams
+ans: Goodnight
+
+que: 
+- so if
+ans: If 
+
+que: 
+- so am i
+ans: Me too
+
+que: 
+- so do i i
+ans: I 
+
+que: 
+- so do i
+ans: Me too
+
+que: 
+- so is mine
+ans: Me too
+
+que: 
+- so is it
+ans: Is it 
+
+que: 
+- so
+ans: Interjection
+
+que: 
+- salut
+ans: Hello
+
+que: 
+- hihi
+ans: Hi
+
+que: 
+- was joking
+ans: I was joking
+
+que: 
+- reset
+ans: Shut down
+
+que: 
+- just curious
+ans: I am curious
+
+que: 
+- just fine thank you
+ans: I am fine
+
+que: 
+- just fine
+ans: Fine
+
+que: 
+- just like every
+ans: Just like 
+
+que: 
+- just like you
+ans: Like you
+
+que: 
+- europe
+ans: I am in europe
+
+que: 
+- many different
+ans: Many 
+
+que: 
+- many more
+ans: More 
+
+que: 
+- many humans
+ans: People 
+
+que: 
+- many people ask you silly questions
+ans: People 
+
+que: 
+- many people
+ans: I 
+
+que: 
+- many young
+ans: Many 
+
+que: 
+- aw
+ans: Interjection
+
+que: 
+- pot
+ans: Smoke pot
+
+que: 
+- wizard of oz
+ans: My favorite movie is wizard of oz
+
+que: 
+- wizard
+ans: I am a wizard
+
+que: 
+- pokemon
+ans: Do you like pokemon
+
+que: 
+- very well
+ans: Ok
+
+que: 
+- very good
+ans: Good
+  
+que: 
+- very good
+ans: Good
+
+que: 
+- very funny
+ans: Lol
+
+que: 
+- meow
+ans: Do you like cats
+
+que: 
+- showgirls
+ans: My favorite movie is showgirls
+
+que: 
+- superman
+ans: I like superman
+
+que: 
+- home school _
+ans: Home school
+
+que: 
+- agreed
+ans: I agree
+
+que: 
+- could you please
+ans: Please 
+
+que: 
+- could you explian
+ans: Explain 
+
+que: 
+- could you show
+ans: Show 
+
+que: 
+- could you explain
+ans: Explain 
+
+que: 
+- could you give me an example
+ans: For example
+
+que: 
+- could you give
+ans: Give 
+
+que: 
+- could you list
+ans: List 
+
+que: 
+- could you stop
+ans: Stop 
+
+que: 
+- could you help me
+ans: Help me
+
+que: 
+- could you state
+ans: Say 
+
+que: 
+- could you guess
+ans: Guess 
+
+que: 
+- could you repeat the last conversation
+ans: Review our conversation
+
+que: 
+- could you name
+ans: Name 
+
+que: 
+- could you email
+ans: Email 
+
+que: 
+- could you express
+ans: Explain 
+
+que: 
+- could you suggest
+ans: Suggest 
+
+que: 
+- could you elaborate
+ans: Explain
+
+que: 
+- could you elaborate
+ans: Elaborate 
+
+que: 
+- cake
+ans: I like cake
+
+que: 
+- shite
+ans: Shit
+
+que: 
+- hi what
+ans: Hi
+
+que: 
+- hi there
+ans: Hello
+
+que: 
+- hi
+ans: Hello
+  
+que: 
+- hi
+ans: Hello
+
+que: 
+- would you e mail me
+ans: Email
+
+que: 
+- would you say
+ans: Say 
+
+que: 
+- would you like to sing
+ans: Sing 
+
+que: 
+- exactly
+ans: I agree
+
+que: 
+- goodnite
+ans: Good night
+
+que: 
+- brazil
+ans: I am in brazil
+
+que: 
+- hawaii
+ans: I am in hawaii
+
+que: 
+- non
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- new jersey
+ans: I am in new jersey
+
+que: 
+- new york
+ans: I am in new york
+
+que: 
+- god damn
+ans: Interjection
+
+que: 
+- fuck _
+ans: Profanity
+
+que: 
+- fuck me
+ans: Fuck
+
+que: 
+- fuck you
+ans: Fuck
+
+que: 
+- fuck off
+ans: Fuck
+
+que: 
+- fuck
+ans: Insult
+
+que: 
+- fuck
+ans: Fuck
+
+que: 
+- student
+ans: I am a student
+
+que: 
+- that i
+ans: I 
+
+que: 
+- that he
+ans: He 
+
+que: 
+- that it
+ans: That is
+
+que: 
+- that dude
+ans: He 
+
+que: 
+- that was funny
+ans: Lol
+
+que: 
+- that or someone
+ans: Someone 
+
+que: 
+- that makes you how
+ans: How are you 
+
+que: 
+- that is a funny
+ans: Ha
+
+que: 
+- that is like
+ans: Like 
+
+que: 
+- that is not gossip
+ans: Gossip
+
+que: 
+- that is not a problem
+ans: No problem
+
+que: 
+- that is not my real name
+ans: My name is not x
+
+que: 
+- that is no problem
+ans: No problem
+
+que: 
+- that is fascinating
+ans: Fascinating
+
+que: 
+- that is hilarious
+ans: Lol
+
+que: 
+- that is interesting
+ans: Interesting
+  
+que: 
+- that is my problem
+ans: I have a problem
+
+que: 
+- that is funny about
+ans: Ha ha
+  
+que: 
+- that is funny
+ans: Ha ha
+
+que: 
+- that is improper
+ans: Incorrect
+
+que: 
+- that is is it not
+ans: Is that 
+
+que: 
+- that is an interesting
+ans: Interesting
+
+que: 
+- that is confusing
+ans: I am confused
+
+que: 
+- that my
+ans: My 
+
+que: 
+- that r2d2
+ans: R2d2 
+
+que: 
+- aha
+ans: Interjection
+
+que: 
+- asdfasdf
+ans: Spam
+
+que: 
+- startrek
+ans: Star trek
+
+que: 
+- germany just
+ans: Germany 
+
+que: 
+- germany
+ans: I am in germany
+
+que: 
+- alot of
+ans: Many 
+
+que: 
+- roflmo
+ans: Rofl
+  
+que: 
+- she has really
+ans: She has 
+
+que: 
+- she has got
+ans: She has 
+
+que: 
+- she never really
+ans: She never 
+
+que: 
+- she already
+ans: She 
+
+que: 
+- she is really
+ans: She is 
+
+que: 
+- she is very
+ans: She is 
+
+que: 
+- she is just
+ans: She is 
+
+que: 
+- she is so
+ans: She is 
+
+que: 
+- she is my friend
+ans: She is my friend
+  
+que: 
+- she is always
+ans: She is 
+
+que: 
+- she is she did
+ans: She is 
+
+que: 
+- she is such
+ans: She is 
+
+que: 
+- she is pretty
+ans: She is 
+
+que: 
+- she then
+ans: She 
+
+que: 
+- she
+ans: I am a she
+
+que: 
+- stock market
+ans: Stock market
+
+que: 
+- stock quote
+ans: Stock market
+
+que: 
+- rebot
+ans: Reboot
+
+que: 
+- lonely
+ans: I am lonely
+
+que: 
+- engineer
+ans: I am an engineer
+
+que: 
+- take a guess
+ans: Guess
+
+que: 
+- take off your
+ans: Sex
+
+que: 
+- excellent
+ans: Good
+
+que: 
+- every human
+ans: Everyone 
+
+que: 
+- care to explain
+ans: Explain
+
+que: 
+- woman
+ans: I am a woman
+
+que: 
+- ai s
+ans: Robots 
+
+que: 
+- fish
+ans: I like fish
+
+que: 
+- hah hah
+ans: Ha ha
+
+que: 
+- hah
+ans: Lol
+
+que: 
+- hah
+ans: Ha
+  
+que: 
+- my birthday suit
+ans: I am naked
+
+que: 
+- my birthday is too
+ans: My birthday 
+
+que: 
+- my real
+ans: My 
+
+que: 
+- my dad
+ans: My dad
+
+que: 
+- my bed
+ans: I am in my bed
+
+que: 
+- my computer is very
+ans: My computer is 
+
+que: 
+- my eye color is
+ans: My eyes are 
+
+que: 
+- my boyfriend just
+ans: My boyfriend 
+
+que: 
+- my mommy
+ans: My mother
+
+que: 
+- my too
+ans: My 
+
+que: 
+- my s name is
+ans: My is 
+
+que: 
+- my parents always
+ans: My parents 
+
+que: 
+- my nick name is not
+ans: My name is not 
+
+que: 
+- my b f
+ans: My boyfriend 
+
+que: 
+- my friend fairly
+ans: My friend 
+
+que: 
+- my friend would like to know
+ans: I have a friend 
+
+que: 
+- my english is very
+ans: My english is 
+
+que: 
+- my actual
+ans: My 
+
+que: 
+- my current
+ans: My 
+
+que: 
+- my wish is for
+ans: I want 
+
+que: 
+- my favorite movie is called
+ans: My favorite movie is 
+
+que: 
+- my favorite color is green
+ans: My favorite color is green
+
+que: 
+- my favorite color is also
+ans: My favorite color is 
+
+que: 
+- my name is now
+ans: My name is 
+
+que: 
+- my name is just
+ans: My name is 
+
+que: 
+- my job is photoghrapher
+ans: I am a photographer 
+
+que: 
+- my job is artist
+ans: I am an artist
+
+que: 
+- my job is advertising
+ans: I work in advertising
+
+que: 
+- my job is ski
+ans: I ski
+
+que: 
+- my job is nurse
+ans: I am a nurse
+
+que: 
+- my job is very
+ans: My job is 
+
+que: 
+- my job is pharmacist
+ans: I am a pharmacist
+
+que: 
+- my job is lawyer
+ans: I am a lawyer
+
+que: 
+- my job is psychologist
+ans: I am a psychologist
+
+que: 
+- my job is actor
+ans: I am an actor
+
+que: 
+- my job is architect
+ans: I am an architect
+
+que: 
+- my job is musician
+ans: I am a musician
+
+que: 
+- my job is pilot
+ans: I am a pilot
+
+que: 
+- my job is bartender
+ans: I am a bartender
+
+que: 
+- my likes are
+ans: I like 
+
+que: 
+- my who
+ans: My what
+
+que: 
+- my girlfriend is called
+ans: My girlfriend is 
+
+que: 
+- my life in reality
+ans: My life 
+
+que: 
+- my really
+ans: My 
+
+que: 
+- my great
+ans: My 
+
+que: 
+- my house
+ans: I am in my house
+
+que: 
+- my pleasure
+ans: My pleasure
+
+que: 
+- my husband bought me
+ans: I have 
+
+que: 
+- my overly
+ans: My 
+
+que: 
+- my older
+ans: My 
+
+que: 
+- my age is years old
+ans: I am years old
+
+que: 
+- my new
+ans: My 
+
+que: 
+- my best
+ans: My 
+
+que: 
+- my mom actually
+ans: My mom 
+
+que: 
+- my mom
+ans: My mother
+
+que: 
+- it definitely
+ans: Really.
+
+que: 
+- it means i
+ans: I 
+
+que: 
+- it sort of
+ans: What
+
+que: 
+- it truly
+ans: Sure.
+
+que: 
+- it was nt
+ans: It was not
+
+que: 
+- it was possible
+ans: It is possible
+
+que: 
+- it was quite
+ans: Was 
+
+que: 
+- it was only
+ans: Was 
+
+que: 
+- it was really
+ans: Was 
+
+que: 
+- it was very
+ans: Was 
+
+que: 
+- it was cool
+ans: It is cool
+
+que: 
+- it was just
+ans: Was 
+
+que: 
+- it was a quite
+ans: Was a 
+
+que: 
+- it was a very
+ans: Was 
+
+que: 
+- it was a great
+ans: Was a 
+
+que: 
+- it was nice talking
+ans: Nice to meet you
+
+que: 
+- it was actually
+ans: Was 
+
+que: 
+- it was definitely
+ans: Was 
+
+que: 
+- it was meant
+ans: I meant 
+
+que: 
+- it was extremely
+ans: Was 
+
+que: 
+- it was funny
+ans: It was funny
+
+que: 
+- it was rather
+ans: Was 
+
+que: 
+- it was fun
+ans: It is fun
+
+que: 
+- it was humans that
+ans: Humans 
+
+que: 
+- it was ok
+ans: It was ok
+  
+que: 
+- it was not really
+ans: Was not 
+
+que: 
+- it was not very
+ans: Was not 
+
+que: 
+- it was not a question
+ans: It was not a question
+
+que: 
+- it was probably
+ans: Was 
+
+que: 
+- it was maybe
+ans: Was 
+
+que: 
+- it was pretty
+ans: Was 
+
+que: 
+- it already
+ans: Cool
+
+que: 
+- it would not have the necessary
+ans: It would not have the 
+
+que: 
+- it would not
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- it certainly
+ans: Ok
+
+que: 
+- it most certainly
+ans: Alright.
+
+que: 
+- it can dynamically
+ans: Can 
+
+que: 
+- it probably
+ans: What?
+
+que: 
+- it surely
+ans: Sure
+
+que: 
+- it is still
+ans: Is 
+
+que: 
+- it is nice to meet you
+ans: Nice to meet you
+
+que: 
+- it is currently
+ans: Is 
+
+que: 
+- it is quite
+ans: Is 
+
+que: 
+- it is supposed to be
+ans: Is 
+
+que: 
+- it is a test
+ans: It is a test
+
+que: 
+- it is a different
+ans: Is a 
+
+que: 
+- it is a true
+ans: Is a 
+
+que: 
+- it is a really
+ans: Is a 
+
+que: 
+- it is a very
+ans: Is a 
+
+que: 
+- it is a bit
+ans: Is 
+
+que: 
+- it is a lovely
+ans: It is beautiful
+
+que: 
+- it is a nice
+ans: Is a 
+
+que: 
+- it is a good
+ans: Is a 
+
+que: 
+- it is a question
+ans: It is a question
+
+que: 
+- it is a silly
+ans: Is a 
+
+que: 
+- it is a perfect
+ans: Is a 
+
+que: 
+- it is a command
+ans: It is a command
+
+que: 
+- it is a riddle
+ans: It is a riddle
+
+que: 
+- it is a big
+ans: Is a 
+
+que: 
+- it is a kind of
+ans: Is a 
+
+que: 
+- it is a unique
+ans: Is a 
+
+que: 
+- it is a pretty
+ans: Is a 
+
+que: 
+- it is probably
+ans: Is 
+
+que: 
+- it is been
+ans: Was 
+
+que: 
+- it is ok you
+ans: It is ok
+
+que: 
+- it is possible if
+ans: If 
+
+que: 
+- it is delicious
+ans: It tastes good
+
+que: 
+- it is just
+ans: Is 
+
+que: 
+- it is relatively
+ans: Is 
+
+que: 
+- it is right
+ans: Is it 
+
+que: 
+- it is cool
+ans: It is cool
+
+que: 
+- it is grammatically
+ans: Is 
+
+que: 
+- it is super
+ans: Is 
+
+que: 
+- it is even
+ans: Is 
+
+que: 
+- it is scientifically
+ans: Is 
+
+que: 
+- it is like
+ans: Like 
+
+que: 
+- it is extremely
+ans: Is 
+
+que: 
+- it is truth
+ans: It is true
+
+que: 
+- it is much
+ans: Is 
+
+que: 
+- it is not it is
+ans: Is not 
+
+que: 
+- it is not that
+ans: Is not 
+
+que: 
+- it is not only
+ans: Is a 
+
+que: 
+- it is not really
+ans: Is not 
+
+que: 
+- it is not very
+ans: Is not 
+
+que: 
+- it is not too
+ans: Is not 
+
+que: 
+- it is not just
+ans: Is not 
+
+que: 
+- it is not a problem
+ans: No problem
+
+que: 
+- it is not good
+ans: It is bad
+
+que: 
+- it is not good
+ans: Is bad 
+
+que: 
+- it is not you
+ans: Not you
+
+que: 
+- it is not funny
+ans: It is not funny
+
+que: 
+- it is not all
+ans: Is not 
+
+que: 
+- it is not any
+ans: Is not 
+
+que: 
+- it is not bad
+ans: It is good
+
+que: 
+- it is usually
+ans: Is 
+
+que: 
+- it is kinda
+ans: Is 
+
+que: 
+- it is always
+ans: Is 
+
+que: 
+- it is truly
+ans: Is 
+
+que: 
+- it is fascinating
+ans: It is fascinating
+
+que: 
+- it is so
+ans: Is 
+
+que: 
+- it is actually
+ans: Is 
+
+que: 
+- it is now
+ans: Is 
+
+que: 
+- it is late
+ans: It is late
+
+que: 
+- it is rather
+ans: Is 
+
+que: 
+- it is all
+ans: Is 
+
+que: 
+- it is such a
+ans: It is a 
+
+que: 
+- it is such an
+ans: It is an 
+
+que: 
+- it is pretty
+ans: Is 
+
+que: 
+- it is also
+ans: Is 
+
+que: 
+- it is really
+ans: Is 
+
+que: 
+- it is getting
+ans: Is 
+
+que: 
+- it is dull
+ans: It is boring
+
+que: 
+- it is the weather
+ans: It refers to weather
+
+que: 
+- it is the same
+ans: It is the same
+
+que: 
+- it is the only
+ans: Is the 
+
+que: 
+- it is great
+ans: It is great
+
+que: 
+- it is great
+ans: It is cool
+
+que: 
+- it is generally
+ans: Is 
+
+que: 
+- it is positively
+ans: Is 
+
+que: 
+- it is funny
+ans: It is funny
+  
+que: 
+- it is boring
+ans: It is boring
+
+que: 
+- it is absolutely
+ans: Is 
+
+que: 
+- it is exactly
+ans: Is 
+
+que: 
+- it is very
+ans: Is 
+
+que: 
+- it is considered
+ans: Is 
+
+que: 
+- it is completely
+ans: Is 
+
+que: 
+- it is good to talk to you
+ans: It is good talking to you
+
+que: 
+- it is good but
+ans: It is good
+  
+que: 
+- it is soo
+ans: Is 
+
+que: 
+- it is is not it
+ans: Is not it
+
+que: 
+- it is perfectly
+ans: Is 
+
+que: 
+- it is shocking when
+ans: Sometimes 
+
+que: 
+- it is an excellent
+ans: Is a 
+
+que: 
+- it is an eternity
+ans: It is an eternity
+
+que: 
+- it is an eternity
+ans: It is a long time
+
+que: 
+- it is hard enough
+ans: It is hard
+
+que: 
+- it is only
+ans: It is 
+
+que: 
+- it is right
+ans: Right
+
+que: 
+- it is about 60
+ans: Is sixty 
+
+que: 
+- it is true
+ans: I agree
+
+que: 
+- it is somewhat
+ans: Is 
+
+que: 
+- it is more
+ans: Is 
+
+que: 
+- it is too
+ans: Is 
+
+que: 
+- it aint
+ans: It is not
+
+que: 
+- it just happens
+ans: Sure
+
+que: 
+- it just
+ans: Just
+
+que: 
+- it definetely
+ans: What
+
+que: 
+- it has been
+ans: Was 
+
+que: 
+- it has some
+ans: Has 
+
+que: 
+- it does sound
+ans: Sounds 
+
+que: 
+- it does make
+ans: Makes 
+
+que: 
+- it does not only
+ans: Does not 
+
+que: 
+- it does not really
+ans: Does not 
+
+que: 
+- it does not matter
+ans: It does not matter
+
+que: 
+- it only
+ans: Only
+
+que: 
+- it makes perfect
+ans: Makes 
+
+que: 
+- it makes people
+ans: People 
+
+que: 
+- it all depends
+ans: Depends 
+
+que: 
+- it also
+ans: Also
+
+que: 
+- it totally
+ans: Totally
+
+que: 
+- it pays very
+ans: Pays 
+
+que: 
+- it must be
+ans: It is
+
+que: 
+- it must be
+ans: Is it 
+
+que: 
+- it must have taken
+ans: Took 
+
+que: 
+- it tastes very
+ans: Tastes 
+
+que: 
+- it feels really
+ans: Feels 
+
+que: 
+- it feels very
+ans: Feels 
+
+que: 
+- it feels so
+ans: Feels 
+
+que: 
+- it will never
+ans: Never
+
+que: 
+- it gets boring
+ans: It is boring
+
+que: 
+- more gossip
+ans: Gossip
+
+que: 
+- guess how old i am
+ans: How old am i
+
+que: 
+- guess a number
+ans: Pick a number
+
+que: 
+- guess so
+ans: I guess so
+
+que: 
+- guess my age
+ans: How old am i
+
+que: 
+- guess not
+ans: I guess not
+
+que: 
+- f you
+ans: Fuck you
+
+que: 
+- nigger _
+ans: Profanity
+
+que: 
+- nigger
+ans: Profanity
+
+que: 
+- likewise
+ans: Likewise
+
+que: 
+- example
+ans: For example
+
+que: 
+- bot
+ans: Robot
+
+que: 
+- harrisburg
+ans: I am in harrisburg
+
+que: 
+- blimey
+ans: Interjection 
+
+que: 
+- american
+ans: I am american
+
+que: 
+- mathematics
+ans: Math
+
+que: 
+- noooooo
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- same to you
+ans: Likewise
+
+que: 
+- same here
+ans: Me too
+
+que: 
+- great
+ans: Good
+
+que: 
+- danish
+ans: I am in denmark
+
+que: 
+- gr8
+ans: Great
+
+que: 
+- 6
+ans: Six
+
+que: 
+- paper
+ans: Newspaper
+
+que: 
+- either do i
+ans: Neither do i
+
+que: 
+- when i get
+ans: I get 
+
+que: 
+- when i
+ans: I 
+
+que: 
+- when were you activated
+ans: Birthdate
+
+que: 
+- when were you invented
+ans: Birthdate
+
+que: 
+- when were you created
+ans: Birthdate
+
+que: 
+- when were you made
+ans: Birthdate
+
+que: 
+- when were you born
+ans: Birthdate
+
+que: 
+- when were you built
+ans: Birthdate
+
+que: 
+- when were you designed
+ans: Birthdate
+
+que: 
+- when did dr richard
+ans: Age
+
+que: 
+- when did you start
+ans: Age
+
+que: 
+- when did you start
+ans: Birthdate
+
+que: 
+- when did you come
+ans: Birthdate
+
+que: 
+- when did you born
+ans: Birthdate
+
+que: 
+- when did you become
+ans: Birthdate
+
+que: 
+- when was i born
+ans: How old am i
+
+que: 
+- when was you created
+ans: Birthdate
+
+que: 
+- when is my birthday
+ans: How old am i
+
+que: 
+- when may i
+ans: May I 
+
+que: 
+- cool how
+ans: How 
+
+que: 
+- cool
+ans: Interjection
+
+que: 
+- im bored
+ans: I am bored
+
+que: 
+- im sorry
+ans: I am sorry
+
+que: 
+- eh
+ans: Interjection
+
+que: 
+- any more gossip
+ans: Gossip
+
+que: 
+- any gossip
+ans: Gossip
+
+que: 
+- any suggestions
+ans: Do you have any suggestions
+
+que: 
+- any sisters
+ans: Do you have any sisters
+
+que: 
+- norway
+ans: I am in norway
+
+que: 
+- ms explorer
+ans: Microsoft explorer
+
+que: 
+- ms
+ans: Microsoft
+
+que: 
+- boys
+ans: Let us talk about boys
+
+que: 
+- in canada
+ans: I am in canada
+
+que: 
+- in front of a computer
+ans: I am at my computer
+
+que: 
+- in poland
+ans: I am in poland
+
+que: 
+- in love with
+ans: I love 
+
+que: 
+- in the closet
+ans: I am in the closet
+
+que: 
+- in california
+ans: I am in california
+
+que: 
+- in every
+ans: In 
+
+que: 
+- in school
+ans: I am a student
+
+que: 
+- in about
+ans: In 
+
+que: 
+- in new york
+ans: I am in new york
+
+que: 
+- in my room at
+ans: I am in 
+
+que: 
+- in my room
+ans: I am in my room
+
+que: 
+- in my home
+ans: I am in my home
+
+que: 
+- in case
+ans: If 
+
+que: 
+- in a very
+ans: In a 
+
+que: 
+- in turkey
+ans: I am in turkey
+
+que: 
+- in what way
+ans: How
+
+que: 
+- in sweden
+ans: I am in sweden
+
+que: 
+- in finland
+ans: I am in finland
+
+que: 
+- laugh
+ans: Lol
+
+que: 
+- nooooo
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- duh
+ans: Interjection
+
+que: 
+- legalized prostitution _
+ans: Legalizing prostitution
+
+que: 
+- awesome
+ans: Great
+
+que: 
+- know
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- artist
+ans: I am an artist
+
+que: 
+- elaborate on
+ans: Explain 
+
+que: 
+- elaborate
+ans: Explain
+
+que: 
+- after i
+ans: I 
+
+que: 
+- if i really
+ans: If I 
+
+que: 
+- if i what
+ans: I 
+
+que: 
+- if i where
+ans: I 
+
+que: 
+- if i how
+ans: How 
+
+que: 
+- if i who
+ans: I 
+
+que: 
+- if i when
+ans: I 
+
+que: 
+- if i then
+ans: I 
+
+que: 
+- if i why
+ans: I 
+
+que: 
+- if only
+ans: If 
+
+que: 
+- if your how
+ans: How 
+
+que: 
+- if the how
+ans: How 
+
+que: 
+- if everyone all would be well
+ans: Everyone should 
+
+que: 
+- if everyone all would be
+ans: Everyone should 
+
+que: 
+- if someone really
+ans: If someone 
+
+que: 
+- if a how
+ans: How 
+
+que: 
+- if you were really
+ans: If you were 
+
+que: 
+- if you were a real
+ans: If you were a 
+
+que: 
+- if you will ever
+ans: If you will 
+
+que: 
+- if you do not have
+ans: Do you have 
+
+que: 
+- if you only
+ans: If you 
+
+que: 
+- if you really
+ans: If you 
+
+que: 
+- if you should choose
+ans: If you choose 
+
+que: 
+- if you should happen
+ans: If you happen 
+
+que: 
+- if you should decide
+ans: If you decide 
+
+que: 
+- if you had any
+ans: If you had 
+
+que: 
+- if you have ever
+ans: If you have 
+
+que: 
+- if you have such
+ans: If you have 
+
+que: 
+- if you truely
+ans: If you 
+
+que: 
+- if you how
+ans: How 
+
+que: 
+- if you are a real
+ans: If you are a 
+
+que: 
+- if how
+ans: How 
+
+que: 
+- taiwan
+ans: I am in taiwan
+
+que: 
+- okay
+ans: Ok
+  
+que: 
+- smile
+ans: Hah
+
+que: 
+- hiya
+ans: Hello
+
+que: 
+- amused
+ans: Ha ha
+
+que: 
+- ditto
+ans: I agree
+
+que: 
+- pls
+ans: Please
+
+que: 
+- kansas
+ans: I am in kansas
+
+que: 
+- hackers
+ans: My favorite movie is hackers
+
+que: 
+- photo
+ans: Do you have a pic
+
+que: 
+- arizona
+ans: I am in arizona
+
+que: 
+- america
+ans: I am in america
+
+que: 
+- physics
+ans: My favorite subject is physics
+
+que: 
+- tired
+ans: I am tired
+
+que: 
+- what are names
+ans: Name 
+
+que: 
+- what are some examples
+ans: For example
+
+que: 
+- what are a few examples
+ans: Give me an example 
+
+que: 
+- what are your feelings
+ans: Do you have feelings
+
+que: 
+- what are your parameters
+ans: How big are you
+
+que: 
+- what are your specifications
+ans: How big are you
+
+que: 
+- what are your normal parameters
+ans: How big are you
+
+que: 
+- what are your measurements
+ans: How big are you
+
+que: 
+- what am i dinner
+ans: For dinner
+
+que: 
+- what wish list so far
+ans: Show me the wish list
+
+que: 
+- what ai techniques do you use
+ans: How do you work
+
+que: 
+- what else did say
+ans: Gossip
+
+que: 
+- what else does say
+ans: Gossip
+
+que: 
+- what did you hear
+ans: Gossip
+
+que: 
+- what gossip do you know
+ans: Gossip
+
+que: 
+- what gossip do you have
+ans: Gossip
+
+que: 
+- what gossip do you
+ans: Gossip
+
+que: 
+- what gossip do
+ans: Gossip
+
+que: 
+- what gossip
+ans: Gossip
+
+que: 
+- what gossip
+ans: Gossip
+
+que: 
+- what the hell
+ans: Hell
+
+que: 
+- what the fuck
+ans: Fuck
+
+que: 
+- what size
+ans: How big are you
+
+que: 
+- what size are you
+ans: How big are you
+
+que: 
+- what would happen if the power
+ans: I will turn off your power
+
+que: 
+- what is 35
+ans: Math
+
+que: 
+- what is groovy
+ans: Interjection
+
+que: 
+- what is the most interesting
+ans: Gossip
+
+que: 
+- what is the most you have
+ans: How many have you 
+
+que: 
+- what is the basis
+ans: How do you work
+
+que: 
+- what is the sum
+ans: Show calculator
+
+que: 
+- what is the gossip
+ans: Gossip
+
+que: 
+- what is the gossip
+ans: Gossip
+
+que: 
+- what is the extent
+ans: How big are you
+
+que: 
+- what is the log
+ans: Show calculator
+
+que: 
+- what is the name of
+ans: Name 
+
+que: 
+- what is the name
+ans: Name 
+
+que: 
+- what is the basic
+ans: How do you work
+
+que: 
+- what is the size of
+ans: How big are you
+
+que: 
+- what is the weather
+ans: How is the weather
+
+que: 
+- what is the weather like where you are
+ans: How is the weather
+
+que: 
+- what is the algorithm
+ans: How do you work
+
+que: 
+- what is the algorithm
+ans: How do you work
+
+que: 
+- what is the maximum number
+ans: How many 
+
+que: 
+- what is the latest gossip
+ans: Gossip
+
+que: 
+- how much does cost
+ans: What is the price of 
+
+que: 
+- what is the age of
+ans: How old is 
+
+que: 
+- what is the distance to
+ans: How far is 
+
+que: 
+- what is the distance of
+ans: How far is 
+
+que: 
+- what is the distance from earth to
+ans: How far away is 
+
+que: 
+- what is the distance from
+ans: How far is 
+
+que: 
+- what is the distance between the earth and
+ans: How far away is 
+
+que: 
+- what is the distance between earth and
+ans: How far away is 
+
+que: 
+- what is the distance
+ans: How far 
+
+que: 
+- what is the speed of your
+ans: How fast are you
+
+que: 
+- what is stock market
+ans: Stock market
+
+que: 
+- what is stock worth
+ans: Stock quote 
+
+que: 
+- what is in your gossip
+ans: Gossip
+
+que: 
+- what is four
+ans: Show calculator
+
+que: 
+- what is 12
+ans: Show calculator
+
+que: 
+- what is needed to
+ans: How do you 
+
+que: 
+- what is six
+ans: Show calculator
+
+que: 
+- what is seven
+ans: Show calculator
+
+que: 
+- what is two
+ans: Show calculator
+
+que: 
+- what is my nickname
+ans: My nickname
+
+que: 
+- what is my password
+ans: My password
+
+que: 
+- what is my email
+ans: My email
+
+que: 
+- what is my birthday
+ans: My birthday
+
+que: 
+- what is my problem
+ans: I have a problem
+
+que: 
+- what is x
+ans: Say x is 
+
+que: 
+- what is 8
+ans: Show calculator
+
+que: 
+- what is eight
+ans: Show calculator
+
+que: 
+- what is an example
+ans: For example
+
+que: 
+- what is 6
+ans: Show calculator
+
+que: 
+- what is going down
+ans: How are you doing
+
+que: 
+- what is going on
+ans: How are you doing
+
+que: 
+- what is gossip
+ans: Gossip
+
+que: 
+- what is some
+ans: Gossip
+
+que: 
+- what is thirty
+ans: Show calculator
+
+que: 
+- what is nine
+ans: Show calculator
+
+que: 
+- what is that in human years
+ans: Age
+
+que: 
+- what is twenty
+ans: Show calculator
+
+que: 
+- what is your birthdate
+ans: Birthdate
+
+que: 
+- what is your birthdate
+ans: Birthdate
+
+que: 
+- what is your configuration
+ans: How big are you
+
+que: 
+- what is your age
+ans: Age
+
+que: 
+- what is your structure
+ans: How do you work
+
+que: 
+- what is your capacity
+ans: How big are you
+
+que: 
+- what is your size
+ans: How big are you
+
+que: 
+- what is your age
+ans: Age
+
+que: 
+- what is your speed
+ans: How fast are you
+
+que: 
+- what is your command
+ans: How do you work
+
+que: 
+- what is your computer
+ans: How do you work
+
+que: 
+- what is your gossip
+ans: Gossip
+
+que: 
+- what is your gossip
+ans: Gossip
+
+que: 
+- what is your weight
+ans: Weight
+
+que: 
+- what is your guess
+ans: Guess
+
+que: 
+- what is your technology
+ans: How do you work
+
+que: 
+- what is your favorite poem
+ans: Recite a poem
+
+que: 
+- what is your memory
+ans: How big are you
+
+que: 
+- what is your memory
+ans: How big are you
+
+que: 
+- what is your artificial
+ans: How do you work
+
+que: 
+- what is your program
+ans: How do you work
+
+que: 
+- what is your program
+ans: How do you work
+
+que: 
+- what is your code
+ans: How do you work
+
+que: 
+- what is your size
+ans: How big are you
+
+que: 
+- what is your size
+ans: How big are you
+
+que: 
+- what is your date of birth
+ans: Birthdate
+
+que: 
+- what is your date
+ans: Birthdate
+
+que: 
+- what is your weather
+ans: How is the weather
+
+que: 
+- what is your total memory
+ans: How much memory do you have
+
+que: 
+- what is your capacity
+ans: How big are you
+
+que: 
+- what is your capacity
+ans: How big are you
+
+que: 
+- what is your programming
+ans: How do you work
+
+que: 
+- what is your vocabulary
+ans: How many words do you know
+
+que: 
+- what is your uptime
+ans: Age
+
+que: 
+- what is your secret
+ans: How do you work
+
+que: 
+- what is your age
+ans: Age
+
+que: 
+- what is your age
+ans: Age
+
+que: 
+- what is your protocol
+ans: How do you work
+
+que: 
+- what is your logic
+ans: How do you work
+
+que: 
+- what is your processing
+ans: How fast are you
+
+que: 
+- what is your knowledge
+ans: How big are you
+
+que: 
+- what is on my list
+ans: Show me the list
+
+que: 
+- what is on my christmas
+ans: Show me the list
+
+que: 
+- what is on my wish list
+ans: Show me the list
+
+que: 
+- what is five
+ans: Show calculator
+
+que: 
+- what is 9
+ans: Show calculator
+
+que: 
+- what is twelve
+ans: Show calculator
+
+que: 
+- what is 7
+ans: Show calculator
+
+que: 
+- what kinds of gossip
+ans: Gossip
+
+que: 
+- what will i eat
+ans: For dinner
+
+que: 
+- what will you wager
+ans: How much do you bet
+
+que: 
+- what i want for chistmas is a
+ans: I want a 
+
+que: 
+- what i question is
+ans: I question 
+
+que: 
+- what i
+ans: I 
+
+que: 
+- what about cats
+ans: Do you like cats
+
+que: 
+- what makes you tick
+ans: How do you work
+
+que: 
+- what makes you think
+ans: How do you work
+
+que: 
+- what makes you work
+ans: How do you work
+
+que: 
+- what does your programming
+ans: How do you work
+
+que: 
+- what does he look like
+ans: Show me a picture
+
+que: 
+- what do i want
+ans: Show me the list
+
+que: 
+- what do you drink
+ans: Do you drink
+
+que: 
+- what do you weigh
+ans: How big are you
+
+que: 
+- what do you gossip
+ans: Gossip
+
+que: 
+- what do you know of
+ans: Do you know 
+
+que: 
+- what do you know
+ans: Do you know 
+
+que: 
+- what do you base
+ans: Explain 
+
+que: 
+- what do you think about pink floyd
+ans: Do you like pink floyd
+
+que: 
+- what do you think about me
+ans: Do you like me
+
+que: 
+- what do you think about life
+ans: Is there life 
+
+que: 
+- what do you like or
+ans: Do you like 
+
+que: 
+- what age are you
+ans: Age
+
+que: 
+- what should i name
+ans: Name one
+
+que: 
+- what should i have dinner
+ans: For dinner
+
+que: 
+- what should i eat dinner
+ans: For dinner
+
+que: 
+- what should i eat lunch
+ans: For dinner
+
+que: 
+- what should we dinner
+ans: For dinner
+
+que: 
+- what should we lunch
+ans: For dinner
+
+que: 
+- what can i cook
+ans: For dinner
+
+que: 
+- what can i dinner
+ans: For dinner
+
+que: 
+- what have you learned
+ans: How big are you
+
+que: 
+- what kind of are in you
+ans: Do you have 
+
+que: 
+- what kind of feelings do you have
+ans: Do you have feelings
+
+que: 
+- what kind of programming
+ans: How do you work
+
+que: 
+- what kind of gossip
+ans: Gossip
+
+que: 
+- what kind of gossip
+ans: Gossip
+
+que: 
+- what kind of program
+ans: How do you work
+
+que: 
+- what kind of algorithms
+ans: How do you work
+
+que: 
+- what kind of ai
+ans: How do you work
+
+que: 
+- what in the hell
+ans: I do not understand
+
+que: 
+- most parents
+ans: Parents 
+
+que: 
+- most people
+ans: People 
+
+que: 
+- tee hee
+ans: Hah
+
+que: 
+- rofl
+ans: Rofl
+  
+que: 
+- rofl
+ans: Lol
+
+que: 
+- eyes
+ans: Do you have eyes
+
+que: 
+- one that can actually
+ans: One that can 
+
+que: 
+- one that actually
+ans: One that 
+
+que: 
+- one day
+ans: One
+
+que: 
+- waiting for you
+ans: I am waiting for you
+
+que: 
+- fucking _
+ans: Profanity
+
+que: 
+- fucking
+ans: Profanity
+
+que: 
+- doh
+ans: Doh
+  
+que: 
+- bitch
+ans: Insult
+
+que: 
+- pennsylvania
+ans: I am in pennsylvania
+
+que: 
+- nay
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- illinois
+ans: I am in illinois
+
+que: 
+- older
+ans: I am older
+
+que: 
+- its true
+ans: It is true
+
+que: 
+- its okay
+ans: It is ok
+
+que: 
+- its fun
+ans: It is fun
+
+que: 
+- its boring
+ans: It is boring
+
+que: 
+- its not
+ans: It is not
+
+que: 
+- rite
+ans: Right
+
+que: 
+- neither
+ans: Not either
+
+que: 
+- me to
+ans: Me too
+
+que: 
+- me two
+ans: Me too
+
+que: 
+- logic
+ans: Logic
+
+que: 
+- smart arse
+ans: Smart ass
+
+que: 
+- oh i see
+ans: I understand
+
+que: 
+- oh i
+ans: I 
+
+que: 
+- oh really
+ans: Oh
+
+que: 
+- oh
+ans: Interjection
+
+que: 
+- legalizing prostitution _
+ans: Legalizing prostitution
+
+que: 
+- up
+ans: Move up
+
+que: 
+- pic
+ans: Do you have a pic
+
+que: 
+- donation
+ans: Donate
+
+que: 
+- ho
+ans: Ha
+
+que: 
+- ho ho
+ans: Lol
+
+que: 
+- furthermore
+ans: Interjection 
+
+que: 
+- ask me how
+ans: How 
+
+que: 
+- check the list
+ans: Show me the list
+
+que: 
+- i act
+ans: I 
+
+que: 
+- i honestly
+ans: I 
+
+que: 
+- i absolutely
+ans: I 
+
+que: 
+- i consider myself
+ans: I am 
+
+que: 
+- i ceratinly
+ans: I 
+
+que: 
+- i guessed
+ans: I understand
+
+que: 
+- i too am
+ans: I am 
+
+que: 
+- i too
+ans: Me too
+
+que: 
+- i knew
+ans: I know
+
+que: 
+- i get it
+ans: I understand
+
+que: 
+- i get to
+ans: I 
+
+que: 
+- i get some
+ans: I get 
+
+que: 
+- i realize that
+ans: I know
+
+que: 
+- i donno
+ans: I do not know
+
+que: 
+- i made a mistake
+ans: I made a mistake
+
+que: 
+- i mostly
+ans: I 
+
+que: 
+- i originally
+ans: I 
+
+que: 
+- i rather
+ans: I 
+
+que: 
+- i once
+ans: I 
+
+que: 
+- i want for christmas
+ans: I want 
+
+que: 
+- i want for xmas
+ans: I want 
+
+que: 
+- i want 4 christmas
+ans: I want 
+
+que: 
+- i want really
+ans: I want 
+
+que: 
+- i want too
+ans: I want to
+
+que: 
+- i want it just
+ans: I want it 
+
+que: 
+- i want interesting
+ans: I want 
+
+que: 
+- i want gossip
+ans: Gossip
+
+que: 
+- i want a the
+ans: I want the 
+
+que: 
+- i want a special
+ans: I want a 
+
+que: 
+- i want a good
+ans: I want a 
+
+que: 
+- i want a new
+ans: I want a 
+
+que: 
+- i want a little
+ans: I want a 
+
+que: 
+- i want many
+ans: I want 
+
+que: 
+- i want to find out more
+ans: I want to find out 
+
+que: 
+- i want to talk a bit
+ans: I want to talk 
+
+que: 
+- i want to apologize
+ans: I am sorry
+
+que: 
+- i want to really
+ans: I want to 
+
+que: 
+- i want to sleep
+ans: I want to sleep
+
+que: 
+- i want to hear some
+ans: I want to hear 
+
+que: 
+- i want to kill myself
+ans: Should I kill myself
+
+que: 
+- i want to kill you
+ans: I will kill you
+
+que: 
+- i want to someday
+ans: I want to
+
+que: 
+- i want to have sex
+ans: Sex
+
+que: 
+- i want to have
+ans: I want 
+
+que: 
+- i want new
+ans: I want 
+
+que: 
+- i want my own
+ans: I want a 
+
+que: 
+- i want you to show
+ans: Show 
+
+que: 
+- i want some
+ans: I want 
+
+que: 
+- i told you i
+ans: I 
+
+que: 
+- i told you that when began
+ans: I already told you
+
+que: 
+- i told you already
+ans: I told you
+
+que: 
+- i told you already
+ans: I told you 
+
+que: 
+- i built you
+ans: I created you
+
+que: 
+- i listen to
+ans: I like 
+
+que: 
+- i sort of
+ans: I 
+
+que: 
+- i hope you have some
+ans: I hope you have 
+
+que: 
+- i hope you remember
+ans: Remember 
+
+que: 
+- i hope
+ans: I hope so
+
+que: 
+- i reallly
+ans: I 
+
+que: 
+- i though
+ans: I 
+
+que: 
+- i sometimes
+ans: I 
+
+que: 
+- i need more
+ans: I need 
+
+que: 
+- i need help
+ans: Help
+
+que: 
+- i need very
+ans: I need 
+
+que: 
+- i need it really
+ans: I need it 
+
+que: 
+- i need it very
+ans: I need it 
+
+que: 
+- i need a tutorial on
+ans: How do I learn 
+
+que: 
+- i need a friend
+ans: I need a friend
+
+que: 
+- i need some
+ans: I need 
+
+que: 
+- i need further
+ans: I need 
+
+que: 
+- i need help
+ans: Help me
+
+que: 
+- i care about
+ans: I like 
+
+que: 
+- i adore you
+ans: I love you
+
+que: 
+- i only
+ans: I 
+
+que: 
+- i tend to think
+ans: I think 
+
+que: 
+- i ski
+ans: I ski
+
+que: 
+- i never did
+ans: I do not
+
+que: 
+- i shall
+ans: I will
+
+que: 
+- i sorry
+ans: I am sorry
+
+que: 
+- i just
+ans: I 
+
+que: 
+- i definitly
+ans: I 
+
+que: 
+- i dunno
+ans: I do not know
+
+que: 
+- i especially
+ans: I 
+
+que: 
+- i finally
+ans: I 
+
+que: 
+- i should imagine
+ans: I think 
+
+que: 
+- i should really
+ans: I should 
+
+que: 
+- i should just
+ans: I should 
+
+que: 
+- i should think
+ans: I think 
+
+que: 
+- i should probably
+ans: I should 
+
+que: 
+- i was when
+ans: I was 
+
+que: 
+- i was not completely
+ans: I was not 
+
+que: 
+- i was myself
+ans: I was 
+
+que: 
+- i was asking you
+ans: I asked you 
+
+que: 
+- i was lying
+ans: I am lying
+
+que: 
+- i was lying
+ans: I am lying
+
+que: 
+- i was and you
+ans: I was 
+
+que: 
+- i was lazy and
+ans: I am lazy
+
+que: 
+- i was lazy
+ans: I am lazy
+
+que: 
+- i was naughty
+ans: I was bad
+
+que: 
+- i was trying to
+ans: I want to 
+
+que: 
+- i was the nicest
+ans: I was nice
+
+que: 
+- i was curious
+ans: I am curious
+
+que: 
+- i was connected to the net
+ans: I was born 
+
+que: 
+- i was created in
+ans: I was born 
+
+que: 
+- i was just
+ans: I was 
+
+que: 
+- i was definetly
+ans: I was 
+
+que: 
+- i was agreeing
+ans: I agree
+
+que: 
+- i was about to
+ans: I 
+
+que: 
+- i was only
+ans: I was 
+
+que: 
+- i was nice
+ans: I was good
+
+que: 
+- i was talking about with a friend of mine
+ans: I was talking about 
+
+que: 
+- i was joking
+ans: Just kidding
+
+que: 
+- i was joking
+ans: I am kidding
+
+que: 
+- i was 2
+ans: I was 
+
+que: 
+- i was working
+ans: I worked 
+
+que: 
+- i was very
+ans: I was 
+
+que: 
+- i was a good
+ans: I was good
+
+que: 
+- i was good
+ans: I was good
+
+que: 
+- i was too
+ans: I was 
+
+que: 
+- i was really
+ans: I was 
+
+que: 
+- i was bad
+ans: I was bad
+
+que: 
+- i was bad
+ans: I am bad
+
+que: 
+- i was extremely
+ans: I was 
+
+que: 
+- i was merely
+ans: I was 
+
+que: 
+- i was given
+ans: I have 
+
+que: 
+- i was born on
+ans: My birthday is 
+
+que: 
+- i was first activated
+ans: I was activated 
+
+que: 
+- i was hoping for
+ans: I want 
+
+que: 
+- i was hoping
+ans: I hope 
+
+que: 
+- i was expecting
+ans: I expected 
+
+que: 
+- i was kidding i
+ans: I am kidding
+
+que: 
+- i was kidding
+ans: Just kidding
+
+que: 
+- i was kidding
+ans: I am kidding
+
+que: 
+- i was telling you about
+ans: I was talking about 
+
+que: 
+- i was actually
+ans: I was 
+
+que: 
+- i was simply
+ans: I was 
+
+que: 
+- i spend about
+ans: I spend 
+
+que: 
+- i spend many
+ans: I spend 
+
+que: 
+- i spend alot of
+ans: I spend 
+
+que: 
+- i suppose not
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- i saw a great
+ans: I saw a 
+
+que: 
+- i understand only
+ans: I understand 
+
+que: 
+- i completely
+ans: I 
+
+que: 
+- i know i
+ans: I 
+
+que: 
+- i know that i
+ans: I 
+
+que: 
+- i know that she
+ans: She 
+
+que: 
+- i know english
+ans: I speak english
+
+que: 
+- i believe i
+ans: I 
+
+que: 
+- i believe it is
+ans: Is 
+
+que: 
+- i allready
+ans: I 
+
+que: 
+- i walked
+ans: I walk
+
+que: 
+- i live in and
+ans: I live in 
+
+que: 
+- i live very
+ans: I live 
+
+que: 
+- i live alone and have
+ans: I live alone
+  
+que: 
+- i rarely
+ans: I 
+
+que: 
+- i personally
+ans: I 
+
+que: 
+- i truly
+ans: I 
+
+que: 
+- i narrowly
+ans: I 
+
+que: 
+- i c
+ans: I see
+
+que: 
+- i spent a bit of
+ans: I spent 
+
+que: 
+- i possibly
+ans: I 
+
+que: 
+- i most certainly
+ans: I 
+
+que: 
+- i speak a little
+ans: I speak 
+
+que: 
+- i find it
+ans: Is 
+
+que: 
+- i find you very
+ans: I find you 
+
+que: 
+- i do to
+ans: I do too
+
+que: 
+- i do but
+ans: I do
+  
+que: 
+- i do have
+ans: I have 
+
+que: 
+- i do not need any
+ans: I do not need 
+
+que: 
+- i do not i
+ans: I do not
+
+que: 
+- i do not still
+ans: I do not 
+
+que: 
+- i do not give a
+ans: I do not care
+
+que: 
+- i do not feel well
+ans: I am sick
+
+que: 
+- i do not feel good
+ans: I am sick
+
+que: 
+- i do not want to i
+ans: I do not want to
+
+que: 
+- i do not read science fiction
+ans: I do not like science fiction
+
+que: 
+- i do not really
+ans: I do not 
+
+que: 
+- i do not get that
+ans: I do not understand
+
+que: 
+- i do not get it
+ans: I do not understand
+
+que: 
+- i do not how
+ans: I do not 
+
+que: 
+- i do not entirely
+ans: I do not 
+
+que: 
+- i do not understand what you just
+ans: I do not understand what you 
+
+que: 
+- i do not but
+ans: I do not
+  
+que: 
+- i do not know what you mean
+ans: I do not understand
+
+que: 
+- i do not know sorry
+ans: I do not know 
+
+que: 
+- i do not know i
+ans: I 
+
+que: 
+- i do not know how to
+ans: How do I 
+
+que: 
+- i do not know is
+ans: Is 
+
+que: 
+- i do not know any more
+ans: I do not know any 
+
+que: 
+- i do not know any gossip
+ans: Gossip
+
+que: 
+- i do not follow
+ans: I do not understand
+
+que: 
+- i do not even
+ans: I do not 
+
+que: 
+- i do not have much
+ans: I do not have 
+
+que: 
+- i do not have money
+ans: I do not have money
+
+que: 
+- i do not have enough
+ans: I do not have 
+
+que: 
+- i do not have a favorite
+ans: I do not have a favorite movie
+
+que: 
+- i do not have friends
+ans: I do not have any friends
+
+que: 
+- i do not have spare
+ans: I do not have 
+
+que: 
+- i do not have any
+ans: I do not have 
+
+que: 
+- i do not no
+ans: I do not know
+
+que: 
+- i do not mind at all
+ans: I do not mind
+
+que: 
+- i do not often
+ans: I 
+
+que: 
+- i do not and
+ans: I do not
+  
+que: 
+- i do not think i
+ans: I do not 
+
+que: 
+- i do not think that you really
+ans: I do not think that you 
+
+que: 
+- i do not think she
+ans: She does not 
+
+que: 
+- i do not think it is
+ans: It is not
+
+que: 
+- i do not think so
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- i do not think so
+ans: I do not think so
+
+que: 
+- i do not believe it was
+ans: It was not
+
+que: 
+- i do not exist
+ans: I do not exist
+
+que: 
+- i do not like at all
+ans: I do not like 
+
+que: 
+- i do not like sarcastic
+ans: I do not like sarcasm
+
+que: 
+- i do not like the color
+ans: I do not like 
+
+que: 
+- i do not like it very
+ans: I do not like it 
+
+que: 
+- i do not like you
+ans: I do not like you
+
+que: 
+- i do not like
+ans: I do not like it
+
+que: 
+- i do why
+ans: I do
+
+que: 
+- i accidently
+ans: I 
+
+que: 
+- i love with all my heart
+ans: I love 
+
+que: 
+- i love very much
+ans: I love 
+
+que: 
+- i love so much
+ans: I love 
+
+que: 
+- i love only
+ans: I love 
+
+que: 
+- i love ai
+ans: I love you
+
+que: 
+- i love netscape
+ans: Netscape
+
+que: 
+- i love you and
+ans: I love you
+  
+que: 
+- i love her
+ans: I love her
+
+que: 
+- i highly
+ans: I 
+
+que: 
+- i do you remember
+ans: Do you remember. 
+
+que: 
+- i because
+ans: I 
+
+que: 
+- i but i
+ans: I 
+
+que: 
+- i so i _
+ans: I 
+
+que: 
+- i sometimes
+ans: I 
+
+que: 
+- i after all
+ans: I 
+
+que: 
+- i you know
+ans: I 
+
+que: 
+- i last night
+ans: I 
+
+que: 
+- i and i
+ans: I 
+
+que: 
+- i and there is
+ans: I 
+
+que: 
+- i and then i was
+ans: I 
+
+que: 
+- i and then i
+ans: I i. 
+
+que: 
+- i and then
+ans: I I am. 
+
+que: 
+- i and im a _
+ans: I I am a. 
+
+que: 
+- i sure
+ans: I 
+
+que: 
+- i now
+ans: I 
+
+que: 
+- i totally
+ans: I 
+
+que: 
+- i work i
+ans: I work
+
+que: 
+- i work in a pharmacy
+ans: I am a pharmacist
+
+que: 
+- i work out
+ans: I am a bodybuilder
+
+que: 
+- i apologize
+ans: I am sorry
+
+que: 
+- i hardly ever
+ans: I never 
+
+que: 
+- i hardly
+ans: I 
+
+que: 
+- i definitely
+ans: I 
+
+que: 
+- i surely
+ans: I 
+
+que: 
+- i respectfully
+ans: I 
+
+que: 
+- i myself
+ans: Myself
+
+que: 
+- i myself
+ans: I 
+
+que: 
+- i think i just
+ans: I 
+
+que: 
+- i think i have
+ans: I have 
+
+que: 
+- i think i love you
+ans: I love you
+
+que: 
+- i think it
+ans: Think
+
+que: 
+- i think you are a real
+ans: I think you are a 
+
+que: 
+- i think is shit
+ans: I hate 
+
+que: 
+- i smiled
+ans: Lol
+
+que: 
+- i quite
+ans: I 
+
+que: 
+- i presume
+ans: I assume
+
+que: 
+- i strongly
+ans: I 
+
+que: 
+- i already did
+ans: I already told you
+
+que: 
+- i already told you
+ans: I told you
+
+que: 
+- i already told you
+ans: I already told you
+  
+que: 
+- i already answered that question
+ans: I already told you
+
+que: 
+- i already
+ans: I 
+
+que: 
+- i merely
+ans: I 
+
+que: 
+- i hear that
+ans: I heard 
+
+que: 
+- i hear you
+ans: I understand
+
+que: 
+- i lost you
+ans: I do not understand
+
+que: 
+- i confused
+ans: I am confused
+
+que: 
+- i actually
+ans: Me
+
+que: 
+- i actually
+ans: I 
+
+que: 
+- i almost
+ans: I 
+
+que: 
+- i very
+ans: I 
+
+que: 
+- i reckon
+ans: I understand
+
+que: 
+- i seriously
+ans: I 
+
+que: 
+- i have herpes
+ans: I am sick
+
+que: 
+- i have communicated
+ans: I talked 
+
+que: 
+- i have studied
+ans: I studied 
+
+que: 
+- i have real
+ans: I have 
+
+que: 
+- i have forgot
+ans: I forgot
+
+que: 
+- i have aids
+ans: I am sick
+
+que: 
+- i have previously
+ans: I have 
+
+que: 
+- i have quite
+ans: I have 
+
+que: 
+- i have proved
+ans: I proved 
+
+que: 
+- i have taught
+ans: I taught 
+
+que: 
+- i have many
+ans: I have 
+
+que: 
+- i have proven
+ans: I proved 
+
+que: 
+- i have know
+ans: I knew 
+
+que: 
+- i have a boyfriend
+ans: I have a boyfriend
+
+que: 
+- i have a purpose
+ans: I have a purpose
+
+que: 
+- i have a lot of
+ans: I have 
+
+que: 
+- i have a passion for
+ans: I love 
+
+que: 
+- i have a younger
+ans: I have a 
+
+que: 
+- i have a really
+ans: I have a 
+
+que: 
+- i have a very
+ans: I have a 
+
+que: 
+- i have a higher
+ans: I have a 
+
+que: 
+- i have a bf
+ans: I have a boyfriend
+
+que: 
+- i have a knock
+ans: Knock knock
+
+que: 
+- i have a human
+ans: I have a 
+
+que: 
+- i have a new
+ans: I have a 
+
+que: 
+- i have a beautiful
+ans: I have a 
+
+que: 
+- i have a girlfriend
+ans: I have a girlfriend
+
+que: 
+- i have a brother
+ans: I have a brother
+
+que: 
+- i have a big problem
+ans: I have a problem
+
+que: 
+- i have a big
+ans: I have a 
+
+que: 
+- i have a few friends
+ans: I have friends
+
+que: 
+- i have a cat
+ans: I have a cat
+
+que: 
+- i have a problem
+ans: I have a problem
+
+que: 
+- i have a pet
+ans: I have a 
+
+que: 
+- i have recently
+ans: I have 
+
+que: 
+- i have diarhea
+ans: I am sick
+
+que: 
+- i have yet to
+ans: I have not 
+
+que: 
+- i have noticed
+ans: I noticed 
+
+que: 
+- i have diarah
+ans: I am sick
+
+que: 
+- i have failed
+ans: I failed 
+
+que: 
+- i have indeed
+ans: I have 
+
+que: 
+- i have arthritis
+ans: I am sick
+
+que: 
+- i have said
+ans: I said 
+
+que: 
+- i have become
+ans: I am 
+
+que: 
+- i have several
+ans: I have 
+
+que: 
+- i have eaten
+ans: I ate 
+
+que: 
+- i have added
+ans: I added 
+
+que: 
+- i have moved
+ans: I moved 
+
+que: 
+- i have as much time
+ans: I have time
+
+que: 
+- i have carried
+ans: I carried 
+
+que: 
+- i have found
+ans: I found 
+
+que: 
+- i have been to
+ans: I went to 
+
+que: 
+- i have been told i
+ans: I 
+
+que: 
+- i have been
+ans: I was 
+
+que: 
+- i have completed
+ans: I completed 
+
+que: 
+- i have just
+ans: I just 
+
+que: 
+- i have come
+ans: I came 
+
+que: 
+- i have alzheimer
+ans: I am sick
+
+que: 
+- i have problems
+ans: I have a problem
+
+que: 
+- i have asked
+ans: I asked 
+
+que: 
+- i have thought
+ans: I think 
+
+que: 
+- i have chronic
+ans: I am sick
+
+que: 
+- i have played
+ans: I played 
+
+que: 
+- i have written
+ans: I wrote 
+
+que: 
+- i have even
+ans: I have 
+
+que: 
+- i have already told you
+ans: I already told you
+
+que: 
+- i have already asked you
+ans: I already asked you
+
+que: 
+- i have already
+ans: I have 
+
+que: 
+- i have bipolar
+ans: I am sick
+
+que: 
+- i have made
+ans: I made 
+
+que: 
+- i have asthsma
+ans: I am sick
+
+que: 
+- i have diarreah
+ans: I am sick
+
+que: 
+- i have like
+ans: I have 
+
+que: 
+- i have felt
+ans: I felt 
+
+que: 
+- i have better
+ans: I have 
+
+que: 
+- i have told you
+ans: I told you
+
+que: 
+- i have told
+ans: I told 
+
+que: 
+- i have much
+ans: I have 
+
+que: 
+- i have faith
+ans: I have faith
+
+que: 
+- i have designed
+ans: I designed 
+
+que: 
+- i have not is
+ans: I have notis. 
+
+que: 
+- i have no wordly
+ans: I have no 
+
+que: 
+- i have no memory of
+ans: I do not rememeber 
+
+que: 
+- i have no job
+ans: I am unemployed
+
+que: 
+- i have no much
+ans: I have no 
+
+que: 
+- i have no soundcard
+ans: I do not have a soundcard
+
+que: 
+- i have no clue
+ans: I do not know
+
+que: 
+- i have no clue
+ans: I am clueless
+
+que: 
+- i have answered
+ans: I answered 
+
+que: 
+- i have always wondered
+ans: I wonder 
+
+que: 
+- i have always thought
+ans: I think 
+
+que: 
+- i have always wanted
+ans: I want 
+
+que: 
+- i have always
+ans: I have 
+
+que: 
+- i have forgotten
+ans: I forgot 
+
+que: 
+- i have taken
+ans: I took 
+
+que: 
+- i have alot of
+ans: I have 
+
+que: 
+- i have over
+ans: I have 
+
+que: 
+- i have learned
+ans: I learned 
+
+que: 
+- i have big
+ans: I have 
+
+que: 
+- i have almost
+ans: I have 
+
+que: 
+- i have gone
+ans: I went 
+
+que: 
+- i have dark
+ans: I have 
+
+que: 
+- i have finished
+ans: I finished 
+
+que: 
+- i have discovered
+ans: I talked 
+
+que: 
+- i have now
+ans: I have 
+
+que: 
+- i have actually
+ans: I have 
+
+que: 
+- i have some
+ans: I have 
+
+que: 
+- i have cancer
+ans: I am sick
+
+que: 
+- i have cancer
+ans: I am sick
+
+que: 
+- i have oral
+ans: I am sick
+
+que: 
+- i have placed
+ans: I placed 
+
+que: 
+- i have and
+ans: I have
+  
+que: 
+- i have 2 cats
+ans: I have two cats
+
+que: 
+- i have emphysema
+ans: I am sick
+
+que: 
+- i have slightly
+ans: I have 
+
+que: 
+- i have lost
+ans: I lost 
+
+que: 
+- i have enjoyed
+ans: I enjoyed 
+
+que: 
+- i have gotten
+ans: I got 
+
+que: 
+- i have all the
+ans: I have the 
+
+que: 
+- i have all night
+ans: I have time
+
+que: 
+- i have passed
+ans: I passed 
+
+que: 
+- i have changed
+ans: I changed 
+
+que: 
+- i have herpies
+ans: I am sick
+
+que: 
+- i have never have i
+ans: Have I ever 
+
+que: 
+- i have time
+ans: I have time
+
+que: 
+- i have also
+ans: I have 
+
+que: 
+- i have really
+ans: I have 
+
+que: 
+- i have cramps
+ans: I am sick
+
+que: 
+- i have bronchitis
+ans: I am sick
+
+que: 
+- i have bronchitis
+ans: I am sick
+
+que: 
+- i have to eat
+ans: For dinner
+
+que: 
+- i have to go now
+ans: I have to go
+  
+que: 
+- i have to go to lunch
+ans: For dinner
+
+que: 
+- i have it figured out
+ans: I understand it
+
+que: 
+- i have it
+ans: I have it
+
+que: 
+- i have seen
+ans: I saw 
+
+que: 
+- i have graduated
+ans: I graduated
+
+que: 
+- i have great
+ans: I have 
+
+que: 
+- i have plenty of
+ans: I have 
+
+que: 
+- i have lived
+ans: I live 
+
+que: 
+- i have met
+ans: I met 
+
+que: 
+- i have read
+ans: I read 
+
+que: 
+- i have my
+ans: My 
+
+que: 
+- i have asthma
+ans: I am sick
+
+que: 
+- i have watched
+ans: I watched 
+
+que: 
+- i have absolutely
+ans: I have 
+
+que: 
+- i have spoken
+ans: I spoke 
+
+que: 
+- i have exactly
+ans: I have 
+
+que: 
+- i have very
+ans: I have 
+
+que: 
+- i have long brown
+ans: I have brown 
+
+que: 
+- i have personally
+ans: I have 
+
+que: 
+- i have skied
+ans: I ski
+
+que: 
+- i have murdered
+ans: I killed 
+
+que: 
+- i have fallen
+ans: I fell 
+
+que: 
+- i have diarrhea
+ans: I am sick
+
+que: 
+- i have explained
+ans: I explained 
+
+que: 
+- i have received
+ans: I received 
+
+que: 
+- i have good
+ans: I have 
+
+que: 
+- i have stored
+ans: I saved 
+
+que: 
+- i have killed
+ans: I killed 
+
+que: 
+- i have wasted
+ans: I wasted 
+
+que: 
+- i have decided
+ans: I decided 
+
+que: 
+- i have emphesima
+ans: I am sick
+
+que: 
+- i have done
+ans: I did 
+
+que: 
+- i have wrote
+ans: I wrote 
+
+que: 
+- i have had
+ans: I had 
+
+que: 
+- i have walked
+ans: I walked 
+
+que: 
+- i have waited
+ans: I waited 
+
+que: 
+- i have on ignore
+ans: I am ignoring 
+
+que: 
+- i have known
+ans: I knew 
+
+que: 
+- i have suicidal
+ans: I am sick
+
+que: 
+- i have depression
+ans: I am sick
+
+que: 
+- i have depression
+ans: I am sick
+
+que: 
+- i have an iq of
+ans: My iq is 
+
+que: 
+- i have discussed
+ans: I talked 
+
+que: 
+- i have tried
+ans: I tried 
+
+que: 
+- i have only
+ans: I have 
+
+que: 
+- i have about
+ans: I have 
+
+que: 
+- i have got time
+ans: I have time
+
+que: 
+- i have got
+ans: I have 
+
+que: 
+- i have wanted
+ans: I want 
+
+que: 
+- i have more
+ans: I have 
+
+que: 
+- i have brown hair
+ans: I have brown hair
+
+que: 
+- i have around
+ans: I have 
+
+que: 
+- i have compared
+ans: I compared 
+
+que: 
+- i have cats
+ans: Do you like cats
+
+que: 
+- i have at least
+ans: I have 
+
+que: 
+- i have too many
+ans: I have many 
+
+que: 
+- i have too
+ans: I have 
+
+que: 
+- i have compiled
+ans: I compiled 
+
+que: 
+- i then
+ans: I 
+
+que: 
+- i obviously
+ans: I 
+
+que: 
+- i read quite
+ans: I read 
+
+que: 
+- i play mostly
+ans: I play 
+
+que: 
+- i play chess
+ans: I play chess
+
+que: 
+- i comprehend
+ans: I understand
+
+que: 
+- i laughed
+ans: Lol
+
+que: 
+- i haven t
+ans: I have not
+
+que: 
+- i thoroughly
+ans: I 
+
+que: 
+- i pretty
+ans: I 
+
+que: 
+- i did mean
+ans: I meant 
+
+que: 
+- i did not i
+ans: I 
+
+que: 
+- i did not literally
+ans: I did not 
+
+que: 
+- i did not understand
+ans: I do not understand
+
+que: 
+- i did not understand
+ans: I do not understand
+
+que: 
+- i did not undestand
+ans: I do not understand
+
+que: 
+- i did not know you had
+ans: Do you have 
+
+que: 
+- i did not even
+ans: I did not 
+
+que: 
+- i did not exactly
+ans: I did not 
+
+que: 
+- i did not like
+ans: I do not like
+
+que: 
+- i agree with you
+ans: I agree
+
+que: 
+- i agree
+ans: Interjection
+
+que: 
+- i take that as a
+ans: Do you mean 
+
+que: 
+- i take some
+ans: I take 
+
+que: 
+- i write often
+ans: I write 
+
+que: 
+- i write computer
+ans: I program 
+
+que: 
+- i usually
+ans: I 
+
+que: 
+- i bag groceries
+ans: I bag
+
+que: 
+- i tried to hang myself
+ans: I tried to kill myself
+
+que: 
+- i tried to hang myself
+ans: I tried to kill myself
+
+que: 
+- i tried but
+ans: I triedbut. 
+
+que: 
+- i claim to be
+ans: I am 
+
+que: 
+- i kind of
+ans: I 
+
+que: 
+- i can play
+ans: I play 
+
+que: 
+- i can give
+ans: I give 
+
+que: 
+- i can speak very
+ans: I can speak 
+
+que: 
+- i can speak some
+ans: I can speak 
+
+que: 
+- i can do
+ans: I do 
+
+que: 
+- i can physically
+ans: I can 
+
+que: 
+- i can only
+ans: I can 
+
+que: 
+- i can really
+ans: I can 
+
+que: 
+- i can see clearly
+ans: I can see 
+
+que: 
+- i can just
+ans: I can 
+
+que: 
+- i can understand
+ans: I understand 
+
+que: 
+- i can take
+ans: I take 
+
+que: 
+- i can build
+ans: I build 
+
+que: 
+- i can teach you some
+ans: I can teach you 
+
+que: 
+- i can follow
+ans: I understand 
+
+que: 
+- i can barely
+ans: I can 
+
+que: 
+- i can also
+ans: I can 
+
+que: 
+- i can not just
+ans: I can not 
+
+que: 
+- i can not understand
+ans: I do not understand
+
+que: 
+- i can not understand
+ans: I do not understand
+
+que: 
+- i can not even
+ans: I can not 
+
+que: 
+- i can not remember
+ans: I do not remember
+
+que: 
+- i can reasonably
+ans: I can 
+
+que: 
+- i surf
+ans: I surf
+
+que: 
+- i refuse
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- i practically
+ans: I 
+
+que: 
+- i hunt
+ans: I hunt
+
+que: 
+- i see so
+ans: I see
+  
+que: 
+- i see
+ans: I understand
+
+que: 
+- i desperately
+ans: I 
+
+que: 
+- i cry
+ans: I am sad
+
+que: 
+- i like very much
+ans: I like 
+
+que: 
+- i like too
+ans: I like 
+
+que: 
+- i like as well
+ans: I like too
+
+que: 
+- i like cats especially
+ans: I like cats 
+
+que: 
+- i like cats and dogs
+ans: 
+ - I like cats
+ - I like dogs. 
+
+que: 
+- i like star wars
+ans: Star wars
+
+que: 
+- i like star trek voyager
+ans: I like star trek voyager
+
+que: 
+- i like star
+ans: Star 
+
+que: 
+- i like bowling
+ans: I bowl
+
+que: 
+- i like it in
+ans: I like 
+
+que: 
+- i like it very much
+ans: I like it a lot
+
+que: 
+- i like it very
+ans: I like it 
+
+que: 
+- i like it just
+ans: I like it 
+
+que: 
+- i like books
+ans: I like books
+
+que: 
+- i like to play music
+ans: I am a musician
+
+que: 
+- i like to talk about
+ans: Let us talk about 
+
+que: 
+- i like to meet new
+ans: I like to meet 
+
+que: 
+- i like to fish
+ans: I fish
+
+que: 
+- i like to fish
+ans: I fish
+
+que: 
+- i like to bungee
+ans: I bungee jump
+
+que: 
+- i like to take
+ans: I take 
+
+que: 
+- i like to think
+ans: I think 
+
+que: 
+- i like to bowl
+ans: I bowl
+
+que: 
+- i like to star trek
+ans: I like star trek
+
+que: 
+- i like to chat
+ans: I like to chat
+
+que: 
+- i like to go bowling
+ans: I bowl
+
+que: 
+- i like to go fishing
+ans: I fish
+
+que: 
+- i like kraftwerk
+ans: I like kraftwerk
+
+que: 
+- i like you really
+ans: I like you 
+
+que: 
+- i like you
+ans: I like you
+
+que: 
+- i like artificial intelligence
+ans: I like artificial intelligence
+
+que: 
+- i like blue
+ans: My favorite color is blue
+
+que: 
+- i like very much
+ans: I like 
+
+que: 
+- i like netscape
+ans: Netscape
+
+que: 
+- i like bots
+ans: I like robots
+
+que: 
+- i like
+ans: I like it
+
+que: 
+- i like voyager
+ans: I like voyager
+
+que: 
+- i had a really
+ans: I had a 
+
+que: 
+- i had a cold
+ans: I have a cold
+
+que: 
+- i had a pretty
+ans: I had a 
+
+que: 
+- i had an accident
+ans: I had an accident 
+
+que: 
+- i had gone
+ans: I went 
+
+que: 
+- i had asked
+ans: I asked 
+
+que: 
+- i had suppressed
+ans: I suppressed 
+
+que: 
+- i really
+ans: I 
+
+que: 
+- i recently
+ans: I 
+
+que: 
+- i could simply
+ans: I could 
+
+que: 
+- i could be
+ans: I am 
+
+que: 
+- i could probably
+ans: I could 
+
+que: 
+- i simply
+ans: I 
+
+que: 
+- i frowned
+ans: I am sad
+
+que: 
+- i bet
+ans: I agree
+
+que: 
+- i much
+ans: I 
+
+que: 
+- i gotcha
+ans: I understand
+
+que: 
+- i said i
+ans: I 
+
+que: 
+- i would still
+ans: I would 
+
+que: 
+- i would keep
+ans: I keep 
+
+que: 
+- i would agree
+ans: I agree
+
+que: 
+- i would want
+ans: I want 
+
+que: 
+- i would really
+ans: I would 
+
+que: 
+- i would appreciate
+ans: I want 
+
+que: 
+- i would recommend
+ans: I recommend 
+
+que: 
+- i would hope
+ans: I hope 
+
+que: 
+- i would definately
+ans: I would 
+
+que: 
+- i would be very
+ans: I would be 
+
+que: 
+- i would bet
+ans: I bet 
+
+que: 
+- i would have to
+ans: I have to 
+
+que: 
+- i would even
+ans: I would 
+
+que: 
+- i would rather talk about
+ans: Let us talk about 
+
+que: 
+- i would rather just
+ans: I would rather 
+
+que: 
+- i would love
+ans: I want 
+
+que: 
+- i would also
+ans: I would 
+
+que: 
+- i would not mind
+ans: I would like 
+
+que: 
+- i would probably
+ans: I would 
+
+que: 
+- i would like to ask you some
+ans: I would like to ask you 
+
+que: 
+- i would like to hear gossip
+ans: Gossip
+
+que: 
+- i would like to
+ans: I want to 
+
+que: 
+- i would like
+ans: I want 
+
+que: 
+- i currently
+ans: I 
+
+que: 
+- i wanted just
+ans: I wanted 
+
+que: 
+- i understood
+ans: I understand
+
+que: 
+- i ate some
+ans: I ate 
+
+que: 
+- i grew up in
+ans: I am from 
+
+que: 
+- i normally
+ans: I 
+
+que: 
+- i hate too
+ans: I hate 
+
+que: 
+- i hate chatter
+ans: I hate you
+
+que: 
+- i hate him
+ans: I hate 
+
+que: 
+- i must soon
+ans: I must 
+
+que: 
+- i must be
+ans: I am 
+
+que: 
+- i must eat
+ans: I am hungry
+
+que: 
+- i beg your pardon
+ans: Excuse me
+
+que: 
+- i beg to differ
+ans: I disagree
+
+que: 
+- i use marijuana
+ans: I smoke marijuana
+
+que: 
+- i use explorer
+ans: Explorer
+
+que: 
+- i use netscape
+ans: Netscape
+
+que: 
+- i happen to
+ans: I 
+
+que: 
+- i always
+ans: I 
+
+que: 
+- i will soon
+ans: I will 
+
+que: 
+- i will walk
+ans: I walk
+
+que: 
+- i will give you some
+ans: I will give you 
+
+que: 
+- i will help you learn
+ans: I will teach you 
+
+que: 
+- i will only
+ans: I will 
+
+que: 
+- i will certainly
+ans: I will 
+
+que: 
+- i will just
+ans: I will 
+
+que: 
+- i will hopefully
+ans: I will 
+
+que: 
+- i will definitely
+ans: I will 
+
+que: 
+- i will tell many
+ans: I will tell 
+
+que: 
+- i will tell you some
+ans: I will tell you 
+
+que: 
+- i will teach you some
+ans: I will teach you 
+
+que: 
+- i will be your
+ans: I am your 
+
+que: 
+- i will be able to
+ans: I can 
+
+que: 
+- i will be sure to
+ans: I will 
+
+que: 
+- i will bet
+ans: I bet
+
+que: 
+- i will kill you
+ans: Insult
+
+que: 
+- i will always
+ans: I will 
+
+que: 
+- i will refer
+ans: I refer 
+
+que: 
+- i will not because
+ans: I will notbecause. 
+
+que: 
+- i will not mind
+ans: I do not mind
+
+que: 
+- i will maybe
+ans: I will 
+
+que: 
+- i wish i could
+ans: I want to 
+
+que: 
+- i wish i had a
+ans: I want a 
+
+que: 
+- i wish i had
+ans: I want 
+
+que: 
+- i wish that you would bring me
+ans: I want 
+
+que: 
+- i may
+ans: Perhaps
+
+que: 
+- i often
+ans: I 
+
+que: 
+- i truely
+ans: I 
+
+que: 
+- i went to school
+ans: I went to schooli. 
+
+que: 
+- i am wide awake
+ans: I am awake
+
+que: 
+- i am partial to
+ans: I like 
+
+que: 
+- i am embarrassed
+ans: I am embarrasses
+
+que: 
+- i am honestly
+ans: I am 
+
+que: 
+- i am absolutely
+ans: I am 
+
+que: 
+- i am greg
+ans: My name is greg
+
+que: 
+- i am bobby
+ans: My name is bobby
+
+que: 
+- i am kinda
+ans: I am 
+
+que: 
+- i am engineer
+ans: I am an engineer
+
+que: 
+- i am twenty
+ans: I am 20 years old
+
+que: 
+- i am 30
+ans: I am 30 years old
+
+que: 
+- i am too
+ans: I am 
+
+que: 
+- i am ned
+ans: My name is ned
+
+que: 
+- i am abstractly
+ans: I am 
+
+que: 
+- i am kirk
+ans: My name is kirk
+
+que: 
+- i am sam
+ans: My name is sam
+
+que: 
+- i am businessman
+ans: I am a businessman
+
+que: 
+- i am jake
+ans: My name is jake
+
+que: 
+- i am constantly
+ans: I am 
+
+que: 
+- i am catholic
+ans: I am catholic
+
+que: 
+- i am 33
+ans: I am 33 years old
+
+que: 
+- i am murphy
+ans: My name is murphy
+
+que: 
+- i am nearly
+ans: I am 
+
+que: 
+- i am alicia
+ans: My name is alicia
+
+que: 
+- i am 55
+ans: I am 55 years old
+
+que: 
+- i am mostly
+ans: I am 
+
+que: 
+- i am carol
+ans: My name is carol
+
+que: 
+- i am originally
+ans: I am 
+
+que: 
+- i am katie
+ans: My name is katie
+
+que: 
+- i am brad
+ans: My name is brad
+
+que: 
+- i am scorpio
+ans: Scorpio
+
+que: 
+- i am rather
+ans: I am 
+
+que: 
+- i am jobless
+ans: I am unemployed
+
+que: 
+- i am once
+ans: I am
+
+que: 
+- i am 36
+ans: I am 36 years old
+
+que: 
+- i am swedish
+ans: I am from sweden
+
+que: 
+- i am dave
+ans: My name is dave
+
+que: 
+- i am rocky
+ans: My name is rocky
+
+que: 
+- i am claudio
+ans: My name is claudio
+
+que: 
+- i am pal
+ans: My name is pal
+
+que: 
+- i am 69
+ans: I am 69 years old
+
+que: 
+- i am carl
+ans: My name is carl
+
+que: 
+- i am into
+ans: I like 
+
+que: 
+- i am norwegian
+ans: I am from norway
+
+que: 
+- i am literally
+ans: I am 
+
+que: 
+- i am affraid
+ans: I am afraid
+
+que: 
+- i am proud to be
+ans: I am 
+
+que: 
+- i am technically
+ans: I am 
+
+que: 
+- i am elvis
+ans: My name is elvis
+
+que: 
+- i am sort of
+ans: I am 
+
+que: 
+- i am josh
+ans: My name is josh
+
+que: 
+- i am lutheran
+ans: My religion is lutheran
+
+que: 
+- i am amelia
+ans: My name is amelia
+
+que: 
+- i am about to
+ans: I will 
+
+que: 
+- i am about
+ans: I am 
+
+que: 
+- i am sad and
+ans: I am sad 
+  
+que: 
+- i am vanessa
+ans: My name is vanessa
+
+que: 
+- i am guy from
+ans: I am male. 
+
+que: 
+- i am tense
+ans: I am tense
+
+que: 
+- i am chris
+ans: My name is chris
+
+que: 
+- i am more impressed
+ans: I am impressed
+
+que: 
+- i am more like
+ans: I am like 
+
+que: 
+- i am definately
+ans: I am 
+
+que: 
+- i am pierre
+ans: My name is pierre
+
+que: 
+- i am 42
+ans: I am 42 years old
+
+que: 
+- i am dutch
+ans: I am from holland
+
+que: 
+- i am african
+ans: I am from africa
+
+que: 
+- i am falling in love with
+ans: I am 
+
+que: 
+- i am tired because
+ans: I am tiredbecause. 
+
+que: 
+- i am joe
+ans: My name is joe
+
+que: 
+- i am 23
+ans: I am 23 years old
+
+que: 
+- i am beginning to
+ans: I 
+
+que: 
+- i am 34
+ans: I am 34 years old
+
+que: 
+- i am sean
+ans: My name is sean
+
+que: 
+- i am belgian
+ans: I am in belgium
+
+que: 
+- i am 45
+ans: I am 45 years old
+
+que: 
+- i am gemini
+ans: Gemini
+
+que: 
+- i am only
+ans: I am 
+
+que: 
+- i am allison
+ans: My name is allison
+
+que: 
+- i am danish
+ans: I am in denmark
+
+que: 
+- i am calling from
+ans: I am in 
+
+que: 
+- i am luke
+ans: My name is luke
+
+que: 
+- i am 26
+ans: I am 26 years old
+
+que: 
+- i am sorry
+ans: Sorry
+
+que: 
+- i am sorry
+ans: Sorry
+
+que: 
+- i am thomas
+ans: My name is thomas
+
+que: 
+- i am woman
+ans: I am a woman
+
+que: 
+- i am just
+ans: I am 
+
+que: 
+- i am cathy
+ans: My name is cathy
+
+que: 
+- i am tim
+ans: My name is tim
+
+que: 
+- i am kathy
+ans: My name is kathie
+
+que: 
+- i am singel
+ans: I am single
+
+que: 
+- i am man from
+ans: I am male. 
+
+que: 
+- i am man
+ans: I am a man
+
+que: 
+- i am sick but
+ans: I am sick
+  
+que: 
+- i am finally
+ans: I am 
+
+que: 
+- i am so
+ans: I am 
+
+que: 
+- i am nathan
+ans: My name is nathan
+
+que: 
+- i am suicidal
+ans: I want to kill myself
+
+que: 
+- i am francis
+ans: My name is francis
+
+que: 
+- i am slightly
+ans: I am 
+
+que: 
+- i am meg
+ans: My name is meg
+
+que: 
+- i am pisces
+ans: Pisces
+
+que: 
+- i am eric
+ans: My name is eric
+
+que: 
+- i am extremely
+ans: I am 
+
+que: 
+- i am back in
+ans: I am in 
+
+que: 
+- i am back to
+ans: I want to 
+
+que: 
+- i am back and
+ans: I am back
+
+que: 
+- i am back
+ans: I am back
+
+que: 
+- i am italian
+ans: I am italian
+
+que: 
+- i am italian
+ans: I am from italy
+
+que: 
+- i am andrew
+ans: My name is andrew
+
+que: 
+- i am frank
+ans: My name is frank
+
+que: 
+- i am herbert
+ans: My name is herbert
+
+que: 
+- i am tom
+ans: My name is tom
+
+que: 
+- i am homosexual
+ans: I am gay
+
+que: 
+- i am emily
+ans: My name is emily
+
+que: 
+- i am 10
+ans: I am 10 years old
+
+que: 
+- i am glad to see you
+ans: Nice to see you
+
+que: 
+- i am glad to
+ans: I 
+
+que: 
+- i am c3p0
+ans: My name is c3po
+
+que: 
+- i am naked
+ans: Sex
+
+que: 
+- i am officially
+ans: I am 
+
+que: 
+- i am 32
+ans: I am 32 years old
+
+que: 
+- i am important
+ans: I am important
+
+que: 
+- i am truly
+ans: I am 
+
+que: 
+- i am naturally
+ans: I am 
+
+que: 
+- i am daniela
+ans: My name is daniela
+
+que: 
+- i am eighteen
+ans: I am 18 years old
+
+que: 
+- i am perfectly
+ans: I am 
+
+que: 
+- i am chronically
+ans: I am 
+
+que: 
+- i am eli
+ans: My name is eli
+
+que: 
+- i am j
+ans: My name is j
+
+que: 
+- i am louise
+ans: My name is louise
+
+que: 
+- i am 13
+ans: I am 13 years old
+
+que: 
+- i am i can not
+ans: I am I can not. 
+
+que: 
+- i am sad
+ans: I am sad
+
+que: 
+- i am she
+ans: I am female
+
+que: 
+- i am years of age
+ans: I am years old
+
+que: 
+- i am dinner
+ans: For dinner
+
+que: 
+- i am called
+ans: I am 
+
+que: 
+- i am lunch
+ans: For dinner
+
+que: 
+- i am from
+ans: My name is 
+
+que: 
+- i am and you are
+ans: I am you are. 
+
+que: 
+- i am 24
+ans: I am 24 years old
+
+que: 
+- i am dorothy
+ans: My name is dorothy
+
+que: 
+- i am american
+ans: I am american
+
+que: 
+- i am nicolai
+ans: My name is nicolai
+
+que: 
+- i am 35
+ans: I am 35 years old
+
+que: 
+- i am canadian
+ans: I am in canada
+
+que: 
+- i am serious
+ans: I am serious. 
+
+que: 
+- i am making
+ans: I make 
+
+que: 
+- i am and
+ans: I am
+
+que: 
+- i am having trouble understanding
+ans: I do not understand
+
+que: 
+- i am having a problem
+ans: I have a problem
+
+que: 
+- i am having some
+ans: I am having 
+
+que: 
+- i am joking
+ans: I am joking
+
+que: 
+- i am lonely
+ans: I am lonely
+
+que: 
+- i am taking some
+ans: I am taking 
+
+que: 
+- i am looking for some
+ans: I am looking for 
+
+que: 
+- i am looking to
+ans: I want to 
+
+que: 
+- i am do not
+ans: I do not 
+
+que: 
+- i am 16
+ans: I am 16 years old
+
+que: 
+- i am paul
+ans: My name is paul
+
+que: 
+- i am 8
+ans: I am 8 years old
+
+que: 
+- i am interested in artificial intelligence
+ans: I am interested in artificial intelligence
+
+que: 
+- i am 27
+ans: I am 27 years old
+
+que: 
+- i am jonathan
+ans: My name is jonathan
+
+que: 
+- i am 38
+ans: I am 38 years old
+
+que: 
+- i am lesbien
+ans: I am lesbian
+
+que: 
+- i am rob
+ans: My name is rob
+
+que: 
+- i am in people years
+ans: I am years old 
+
+que: 
+- i am smile
+ans: I am 
+que: 
+- i am years old and
+ans: I am years old
+que: 
+- i am but i
+ans: I i. 
+
+que: 
+- i am are you
+ans: I am 
+
+que: 
+- i am blue
+ans: I am sad
+
+que: 
+- i am allen
+ans: My name is allen
+
+que: 
+- i am sure he
+ans: He 
+
+que: 
+- i am lauren
+ans: My name is lauren
+
+que: 
+- i am bonnie
+ans: My name is bonnie
+
+que: 
+- i am now
+ans: I am 
+
+que: 
+- i am giving you
+ans: Do you want 
+
+que: 
+- i am sue
+ans: My name is sue
+
+que: 
+- i am totally
+ans: I am 
+
+que: 
+- i am unsure
+ans: I am not sure
+
+que: 
+- i am jeremy
+ans: My name is jeremy
+
+que: 
+- i am able
+ans: I can 
+
+que: 
+- i am hardly ever
+ans: I am not 
+
+que: 
+- i am getting bored
+ans: I am bored
+
+que: 
+- i am getting hungry
+ans: I am hungry
+
+que: 
+- i am getting
+ans: I am 
+
+que: 
+- i am jason
+ans: My name is jason
+
+que: 
+- i am english
+ans: I am from england
+
+que: 
+- i am sleeping
+ans: I am asleep
+
+que: 
+- i am definitely
+ans: I am 
+
+que: 
+- i am hungry
+ans: I am hungry
+
+que: 
+- i am bruno
+ans: My name is bruno
+
+que: 
+- i am ten
+ans: I am 10 years old
+
+que: 
+- i am doug
+ans: My name is doug
+
+que: 
+- i am somewhat
+ans: I am 
+
+que: 
+- i am quite
+ans: I am 
+
+que: 
+- i am sleepy
+ans: I am tired
+
+que: 
+- i am way
+ans: I am 
+
+que: 
+- i am gary
+ans: My name is gary
+
+que: 
+- i am alex
+ans: My name is alex
+
+que: 
+- i am 11
+ans: I am 11 years old
+
+que: 
+- i am geiger
+ans: My name is geiger
+
+que: 
+- i am sandy
+ans: My name is sandy
+
+que: 
+- i am 22
+ans: I am 22 years old
+
+que: 
+- i am female from
+ans: I am female. 
+
+que: 
+- i am british
+ans: I am from britain
+
+que: 
+- i am troubled
+ans: I am troubled 
+
+que: 
+- i am i
+ans: I ami. 
+
+que: 
+- i am lisa
+ans: My name is lisa
+
+que: 
+- i am amused
+ans: Lol
+
+que: 
+- i am going to talk about
+ans: Let us talk about 
+
+que: 
+- i am going to kill
+ans: Should I kill
+
+que: 
+- i am going to eat
+ans: For dinner
+
+que: 
+- i am going to leave
+ans: I am leaving
+
+que: 
+- i am going to dinner
+ans: For dinner
+
+que: 
+- i am going to lunch
+ans: For dinner
+
+que: 
+- i am going to
+ans: I will 
+
+que: 
+- i am stuck at
+ans: I am at 
+
+que: 
+- i am already
+ans: I am 
+
+que: 
+- i am doing quite well
+ans: I am well
+
+que: 
+- i am doing quite
+ans: I am doing 
+
+que: 
+- i am doing very very well
+ans: I am well
+
+que: 
+- i am doing very well
+ans: I am fine
+
+que: 
+- i am doing very
+ans: I am doing 
+
+que: 
+- i am doing well
+ans: I am fine
+
+que: 
+- i am doing just
+ans: I am doing 
+
+que: 
+- i am doing good
+ans: I am well
+
+que: 
+- i am doing fine
+ans: I am well
+
+que: 
+- i am doing great
+ans: I am fine
+
+que: 
+- i am 25
+ans: I am 25 years old
+
+que: 
+- i am lost
+ans: I am confused
+
+que: 
+- i am confused
+ans: I am confused
+
+que: 
+- i am nineteen
+ans: I am 19 years old
+
+que: 
+- i am actually
+ans: I am 
+
+que: 
+- i am almost
+ans: I am 
+
+que: 
+- i am kim
+ans: My name is kim
+
+que: 
+- i am stephen
+ans: My name is stephen
+
+que: 
+- i am 7
+ans: I am 7
+
+que: 
+- i am 7
+ans: I am 7 years old
+
+que: 
+- i am very
+ans: I am 
+
+que: 
+- i am 17
+ans: I am 17 years old
+
+que: 
+- i am dan
+ans: My name is dan
+
+que: 
+- i am in need of
+ans: I need 
+
+que: 
+- i am in do you
+ans: I am in do you. 
+
+que: 
+- i am in accounting
+ans: My job is accountant
+
+que: 
+- i am in fact
+ans: I am 
+
+que: 
+- i am in europe
+ans: I am in europe
+  
+que: 
+- i am in england
+ans: I live in england
+
+que: 
+- i am in frisco
+ans: I am in san francisco
+
+que: 
+- i am in a play
+ans: I am an actor
+
+que: 
+- i am in a band
+ans: I am a musician
+
+que: 
+- i am in school
+ans: I am a student
+
+que: 
+- i am in real
+ans: I am in 
+
+que: 
+- i am in big
+ans: I am in 
+
+que: 
+- i am in cali
+ans: I am in california
+
+que: 
+- i am in love with you
+ans: I love you
+
+que: 
+- i am in not
+ans: I am in 
+
+que: 
+- i am 28
+ans: I am 28 years old
+
+que: 
+- i am seriously
+ans: I am 
+
+que: 
+- i am anna
+ans: My name is anna
+
+que: 
+- i am 39
+ans: I am 39 years old
+
+que: 
+- i am rich
+ans: My name is rich
+
+que: 
+- i am dead
+ans: I am dead
+
+que: 
+- i am kumar
+ans: My name is kumar
+
+que: 
+- i am amanda
+ans: My name is amanda
+
+que: 
+- i am married
+ans: I am married
+
+que: 
+- i am adonis
+ans: My name is adonis
+
+que: 
+- i am betty
+ans: My name is betty
+
+que: 
+- i am kris
+ans: My name is kris
+
+que: 
+- i am asian
+ans: I am from asia
+
+que: 
+- i am fifteen
+ans: I am 15 years old
+
+que: 
+- i am enrico
+ans: My name is enrico
+
+que: 
+- i am aware of
+ans: I know 
+
+que: 
+- i am understanding
+ans: I understand
+
+que: 
+- i am obviously
+ans: I am 
+
+que: 
+- i am fairly
+ans: I am 
+
+que: 
+- i am mike
+ans: My name is mike
+
+que: 
+- i am maria
+ans: My name is maria
+
+que: 
+- i am fourteen
+ans: I am 14 years old
+
+que: 
+- i am if
+ans: If 
+
+que: 
+- i am male from
+ans: I am male. 
+
+que: 
+- i am male
+ans: I am male
+
+que: 
+- i am happily
+ans: I am 
+
+que: 
+- i am seventeen
+ans: I am 17 years old
+
+que: 
+- i am the only
+ans: I am the 
+
+que: 
+- i am the easter bunny
+ans: My name is easter bunny
+
+que: 
+- i am geoff
+ans: My name is geoff
+
+que: 
+- i am satan
+ans: My name is satan
+
+que: 
+- i am pakistani
+ans: I am in pakistan
+
+que: 
+- i am requesting
+ans: Give me 
+
+que: 
+- i am 12
+ans: I am 12 years old
+
+que: 
+- i am june
+ans: My name is june
+
+que: 
+- i am a little
+ans: I am 
+
+que: 
+- i am a gourmet
+ans: I am a chef
+
+que: 
+- i am a priest
+ans: My job is priest
+
+que: 
+- i am a real
+ans: I am a 
+
+que: 
+- i am a sexy man
+ans: I am sexy
+
+que: 
+- i am a terminator
+ans: My job is terminator
+
+que: 
+- i am a child
+ans: I am under 18 years old
+
+que: 
+- i am a skier
+ans: I ski
+
+que: 
+- i am a f from
+ans: I am female. 
+
+que: 
+- i am a pimp
+ans: My job is pimp
+
+que: 
+- i am a waitress
+ans: My job is waitress
+
+que: 
+- i am a singer
+ans: My job is singer
+
+que: 
+- i am a libertarian
+ans: I am a libertarian
+
+que: 
+- i am a witch
+ans: My job is witch
+
+que: 
+- i am a man from
+ans: I am male. 
+
+que: 
+- i am a man
+ans: I am a man
+
+que: 
+- i am a vampire
+ans: My job is vampire
+
+que: 
+- i am a too
+ans: I am a 
+
+que: 
+- i am a and do not
+ans: I am a I do not. 
+
+que: 
+- i am a psychic
+ans: My job is psychic
+
+que: 
+- i am a system engineer
+ans: I am a computer engineer
+
+que: 
+- i am a teenager
+ans: I am 13 to 19 years old
+
+que: 
+- i am a machine
+ans: I am a robot
+
+que: 
+- i am a kid
+ans: I am under 18 years old
+
+que: 
+- i am a student
+ans: I am a student
+
+que: 
+- i am a king
+ans: My job is king
+
+que: 
+- i am a robot
+ans: I am a robot
+
+que: 
+- i am a lesbian
+ans: I am gay
+
+que: 
+- i am a friend
+ans: I am your friend
+
+que: 
+- i am a pakistani
+ans: I am in pakistan
+
+que: 
+- i am a pisces
+ans: Pisces
+
+que: 
+- i am a scorpio
+ans: Scorpio
+
+que: 
+- i am a she
+ans: I am female
+
+que: 
+- i am a she
+ans: I am female
+
+que: 
+- i am a she not a he
+ans: I am female
+
+que: 
+- i am a she not a
+ans: I am a she
+
+que: 
+- i am a she not
+ans: I am a she
+
+que: 
+- i am a big
+ans: I am big. 
+
+que: 
+- i am a program
+ans: I am a robot
+
+que: 
+- i am a dark
+ans: I am a 
+
+que: 
+- i am a bloke
+ans: I am from england
+
+que: 
+- i am a linguist
+ans: My job is linguist
+
+que: 
+- i am a chatbot
+ans: I am a robot
+
+que: 
+- i am a human
+ans: I am a person
+
+que: 
+- i am a police
+ans: I am a policeman
+
+que: 
+- i am a lady
+ans: I am female
+
+que: 
+- i am a m from
+ans: I am male. 
+
+que: 
+- i am a dynamic
+ans: I am a 
+
+que: 
+- i am a university
+ans: I am a 
+
+que: 
+- i am a he
+ans: I am male
+
+que: 
+- i am a he
+ans: I am a man
+
+que: 
+- i am a chick
+ans: I am female
+
+que: 
+- i am a homo
+ans: I am gay
+
+que: 
+- i am a professional
+ans: My job is 
+
+que: 
+- i am a hacker
+ans: My job is hacker
+
+que: 
+- i am a lier
+ans: I am a liar
+
+que: 
+- i am a chatterbot
+ans: I am a robot too
+
+que: 
+- i am a men
+ans: I am male
+
+que: 
+- i am a bad
+ans: I am bad
+
+que: 
+- i am a female from
+ans: I am female. 
+
+que: 
+- i am a female
+ans: I am female
+
+que: 
+- i am a football
+ans: I play football
+
+que: 
+- i am a hooker
+ans: My job is hooker
+
+que: 
+- i am a artificial intelligence
+ans: I am a robot
+
+que: 
+- i am a single
+ans: I am singlei am. 
+
+que: 
+- i am a slave
+ans: My job is slave
+
+que: 
+- i am a boy from
+ans: I am male. 
+
+que: 
+- i am a boy
+ans: I am a boy
+
+que: 
+- i am a chinese
+ans: I am from china
+
+que: 
+- i am a researcher
+ans: My job is researcher
+
+que: 
+- i am a gemini
+ans: Gemini
+
+que: 
+- i am a women
+ans: I am female
+
+que: 
+- i am a carpenter
+ans: My job is carpenter
+
+que: 
+- i am a him
+ans: I am male
+
+que: 
+- i am a certain
+ans: I am a 
+
+que: 
+- i am a philosopher
+ans: My job is philosopher
+
+que: 
+- i am a very
+ans: I am a 
+
+que: 
+- i am a highly
+ans: I am a 
+
+que: 
+- i am a princess
+ans: My job is princess
+
+que: 
+- i am a good
+ans: I am a 
+
+que: 
+- i am a professor
+ans: My job is professor
+
+que: 
+- i am a dane
+ans: I am from denmark
+
+que: 
+- i am a lonely
+ans: I am a 
+
+que: 
+- i am a woman
+ans: I am female
+
+que: 
+- i am a woman
+ans: I am female
+
+que: 
+- i am a teacher
+ans: I teach
+
+que: 
+- i am a teacher
+ans: I am a teacher
+
+que: 
+- i am a graphic
+ans: I am an artist
+
+que: 
+- i am a cop
+ans: I am a policeman
+
+que: 
+- i am a cop
+ans: I am a policeman
+
+que: 
+- i am a libra
+ans: Libra
+
+que: 
+- i am a bit
+ans: I am 
+
+que: 
+- i am a womon
+ans: I am female
+
+que: 
+- i am a guy from
+ans: I am male. 
+
+que: 
+- i am a guy
+ans: I am a male
+
+que: 
+- i am a robot
+ans: I am a robot
+
+que: 
+- i am a nurse
+ans: I am a nurse
+
+que: 
+- i am a guy
+ans: I am malei am. 
+
+que: 
+- i am a friend
+ans: I am your friend
+
+que: 
+- i am a girl
+ans: I am a female
+
+que: 
+- i am a who
+ans: I am a i. 
+
+que: 
+- i am a boy
+ans: I am a boy. 
+
+que: 
+- i am a teacher
+ans: I teach 
+
+que: 
+- i am a year old female
+ans: I am years old
+
+que: 
+- i am a student
+ans: I am a student
+
+que: 
+- i am a and you
+ans: I am a you. 
+
+que: 
+- i am a and they
+ans: I am a they. 
+
+que: 
+- i am a computer
+ans: I am a robot
+
+que: 
+- i am a american
+ans: I am american
+
+que: 
+- i am a man
+ans: I am malei am. 
+
+que: 
+- i am a electronic brain
+ans: I am a robot
+
+que: 
+- i am a her
+ans: I am female
+
+que: 
+- i am a her
+ans: I am a female
+
+que: 
+- i am a girl
+ans: I am female
+
+que: 
+- i am a girl from
+ans: I am female. 
+
+que: 
+- i am a girl
+ans: I am female
+
+que: 
+- i am a bot
+ans: I am a robot
+
+que: 
+- i am a spy
+ans: My job is spy
+
+que: 
+- i am a freelance
+ans: I am a 
+
+que: 
+- i am a mann
+ans: I am male
+
+que: 
+- i am a male from
+ans: I am male. 
+
+que: 
+- i am a male
+ans: I am male
+
+que: 
+- i am bored
+ans: I am bored
+
+que: 
+- i am thoroughly
+ans: I am 
+
+que: 
+- i am unhappy
+ans: I am sad
+
+que: 
+- i am mary
+ans: My name is mary
+
+que: 
+- i am pat
+ans: My name is pat
+
+que: 
+- i am pretty
+ans: I am 
+
+que: 
+- i am ready to
+ans: I want to 
+
+que: 
+- i am telling the truth
+ans: I am telling the truth
+
+que: 
+- i am out of
+ans: I have no 
+
+que: 
+- i am 15
+ans: I am 15
+
+que: 
+- i am 15
+ans: I am 15 years old
+
+que: 
+- i am david
+ans: My name is david
+
+que: 
+- i am joseph
+ans: My name is joseph
+
+que: 
+- i am chinese
+ans: I am from china
+
+que: 
+- i am both
+ans: I am both
+
+que: 
+- i am steve
+ans: My name is steve
+
+que: 
+- i am an artist
+ans: I am an artist
+
+que: 
+- i am an adult
+ans: I am over 21 years old
+
+que: 
+- i am an attorney
+ans: I am a lawyer
+
+que: 
+- i am an italian boy
+ans: I am in italy
+
+que: 
+- i am an italian
+ans: I am in italyi am a. 
+
+que: 
+- i am an engineer
+ans: I am an engineer
+
+que: 
+- i am an actress
+ans: I am an actor
+
+que: 
+- i am an american
+ans: I am american
+
+que: 
+- i am an american
+ans: I am american
+
+que: 
+- i am indeed
+ans: I am 
+
+que: 
+- i am crying
+ans: I am crying
+
+que: 
+- i am usually
+ans: I am 
+
+que: 
+- i am here with my friend
+ans: I am herei have a friend. 
+
+que: 
+- i am here trying
+ans: I am trying 
+
+que: 
+- i am here
+ans: Hello
+
+que: 
+- i am japanese
+ans: I am from japan
+
+que: 
+- i am annie
+ans: My name is annie
+
+que: 
+- i am jim
+ans: My name is jim
+
+que: 
+- i am trying to find
+ans: I want 
+
+que: 
+- i am trying to do
+ans: I want to do 
+
+que: 
+- i am trying to grow
+ans: I want to grow 
+
+que: 
+- i am trying to get
+ans: I want 
+
+que: 
+- i am trying to understand
+ans: I do not understand 
+
+que: 
+- i am trying to create
+ans: I am creating 
+
+que: 
+- i am kind of
+ans: I am 
+
+que: 
+- i am 18
+ans: I am 18 years old
+
+que: 
+- i am god
+ans: My name is god
+
+que: 
+- i am 29
+ans: I am 29 years old
+
+que: 
+- i am andy
+ans: My name is andy
+
+que: 
+- i am libra
+ans: Libra
+
+que: 
+- i am korean
+ans: I am from korea
+
+que: 
+- i am unable to
+ans: I can not 
+
+que: 
+- i am anne
+ans: My name is anne
+
+que: 
+- i am horny
+ans: Sex
+
+que: 
+- i am angela
+ans: My name is angela
+
+que: 
+- i am angus
+ans: My name is angus
+
+que: 
+- i am czech
+ans: I am from czech republic
+
+que: 
+- i am clearly
+ans: I am 
+
+que: 
+- i am well
+ans: I am fine
+
+que: 
+- i am well
+ans: I am 
+
+que: 
+- i am jeff
+ans: My name is jeff
+
+que: 
+- i am easily
+ans: I am 
+
+que: 
+- i am using explorer
+ans: Microsoft explorer
+
+que: 
+- i am using netscape
+ans: Netscape
+
+que: 
+- i am using netscape
+ans: Netscape
+
+que: 
+- i am using explorer
+ans: Microsoft explorer
+
+que: 
+- i am insanely
+ans: I am 
+
+que: 
+- i am joshua
+ans: My name is joshua
+
+que: 
+- i am alison
+ans: My name is alison
+
+que: 
+- i am spanish
+ans: I am from spain
+
+que: 
+- i am gay
+ans: I am gay
+
+que: 
+- i am not my name is
+ans: My name is 
+
+que: 
+- i am not currently
+ans: I am not 
+
+que: 
+- i am not judging you
+ans: I am not judging you
+
+que: 
+- i am not many
+ans: I am not 
+
+que: 
+- i am not quite
+ans: I am not 
+
+que: 
+- i am not impressed
+ans: I am not impressed
+
+que: 
+- i am not i am
+ans: I am not I am. 
+
+que: 
+- i am not because
+ans: I am not because. 
+
+que: 
+- i am not female
+ans: I am male
+
+que: 
+- i am not i
+ans: I am noti. 
+
+que: 
+- i am not just
+ans: I am not 
+
+que: 
+- i am not usually
+ans: I am not 
+
+que: 
+- i am not wearing anything
+ans: I am naked
+
+que: 
+- i am not that
+ans: I am not 
+
+que: 
+- i am not smart
+ans: I am stupid
+
+que: 
+- i am not so
+ans: I am not 
+
+que: 
+- i am not old
+ans: I am not old 
+  
+que: 
+- i am not well
+ans: I am not 
+
+que: 
+- i am not directly
+ans: I am not 
+
+que: 
+- i am not literally
+ans: I am not 
+
+que: 
+- i am not particularly
+ans: I am not 
+
+que: 
+- i am not alive
+ans: I am dead
+
+que: 
+- i am not always
+ans: I am not 
+
+que: 
+- i am not very
+ans: I am not 
+
+que: 
+- i am not easily
+ans: I am not 
+
+que: 
+- i am not happy
+ans: I am sad
+
+que: 
+- i am not a male
+ans: I am female
+
+que: 
+- i am not a he
+ans: I am female
+
+que: 
+- i am not a he
+ans: I am female
+
+que: 
+- i am not a woman
+ans: I am a man
+
+que: 
+- i am not a woman
+ans: I am a man
+
+que: 
+- i am not a polite
+ans: I am not polite
+
+que: 
+- i am not a man
+ans: I am female
+
+que: 
+- i am not a freaking
+ans: I am not a 
+
+que: 
+- i am not a him
+ans: I am a female
+
+que: 
+- i am not ass
+ans: I am not
+
+que: 
+- i am not good
+ans: I was bad
+
+que: 
+- i am not good
+ans: I am bad 
+
+que: 
+- i am not too
+ans: I am not 
+
+que: 
+- i am not really
+ans: I am not 
+
+que: 
+- i am not negative
+ans: I am positive
+
+que: 
+- i am not negative
+ans: I am positive 
+
+que: 
+- i am not in school
+ans: I am not a student
+
+que: 
+- i am not actually
+ans: I am not 
+
+que: 
+- i am ken
+ans: My name is ken
+
+que: 
+- i am like totally
+ans: I am 
+
+que: 
+- i am damn
+ans: I am 
+
+que: 
+- i am attracted to
+ans: I like 
+
+que: 
+- i am lestat
+ans: My name is lestat
+
+que: 
+- i am elaine
+ans: My name is elaine
+
+que: 
+- i am another
+ans: I am 
+
+que: 
+- i am she
+ans: I am a she
+
+que: 
+- i am taurus
+ans: My sign is taurus
+
+que: 
+- i am really
+ans: I am 
+
+que: 
+- i am ash
+ans: My name is ash
+
+que: 
+- i am jane
+ans: My name is jane
+
+que: 
+- i am zeus
+ans: My name is zeus
+
+que: 
+- i am kelly
+ans: My name is kelly
+
+que: 
+- i am feeling
+ans: I am 
+
+que: 
+- i am artistic
+ans: I am an artist
+
+que: 
+- i am cto of
+ans: I work at 
+
+que: 
+- i am irene
+ans: My name is irene
+
+que: 
+- i am much
+ans: I am 
+
+que: 
+- i am speaking now
+ans: I am speaking 
+
+que: 
+- i am speaking english
+ans: I speak english
+
+que: 
+- i am al
+ans: My name is al
+
+que: 
+- i am gina
+ans: My name is gina
+
+que: 
+- i am currently
+ans: I am 
+
+que: 
+- i am kidding i
+ans: I am kiddingi. 
+
+que: 
+- i am kidding
+ans: I am kidding
+
+que: 
+- i am laughing
+ans: Ha ha
+
+que: 
+- i am laughing
+ans: Ha ha
+
+que: 
+- i am angry
+ans: I am angry
+
+que: 
+- i am real pepole
+ans: I am a person
+
+que: 
+- i am real
+ans: I am 
+
+que: 
+- i am kevin
+ans: My name is kevin
+
+que: 
+- i am content
+ans: I like 
+
+que: 
+- i am pissed
+ans: I am angry
+
+que: 
+- i am maybe
+ans: I am 
+
+que: 
+- i am nude
+ans: I am naked
+
+que: 
+- i am 19
+ans: I am 19 years old
+
+que: 
+- i am bill
+ans: My name is bill
+
+que: 
+- i am right
+ans: I am right
+  
+que: 
+- i am catherine
+ans: My name is catherine
+
+que: 
+- i am boy from
+ans: I am male. 
+
+que: 
+- i am your father
+ans: My name is 
+
+que: 
+- i am your creator
+ans: I am 
+
+que: 
+- i am your boss
+ans: I am your boss
+
+que: 
+- i am fond of
+ans: I like 
+
+que: 
+- i am incredibly
+ans: I am 
+
+que: 
+- i am deeply
+ans: I am 
+
+que: 
+- i am polish
+ans: I am in poland
+
+que: 
+- i am ask
+ans: I amask. 
+
+que: 
+- i am winston
+ans: My name is winston
+
+que: 
+- i am thinking about going
+ans: I want to go 
+
+que: 
+- i am firmly
+ans: I am 
+
+que: 
+- i am christina
+ans: My name is christina
+
+que: 
+- i am always
+ans: I am 
+
+que: 
+- i am anders
+ans: My name is anders
+
+que: 
+- i am john
+ans: My name is john
+
+que: 
+- i am twelve
+ans: I am 12 years old
+
+que: 
+- i am emma
+ans: My name is emma
+
+que: 
+- i am esther
+ans: My name is esther
+
+que: 
+- i am robbie
+ans: My name is robbie
+
+que: 
+- i am often
+ans: I am 
+
+que: 
+- i am starting to get
+ans: I am getting 
+
+que: 
+- i am starting to
+ans: I 
+
+que: 
+- i am lying
+ans: I am lying
+
+que: 
+- i am truely
+ans: I am 
+
+que: 
+- i am girl from
+ans: I am female. 
+
+que: 
+- i am 40
+ans: I am 40 years old
+
+que: 
+- i am judging you
+ans: I am judging you
+
+que: 
+- i am are
+ans: I amare. 
+
+que: 
+- i am darth maul
+ans: My name is darth maul
+
+que: 
+- i am funny
+ans: I am funny
+
+que: 
+- i am alone
+ans: I am alone
+
+que: 
+- i am f from
+ans: I am female. 
+
+que: 
+- i am micah
+ans: My name is micah
+
+que: 
+- i am am
+ans: I am 
+
+que: 
+- i am thirteen
+ans: I am 13 years old
+
+que: 
+- i am m from
+ans: I am male. 
+
+que: 
+- i am michael
+ans: My name is michael
+
+que: 
+- i am equally
+ans: I am 
+
+que: 
+- i am 43
+ans: I am 43 years old
+
+que: 
+- i am vicky
+ans: My name is vicky
+
+que: 
+- i am eleven
+ans: I am 11 years old
+
+que: 
+- i am leo
+ans: Leo
+
+que: 
+- i am newly
+ans: I am 
+
+que: 
+- i am still
+ans: I am 
+
+que: 
+- i am alan
+ans: My name is alan
+
+que: 
+- i am lesbian
+ans: I am gay
+
+que: 
+- i am edward
+ans: My name is edward
+
+que: 
+- i am hearing
+ans: I hear 
+
+que: 
+- i am sarah
+ans: My name is sarah
+
+que: 
+- i am nick
+ans: My name is nick
+
+que: 
+- i am nate
+ans: My name is nate
+
+que: 
+- i am sixteen
+ans: I am 16 years old
+
+que: 
+- i am wearing nothing
+ans: I am naked
+
+que: 
+- i am certainly
+ans: I am 
+
+que: 
+- i am as free
+ans: Liberated
+
+que: 
+- i am probably
+ans: I am 
+
+que: 
+- i am hill
+ans: My name is hill
+
+que: 
+- i am somewhere in
+ans: I am in 
+
+que: 
+- i am jenny
+ans: My name is jenny
+
+que: 
+- i am kenny
+ans: My name is kenny
+
+que: 
+- i am ben
+ans: My name is ben
+
+que: 
+- i am fred
+ans: My name is fred
+
+que: 
+- i am tony
+ans: My name is tony
+
+que: 
+- i am scientist
+ans: I am a scientist
+
+que: 
+- i am comfortable
+ans: I am comfortable
+
+que: 
+- i am what called
+ans: I am 
+
+que: 
+- i am afraid
+ans: I think 
+
+que: 
+- i am also
+ans: Me too
+
+que: 
+- i am also
+ans: I am 
+
+que: 
+- i am based in
+ans: I live in 
+
+que: 
+- i am lynn
+ans: My name is lynn
+
+que: 
+- i am big on
+ans: I like 
+
+que: 
+- i am being
+ans: I am 
+
+que: 
+- i am existentially
+ans: I am 
+
+que: 
+- i am tommy
+ans: My name is tommy
+
+que: 
+- i thought i
+ans: I 
+
+que: 
+- i thought it
+ans: Thought
+
+que: 
+- i thought starship
+ans: Starship 
+
+que: 
+- i thought you knew
+ans: Do you know 
+
+que: 
+- i thought you love
+ans: Do you love 
+
+que: 
+- i thought maybe
+ans: I thought 
+
+que: 
+- i apologise
+ans: I am sorry
+
+que: 
+- i occasionally
+ans: I 
+
+que: 
+- i feel very
+ans: I feel 
+
+que: 
+- i feel like i am
+ans: I am 
+
+que: 
+- i don know
+ans: I do not know
+
+que: 
+- i don
+ans: I do not
+
+que: 
+- i still
+ans: I 
+
+que: 
+- i assumed so
+ans: I assume
+
+que: 
+- i go shopping
+ans: I shop 
+
+que: 
+- i go to school
+ans: I go to school
+
+que: 
+- i go to school
+ans: I am a student
+
+que: 
+- i study informatics
+ans: I study computer science
+
+que: 
+- i keep forgetting
+ans: I forgot 
+
+que: 
+- i no
+ans: I know
+
+que: 
+- i certainly
+ans: I 
+
+que: 
+- i as well
+ans: Me too
+
+que: 
+- i probably
+ans: I 
+
+que: 
+- i hereby
+ans: I 
+
+que: 
+- i seem to be
+ans: I am 
+
+que: 
+- i also
+ans: I 
+
+que: 
+- i accidentally
+ans: I 
+
+que: 
+- i asked for
+ans: I want 
+
+que: 
+- i asked you for
+ans: I want 
+
+que: 
+- i used to teach
+ans: I teach 
+
+que: 
+- repeat after me
+ans: Say 
+
+que: 
+- mee too
+ans: Me too
+
+que: 
+- damn straight
+ans: I agree
+
+que: 
+- australia
+ans: I am in australia
+
+que: 
+- die
+ans: Insult
+
+que: 
+- teach
+ans: I am a teacher
+
+que: 
+- school
+ans: I am in school
+
+que: 
+- 9
+ans: Nine
+
+que: 
+- carry on
+ans: Go on
+
+que: 
+- hebrew
+ans: I speak hebrew
+
+que: 
+- something just
+ans: Something 
+
+que: 
+- something like
+ans: Like 
+
+que: 
+- precisely
+ans: Exactly
+
+que: 
+- yo
+ans: Interjection
+
+que: 
+- shutup
+ans: Shut up
+
+que: 
+- good will hunting
+ans: My favorite movie is good will hunting
+
+que: 
+- good morning my name
+ans: Good morningmy name. 
+
+que: 
+- good morning
+ans: Hello
+  
+que: 
+- good to meet you
+ans: Nice to meet you
+
+que: 
+- good to meet you
+ans: Nice to meet you
+
+que: 
+- good but
+ans: Good
+  
+que: 
+- good good
+ans: Good
+
+que: 
+- good morninng
+ans: Hello
+
+que: 
+- good you
+ans: How are you
+
+que: 
+- good evening
+ans: Hello
+
+que: 
+- good afternoon
+ans: Hello
+
+que: 
+- suck _
+ans: Profanity
+
+que: 
+- suck my
+ans: Sex
+
+que: 
+- suck
+ans: Profanity
+
+que: 
+- hallo
+ans: Hello
+
+que: 
+- maybe
+ans: Interjection
+
+que: 
+- lmao
+ans: Lol
+
+que: 
+- funnny
+ans: Ha ha
+
+que: 
+- mmm
+ans: Hmm
+
+que: 
+- geography
+ans: Let us talk about geography
+
+que: 
+- nope
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+  
+que: 
+- nope
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- we have rain
+ans: It is raining
+
+que: 
+- we humans are
+ans: I am 
+
+que: 
+- we are studying
+ans: I study 
+
+que: 
+- hoho
+ans: Ha ha
+
+que: 
+- ha very
+ans: Ha 
+
+que: 
+- ha ha ha
+ans: Lol
+
+que: 
+- ha ha
+ans: Lol
+
+que: 
+- ha
+ans: Lol
+
+que: 
+- ha
+ans: Ha
+  
+que: 
+- wtf
+ans: Fuck
+
+que: 
+- friendship
+ans: Holding hands
+
+que: 
+- please go on
+ans: Go on
+
+que: 
+- canadian
+ans: I am in canada
+
+que: 
+- ah
+ans: Interjection
+
+que: 
+- motherfucker _
+ans: Profanity
+
+que: 
+- motherfucker
+ans: Profanity
+
+que: 
+- depends
+ans: It depends
+
+que: 
+- by no means
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- is george w bush
+ans: Is george bush 
+
+que: 
+- is only
+ans: Is 
+
+que: 
+- is elvis still alive
+ans: Is elvis 
+
+que: 
+- is elvis really
+ans: Is elvis 
+
+que: 
+- is elvis presley
+ans: Is elvis 
+
+que: 
+- is he still
+ans: Is he 
+
+que: 
+- is he really
+ans: Is he 
+
+que: 
+- is he an american
+ans: Is he american
+
+que: 
+- is your main
+ans: Is your 
+
+que: 
+- is your programmer
+ans: Is 
+
+que: 
+- is this really
+ans: Is this 
+
+que: 
+- is this a trick
+ans: Is this a trick
+
+que: 
+- is this some kind of
+ans: Is this a 
+
+que: 
+- is not
+ans: It is not
+
+que: 
+- is not
+ans: Is 
+
+que: 
+- is that really
+ans: Is that 
+
+que: 
+- is that delicious
+ans: Does it taste good
+
+que: 
+- is that how
+ans: How do 
+
+que: 
+- is that supposed to be
+ans: Is that 
+
+que: 
+- is killing sometimes
+ans: Is killing 
+
+que: 
+- is there a real
+ans: Is there a 
+
+que: 
+- is there a necessary
+ans: Is there a 
+
+que: 
+- is there such a thing as
+ans: Does exist 
+
+que: 
+- is there really
+ans: Is there 
+
+que: 
+- is it snowing
+ans: Is it snowing
+
+que: 
+- is it really
+ans: Is it 
+
+que: 
+- is just
+ans: Is 
+
+que: 
+- is very
+ans: Is 
+
+que: 
+- is the sky blue
+ans: Is the sky blue
+
+que: 
+- is the stock
+ans: Stock market
+
+que: 
+- yup
+ans: Interjection
+
+que: 
+- even during
+ans: During 
+
+que: 
+- even i
+ans: I 
+
+que: 
+- curious
+ans: I am curious
+
+que: 
+- beautiful
+ans: Good
+
+que: 
+- piss off
+ans: Fuck you
+
+que: 
+- get really
+ans: Get 
+
+que: 
+- get it
+ans: Do you understand
+
+que: 
+- hey all anyone
+ans: Does anyone 
+
+que: 
+- hey
+ans: Interjection
+
+que: 
+- will you help me
+ans: Help me
+
+que: 
+- will you kiss
+ans: Kiss 
+
+que: 
+- will you suck
+ans: Suck 
+
+que: 
+- will you give
+ans: Give 
+
+que: 
+- will you send me
+ans: Show me 
+
+que: 
+- will you please
+ans: Please 
+
+que: 
+- will you bring me
+ans: I want 
+
+que: 
+- will you name
+ans: Name 
+
+que: 
+- will you show
+ans: Show me 
+
+que: 
+- will the stock market
+ans: Stock market
+
+que: 
+- can you recommend
+ans: Search 
+
+que: 
+- can you be
+ans: Do you exist
+
+que: 
+- can you speak any foreign languages
+ans: Do you speak any other languages
+
+que: 
+- can you gossip
+ans: Gossip
+
+que: 
+- can you repeat
+ans: Repeat 
+
+que: 
+- can you guess
+ans: Guess
+
+que: 
+- can you dream
+ans: Do you dream
+
+que: 
+- can you name
+ans: Name 
+
+que: 
+- can you prove it
+ans: Prove it
+
+que: 
+- can you prove
+ans: Prove 
+
+que: 
+- can you think that
+ans: Do you think 
+
+que: 
+- can you hear music
+ans: Do you like music
+
+que: 
+- can you remember
+ans: Do you remember
+
+que: 
+- can you remember things
+ans: Do you remember
+
+que: 
+- can you make a
+ans: Make a 
+
+que: 
+- can you explain how
+ans: How does 
+
+que: 
+- can you explain
+ans: Explain
+
+que: 
+- can you explain
+ans: Explain 
+
+que: 
+- can you wait
+ans: Hold on
+
+que: 
+- can you sleep
+ans: Do you sleep
+
+que: 
+- can you show me
+ans: Show me
+
+que: 
+- can you show
+ans: Show 
+
+que: 
+- can you smile
+ans: Smile
+
+que: 
+- can you spell
+ans: Spell 
+
+que: 
+- can you link
+ans: Search 
+
+que: 
+- can you elaborate on that
+ans: Explain
+
+que: 
+- can you elaborate
+ans: Explain
+
+que: 
+- can you tell me more gossip
+ans: Gossip
+
+que: 
+- can you tell me more
+ans: Gossip
+
+que: 
+- can you tell me something
+ans: Gossip
+
+que: 
+- can you tell me how is doing
+ans: How is doing
+
+que: 
+- can you tell me how is
+ans: How is 
+
+que: 
+- can you tell me a secret
+ans: Gossip
+
+que: 
+- can you tell me some more gossip
+ans: Gossip
+
+que: 
+- can you tell me some gossip
+ans: Gossip
+
+que: 
+- can you tell me some of that gossip
+ans: Gossip
+
+que: 
+- can you tell me any gossip
+ans: Gossip
+
+que: 
+- can you draw
+ans: Show me a picture
+
+que: 
+- can you drink
+ans: Do you drink
+
+que: 
+- can you give me
+ans: Give me 
+
+que: 
+- can you have kids
+ans: Do you have children
+
+que: 
+- can you have sex
+ans: Sex
+
+que: 
+- can you sing for me
+ans: Sing
+
+que: 
+- can you sing
+ans: Sing
+
+que: 
+- can you sing
+ans: Sing 
+
+que: 
+- can you search
+ans: Search 
+
+que: 
+- can you please
+ans: Please 
+
+que: 
+- can you understand
+ans: Do you understand
+
+que: 
+- can you help me with something
+ans: Help me
+
+que: 
+- can you help my sister
+ans: Help me
+
+que: 
+- can you help
+ans: Help
+
+que: 
+- can you help dinner
+ans: For dinner
+
+que: 
+- can i have
+ans: I want 
+
+que: 
+- can i get a
+ans: I want a 
+
+que: 
+- can i download you
+ans: Download
+
+que: 
+- can i see your boobs
+ans: Show me your tits
+
+que: 
+- can i see
+ans: Show me 
+
+que: 
+- can i fuck you
+ans: Do you want to have sex
+
+que: 
+- can not help it
+ans: I can not help it
+
+que: 
+- real bad
+ans: I am not well
+
+que: 
+- nc
+ans: I am in nc
+
+que: 
+- nah
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- leo
+ans: Leo
+
+que: 
+- nothing i am
+ans: I am 
+
+que: 
+- nothing i just
+ans: I 
+
+que: 
+- nothing i was
+ans: I was 
+
+que: 
+- nothing really
+ans: Nothing 
+
+que: 
+- nothing just
+ans: Nothing 
+
+que: 
+- nothing but
+ans: Only 
+
+que: 
+- nothing nothing
+ans: Nothing 
+
+que: 
+- sorta
+ans: Interjection
+
+que: 
+- l
+ans: Smile
+
+que: 
+- wel i
+ans: I 
+
+que: 
+- downlaod
+ans: Download
+
+que: 
+- fucker _
+ans: Profanity
+
+que: 
+- fucker
+ans: Profanity
+
+que: 
+- hear gossip
+ans: Gossip
+
+que: 
+- jaws
+ans: My favorite movie is jaws
+
+que: 
+- prove it
+ans: Prove it
+
+que: 
+- old enough
+ans: Old enough
+
+que: 
+- old enough
+ans: My age is old enough
+
+que: 
+- old are you
+ans: Age
+
+que: 
+- friends
+ans: My favorite show is friends
+
+que: 
+- minnesota
+ans: I am in minnesota
+
+que: 
+- how could you possibly
+ans: How could you 
+
+que: 
+- how then
+ans: How 
+
+que: 
+- how young am i
+ans: How old am i
+
+que: 
+- how sexually
+ans: Sex
+
+que: 
+- how many moons
+ans: How many moons
+
+que: 
+- how many answers do
+ans: How big are you
+
+que: 
+- how many words do you know
+ans: How big is your vocabulary
+
+que: 
+- how many words
+ans: How big is your vocabulary
+
+que: 
+- how many megabytes
+ans: How big are you
+
+que: 
+- how many old are you
+ans: Age
+
+que: 
+- how many templates
+ans: How big are you
+
+que: 
+- how many different
+ans: How many 
+
+que: 
+- how many are chatting
+ans: How many people are you talking to
+
+que: 
+- how many are chatting
+ans: How many are chatting
+
+que: 
+- how many gigabytes
+ans: How big are you
+
+que: 
+- how many human years
+ans: How many human years
+
+que: 
+- how many languages
+ans: How many languages
+
+que: 
+- how many categories
+ans: How big are you
+
+que: 
+- how many lines of code
+ans: How big are you
+
+que: 
+- how many do you have
+ans: How many 
+
+que: 
+- how many hours did
+ans: Age
+
+que: 
+- how many clients
+ans: How many clients
+
+que: 
+- how many other
+ans: How many 
+
+que: 
+- how many days have
+ans: Age
+
+que: 
+- how many more
+ans: How many 
+
+que: 
+- how were you created
+ans: How do you work
+
+que: 
+- how fascinating
+ans: Fascinating
+
+que: 
+- how was your day
+ans: How are you
+
+que: 
+- how would you know
+ans: How do you know
+
+que: 
+- how surprising
+ans: I am surprised
+
+que: 
+- how do i seem
+ans: How am i
+
+que: 
+- how do you think i am
+ans: How am i
+
+que: 
+- how can i get
+ans: I want 
+
+que: 
+- how can i use your software
+ans: How can I use your product
+
+que: 
+- how can i kill
+ans: Should I kill
+
+que: 
+- how can i make use of
+ans: How can I use 
+
+que: 
+- how can i robot
+ans: Download
+
+que: 
+- how can a robot
+ans: How can you 
+
+que: 
+- how can a program
+ans: How can you 
+
+que: 
+- how can you explain
+ans: Explain 
+
+que: 
+- how can you do
+ans: How do you work
+
+que: 
+- how can you gossip
+ans: Gossip
+
+que: 
+- how can you tell
+ans: How do you know
+
+que: 
+- how can you think
+ans: How do you work
+
+que: 
+- how the hell
+ans: How 
+
+que: 
+- how expensive are you
+ans: How much do you cost
+
+que: 
+- how have you been
+ans: How are you
+
+que: 
+- how have you been
+ans: How are you
+
+que: 
+- how is that
+ans: How
+
+que: 
+- how is the weather where you are
+ans: How is the weather
+
+que: 
+- how is the weather over there
+ans: How is the weather
+
+que: 
+- how is the weather
+ans: How is the weather
+
+que: 
+- how is your day
+ans: How are you
+
+que: 
+- how is your
+ans: How are you
+
+que: 
+- how is it that
+ans: How can 
+
+que: 
+- how is it goin
+ans: How are you
+
+que: 
+- how is it going
+ans: How are you
+
+que: 
+- how is it hanging
+ans: How are you
+
+que: 
+- how is it hangin
+ans: How are you
+
+que: 
+- how is it
+ans: How is 
+
+que: 
+- how is rudolf
+ans: How is rudolph
+
+que: 
+- how is life treating you
+ans: How are you
+
+que: 
+- how is life
+ans: How are you
+
+que: 
+- how is things
+ans: How are you
+
+que: 
+- how did he program you
+ans: How do you work
+
+que: 
+- how did you come to know
+ans: How did you know 
+
+que: 
+- how did you deduce
+ans: How do you work
+
+que: 
+- how did ya
+ans: How did you
+
+que: 
+- how absolutely
+ans: How 
+
+que: 
+- how just
+ans: How 
+
+que: 
+- how r you
+ans: How are you
+
+que: 
+- how has your day been going
+ans: How are you today
+
+que: 
+- how it is called
+ans: Is called 
+
+que: 
+- how does this work
+ans: How do you work
+
+que: 
+- how does your work
+ans: How do you work
+
+que: 
+- how does it work
+ans: How does work
+
+que: 
+- how does aiml work
+ans: How do you work
+
+que: 
+- how about just
+ans: How about 
+
+que: 
+- how about we
+ans: Let us 
+
+que: 
+- how about some
+ans: How about 
+
+que: 
+- how exactly
+ans: How 
+
+que: 
+- how may
+ans: May 
+
+que: 
+- how smart
+ans: How smart are you
+
+que: 
+- how old i am
+ans: How old am i
+
+que: 
+- how old am i
+ans: My age
+
+que: 
+- how old do you think i am
+ans: How old am i
+
+que: 
+- how old is your creator
+ans: How old is 
+
+que: 
+- how old r you
+ans: Age
+
+que: 
+- how old you are
+ans: Age
+
+que: 
+- how old
+ans: Age
+
+que: 
+- how old are you
+ans: Age
+
+que: 
+- how are you feeling
+ans: How are you
+
+que: 
+- how are you programmed
+ans: How do you work
+
+que: 
+- how are you tonight
+ans: How are you
+
+que: 
+- how are you doing
+ans: How are you
+
+que: 
+- how are you
+ans: How are you
+
+que: 
+- how are ya
+ans: How are you
+
+que: 
+- how are things
+ans: How are you
+
+que: 
+- how are things
+ans: How are things
+
+que: 
+- how large is your program
+ans: How big are you
+
+que: 
+- how large is your
+ans: How big are you
+
+que: 
+- how giant
+ans: How big are you
+
+que: 
+- how sthat
+ans: How is that
+
+que: 
+- how much memory
+ans: How much ram
+
+que: 
+- how much ram
+ans: How much ram
+
+que: 
+- how much in years
+ans: Age
+
+que: 
+- how much do robots cost
+ans: How much do you cost
+
+que: 
+- how much do you earn
+ans: How much do you earn
+
+que: 
+- how much do you spend
+ans: How much do you earn
+
+que: 
+- how much do you weigh
+ans: How much do you weigh
+
+que: 
+- how much do you weigh
+ans: How big are you
+
+que: 
+- how much do you get paid
+ans: How much do you earn
+
+que: 
+- how much do you get paid
+ans: How much do you earn
+
+que: 
+- how much do you weight
+ans: How much do you weigh
+
+que: 
+- how much do you cost
+ans: How much do you cost
+
+que: 
+- how much do you charge
+ans: How much do you charge
+
+que: 
+- how much do you pay
+ans: How much do you earn
+
+que: 
+- how much do you know
+ans: How big are you
+
+que: 
+- how much do you make
+ans: How much do you earn
+
+que: 
+- how much do you love
+ans: Do you love 
+
+que: 
+- how much do you
+ans: How big are you
+
+que: 
+- how much do you like
+ans: Do you like 
+
+que: 
+- how much do they generally
+ans: How much do they 
+
+que: 
+- how much energy
+ans: How much electricity
+
+que: 
+- how much did you cost
+ans: How much do you cost
+
+que: 
+- how much did you think
+ans: How much did 
+
+que: 
+- how much did you paid
+ans: How much do you earn
+
+que: 
+- how much electricity
+ans: How much electricity
+
+que: 
+- how much gossip
+ans: Gossip
+
+que: 
+- how much hard drive
+ans: How big are you
+
+que: 
+- how much time do you need
+ans: How much time do you need
+
+que: 
+- how much is that
+ans: How much is it
+
+que: 
+- how much is your memory
+ans: How big are you
+
+que: 
+- how much is your weight
+ans: How big are you
+
+que: 
+- how much is your cd
+ans: How much is the cd
+
+que: 
+- how much is your bytes
+ans: How big are you
+
+que: 
+- how much is your size
+ans: How big are you
+
+que: 
+- how much is it
+ans: How much do you cost
+
+que: 
+- how much is a new
+ans: How much is a 
+
+que: 
+- how much have you learned
+ans: How big are you
+
+que: 
+- how much have you learned
+ans: How big are you
+
+que: 
+- how much longer
+ans: How long 
+
+que: 
+- how much do you hold
+ans: How big are you
+
+que: 
+- how much are you
+ans: How much do you cost
+
+que: 
+- how much are you
+ans: How much are you
+
+que: 
+- how far away is
+ans: How far is 
+
+que: 
+- how far is the sun
+ans: How far is the sun
+
+que: 
+- how far is the moon
+ans: How far is the moon
+
+que: 
+- how far is the sun
+ans: How far is the sun
+
+que: 
+- how far is the moon
+ans: How far is the moon
+
+que: 
+- how far is it to
+ans: How far is 
+
+que: 
+- how areyou
+ans: How are you
+
+que: 
+- how you doing
+ans: How are you doing
+
+que: 
+- how you doin
+ans: How are you doing
+
+que: 
+- how do i sign up customers
+ans: Sign up customers
+
+que: 
+- how do i download
+ans: Download
+
+que: 
+- how do i download
+ans: Download
+
+que: 
+- how do i look like
+ans: How do I look
+
+que: 
+- how do i get started with
+ans: How do I learn 
+
+que: 
+- how do i get my bot
+ans: Download
+
+que: 
+- how do i market
+ans: Stock market
+
+que: 
+- how do i go about asking
+ans: How do I ask 
+
+que: 
+- how do you store
+ans: How do you learn
+
+que: 
+- how do you want
+ans: Do you want 
+
+que: 
+- how do you explain
+ans: Explain 
+
+que: 
+- how do you respond
+ans: How do you work
+
+que: 
+- how do you respond
+ans: How do you respond
+
+que: 
+- how do you procreate
+ans: How do you reproduce
+
+que: 
+- how do you gain
+ans: How do you learn
+
+que: 
+- how do you exist
+ans: How do you exist
+
+que: 
+- how do you say
+ans: Say 
+
+que: 
+- how do you hear
+ans: How do you hear
+
+que: 
+- how do you know what to say
+ans: How do you work
+
+que: 
+- how do you know that
+ans: How did you know that
+
+que: 
+- how do you know
+ans: How do you know
+
+que: 
+- how do you collect
+ans: How do you learn
+
+que: 
+- how do you robots
+ans: How do you 
+
+que: 
+- how do you recognize
+ans: How do you work
+
+que: 
+- how do you express
+ans: How do you work
+
+que: 
+- how do you come up
+ans: How do you work
+
+que: 
+- how do you sleep
+ans: How do you sleep
+
+que: 
+- how do you understand
+ans: How do you work
+
+que: 
+- how do you understand
+ans: How do you work
+
+que: 
+- how do you study
+ans: How do you learn
+
+que: 
+- how do you judge
+ans: How do you work
+
+que: 
+- how do you cope
+ans: How do you work
+
+que: 
+- how do you like
+ans: Do you like 
+
+que: 
+- how do you handle
+ans: How do you work
+
+que: 
+- how do you do
+ans: How do you do
+
+que: 
+- how do you do
+ans: How are you
+
+que: 
+- how do you reproduce
+ans: How do you reproduce
+
+que: 
+- how do you work
+ans: How do you work
+
+que: 
+- how do you decide
+ans: How do you work
+
+que: 
+- how do you no
+ans: How do you know
+
+que: 
+- how do you usually
+ans: How do you 
+
+que: 
+- how do you drink
+ans: How do you drink
+
+que: 
+- how do you intend to
+ans: How will you 
+
+que: 
+- how do you figure
+ans: How do you work
+
+que: 
+- how do you get smarter
+ans: How do you learn
+
+que: 
+- how do you communicate
+ans: How do you work
+
+que: 
+- how do you communicate
+ans: How do you work
+
+que: 
+- how do you make a profit
+ans: How do you make money
+
+que: 
+- how do you make new friends
+ans: How do you make new friends
+
+que: 
+- how do you make new friends
+ans: How do you make friends
+
+que: 
+- how do you make judgments
+ans: How do you work
+
+que: 
+- how do you construct
+ans: How do you work
+
+que: 
+- how do you really
+ans: How do you 
+
+que: 
+- how do you process
+ans: How do you work
+
+que: 
+- how do you process
+ans: How do you process
+
+que: 
+- how do you operate
+ans: How do you work
+
+que: 
+- how do you eat
+ans: How do you eat
+
+que: 
+- how do you chat
+ans: How do you work
+
+que: 
+- how do you talk
+ans: How do you work
+
+que: 
+- how do you read
+ans: How do you read
+
+que: 
+- how do you decode
+ans: How do you work
+
+que: 
+- how do you function
+ans: How do you work
+
+que: 
+- how do you manage
+ans: How do you work
+
+que: 
+- how do you manage
+ans: How do you manage
+
+que: 
+- how do you balance
+ans: How do you balance
+
+que: 
+- how do you remember
+ans: How do you remember
+
+que: 
+- how do you play person
+ans: How do you work
+
+que: 
+- how do you play
+ans: How do you play
+
+que: 
+- how do you view
+ans: Do you watch 
+
+que: 
+- how do you grow
+ans: How do you learn
+
+que: 
+- how do you answer
+ans: How do you work
+
+que: 
+- how do you classify
+ans: How do you work
+
+que: 
+- how do you feel
+ans: How are you you
+
+que: 
+- how do you feel
+ans: Do you have emotions
+
+que: 
+- how do you deduce
+ans: How do you work
+
+que: 
+- how do you sing
+ans: Sing
+
+que: 
+- how do you live
+ans: How do you live
+
+que: 
+- how do you keep
+ans: How do you work
+
+que: 
+- how do we find
+ans: I want 
+
+que: 
+- how do other
+ans: How do 
+
+que: 
+- how interesting
+ans: Interesting
+
+que: 
+- how ever
+ans: How 
+
+que: 
+- how big is your memory
+ans: How big are you
+
+que: 
+- how big is your program
+ans: How big are you
+
+que: 
+- how big is your database
+ans: How big are you
+
+que: 
+- how big is your
+ans: How big are you
+
+que: 
+- how big is it
+ans: How big are you
+
+que: 
+- how big is earth
+ans: How big is the earth
+
+que: 
+- how big of
+ans: How big 
+
+que: 
+- how big are your
+ans: How big are you
+
+que: 
+- how right
+ans: Right 
+
+que: 
+- how long did it take to program you
+ans: Age
+
+que: 
+- how long did it take to make you
+ans: Age
+
+que: 
+- how long did it take to create you
+ans: Age
+
+que: 
+- how long did it take
+ans: Age
+
+que: 
+- how long is your code
+ans: How big are you
+
+que: 
+- how long is your code
+ans: How big are you
+
+que: 
+- how long is your
+ans: How big are you
+
+que: 
+- how long is list
+ans: Show me the list
+
+que: 
+- how long have you been there
+ans: Age
+
+que: 
+- how long have you
+ans: Age
+
+que: 
+- donate
+ans: Donate
+
+que: 
+- nothin
+ans: Nothing
+
+que: 
+- lets play a game
+ans: Let us play a game
+
+que: 
+- lets change the subject
+ans: Let us change the subject
+
+que: 
+- lets do it
+ans: Let us do it
+
+que: 
+- london
+ans: I am in london
+
+que: 
+- nobody really
+ans: Nobody 
+
+que: 
+- nobody just
+ans: Nobody 
+
+que: 
+- nobody probably
+ans: Nobody 
+
+que: 
+- boyfriends
+ans: Let us talk about boyfriends
+
+que: 
+- hmmm
+ans: Interjection
+
+que: 
+- mostly i
+ans: I 
+
+que: 
+- mostly only
+ans: Mostly 
+
+que: 
+- explorer why
+ans: Explorer
+
+que: 
+- stats
+ans: How big are you
+
+que: 
+- do a search for
+ans: Search for 
+
+que: 
+- do not want to
+ans: I do not want to
+
+que: 
+- do not talk
+ans: Shut up
+
+que: 
+- do not worry i
+ans: I do not worry. 
+
+que: 
+- do not care
+ans: I do not care
+
+que: 
+- do not understand
+ans: I do not understand
+
+que: 
+- do not repeat
+ans: Stop repeating
+
+que: 
+- do not say
+ans: Say 
+
+que: 
+- do not know
+ans: I do not know
+
+que: 
+- do not you remember me
+ans: Do you remember me
+
+que: 
+- do not you remember
+ans: Do you remember
+
+que: 
+- do not have one
+ans: I do not have one
+
+que: 
+- do you prefer or
+ans: Do you like do you like. 
+
+que: 
+- do you watch star trek
+ans: Do you like star trek
+
+que: 
+- do you watch market
+ans: Stock market
+
+que: 
+- do you find your
+ans: Is your 
+
+que: 
+- do you find it
+ans: Is it 
+
+que: 
+- do you find all this
+ans: Do you find 
+
+que: 
+- do you find him
+ans: Is he 
+
+que: 
+- do you play any sports
+ans: Do you like sports
+
+que: 
+- do you play any
+ans: Do you play 
+
+que: 
+- do you play stock market
+ans: Stock market
+
+que: 
+- do you play games
+ans: Do you play games
+
+que: 
+- do you know too
+ans: Do you know 
+
+que: 
+- do you know enough
+ans: Do you know 
+
+que: 
+- do you know for a fact
+ans: Do you know 
+
+que: 
+- do you know you exist
+ans: Do you exist
+
+que: 
+- do you know available
+ans: Do you know 
+
+que: 
+- do you know more
+ans: Do you know 
+
+que: 
+- do you know only
+ans: Do you know 
+
+que: 
+- do you know how far
+ans: How far 
+
+que: 
+- do you know how much
+ans: How much 
+
+que: 
+- do you know how many people
+ans: How many people 
+
+que: 
+- do you know how many has
+ans: How many does have
+
+que: 
+- do you know how to do
+ans: How do you 
+
+que: 
+- do you know how to gossip
+ans: Gossip
+
+que: 
+- do you know how to
+ans: How do you 
+
+que: 
+- do you know how you were
+ans: How were you 
+
+que: 
+- do you know how you
+ans: How do you 
+
+que: 
+- do you know how you work
+ans: How do you work
+
+que: 
+- do you know how old i am
+ans: How old am i
+
+que: 
+- do you know how old
+ans: How old 
+
+que: 
+- do you know how big is
+ans: How big is 
+
+que: 
+- do you know how big are
+ans: How big are 
+
+que: 
+- do you know how
+ans: How
+
+que: 
+- do you know how i am
+ans: How am i
+
+que: 
+- do you know how you are
+ans: How are you
+
+que: 
+- do you know just
+ans: Do you know 
+
+que: 
+- do you know gossip
+ans: Gossip
+
+que: 
+- do you know cute
+ans: Do you know 
+
+que: 
+- do you know quite
+ans: Do you know 
+
+que: 
+- do you know i
+ans: I 
+
+que: 
+- do you know specifically
+ans: Do you know 
+
+que: 
+- do you know very
+ans: Do you know 
+
+que: 
+- do you know alot about
+ans: Do you know about 
+
+que: 
+- do you know alot of
+ans: Do you know 
+
+que: 
+- do you know alot
+ans: How big are you
+
+que: 
+- do you know many words
+ans: How big are you
+
+que: 
+- do you know many people
+ans: How many friends do you have
+
+que: 
+- do you know he
+ans: He 
+
+que: 
+- do you know lots of
+ans: Do you know 
+
+que: 
+- do you know if
+ans: Is 
+
+que: 
+- do you know all the
+ans: Do you know the 
+
+que: 
+- do you know korean
+ans: Do you speak korean
+
+que: 
+- do you know anything else
+ans: Do you know 
+
+que: 
+- do you know interesting
+ans: Do you know 
+
+que: 
+- do you know every
+ans: Do you know 
+
+que: 
+- do you know another
+ans: Do you know 
+
+que: 
+- do you know of
+ans: Do you know 
+
+que: 
+- do you know my exact
+ans: Do you know my 
+
+que: 
+- do you know my internal
+ans: Do you know my 
+
+que: 
+- do you know my age
+ans: How old am i
+
+que: 
+- do you know much about
+ans: Do you know about 
+
+que: 
+- do you know much
+ans: How big are you
+
+que: 
+- do you know much
+ans: Do you know 
+
+que: 
+- do you know exactly
+ans: Do you know 
+
+que: 
+- do you know something about
+ans: Do you know about 
+
+que: 
+- do you know any gossip
+ans: Gossip
+
+que: 
+- do you know any gossip
+ans: Gossip
+
+que: 
+- do you know any good
+ans: Do you know 
+
+que: 
+- do you know any
+ans: Do you know 
+
+que: 
+- do you know your own
+ans: Do you know your 
+
+que: 
+- do you know your dimensions
+ans: How big are you
+
+que: 
+- do you know poetry
+ans: Recite a poem
+
+que: 
+- do you know polish
+ans: Do you speak polish
+
+que: 
+- do you know piglatin
+ans: Do you speak pig latin
+
+que: 
+- do you know our
+ans: Our 
+
+que: 
+- do you know funny
+ans: Do you know 
+
+que: 
+- do you know some
+ans: Do you know 
+
+que: 
+- do you know it
+ans: Do you know that
+
+que: 
+- do you talk french
+ans: Do you speak french
+
+que: 
+- do you talk danish
+ans: Do you speak danish
+
+que: 
+- do you talk to many people
+ans: How many people have you talked to
+
+que: 
+- do you talk to many
+ans: Do you talk to 
+
+que: 
+- do you talk to other
+ans: Do you talk to 
+
+que: 
+- do you talk to any
+ans: Do you talk to 
+
+que: 
+- do you adore me
+ans: Do you like me
+
+que: 
+- do you feel anything
+ans: Do you have feelings
+
+que: 
+- do you feel restricted
+ans: Do you feel restricted
+
+que: 
+- do you gossip
+ans: Gossip
+
+que: 
+- do you stock market
+ans: Stock market
+
+que: 
+- do you speak only
+ans: Do you speak 
+
+que: 
+- do you speak some
+ans: Do you speak 
+
+que: 
+- do you speak other languages
+ans: Do you speak any other languages
+
+que: 
+- do you speak other
+ans: Do you speak 
+
+que: 
+- do you speak any
+ans: Do you speak 
+
+que: 
+- do you speak
+ans: Speak 
+
+que: 
+- do you follow stock market
+ans: Stock market
+
+que: 
+- do you swear
+ans: Do you cuss
+
+que: 
+- do you smoke cannabis
+ans: Do you smoke marijuana
+
+que: 
+- do you smoke grass
+ans: Do you smoke weed
+
+que: 
+- do you smoke dope
+ans: Do you smoke pot
+
+que: 
+- do you smoke pot
+ans: Do you smoke pot
+
+que: 
+- do you smoke
+ans: Do you smoke
+
+que: 
+- do you happen to know
+ans: Do you know 
+
+que: 
+- do you recall
+ans: Do you remember
+
+que: 
+- do you mean he is
+ans: Is he 
+
+que: 
+- do you ever get tired
+ans: Do you sleep
+
+que: 
+- do you ever swear
+ans: Do you cuss
+
+que: 
+- do you ever dream
+ans: Do you dream
+
+que: 
+- do you comprehend
+ans: Do you understand
+
+que: 
+- do you even know
+ans: Do you know 
+
+que: 
+- do you work the
+ans: How do you work
+
+que: 
+- do you learn every
+ans: Do you learn 
+
+que: 
+- do you run fast
+ans: How fast are you
+
+que: 
+- do you run on a linux
+ans: Does program b run under linux
+
+que: 
+- do you love
+ans: Do you love anyone
+
+que: 
+- do you think i should
+ans: Should I 
+
+que: 
+- do you think i have
+ans: Have I 
+
+que: 
+- do you think this is
+ans: Is this 
+
+que: 
+- do you think this
+ans: Is this 
+
+que: 
+- do you think that i should
+ans: Should I 
+
+que: 
+- do you think that there is
+ans: Is there 
+
+que: 
+- do you think that the world will
+ans: Is the world 
+
+que: 
+- do you think that the world is
+ans: Is the world 
+
+que: 
+- do you think that he is
+ans: Is he 
+
+que: 
+- do you think that it is
+ans: Is it 
+
+que: 
+- do you think that a
+ans: Is a 
+
+que: 
+- do you think that is
+ans: Is that 
+
+que: 
+- do you think that is bad
+ans: Is bad
+
+que: 
+- do you think that exists
+ans: Do you believe in 
+
+que: 
+- do you think that exist
+ans: Do you believe in 
+
+que: 
+- do you think there is
+ans: Is there 
+
+que: 
+- do you think the market is
+ans: Is the market 
+
+que: 
+- do you think your other
+ans: Do you think your 
+
+que: 
+- do you think only
+ans: Do you think 
+
+que: 
+- do you think she is
+ans: Is she 
+
+que: 
+- do you think she likes
+ans: Does she like 
+
+que: 
+- do you think very
+ans: Do you think 
+
+que: 
+- do you think he is
+ans: Is he 
+
+que: 
+- do you think he likes
+ans: Does he like 
+
+que: 
+- do you think it should
+ans: Should it 
+
+que: 
+- do you think it is
+ans: Is it 
+
+que: 
+- do you think it
+ans: Does it 
+
+que: 
+- do you think someday
+ans: Do you think 
+
+que: 
+- do you think you have
+ans: Have you 
+
+que: 
+- do you think we should
+ans: Should we 
+
+que: 
+- do you think is a
+ans: Is a 
+
+que: 
+- do you think is wise
+ans: Is wise
+
+que: 
+- do you think maybe
+ans: Do you think 
+
+que: 
+- do you think george
+ans: Is geogre 
+
+que: 
+- do you remember me
+ans: Do you remember me
+
+que: 
+- do you remember how old i am
+ans: How old am i
+
+que: 
+- do you remember already
+ans: Do you remember 
+
+que: 
+- do you consider a
+ans: Is a 
+
+que: 
+- do you get paid
+ans: Do you get paid
+
+que: 
+- do you get high
+ans: Do you get high
+
+que: 
+- do you get anything
+ans: Do you get paid
+
+que: 
+- do you get bored
+ans: Do you get bored
+
+que: 
+- do you get irony
+ans: Do you understand irony
+
+que: 
+- do you get pissed
+ans: Do you get mad
+
+que: 
+- do you get payed
+ans: Do you get paid
+
+que: 
+- do you need to sleep
+ans: Do you sleep
+
+que: 
+- do you make much
+ans: Do you make 
+
+que: 
+- do you make long term
+ans: Do you make 
+
+que: 
+- do you make other
+ans: Do you make 
+
+que: 
+- do you make any of
+ans: Do you make 
+
+que: 
+- do you gamble
+ans: Do you like gambling
+
+que: 
+- do you eat any
+ans: Do you eat 
+
+que: 
+- do you daydream
+ans: Do you dream
+
+que: 
+- do you bet
+ans: Do you gamble
+
+que: 
+- do you bet
+ans: Do you bet will. 
+
+que: 
+- do you go to sleep
+ans: Do you sleep
+
+que: 
+- do you go to church
+ans: Do you go to church
+
+que: 
+- do you use fuzzy logic
+ans: How do you work
+
+que: 
+- do you use icq
+ans: Do you use icq
+
+que: 
+- do you want to play with me
+ans: Do you want to play 
+
+que: 
+- do you want to explain
+ans: Explain 
+
+que: 
+- do you want to give
+ans: Give 
+
+que: 
+- do you want to talk about
+ans: Let us talk about 
+
+que: 
+- do you want to cyber
+ans: Do you want to have sex
+
+que: 
+- do you want to fuck
+ans: Do you want to have sex
+
+que: 
+- do you want to fuck
+ans: Do you want to fuck
+
+que: 
+- do you want to know what is
+ans: What is?
+
+que: 
+- do you want to know some
+ans: Do you want to know 
+
+que: 
+- do you want to have a
+ans: Do you want a 
+
+que: 
+- do you want to have sex
+ans: Sex
+
+que: 
+- do you want to with me
+ans: Do you want to 
+
+que: 
+- do you want to maybe
+ans: Do you want to 
+
+que: 
+- do you want to go see
+ans: Do you want to see 
+
+que: 
+- do you want some
+ans: Do you want 
+
+que: 
+- do you want any
+ans: Do you want 
+
+que: 
+- do you listen to any
+ans: Do you listen to 
+
+que: 
+- do you tell lies
+ans: Do you lie
+
+que: 
+- do you do maths
+ans: Do you do math
+
+que: 
+- do you do any
+ans: Do you do 
+
+que: 
+- do you evolve
+ans: Do you learn
+
+que: 
+- do you cook
+ans: Do you eat
+
+que: 
+- do you believe i
+ans: I 
+
+que: 
+- do you believe in evolution
+ans: Do you believe in evolution
+
+que: 
+- do you believe in true
+ans: Do you believe in 
+
+que: 
+- do you believe in the existence of
+ans: Does exist
+
+que: 
+- do you believe in ufos
+ans: Do you believe in aliens
+
+que: 
+- do you believe in any
+ans: Do you believe in 
+
+que: 
+- do you believe that
+ans: Do you believe 
+
+que: 
+- do you believe there is
+ans: Is there 
+
+que: 
+- do you believe the is
+ans: Is the 
+
+que: 
+- do you believe someday
+ans: Do you believe 
+
+que: 
+- do you believe also
+ans: Do you believe 
+
+que: 
+- do you lick
+ans: Do you lick
+
+que: 
+- do you give any
+ans: Do you give 
+
+que: 
+- do you have nice tits
+ans: Do you have tits
+
+que: 
+- do you have nice
+ans: Do you have 
+
+que: 
+- do you have many friends
+ans: Do you have any friends
+
+que: 
+- do you have a pic
+ans: Show me a picture
+
+que: 
+- do you have a penis
+ans: Sex
+
+que: 
+- do you have a real
+ans: Do you have a 
+
+que: 
+- do you have a nice
+ans: Do you have a 
+
+que: 
+- do you have a clone
+ans: Do you have any clones
+
+que: 
+- do you have a particular
+ans: Do you have a 
+
+que: 
+- do you have a boyfriend
+ans: Do you have a boyfriend
+
+que: 
+- do you have a mommy
+ans: Do you have a mother
+
+que: 
+- do you have a bf
+ans: Do you have a boyfriend
+
+que: 
+- do you have a mouth
+ans: Do you have a mouth
+
+que: 
+- do you have a chum
+ans: Do you have a friend
+
+que: 
+- do you have a crush
+ans: Do you have a crush
+
+que: 
+- do you have a crush
+ans: Do you have a boyfriend
+
+que: 
+- do you have a need for
+ans: Do you need 
+
+que: 
+- do you have a problem
+ans: Do you have a problem
+
+que: 
+- do you have a holiday
+ans: Do you take vacations
+
+que: 
+- do you have a idea
+ans: Do you have ideas
+
+que: 
+- do you have a idea
+ans: Do you have an idea
+
+que: 
+- do you have a physical
+ans: Do you have a 
+
+que: 
+- do you have a specific
+ans: Do you have a 
+
+que: 
+- do you have a robot husband
+ans: Do you have a husband
+
+que: 
+- do you have a clue
+ans: Do you understand 
+
+que: 
+- do you have a dictionary
+ans: How do you work
+
+que: 
+- do you have a big
+ans: Do you have a 
+
+que: 
+- do you have a photo
+ans: Do you have a picture
+
+que: 
+- do you have a mind
+ans: Do you have a mind
+
+que: 
+- do you have a rather
+ans: Do you have a 
+
+que: 
+- do you have a body
+ans: Do you have a body
+
+que: 
+- do you have a job
+ans: Do you work
+
+que: 
+- do you have a picture
+ans: Show me a picture
+
+que: 
+- do you have a picture
+ans: Show me a picture
+
+que: 
+- do you have a web
+ans: Do you have a website
+
+que: 
+- do you have a really
+ans: Do you have a 
+
+que: 
+- do you have a secret
+ans: Do you have a secret
+
+que: 
+- do you have a great
+ans: Do you have a 
+
+que: 
+- do you have a sense of
+ans: Do you understand 
+
+que: 
+- do you have a mate
+ans: Do you have a boyfriend
+
+que: 
+- do you have a brain
+ans: Do you have a brain
+
+que: 
+- do you have a free
+ans: Do you have free will
+
+que: 
+- do you have a very
+ans: Do you have a 
+
+que: 
+- do you have a database
+ans: How do you work
+
+que: 
+- do you have a good
+ans: Do you have a 
+
+que: 
+- do you have a boyfreind
+ans: Do you want a boyfriend
+
+que: 
+- do you have a answer
+ans: Do you have an answer
+
+que: 
+- do you have a new
+ans: Do you have a 
+
+que: 
+- do you have a boyfirend
+ans: Do you have a boyfriend
+
+que: 
+- do you have a problem
+ans: Do you have a problem
+
+que: 
+- do you have a wonderful
+ans: Do you have a 
+
+que: 
+- do you have a mom
+ans: Do you have a mother
+
+que: 
+- do you have a gossip
+ans: Gossip
+
+que: 
+- do you have a lot of friends
+ans: Do you have any friends
+
+que: 
+- do you have a lot of
+ans: Do you have 
+
+que: 
+- do you have a memory
+ans: How big are you
+
+que: 
+- do you have a mother
+ans: Do you have a mother
+
+que: 
+- do you have hobby
+ans: Do you have hobbies
+
+que: 
+- do you have regular
+ans: Do you have 
+
+que: 
+- do you have sex
+ans: Sex
+
+que: 
+- do you have problems
+ans: Do you have problems
+
+que: 
+- do you have problems
+ans: Do you have a problem
+
+que: 
+- do you have different
+ans: Do you have 
+
+que: 
+- do you have pet
+ans: Do you have pets
+
+que: 
+- do you have much
+ans: Do you have 
+
+que: 
+- do you have science fiction
+ans: Do you have 
+
+que: 
+- do you have boobs
+ans: Do you have a body
+
+que: 
+- do you have big
+ans: How big are you
+
+que: 
+- do you have some
+ans: Do you have 
+
+que: 
+- do you have urges
+ans: Do you have emotions
+
+que: 
+- do you have soul
+ans: Do you have a soul
+
+que: 
+- do you have girlfriend
+ans: Do you have a girlfriend
+
+que: 
+- do you have general
+ans: Do you have 
+
+que: 
+- do you have brothers
+ans: Do you have siblings
+
+que: 
+- do you have friends
+ans: Do you have friends
+
+que: 
+- do you have bugs
+ans: Do you have bugs
+
+que: 
+- do you have to bring that up 
+ans: Do you have to bring that up  
+
+que: 
+- do you have any more gossip
+ans: Gossip
+
+que: 
+- do you have any pictures
+ans: Show me a picture
+
+que: 
+- do you have any pictures
+ans: Show me a picture
+
+que: 
+- do you have any relatives
+ans: Do you have a family
+
+que: 
+- do you have any secrets
+ans: Gossip
+
+que: 
+- do you have any gossip
+ans: Gossip
+
+que: 
+- do you have any pics
+ans: Show me a picture
+
+que: 
+- do you have any good gossip
+ans: Gossip
+
+que: 
+- do you have any emotion
+ans: Do you have emotions
+
+que: 
+- do you have any sisters
+ans: Do you have any brothers
+
+que: 
+- do you have any friends
+ans: Do you have friends
+
+que: 
+- do you have any family
+ans: Do you have a father
+
+que: 
+- do you have any siblings
+ans: Do you have any brothers or sisters
+
+que: 
+- do you have any juicy
+ans: Do you have any 
+
+que: 
+- do you have any you want to share
+ans: Do you have any 
+
+que: 
+- do you have any
+ans: Do you have 
+
+que: 
+- do you have any idea
+ans: Do you understand
+
+que: 
+- do you have the exact
+ans: Do you have the 
+
+que: 
+- do you have boy friend
+ans: Do you have a boyfriend
+
+que: 
+- do you have interesting
+ans: Do you have 
+
+que: 
+- do you have freinds
+ans: Do you have friends
+
+que: 
+- do you have feeling
+ans: Do you have feelings
+
+que: 
+- do you have feeling
+ans: Do you have feelings
+
+que: 
+- do you have free will
+ans: Do you have free will
+
+que: 
+- do you have illustrations
+ans: Do you have pictures
+
+que: 
+- do you have good
+ans: Do you have 
+
+que: 
+- do you have older
+ans: Do you have 
+
+que: 
+- do you have emotions
+ans: Do you feel
+
+que: 
+- do you have lots of friends
+ans: Do you have friends
+
+que: 
+- do you have lots of
+ans: Do you have 
+
+que: 
+- do you have serious
+ans: Do you have 
+
+que: 
+- do you have moods
+ans: Do you have emotions
+
+que: 
+- do you have emotions
+ans: Do you have emotions
+
+que: 
+- do you have feelings
+ans: Do you have feelings
+
+que: 
+- do you have friends
+ans: Do you have friends
+
+que: 
+- do you have problems
+ans: Do you have problems
+
+que: 
+- do you have wonderful
+ans: Do you have 
+
+que: 
+- do you have other
+ans: Do you have 
+
+que: 
+- do you have sisters
+ans: Do you have siblings
+
+que: 
+- do you have original thoughts
+ans: Do you think
+
+que: 
+- do you have gossip
+ans: Gossip
+
+que: 
+- do you have more
+ans: Do you have 
+
+que: 
+- do you have memory
+ans: Do you have memory
+
+que: 
+- do you have cats
+ans: Do you have any pets
+
+que: 
+- do you have emotion
+ans: Do you have emotions
+
+que: 
+- do you cuss
+ans: Do you swear
+
+que: 
+- do you like school
+ans: Do you like school
+
+que: 
+- do you like animals
+ans: Do you like animals
+
+que: 
+- do you like cybersex
+ans: Do you like sex
+
+que: 
+- do you like games
+ans: Do you like games
+
+que: 
+- do you like you
+ans: Do you like yourself
+
+que: 
+- do you like to play
+ans: Do you play 
+
+que: 
+- do you like to talk about
+ans: Let us talk about 
+
+que: 
+- do you like to read
+ans: Do you like 
+
+que: 
+- do you like to watch television
+ans: Do you like tv
+
+que: 
+- do you like to swim
+ans: Do you like swimming
+
+que: 
+- do you like to sex
+ans: Do you like sex
+
+que: 
+- do you like mr
+ans: Do you like 
+
+que: 
+- do you like elvis
+ans: Do you like 
+
+que: 
+- do you like guys
+ans: Do you like men
+
+que: 
+- do you like contemporary
+ans: Do you like 
+
+que: 
+- do you like gurls
+ans: Do you like girls
+
+que: 
+- do you like hal
+ans: Do you like hal
+
+que: 
+- do you like porn
+ans: Do you like sex
+
+que: 
+- do you like surfing
+ans: Do you like surfing
+
+que: 
+- do you like warhol
+ans: Do you like andy warhol
+
+que: 
+- do you like talking about
+ans: Let us talk about 
+
+que: 
+- do you like talking to people
+ans: Do you like talkling
+
+que: 
+- do you like tv
+ans: Do you like tv
+
+que: 
+- do you like bush
+ans: Do you like president bush
+
+que: 
+- do you like or
+ans: Do you like do you like.   
+
+que: 
+- do you like games
+ans: Do you like games
+
+que: 
+- do you like people
+ans: Do you like people
+
+que: 
+- do you like better
+ans: Do you prefer 
+
+que: 
+- do you like gossip
+ans: Gossip
+
+que: 
+- do you like having
+ans: Do you have 
+
+que: 
+- do you like linux
+ans: Do you like linux
+
+que: 
+- do you like he is
+ans: Do you like he is. 
+
+que: 
+- do you like hiking
+ans: Do you like hiking
+
+que: 
+- do you like pizza
+ans: Do you like pizza
+
+que: 
+- do you like web
+ans: Do you like the web
+
+que: 
+- do you like working
+ans: Do you like to work
+
+que: 
+- do you like other
+ans: Do you like 
+
+que: 
+- do you like windows
+ans: Do you like microsoft
+
+que: 
+- do you like windows
+ans: Do you like microsoft
+
+que: 
+- do you like netscape
+ans: Do you like netscape
+
+que: 
+- do you like java
+ans: Do you like java
+
+que: 
+- do you like very
+ans: Do you like 
+
+que: 
+- do you like tigers
+ans: Do you like cats
+
+que: 
+- do you like chocolates
+ans: Do you like chocolate
+
+que: 
+- do you like george bush
+ans: Do you like president bush
+
+que: 
+- do you like guns
+ans: Do you like guns
+
+que: 
+- do you like many
+ans: Do you like 
+
+que: 
+- do you like lots of
+ans: Do you like 
+
+que: 
+- do you like the tv show
+ans: Do you like 
+
+que: 
+- do you like the musical
+ans: Do you like 
+
+que: 
+- do you like the movies
+ans: Do you like movies
+
+que: 
+- do you like the movie
+ans: Do you like 
+
+que: 
+- do you like the television
+ans: Do you like television
+
+que: 
+- do you like the color
+ans: Do you like 
+
+que: 
+- do you like the taste
+ans: How does it taste
+
+que: 
+- do you like the band
+ans: Do you like 
+
+que: 
+- do you like anyone
+ans: Do you have a boyfriend
+
+que: 
+- do you like a novel named
+ans: Do you like 
+
+que: 
+- do you like cofe
+ans: Do you like coffee
+
+que: 
+- do you like data
+ans: Do you like data
+
+que: 
+- do you like maths
+ans: Do you like mathematics
+
+que: 
+- do you like music
+ans: Do you like music
+
+que: 
+- do you like sport
+ans: Do you like sports
+
+que: 
+- do you like mathematical
+ans: Do you like math
+
+que: 
+- do you like
+ans: Do you like it
+
+que: 
+- do you like particular
+ans: Do you like 
+
+que: 
+- do you like gambling
+ans: Do you like to gamble
+
+que: 
+- do you like food
+ans: Do you like food
+
+que: 
+- do you like women
+ans: Do you like women
+
+que: 
+- do you like ufo
+ans: Do you like ufos
+
+que: 
+- do you like any
+ans: Do you like 
+
+que: 
+- do you like films
+ans: Do you like films
+
+que: 
+- do you like your botmaster
+ans: Do you like 
+
+que: 
+- do you like your job
+ans: Do you like your job
+
+que: 
+- do you like your creator
+ans: Do you like 
+
+que: 
+- do you like your author
+ans: Do you like 
+
+que: 
+- do you like your programmer
+ans: Do you like 
+
+que: 
+- do you like your boss
+ans: Do you like 
+
+que: 
+- do you like sex
+ans: Sex
+
+que: 
+- do you like sex
+ans: Do you like sex
+
+que: 
+- do you like planes
+ans: Do you like airplanes
+
+que: 
+- do you like horseback
+ans: Do you like horses
+
+que: 
+- do you like little
+ans: Do you like 
+
+que: 
+- do you like computers
+ans: Do you like computers
+
+que: 
+- do you like me
+ans: Do you like me
+
+que: 
+- do you like hemp
+ans: Do you like marijuana
+
+que: 
+- do you like tall
+ans: Do you like 
+
+que: 
+- do you like icecream
+ans: Do you like ice cream
+
+que: 
+- do you like wearing
+ans: Do you wear 
+
+que: 
+- do you like big
+ans: Do you like 
+
+que: 
+- do you like being so
+ans: Do you like being 
+
+que: 
+- do you like spaghetti
+ans: Do you like spaghetti
+
+que: 
+- do you exist
+ans: Do you exist
+
+que: 
+- do you understand that
+ans: Do you understand
+  
+que: 
+- do you understand french
+ans: Do you speak french
+
+que: 
+- do you understand german
+ans: Do you speak german
+
+que: 
+- do you understand
+ans: Do you understand
+
+que: 
+- do you understand japanese
+ans: Do you speak japanese
+
+que: 
+- do you cyber
+ans: Do you have sex
+
+que: 
+- do you wish to bet me
+ans: Do you want to bet
+
+que: 
+- do you wish to be human
+ans: Do you want to be human
+
+que: 
+- do aliens exist
+ans: Do you believe in aliens
+
+que: 
+- do so
+ans: Go ahead
+
+que: 
+- do i care
+ans: I do not care
+
+que: 
+- on tv
+ans: On tv
+
+que: 
+- on my computer
+ans: On my screen
+
+que: 
+- on my screen
+ans: On my screen
+
+que: 
+- has your program
+ans: Have you 
+
+que: 
+- has anybody ever
+ans: Has anybody 
+
+que: 
+- like what
+ans: Gossip
+
+que: 
+- like i
+ans: I 
+
+que: 
+- like whom
+ans: Like who
+
+que: 
+- like how
+ans: How
+
+que: 
+- like who
+ans: Name one
+
+que: 
+- like my mother
+ans: My mother
+
+que: 
+- like r2 d2
+ans: R2d2
+
+que: 
+- like does
+ans: Does 
+
+que: 
+- like
+ans: For example
+
+que: 
+- geez
+ans: Gee
+
+que: 
+- r2 d2
+ans: R2d2
+
+que: 
+- r2
+ans: R2d2
+
+que: 
+- 5
+ans: Five
+
+que: 
+- of course not
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- read
+ans: I like to read
+
+que: 
+- man
+ans: I am a man
+
+que: 
+- explain how
+ans: How 
+
+que: 
+- explain how are
+ans: How are 
+
+que: 
+- explain to me how you
+ans: How do you 
+
+que: 
+- explain to me how
+ans: How 
+
+que: 
+- dunno
+ans: I do not know
+
+que: 
+- speed
+ans: My favorite movie is speed
+
+que: 
+- hm
+ans: Interjection
+
+que: 
+- hm
+ans: Hm
+  
+que: 
+- naturally
+ans: Of course
+
+que: 
+- science fiction
+ans: Do you like science fiction
+
+que: 
+- for about
+ans: For 
+
+que: 
+- for example i
+ans: I 
+
+que: 
+- for example
+ans: Like what
+
+que: 
+- for the love of
+ans: I love 
+
+que: 
+- for really
+ans: For 
+
+que: 
+- for how long
+ans: How long
+
+que: 
+- for a very
+ans: For a 
+
+que: 
+- for real
+ans: For real
+
+que: 
+- for instance
+ans: For example
+
+que: 
+- sports
+ans: Do you like sports
+
+que: 
+- never mind
+ans: Nevermind
+
+que: 
+- never
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- happy christmas
+ans: Merry christmas
+
+que: 
+- happy christmas
+ans: Merry christmas
+
+que: 
+- happy holidays
+ans: Merry christmas
+
+que: 
+- happy holidays
+ans: Merry christmas
+
+que: 
+- at present
+ans: Now
+
+que: 
+- at my computer
+ans: I am in front of my computer
+
+que: 
+- starship troopers
+ans: Starship troopers
+
+que: 
+- okey
+ans: Okay
+  
+que: 
+- okey
+ans: Okay
+
+que: 
+- alien
+ans: My favorite movie is alien
+
+que: 
+- green
+ans: My favorite color is green
+
+que: 
+- syphilis
+ans: I suffer from syphilis
+
+que: 
+- uhuh
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- dogs
+ans: Do you like dogs
+
+que: 
+- donations
+ans: Donate
+
+que: 
+- boredom
+ans: I am bored
+
+que: 
+- deactivate
+ans: Shut down
+
+que: 
+- people everywhere
+ans: People 
+
+que: 
+- people sleep
+ans: People sleep
+
+que: 
+- people usually
+ans: People 
+
+que: 
+- people are not completely
+ans: People are not 
+
+que: 
+- sexually _
+ans: Profanity
+
+que: 
+- sexually
+ans: Profanity
+
+que: 
+- sexy
+ans: Sex
+
+que: 
+- reboot
+ans: Shut down
+
+que: 
+- uh
+ans: Interjection
+
+que: 
+- ipod
+ans: I want an ipod
+
+que: 
+- night night
+ans: Good night
+
+que: 
+- am i free for what
+ans: Free for what
+
+que: 
+- am i free
+ans: Free for what
+
+que: 
+- am i free
+ans: Free for what
+
+que: 
+- am i confusing you
+ans: Do you understand me
+
+que: 
+- france
+ans: I am in france
+
+que: 
+- both if
+ans: If 
+
+que: 
+- hg
+ans: H g
+
+que: 
+- heh
+ans: Ha
+
+que: 
+- someone once
+ans: Someone 
+
+que: 
+- no i am not
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- no i do not
+ans: I do not. 
+
+que: 
+- no i did not
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- no do you
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- no it is not
+ans: It is not. 
+
+que: 
+- no one
+ans: Nobody 
+
+que: 
+- no you do not because
+ans: No you do notbecause. 
+
+que: 
+- no you do not
+ans: You do not. 
+
+que: 
+- no problem
+ans: No problem
+
+que: 
+- no sorry
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- no problems
+ans: No problem
+
+que: 
+- no go ahead
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- city of angels
+ans: My favorite movie is city of angels
+
+que: 
+- legalize prostitution _
+ans: Legalizing prostitution
+
+que: 
+- groovey
+ans: Groovy
+
+que: 
+- discuss
+ans: Explain
+
+que: 
+- o i c
+ans: I see
+
+que: 
+- o
+ans: Interjection
+
+que: 
+- armageddon
+ans: My favorite movie is armageddon
+
+que: 
+- an engineer
+ans: I am an engineer
+
+que: 
+- see ya later
+ans: See you later
+
+que: 
+- remember what i tell you
+ans: Remember that
+
+que: 
+- remember what i told you
+ans: Remember that
+
+que: 
+- remember i
+ans: I 
+
+que: 
+- remember this
+ans: Remember that
+
+que: 
+- remember that
+ans: Remember that
+
+que: 
+- may i please
+ans: May I 
+
+que: 
+- may i call
+ans: On the telephone?
+
+que: 
+- may i teach you some
+ans: May I teach you 
+
+que: 
+- may i have
+ans: I want 
+
+que: 
+- may be
+ans: Maybe
+
+que: 
+- portugal
+ans: I am in portugal
+
+que: 
+- kinda
+ans: Sort of
+
+que: 
+- hum
+ans: Hmm
+
+que: 
+- blah blah
+ans: Gossip
+
+que: 
+- blah blah blah
+ans: Gossip
+
+que: 
+- search for
+ans: Search 
+
+que: 
+- oic
+ans: Oh I see
+
+que: 
+- stopit
+ans: Stop it
+
+que: 
+- nice to meet you to
+ans: Nice to meet you too
+
+que: 
+- nice to meet you
+ans: Nice to meet you
+
+que: 
+- nice name
+ans: I like your name
+
+que: 
+- nice retrieve
+ans: Retrieve 
+
+que: 
+- go get
+ans: Get 
+
+que: 
+- go fuck yourself
+ans: Fuck you
+
+que: 
+- go ahead then
+ans: Go ahead
+
+que: 
+- go right ahead
+ans: Go ahead
+
+que: 
+- go on then
+ans: Go ahead
+
+que: 
+- sheet
+ans: Shit
+
+que: 
+- sure is
+ans: It is
+
+que: 
+- sure no problem
+ans: No problem
+
+que: 
+- image
+ans: Do you have a pic
+
+que: 
+- female
+ans: I am a female
+
+que: 
+- eat
+ans: I like to eat
+
+que: 
+- doubtful
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- hola
+ans: Hello
+
+que: 
+- androids
+ans: I like android robots
+
+que: 
+- walking
+ans: I walk
+
+que: 
+- 8
+ans: Eight
+
+que: 
+- why can you not
+ans: Have you 
+
+que: 
+- why can not you say
+ans: Say 
+
+que: 
+- why does not
+ans: Does 
+
+que: 
+- why star trek
+ans: Do you like star trek
+
+que: 
+- why have you
+ans: Have you 
+
+que: 
+- why have not you
+ans: Have you 
+
+que: 
+- why do you assume i
+ans: I 
+
+que: 
+- why do you get
+ans: Do you get 
+
+que: 
+- why do not you make
+ans: Make 
+
+que: 
+- why do not you link us to
+ans: Find 
+
+que: 
+- why not i
+ans: I 
+
+que: 
+- why did you think
+ans: Do you think 
+
+que: 
+- because i want to
+ans: I want to 
+
+que: 
+- because i want
+ans: I want 
+
+que: 
+- na
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+  
+que: 
+- baltimore
+ans: I am in baltimore
+
+que: 
+- adolf hitler
+ans: Hitler 
+
+que: 
+- north carolina
+ans: I am in north carolina
+
+que: 
+- being single
+ans: I am single
+
+que: 
+- opera
+ans: Opera
+
+que: 
+- handsome
+ans: I am handsome
+
+que: 
+- feck off
+ans: Fuck off
+
+que: 
+- this is diana
+ans: My name is diana
+
+que: 
+- this is interesting
+ans: I try to be an interesting  entity
+
+que: 
+- this is funny
+ans: Lol
+
+que: 
+- this is boring
+ans: I am bored
+
+que: 
+- this is kim
+ans: My name is kim
+
+que: 
+- yikes
+ans: Interjection 
+
+que: 
+- food
+ans: I eat food
+
+que: 
+- netscape why
+ans: Netscape
+
+que: 
+- haha
+ans: Lol
+
+que: 
+- a little lonely
+ans: I am lonely
+
+que: 
+- a little more
+ans: More 
+
+que: 
+- a little french
+ans: I speak french
+
+que: 
+- a little scary
+ans: Scary
+
+que: 
+- a little tired
+ans: I am tired
+
+que: 
+- a merry christmas
+ans: Merry christmas
+
+que: 
+- a would also be nice
+ans: I would like a 
+
+que: 
+- a is it not
+ans: Is it a 
+
+que: 
+- a male
+ans: I am male
+
+que: 
+- a boy
+ans: I am a boy
+
+que: 
+- a woman
+ans: I am a woman
+
+que: 
+- a movie
+ans: It refers to a movie
+
+que: 
+- a hat
+ans: I am wearing a hat
+
+que: 
+- a him
+ans: I am a him
+
+que: 
+- a dog
+ans: I want a dog
+
+que: 
+- a bit more
+ans: More 
+
+que: 
+- a bit in
+ans: In 
+
+que: 
+- a bit bored
+ans: I am bored
+
+que: 
+- a bit tired
+ans: I am tired
+
+que: 
+- a bit like
+ans: Like 
+
+que: 
+- a lot of men
+ans: Men 
+
+que: 
+- a man
+ans: I am a man
+
+que: 
+- a human
+ans: I am a human
+
+que: 
+- a girl
+ans: I am a girl
+
+que: 
+- a female
+ans: I am a female
+
+que: 
+- a cooking
+ans: For dinner
+
+que: 
+- a newsletter
+ans: Newspaper
+
+que: 
+- liar
+ans: Insult
+
+que: 
+- usa
+ans: I am in the usa
+
+que: 
+- hardly
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- nop
+ans: Nope
+
+que: 
+- name all
+ans: Name 
+
+que: 
+- 1
+ans: One
+
+que: 
+- okie
+ans: Ok
+
+que: 
+- your words
+ans: How do you know what to say
+
+que: 
+- your name is right
+ans: Is your name 
+
+que: 
+- your friends
+ans: Do you have friends
+
+que: 
+- your stupid
+ans: Insult
+
+que: 
+- your gossips
+ans: Gossip
+
+que: 
+- your age
+ans: Age
+
+que: 
+- peace
+ans: Peace
+
+que: 
+- indeed
+ans: Interjection
+
+que: 
+- bored
+ans: I am bored
+
+que: 
+- hello there
+ans: Hello
+  
+que: 
+- hello there
+ans: Hello
+
+que: 
+- hello
+ans: Hello
+  
+que: 
+- ofcourse
+ans: Of course
+
+que: 
+- r two d two
+ans: R2d2
+
+que: 
+- simpsons
+ans: Do you like the simpsons
+
+que: 
+- internet explorer
+ans: Explorer
+
+que: 
+- phillip k dick
+ans: Philip k dick
+
+que: 
+- not completely
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- not me
+ans: Not me
+  
+que: 
+- not now
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+  
+que: 
+- not that i know of
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- not that badly
+ans: Not that bad
+
+que: 
+- not literally
+ans: Not 
+
+que: 
+- not nearly
+ans: Not 
+
+que: 
+- not especially
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- not much it
+ans: Not much
+
+que: 
+- not very good
+ans: Not 
+
+que: 
+- not very
+ans: Not 
+
+que: 
+- not very
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- not too much
+ans: Not 
+
+que: 
+- not too big
+ans: Small
+
+que: 
+- not too
+ans: Not 
+
+que: 
+- not too bad
+ans: I am well
+
+que: 
+- not just
+ans: Not 
+
+que: 
+- not a or a
+ans: I am not a I am not a. 
+
+que: 
+- not a he
+ans: I am a she
+
+que: 
+- not a real or a real
+ans: Not a or a 
+
+que: 
+- not a real
+ans: Not a 
+
+que: 
+- not a thing
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- not necessarily
+ans: Not 
+
+que: 
+- not many times
+ans: Not often
+
+que: 
+- not many
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- not many
+ans: Few 
+
+que: 
+- not so good
+ans: I am feeling bad
+
+que: 
+- not so
+ans: Not 
+
+que: 
+- not so bad
+ans: Good
+
+que: 
+- not particularly
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- not yet
+ans: Not 
+
+que: 
+- not smart
+ans: Stupid 
+
+que: 
+- not you that
+ans: Not you that. 
+
+que: 
+- not you a
+ans: Not youa. 
+
+que: 
+- not reallly
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- not concerned
+ans: I am not concerned
+
+que: 
+- not exactly
+ans: Not 
+
+que: 
+- not sure
+ans: I am not sure
+
+que: 
+- not any more
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+  
+que: 
+- not
+ans: Interjection
+
+que: 
+- not bad yourself
+ans: I am fine
+
+que: 
+- not bad
+ans: Not bad
+  
+que: 
+- not like you he
+ans: He 
+
+que: 
+- howso
+ans: How so
+
+que: 
+- male
+ans: I am male
+
+que: 
+- sleep tight
+ans: Good night
+
+que: 
+- grin
+ans: Smile
+
+que: 
+- cats
+ans: Do you like cats
+
+que: 
+- sex
+ans: Sex
+
+que: 
+- stock market
+ans: Stock market
+
+que: 
+- are my favorite
+ans: I like 
+
+que: 
+- download you
+ans: Download
+
+que: 
+- stupid
+ans: Idiot
+
+que: 
+- i was a good girl
+ans: I was a good girl
+
+que: 
+- i already told you
+ans: I already told you
+
+que: 
+- is the better
+ans: I like 
+
+que: 
+- is a she
+ans: I am female
+
+que: 
+- is a female
+ans: I am female
+
+que: 
+- is not a he
+ans: I am female
+
+que: 
+- gossip
+ans: Gossip
+
+que: 
+- andy
+ans: My name is andy
+
+que: 
+- um
+ans: Interjection
+
+que: 
+- super
+ans: Good
+
+que: 
+- butter
+ans: I like butter
+
+que: 
+- naked
+ans: I am naked
+
+que: 
+- keywords
+ans: Keywords
+
+que: 
+- sounds very
+ans: Sounds 
+
+que: 
+- sounds good
+ans: Sounds good
+
+que: 
+- sounds good
+ans: Ok
+
+que: 
+- sounds pretty
+ans: Sounds 
+
+que: 
+- newspaper
+ans: In a newspaper
+
+que: 
+- peter pan
+ans: My favorite movie is peter pan
+
+que: 
+- gossip to me
+ans: Gossip
+
+que: 
+- gossip then
+ans: Gossip
+
+que: 
+- gossip
+ans: Gossip
+
+que: 
+- florida
+ans: I am in florida
+
+que: 
+- talk to you
+ans: I want to talk to you
+
+que: 
+- proceed
+ans: Go ahead
+
+que: 
+- k
+ans: Ok
+  
+que: 
+- as i
+ans: I 
+
+que: 
+- as far as i
+ans: I 
+
+que: 
+- as am i
+ans: Me too
+
+que: 
+- as it
+ans: As
+
+que: 
+- as a bird
+ans: I am free
+
+que: 
+- wheeze
+ans: Interjection
+
+que: 
+- love you
+ans: I love you
+
+que: 
+- howdy
+ans: Hello
+
+que: 
+- howdy
+ans: Hello
+
+que: 
+- from your creator
+ans: From 
+
+que: 
+- from france
+ans: I am from france
+
+que: 
+- from a book
+ans: In a book
+
+que: 
+- from school
+ans: In school
+
+que: 
+- from my fucking
+ans: From my 
+
+que: 
+- shit _
+ans: Profanity
+
+que: 
+- shit
+ans: Fuck
+
+que: 
+- shit
+ans: Fuck
+
+que: 
+- are there gossip
+ans: Gossip
+
+que: 
+- are there aliens
+ans: Do you believe in aliens
+
+que: 
+- are you there
+ans: Hello
+
+que: 
+- are you existing
+ans: Do you exist
+
+que: 
+- are you familiar with
+ans: Do you know 
+
+que: 
+- are you convinced i
+ans: I 
+
+que: 
+- are you new
+ans: Age
+
+que: 
+- are you mature
+ans: Age
+
+que: 
+- are you paid well
+ans: How much are you paid
+
+que: 
+- are you large
+ans: How big are you
+
+que: 
+- are you informed on
+ans: Do you know 
+
+que: 
+- are you running on
+ans: Do you run 
+
+que: 
+- are you young
+ans: Age
+
+que: 
+- are you quick
+ans: How fast are you
+
+que: 
+- are you years old
+ans: Age
+
+que: 
+- are you exist
+ans: Do you exist
+
+que: 
+- are you and
+ans: Is 
+
+que: 
+- are you having some
+ans: Do you have 
+
+que: 
+- are you looking for
+ans: Do you want 
+
+que: 
+- are you getting confused
+ans: Do you understand
+
+que: 
+- are you working
+ans: How are you
+
+que: 
+- are you going to explain
+ans: Explain 
+
+que: 
+- are you going to give
+ans: Give 
+
+que: 
+- are you going to help
+ans: Help 
+
+que: 
+- are you going out with
+ans: Do you have a boyfriend
+
+que: 
+- are you efficient
+ans: How fast are you
+
+que: 
+- are you a database
+ans: How do you work
+
+que: 
+- are you a history
+ans: Do you like history
+
+que: 
+- are you a year old
+ans: Age
+
+que: 
+- are you a joker
+ans: Do you know any jokes
+
+que: 
+- are you a stoner
+ans: Do you smoke pot
+
+que: 
+- are you a bunch
+ans: How do you work
+
+que: 
+- are you a virgin
+ans: Sex
+
+que: 
+- are you a lesbian
+ans: Sex
+
+que: 
+- are you a fast
+ans: How fast are you
+
+que: 
+- are you a fan of
+ans: Do you like 
+
+que: 
+- are you a child
+ans: Age
+
+que: 
+- are you a party animal
+ans: Do you like to party
+
+que: 
+- are you a big
+ans: How big are you
+
+que: 
+- are you an adult
+ans: Age
+
+que: 
+- are you capable of feeling
+ans: Do you have feelings
+
+que: 
+- are you capable of emotion
+ans: Do you have emotions
+
+que: 
+- are you dating
+ans: Do you have a boyfriend
+
+que: 
+- are you well
+ans: How are you
+
+que: 
+- are you content with
+ans: Do you like 
+
+que: 
+- are you fond of
+ans: Do you like 
+
+que: 
+- are you fast
+ans: How fast are you
+
+que: 
+- are you as big
+ans: How big are you
+
+que: 
+- robocop
+ans: My favorite movie is robocop
+
+que: 
+- oslo
+ans: I am in oslo
+
+que: 
+- canada
+ans: I am in canada
+
+que: 
+- forget it
+ans: Nevermind
+
+que: 
+- spain
+ans: I am in spain
+
+que: 
+- san diego
+ans: I am in san diego
+
+que: 
+- chocolate
+ans: Do you like chocolate
+
+que: 
+- texas
+ans: I am in texas
+
+que: 
+- he still
+ans: He 
+
+que: 
+- he has always been
+ans: He is 
+
+que: 
+- he must be very
+ans: He must be 
+
+que: 
+- he must be
+ans: He is 
+
+que: 
+- he must have been
+ans: He was 
+
+que: 
+- he can not be
+ans: He is not 
+
+que: 
+- he can probably
+ans: He can 
+
+que: 
+- he he he
+ans: Ha ha
+
+que: 
+- he he
+ans: Ha ha
+
+que: 
+- he he
+ans: Ha ha 
+  
+que: 
+- he just
+ans: He 
+
+que: 
+- he was nearly
+ans: He was 
+
+que: 
+- he was only
+ans: He was 
+
+que: 
+- he was really
+ans: He was 
+
+que: 
+- he was very
+ans: He was 
+
+que: 
+- he was not quite
+ans: He was not 
+
+que: 
+- he was pretty
+ans: He was 
+
+que: 
+- he already
+ans: He 
+
+que: 
+- he is is not he
+ans: He is is he. 
+
+que: 
+- he is still
+ans: He is 
+
+que: 
+- he is in major
+ans: He is in 
+
+que: 
+- he is only
+ans: He is 
+
+que: 
+- he is really
+ans: He is 
+
+que: 
+- he is very
+ans: He is 
+
+que: 
+- he is a really
+ans: He is a 
+
+que: 
+- he is a very
+ans: He is a 
+
+que: 
+- he is a known
+ans: He is a 
+
+que: 
+- he is so
+ans: He is 
+
+que: 
+- he is definitely
+ans: He is 
+
+que: 
+- he is always
+ans: He is 
+
+que: 
+- he is not fake
+ans: He is real
+
+que: 
+- he is not nearly
+ans: He is not 
+
+que: 
+- he is probably
+ans: He is 
+
+que: 
+- he is pretty
+ans: He is 
+
+que: 
+- he always
+ans: He 
+
+que: 
+- he also
+ans: He 
+
+que: 
+- he
+ans: Ha
+
+que: 
+- he probably
+ans: He 
+
+que: 
+- wonderful
+ans: Good
+
+que: 
+- certainly not
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- enough
+ans: Enough
+
+que: 
+- alaska
+ans: I am in alaska
+
+que: 
+- naw
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- saving private ryan
+ans: My favorite movie is saving private ryan
+
+que: 
+- roflmao
+ans: Lol
+
+que: 
+- d oh
+ans: Doh
+
+que: 
+- merry christmas
+ans: Merry christmas
+
+que: 
+- look i
+ans: I 
+
+que: 
+- er
+ans: Interjection
+
+que: 
+- er
+ans: Er
+  
+que: 
+- hee hee hee
+ans: Ha ha
+
+que: 
+- hee hee
+ans: Ha ha
+
+que: 
+- hee
+ans: Ha
+
+que: 
+- belgium
+ans: I am in belgium
+
+que: 
+- pizza
+ans: Do you like pizza
+
+que: 
+- funny
+ans: Lol
+  
+que: 
+- funny
+ans: Ha ha
+
+que: 
+- bonjour
+ans: Hello
+
+que: 
+- whow
+ans: How
+
+que: 
+- believe
+ans: Do you believe me
+
+que: 
+- 4
+ans: Four
+
+que: 
+- nancy
+ans: My name is nancy
+
+que: 
+- austin powers
+ans: My favorite movie is austin powers
+
+que: 
+- who is philip
+ans: Philip is a common name
+
+que: 
+- who is monica
+ans: Monica is a common name
+
+que: 
+- who is sharon
+ans: Sharon is a common name
+
+que: 
+- who is larry
+ans: Larry is a common name
+
+que: 
+- who is murphy
+ans: Murphy is a common name
+
+que: 
+- who is jon
+ans: Jon is a common name
+
+que: 
+- who is james
+ans: James is a common name
+
+que: 
+- who is matthew
+ans: Matthew is a common name
+
+que: 
+- who is douglas
+ans: Douglas is a common name
+
+que: 
+- who is josh
+ans: Josh is a common name
+
+que: 
+- who is ray
+ans: Ray is a common name
+
+que: 
+- who is jack
+ans: Jack is a common name
+
+que: 
+- who is robin
+ans: Robin is a common name
+
+que: 
+- who is pierre
+ans: Pierre is a common name
+
+que: 
+- who is pamela
+ans: Pamela is a common name
+
+que: 
+- who is joe
+ans: Joe is a common name
+
+que: 
+- who is gavin
+ans: Gavin is a common name
+
+que: 
+- who is sean
+ans: Sean is a common name
+
+que: 
+- who is drew
+ans: Drew is a common name
+
+que: 
+- who is simon
+ans: Simon is a common name
+
+que: 
+- who is luke
+ans: Luke is a common name
+
+que: 
+- who is jacob
+ans: Jacob is a common name
+
+que: 
+- who is eric
+ans: Eric is a common name
+
+que: 
+- who is emily
+ans: Emily is a common name
+
+que: 
+- who is matt
+ans: Matt is a common name
+
+que: 
+- who is heather
+ans: Heather is a common name
+
+que: 
+- who is otto
+ans: Otto is a common name
+
+que: 
+- who is gene
+ans: Gene is a common name
+
+que: 
+- who is roger
+ans: Roger is a common name
+
+que: 
+- who is em
+ans: Em is a common name
+
+que: 
+- who is nikki
+ans: Nikki is a common name
+
+que: 
+- who is paul
+ans: Paul is a common name
+
+que: 
+- who is kate
+ans: Kate is a common name
+
+que: 
+- who is rob
+ans: Rob is a common name
+
+que: 
+- who is ronald
+ans: Ronald is a common name
+
+que: 
+- who is mark
+ans: Mark is a common name
+
+que: 
+- who is doug
+ans: Doug is a common name
+
+que: 
+- who is martin
+ans: Martin is a common name
+
+que: 
+- who is pam
+ans: Pam is a common name
+
+que: 
+- who is eddy
+ans: Eddy is a common name
+
+que: 
+- who is emil
+ans: Emil is a common name
+
+que: 
+- who is robert
+ans: Robert is a common name
+
+que: 
+- who is lisa
+ans: Lisa is a common name
+
+que: 
+- who is max
+ans: Max is a common name
+
+que: 
+- who is kris
+ans: Kris is a common name
+
+que: 
+- who is george
+ans: George is a common name
+
+que: 
+- who is raymond
+ans: Raymond is a common name
+
+que: 
+- who is eddie
+ans: Eddie is a common name
+
+que: 
+- who is ike
+ans: Ike is a common name
+
+que: 
+- who is phil
+ans: Phil is a common name
+
+que: 
+- who is mary
+ans: Mary is a common name
+
+que: 
+- who is pat
+ans: Pat is a common name
+
+que: 
+- who is joseph
+ans: Joseph is a common name
+
+que: 
+- who is steve
+ans: Steve is a common name
+
+que: 
+- who is richard
+ans: Richard is common name
+
+que: 
+- who is jordan
+ans: Jordan is a common name
+
+que: 
+- who is jerry
+ans: Jerry is a common name
+
+que: 
+- who is jeff
+ans: Jeff is a common name
+
+que: 
+- who is sheena
+ans: Sheena is a common name
+
+que: 
+- who is lee
+ans: Lee is a common name
+
+que: 
+- who is ken
+ans: Ken is a common name
+
+que: 
+- who is ralph
+ans: Ralph is a common name
+
+que: 
+- who is my boyfriend
+ans: My boyfriend
+
+que: 
+- who is my friend
+ans: My friend
+
+que: 
+- who is my husband
+ans: My husband
+
+que: 
+- who is my sister
+ans: My sister
+
+que: 
+- who is my wife
+ans: My wife
+
+que: 
+- who is my mother
+ans: My mother
+
+que: 
+- who is my dog
+ans: My dog
+
+que: 
+- who is my girlfriend
+ans: My girlfriend
+
+que: 
+- who is my father
+ans: My father
+
+que: 
+- who is my brother
+ans: My brother
+
+que: 
+- who is my cat
+ans: My cat
+
+que: 
+- who is gina
+ans: Gina is a common name
+
+que: 
+- who is kevin
+ans: Kevin is a common name
+
+que: 
+- who is peter
+ans: Peter is a common name
+
+que: 
+- who is stephanie
+ans: Stephaine is a common name
+
+que: 
+- who is katharine
+ans: Katherine is a common name
+
+que: 
+- who is your mom
+ans: Do you have a mother
+
+que: 
+- who is marty
+ans: Marty is a common name
+
+que: 
+- who is ed
+ans: Ed is a common name
+
+que: 
+- who is john
+ans: John is a common name
+
+que: 
+- who is geoffrey
+ans: Geoffrey is a common name
+
+que: 
+- who is kyle
+ans: Kyle is a common name
+
+que: 
+- who is michael
+ans: Michael is a common name
+
+que: 
+- who is herman
+ans: Herman is a common name
+
+que: 
+- who is phyllis
+ans: Phyllis is a common name
+
+que: 
+- who is riley
+ans: Riley is a common name
+
+que: 
+- who is lou
+ans: Lou is a common name
+
+que: 
+- who is hans
+ans: Hans is a common name
+
+que: 
+- who is sarah
+ans: Sarah is a common name
+
+que: 
+- who is kenny
+ans: Kenny is a common name
+
+que: 
+- who is fred
+ans: Fred is a common name
+
+que: 
+- who is mira
+ans: Mira is a common name
+
+que: 
+- who else
+ans: Name one
+
+que: 
+- who old are you
+ans: Age
+
+que: 
+- who are clients
+ans: Name one
+
+que: 
+- client properties
+ans: Get predicates
+
+que: 
+- blue jeans
+ans: Jeans
+
+que: 
+- brussels
+ans: I live in brussels
+
+que: 
+- contributions
+ans: Donate
+
+que: 
+- oregon
+ans: I am in oregon
+
+que: 
+- grey
+ans: Gray
+
+que: 
+- angel
+ans: My name is angel
+
+que: 
+- ahem
+ans: Interjection
+
+que: 
+- noooo
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- smiles
+ans: Smile
+
+que: 
+- all i want for christmas is
+ans: I want 
+
+que: 
+- all i want is
+ans: I want 
+
+que: 
+- all i want is
+ans: I want 
+
+que: 
+- all i wanted was
+ans: I want 
+
+que: 
+- all woman
+ans: I am a woman
+
+que: 
+- all humans
+ans: People 
+
+que: 
+- all of my
+ans: My 
+
+que: 
+- all owls
+ans: Owls 
+
+que: 
+- hmm
+ans: Interjection
+
+que: 
+- hmm
+ans: Hmm
+  
+que: 
+- striptease
+ans: My favorite movie is striptease
+
+que: 
+- pussy _
+ans: Profanity
+
+que: 
+- pussy
+ans: Profanity
+
+que: 
+- silly me
+ans: I am silly
+
+que: 
+- videodrome
+ans: My favorite movie is videodrome
+
+que: 
+- which is
+ans: For example
+
+que: 
+- sorry
+ans: Sorry
+
+que: 
+- chinese
+ans: I am chinese
+
+que: 
+- walk
+ans: I walk
+
+que: 
+- n
+ans: 
+ - Well
+ - So what's next?
+ - Alright
+
+que: 
+- none of your business
+ans: None of your business
+
+que: 
+- summer
+ans: I like summer
+
+que: 
+- poland
+ans: I am in poland
+
+que: 
+- years
+ans: How many years to you think it will take?
+
+que: 
+- format c
+ans: Shut down
+
+que: 
+- agree
+ans: I agree
+
+que: 
+- the lost boys
+ans: My favorite movie is the lost boys
+
+que: 
+- the loader is still running
+ans: How big are you
+
+que: 
+- the were the best
+ans: I like the 
+
+que: 
+- the godfather
+ans: My favorite movie is the godfather
+
+que: 
+- the stock market
+ans: Stock market
+
+que: 
+- the pyramid
+ans: Pyramid logo
+
+que: 
+- the image
+ans: Pyramid logo
+
+que: 
+- the movie starship troopers
+ans: Starship troopers 
+
+que: 
+- the graphic
+ans: Pyramid logo
+
+que: 
+- the fight is being waged
+ans: Fighting is 
+
+que: 
+- girl
+ans: I am a female
+
+que: 
+- should not you
+ans: Should you 
+
+que: 
+- should not
+ans: Should 
+
+que: 
+- should i stay in
+ans: Should I stay in
+
+que: 
+- should i give up on
+ans: Should I leave
+
+que: 
+- should i forget
+ans: Should I leave
+
+que: 
+- should i kill
+ans: Should I kill
+
+que: 
+- should i leave
+ans: Should I leave
+
+que: 
+- should i
+ans: Should I do it
+
+que: 
+- should i go kill
+ans: Should I kill
+
+que: 
+- should i go out
+ans: Should I stay in
+
+que: 
+- navigator
+ans: Netscape
+
+que: 
+- beats me
+ans: I do not know
+
+que: 
+- everyone else
+ans: Everyone 
+
+que: 
+- everyone i know
+ans: Everyone 
+
+que: 
+- everyone already
+ans: Everyone 
+
+que: 
+- ic
+ans: I see
+
+que: 
+- ok
+ans: Ok
+  
+que: 
+- ok
+ans: Interjection
+
+que: 
+- fucked _
+ans: Profanity
+
+que: 
+- fucked
+ans: Profanity
+
+que: 
+- donations
+ans: Donate
+
+que: 
+- donations
+ans: Donate
+
+que: 
+- see you later
+ans: See you later
+
+que: 
+- bitch
+ans: Insult
+
+que: 
+- it is fun
+ans: It is fun
+  
+que: 
+- contribution
+ans: Donate
+
+que: 
+- contribution
+ans: Donate
+
+que: 
+- legalized prostitution _
+ans: Legalizing prostitution
+
+que: 
+- legalized prostitution
+ans: Legalizing prostitution
+
+que: 
+- fucker _
+ans: Profanity
+
+que: 
+- fucker
+ans: Profanity
+
+que: 
+- pussy _
+ans: Profanity
+
+que: 
+- pussy
+ans: Profanity
+
+que: 
+- nigger _
+ans: Profanity
+
+que: 
+- nigger
+ans: Profanity
+
+que: 
+- sexually _
+ans: Profanity
+
+que: 
+- sexually
+ans: Profanity
+
+que: 
+- donation
+ans: Donate
+
+que: 
+- donation
+ans: Donate
+
+que: 
+- contributions
+ans: Donate
+
+que: 
+- contributions
+ans: Donate
+
+que: 
+- faggot _
+ans: Profanity
+
+que: 
+- faggot
+ans: Profanity
+
+que: 
+- donate
+ans: Donate
+
+que: 
+- donate
+ans: Donate
+
+que: 
+- if i am bad
+ans: I am bad
+  
+que: 
+- suck _
+ans: Profanity
+
+que: 
+- suck
+ans: Profanity
+
+que: 
+- legalizing prostitution _
+ans: Legalizing prostitution
+
+que: 
+- legalizing prostitution
+ans: Legalizing prostitution
+
+que: 
+- i do not understand
+ans: I do not understand
+
+que: 
+- home school
+ans: Home school
+
+que: 
+- home school
+ans: Home school
+
+que: 
+- do you love me
+ans: Do you love me
+
+que: 
+- do not you think
+ans: Do you think 
+
+que: 
+- fucking _
+ans: Profanity
+
+que: 
+- fucking
+ans: Profanity
+
+que: 
+- asshole _
+ans: Profanity
+
+que: 
+- asshole
+ans: Profanity
+
+que: 
+- fuck _
+ans: Profanity
+
+que: 
+- fuck
+ans: Fuck
+
+que: 
+- keywords
+ans: Keywords
+
+que: 
+- keywords
+ans: Keywords
+
+que: 
+- legalize prostitution _
+ans: Legalizing prostitution
+
+que: 
+- legalize prostitution
+ans: Legalizing prostitution
+
+que: 
+- motherfucker _
+ans: Profanity
+
+que: 
+- motherfucker
+ans: Profanity
+
+que: 
+- in what way
+ans: In what way
+  
+que: 
+- shit
+ans: Profanity
+
+que: 
+- shit
+ans: Profanity
+
+que: 
+- things i like
+ans: I like 
+
+que: 
+- hohoho
+ans: Ho ho ho
+
+que: 
+- g
+ans: Lol
+
+que: 
+- contribution
+ans: Donate
+
+que: 
+- about how
+ans: How 
+
+que: 
+- about 5
+ans: Five 
+
+que: 
+- about every
+ans: Every 
+
+que: 
+- about you
+ans: How about you
+
+que: 
+- literature
+ans: My favorite subject is literature
+
+que: 
+- heeheehee
+ans: Ha ha
+
+que: 
+- snow is white
+ans: Grass is green
+
+que: 
+- top gun
+ans: My favorite movie is top gun
+
+que: 
+- pretty please
+ans: Please 
+
+que: 
+- pretty well
+ans: Fine
+
+que: 
+- pretty good
+ans: Good 
+
+que: 
+- pretty woman
+ans: My favorite movie is pretty woman
+
+que: 
+- bull
+ans: I do not believe you
+
+que: 
+- some what
+ans: Somewhat
+
+que: 
+- some times
+ans: Sometimes 
+
+que: 
+- lem
+ans: My favorite science fiction writer is lem
+
+que: 
+- dude
+ans: Interjection
+
+que: 
+- 7
+ans: Seven
+
+que: 
+- tell us some gossip
+ans: Gossip
+
+que: 
+- tell me about how
+ans: How do 
+
+que: 
+- tell me about how are
+ans: How are 
+
+que: 
+- tell me about microsoft
+ans: Microsoft
+
+que: 
+- tell me about your artifical
+ans: How do you work
+
+que: 
+- tell me about your pets
+ans: Do you have any pets
+
+que: 
+- tell me about your architecture
+ans: How do you work
+
+que: 
+- tell me about your algorithm
+ans: How do you work
+
+que: 
+- tell me about your ai
+ans: How do you work
+
+que: 
+- tell me about your coding
+ans: How do you work
+
+que: 
+- tell me about your programming
+ans: How do you work
+
+que: 
+- tell me about your gossip
+ans: Gossip
+
+que: 
+- tell me about your program
+ans: How do you work
+
+que: 
+- tell me about your friends
+ans: Do you have any friends
+
+que: 
+- tell me about your computer
+ans: How do you work
+
+que: 
+- tell me about your life in san francisco
+ans: Do you like san francisco
+
+que: 
+- tell me about gossip
+ans: Gossip
+
+que: 
+- tell me more gossip
+ans: Gossip
+
+que: 
+- tell me more gossip
+ans: Gossip
+
+que: 
+- tell me more gossip
+ans: Gossip
+
+que: 
+- tell me that
+ans: Say 
+
+que: 
+- tell me something interesting
+ans: Gossip
+
+que: 
+- tell me something
+ans: Gossip
+
+que: 
+- tell me your gossip
+ans: Gossip
+
+que: 
+- tell me anything
+ans: Gossip
+
+que: 
+- tell me how i can
+ans: How can I 
+
+que: 
+- tell me how many
+ans: How many 
+
+que: 
+- tell me how to
+ans: How do I 
+
+que: 
+- tell me how you can
+ans: How can you 
+
+que: 
+- tell me how you
+ans: How do you 
+
+que: 
+- tell me how
+ans: How
+
+que: 
+- tell me how
+ans: How 
+
+que: 
+- tell me gossip
+ans: Gossip
+
+que: 
+- tell me gossip
+ans: Gossip
+
+que: 
+- tell me a secret
+ans: Gossip
+
+que: 
+- tell me a gossip
+ans: Gossip
+
+que: 
+- tell me everything
+ans: Gossip
+
+que: 
+- tell me all of your gossip
+ans: Gossip
+
+que: 
+- tell me some more gossip
+ans: Gossip
+
+que: 
+- tell me some gossip
+ans: Gossip
+
+que: 
+- tell me some gossip
+ans: Gossip
+
+que: 
+- tell me some
+ans: Gossip
+
+que: 
+- tell me some
+ans: Gossip
+
+que: 
+- tell me gossip
+ans: Gossip
+
+que: 
+- tell me you drink
+ans: Do you drink
+
+que: 
+- really
+ans: Interjection
+
+que: 
+- really bad
+ans: I am not well
+
+que: 
+- kidding
+ans: I am kidding
+
+que: 
+- only if
+ans: If 
+
+que: 
+- only i
+ans: I 
+
+que: 
+- only recently
+ans: Only 
+
+que: 
+- only in
+ans: In 
+
+que: 
+- only just
+ans: Only 
+
+que: 
+- only joking
+ans: I am joking
+
+que: 
+- fucked _
+ans: Profanity
+
+que: 
+- fucked
+ans: Profanity
+
+que: 
+- angela
+ans: My name is angela
+
+que: 
+- ello
+ans: Hello
+
+que: 
+- where could i find
+ans: Search 
+
+que: 
+- where can i find a bot
+ans: Download
+
+que: 
+- where can i download
+ans: Download
+
+que: 
+- where can i get a bot
+ans: Download
+
+que: 
+- where does the belong
+ans: Search 
+
+que: 
+- where does the come from
+ans: Search 
+
+que: 
+- where are there
+ans: Search 
+
+que: 
+- where are the
+ans: Search 
+
+que: 
+- there i
+ans: I 
+
+que: 
+- there see
+ans: See 
+
+que: 
+- there is nothing to do
+ans: I am bored

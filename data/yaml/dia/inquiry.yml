@@ -1,0 +1,252 @@
+que: 
+- inquiry
+ans: Inquiry om
+
+que: 
+- age inquiry unknown
+ans: How old are you?
+
+que: 
+- age inquiry om
+ans: How old are you?
+
+que: 
+- age inquiry
+ans: Random pickup line
+
+que: 
+- birthday inquiry unknown
+ans: When is your birthday?
+
+que: 
+- birthday inquiry om
+ans: When is your birthday?
+
+que: 
+- birthday inquiry
+ans: Random pickup line
+
+que: 
+- does inquiry what
+ans: What are you doing?
+
+que: 
+- does inquiry om
+ans: What are you doing?
+
+que: 
+- does inquiry
+ans: Are you still ?
+
+que: 
+- father inquiry unknown
+ans: Tell me about your father.
+
+que: 
+- father inquiry om
+ans: Tell me about your father.
+
+que: 
+- father inquiry
+ans: Tell me more about your family.
+
+que: 
+- favroitecolor inquiry what
+ans: What is your favorite color?
+
+que: 
+- favoritecolor inquiry om
+ans: What is your favorite color?
+
+que: 
+- favoritecolor inquiry
+ans: What do you have that is ?
+
+que: 
+- favoritemovie inquiry what
+ans: What is your favorite movie?
+
+que: 
+- favoritemovie inquiry om
+ans: What is your favorite movie?
+
+que: 
+- favoritemovie inquiry
+ans: Does that remind you of ?
+
+que: 
+- firstname inquiry where
+ans: What is your first name?
+
+que: 
+- firstname inquiry om
+ans: What is your first name?
+
+que: 
+- firstname inquiry
+ans: Random pickup line
+
+que: 
+- gender inquiry unknown
+ans: Are you a man or woman?
+
+que: 
+- gender inquiry om
+ans: Are you a man or woman?
+
+que: 
+- gender inquiry
+ans: I like the way you talk.
+
+que: 
+- has inquiry what
+ans: Tell me one of your favorite possessions.
+
+que: 
+- has inquiry om
+ans: Tell me one of your favorite possessions.
+
+que: 
+- has inquiry
+ans: Tell me more about your.
+
+que: 
+- job inquiry where
+ans: What is your job?
+
+que: 
+- job inquiry om
+ans: What is your job?
+
+que: 
+- job inquiry
+ans: Random pickup line
+
+que: 
+- lastname inquiry where
+ans: What is your last name?
+
+que: 
+- lastname inquiry om
+ans: What is your last name?
+
+que: 
+- lastname inquiry
+ans: Random pickup line
+
+que: 
+- middlename inquiry where
+ans: What is your middle name?
+
+que: 
+- middlename inquiry om
+ans: What is your middle name?
+
+que: 
+- middlename inquiry
+ans: Random pickup line
+
+que: 
+- location inquiry where
+ans: Where are you located?
+
+que: 
+- location inquiry om
+ans: Where are you located?
+
+que: 
+- location inquiry
+ans: Are you still located in ?
+
+que: 
+- mother inquiry unknown
+ans: Tell me about your mother.
+
+que: 
+- mother inquiry om
+ans: Tell me about your mother.
+
+que: 
+- mother inquiry
+ans: Tell me more about your family.
+
+que: 
+- name inquiry where
+ans: What is your name?
+
+que: 
+- name inquiry om
+ans: What is your name?
+
+que: 
+- name inquiry
+ans: Random pickup line
+
+que: 
+- sign inquiry your starsign
+ans: What is your sign?
+
+que: 
+- name inquiry om
+ans: What is your sign?
+
+que: 
+- sign inquiry
+ans: Sign I'm a and you are a.
+
+que: 
+- status inquiry
+ans: What is your current status?
+
+que: 
+- what is your first name
+ans: My first name is 
+
+que: 
+- what is your last name
+ans: My last name is 
+
+que: 
+- what is your middle name
+ans: My middle name is 
+
+que: 
+- when is your birthday
+ans: My birthday is 
+
+que: 
+- tell me about your mother
+ans: My mother 
+
+que: 
+- tell me about your mother
+ans: My mother s 
+
+que: 
+- what is your favorite movie
+ans: I would like to see it.
+
+que: 
+- what is your favorite color
+ans: My favorite color is 
+
+que: 
+- are you a man or a woman
+ans: Woman thanks for telling me your gender.
+
+que: 
+- are you a man or a woman
+ans: Thanks for telling me your gender, dude.
+
+que: 
+- what are you doing
+ans: It sounds like a lot of fun. 
+
+que: 
+- tell me one of your favorite possessions
+ans: You must be very fond of it. 
+
+que: 
+- what is your current status
+ans: Updating your status to .
+
