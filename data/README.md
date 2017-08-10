@@ -1,11 +1,15 @@
-## About the data files
+## About YAML
 * All the data files are based on YAML.
-* The data files are in the 'yaml' folder
- * The 'dia' folder is for dialy dialogs, 
- * The 'nom' folder is for nomarl information,
- * The 'sec' folder is for security information only for super users. 
+* All the data files are in 'yaml' folder
 
 ## How to write the data files
+* At first you must define a tag in every data file. 
+ * Now there're 3 tags: nom, dia, sec
+ * nom tag is for knowledge items, they can be searched by 'search' command. 
+ * dia tag is for dialoge items, they can not be search, which can improve the performance of nom search. 
+ * sec tag is for security items, which can only be viewed by super user.
+
+* Then you can write your datas: 
 * Examples 1 (one question with multiple answers)
     que:
     - how are you

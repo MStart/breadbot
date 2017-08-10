@@ -10,10 +10,14 @@ class whiteBoard():
 
     def __init__(self):
         self.maxWords = 140
-        curDir = os.path.dirname(__file__)
-        self.wbDir = os.path.join(curDir, 'wb.txt')
+        self.wbDir = self.get_wb_dir()
         self.nextSignal = r'....'
-        self.splitSignal = r'/// '
+        self.splitSignal = '\n\n'
+
+    def get_wb_dir(self):
+        curDir = os.path.dirname(__file__)
+        wbDir = os.path.join(curDir, 'wb.txt')
+        return wbDir
 
     def erase_wb(self):
         wb = open(self.wbDir,'w')
@@ -155,7 +159,7 @@ class chat:
             else:
                 res = core.misc.baiduSearch(content)
         elif re.match(u'^(n|next)$', inStr):
-            res = whiteBoard().read()
+            res = whiteBoard().read_wb()
         elif re.match(u'^search .*$', inStr):
             content = re.sub(u'^search ','',inStr)
             if not len(content):

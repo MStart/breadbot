@@ -1,4 +1,4 @@
-# Bread-AI V1.0.7
+# Bread-AI V1.0.8
 
 ## Overview
 * Bread-AI is a pure-Python chatbot with artificial intelligence, based on WeChat platform, to help people live better. 
@@ -18,7 +18,7 @@
 * Run console.py to talk with Bread-AI.
 
 ## Add data
-* See the RAEDME.md file in data folder. 
+* See the [RAEDME.md](data/README.md) file in data folder. 
 
 ## Add super user
 * Super user could get more server.

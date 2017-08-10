@@ -35,3 +35,8 @@
 - Fix lots of bugs
 - Makes the code more clean
 
+2017-08-10:
+- Version: 1.0.8
+- Make all the database to one
+- Make all the data files to one folder
+

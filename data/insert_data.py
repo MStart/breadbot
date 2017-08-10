@@ -66,7 +66,7 @@ class insertData():
             f.write(info +'\n')
         f.close()
 
-    def read_data_file(self, info):
+    def read_data(self, info):
         fileDir = info.split(' ')[0]
         oData = open(fileDir, 'r')
         readStr = oData.read()
@@ -88,17 +88,26 @@ class insertData():
 
     def insert_data(self):
         for info in self.changedFileList:
-            fileDir = info.split(' ')[0]
-            tag = fileDir.split('/')[-2]
-            data = self.read_data_file(info)
-            for od in data:
+            fileDir = info.split(' ')[0].replace(os.getcwd(), '')
+            oData = self.read_data(info)
+            nData = []
+            tag = ''
+            for od in oData:
                 nd = yaml.load(od)
-                print('\n[%s]\n%s' % (fileDir, od))
                 if not nd: continue
+                if 'tag' in nd.keys():
+                    tag = nd['tag']
+                else:
+                    nData.append(nd)
+            if not tag:
+                print('[Error] No tag in %s' % fileDir)
+                sys.exit(1)
+            for nd in nData:
+                print('\n[%s]\n%s' % (fileDir, nd))
                 for que in nd['que']:
                     ans = nd['ans']
                     if type(que) == bool or type(ans) == bool:
-                        print('\n[Error] Bool value\n[%s]\n%s' % (fileDir, od))
+                        print('\n[Error] Bool value\n[%s]\n%s' % (fileDir, nd))
                         self.save_data_file_info(self.curFileInfoList)
                         sys.exit(1)
                     else:
