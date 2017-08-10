@@ -11,28 +11,28 @@
 
 * Then you can write your datas: 
 * Examples 1 (one question with multiple answers)
-    que:
-    - how are you
-    ans:
-     - Fine, thank you.
-     - I am OK.
  * The answer will be selected randomly. 
+> que:
+> - how are you
+> ans:
+>  - Fine, thank you.
+>  - I am OK.
 
 * Example 2 (multiple questions with one answer)
-    que:
-    - how are you
-    - how do you do
-    ans:
-     - Fine, thank you.
+> que:
+> - how are you
+> - how do you do
+> ans:
+>  - Fine, thank you.
 
 * Example 3 (one block answer)
-    que:
-    - hello
-    ans: |
-      Hi, 
-      I'm fine, 
-      thanks
  * The multiple answer text will output as one block answer.
+> que:
+> - hello
+> ans: |
+>   Hi, 
+>   I'm fine, 
+>   thanks
 
 ## Attention
 * 'que' items must all be lower case and without any punctuations. 
