@@ -43,5 +43,5 @@ ans: |
 * add ' when your yaml data is start with [ and end with ].
 
 ## Insert data into database
-* Run insert_data.py to insert yaml files into databse. 
-* You can use show_data.py to check the database data. 
+* Run insert.py to insert yaml files into databse. 
+* You can use show.py to check the database data. 
