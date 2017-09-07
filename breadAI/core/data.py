@@ -5,14 +5,16 @@ import re
 import yaml
 import pydblite
 import re
+from . import misc
 
-class insertData():
+class insertData(object):
     
     def __init__(self):
-        dbDir = os.path.join(os.getcwd(), 'data.db')
+        data_dir = misc.get_cfg()['normal']['data_dir']
+        dbDir = os.path.join(data_dir, 'data.db')
         self.db = self.create_db(dbDir)
-        self.dataFolder = os.path.join(os.getcwd(), 'yaml')
-        self.fileInfoDir = os.path.join(os.getcwd(), 'file.ini')
+        self.dataFolder = os.path.join(data_dir, 'yaml')
+        self.fileInfoDir = os.path.join(data_dir, 'file.ini')
         self.curFileInfoList = self.get_cur_data_file_list()
         self.oldFileInfoList = self.get_old_data_file_list()
         self.changedFileList = self.get_changed_file_list(self.curFileInfoList, self.oldFileInfoList)
@@ -116,5 +118,29 @@ class insertData():
         self.db.commit()
         self.save_data_file_info(self.curFileInfoList)
 
-if __name__ == '__main__':
-    insertData()
+
+class showDB(object):
+
+    def __init__(self):
+        data_dir = misc.get_cfg()['normal']['data_dir']
+        dbDir = os.path.join(data_dir, 'data.db')
+        self.db = self.open_db(dbDir)
+        self.show_data()
+
+    def open_db(self, dbDir):
+        db = pydblite.Base(dbDir)
+        if db.exists():
+            db.open()
+        return db
+
+    def write_data(self):
+        f = open('data.log', 'w')
+        for data in self.db:
+            f.write(str(data))
+            f.write('\n')
+        f.close()
+
+    def show_data(self):
+        self.write_data()
+        os.system('cat data.log | less')
+        os.remove('data.log')

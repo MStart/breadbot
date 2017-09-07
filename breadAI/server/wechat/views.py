@@ -8,8 +8,7 @@ import time
 import hashlib
 import socket
 import os, sys
-sys.path.append('.')
-import core
+from breadAI import core
 
 class WeChat(View):
 
@@ -18,9 +17,7 @@ class WeChat(View):
         return super(WeChat, self).dispatch(*args, **kwargs)
         
     def is_super(self, name):
-        super_users = [ 
-            'ot-0qxExJbukKrvtPmLDXVJ5vkPM',
-            ]
+        super_users = core.misc.get_cfg()['super_users']
         for user in super_users:
             if user == name:
                 return True

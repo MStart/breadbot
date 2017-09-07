@@ -5,17 +5,15 @@ import urllib.parse
 import urllib.request
 import time
 import re
+from configobj import ConfigObj
 
 def baiduSearch(keyword):
     p = {'wd': keyword}
     return "http://www.baidu.com/s?"+urllib.parse.urlencode(p)
 
 def write_log(input_str):
-    curDir = os.path.dirname(__file__)
-    curDirList = curDir.split('/')
-    curDirList.pop()
-    upperDir = r'/'.join(curDirList)
-    logDir = os.path.join(upperDir, r'data/log')
+    data_dir = get_cfg()['normal']['data_dir']
+    logDir = os.path.join(data_dir, 'log')
     curTime = time.strftime('[%Y-%m-%d %H:%M:%S] ',time.localtime())
     text = curTime + input_str
     f = open(logDir,'a')
@@ -48,3 +46,6 @@ def translate(word):
     res = res.replace('\n','')
     res = res.replace('//','\r')
     return res
+
+def get_cfg():
+    return ConfigObj('/etc/bread.cfg')

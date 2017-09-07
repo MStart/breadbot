@@ -25,7 +25,9 @@ SECRET_KEY = '-qmj3-d)$%sz41wtot03va2u2izb@4bp_)nd$ohuy_!xjjwzqc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+from breadAI import core
 ALLOWED_HOSTS = [
+    core.misc.get_cfg()['normal']['server_ip'],
 ]
 
 

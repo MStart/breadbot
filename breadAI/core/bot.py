@@ -1,12 +1,12 @@
-# This is the core function of Bread
+# This is the bot function of Bread
 import os
 import sys
 import re
-import core
 import pydblite
 import random
+from . import misc
 
-class whiteBoard():
+class whiteBoard(object):
 
     def __init__(self):
         self.maxWords = 140
@@ -69,20 +69,12 @@ class whiteBoard():
             res = 'no more'
         return res.replace(self.splitSignal,'')
 
-class brain:
+class brain(object):
 
     def __init__(self):
-        dbDir = self.get_db_dir()
+        dataDir = misc.get_cfg()['normal']['data_dir']
+        dbDir = os.path.join(dataDir, 'data.db')
         self.db = self.open_db(dbDir)
-
-    def get_db_dir(self):
-        curDir = os.path.dirname(__file__)
-        curDirList = curDir.split('/')
-        curDirList.pop()
-        curDirList.append('data')
-        curDirList.append('data.db')
-        dbDir = '/'.join(curDirList)
-        return dbDir
 
     def open_db(self, dbDir):
         db = pydblite.Base(dbDir)
@@ -139,10 +131,10 @@ class brain:
                 res = random.choice(res)
             return res
 
-class chat:
+class chat(object):
 
     def __init__(self):
-        self.bot = core.bot.brain()
+        self.bot = brain()
         self.dontKnow = "I don't know."
 
     def response(self, inStr, isSuper=False):
@@ -151,13 +143,13 @@ class chat:
             if not len(content):
                 res = '[Not Found]'
             else:
-                res = core.misc.translate(content)
+                res = misc.translate(content)
         elif re.match(u'^d .*$', inStr):
             content = re.sub(u'^d ','',inStr)
             if not len(content):
                 res = '[Not Found]'
             else:
-                res = core.misc.baiduSearch(content)
+                res = misc.baiduSearch(content)
         elif re.match(u'^(n|next)$', inStr):
             res = whiteBoard().read_wb()
         elif re.match(u'^search .*$', inStr):

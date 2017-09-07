@@ -40,3 +40,9 @@
 - Make all the database to one
 - Make all the data files to one folder
 
+2017-09-06:
+- Version: 1.1.0
+- Make all the code to a module package
+- More easy to install and configure
+- Created one console to control all functions.
+

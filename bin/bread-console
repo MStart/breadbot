@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+import sys
+import os
+from breadAI import core
+from breadAI import server
+
+def show_help():
+    print(
+        '\n'
+        ' insert:   insert data\n'
+        ' show:     show all data\n'
+        ' start:    start server\n'
+        ' Ctr+C:    stop server\n'
+        ' help:     display this help\n'
+        ' q:        exit this console\n'
+        )
+
+while True:
+    cmd = input('>> ')
+    if cmd == 'q' or cmd == 'exit':
+        break
+    elif cmd == '':
+        continue
+    elif cmd == 'help':
+        show_help()
+    elif cmd == 'insert':
+        core.data.insertData()
+    elif cmd == 'show':
+        core.data.showDB()
+    elif cmd == 'start':
+        server.start()
+    else:
+        print(core.bot.chat().response(cmd, False))

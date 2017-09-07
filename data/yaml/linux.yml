@@ -1088,3 +1088,12 @@ que:
 - how to run command on background
 ans: nohup <command> &
 
+que:
+- how to show the dos break
+- how to display the dos bread
+ans: :e ++ff=unix %
+
+que:
+- how to create requirements.txt
+ans: pip freeze
+

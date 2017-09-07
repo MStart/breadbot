@@ -1,46 +1,21 @@
-# Bread-AI V1.0.8
+# breadAI V1.1.0
 
 ## Overview
-* Bread-AI is a pure-Python chatbot with artificial intelligence, based on WeChat platform, to help people live better. 
+* breadAI is a pure-Python3 chatbot with good extensibility, based on WeChat platform, to help people easily build their own robot. 
 
-![bread-ai](bread-ai.jpg)
+## Install
+* sudo python3 setup.py install
 
-## Folder explain
-* console.py: The console of Bread-AI for testing on the terminal.
-* core/: Contains the core code of Bread-AI
-* data/: Contains the data of Bread-AI
-* run.sh: The main running script
-* server/: The Django code work for WeChat platform
+## Uninstall
+* sudo python3 setup.py uninstall
 
-## Quick start
-* Make sure you have installed python3, django, pyaml and pydblite.
-* Run insert_data.py in data folder to create the database.
-* Run console.py to talk with Bread-AI.
+## Clean the folder
+* sudo python3 setup.py clean
 
-## Add data
-* See the [RAEDME.md](data/README.md) file in data folder. 
+## How to use
+* run command "bread-console"
+* then u can talk with bread, type "help" to know more
 
-## Add super user
-* Super user could get more server.
-* Edit server/wechat/views.py, add the wechat user id to super_users in _is_super() function.
-* Where to get your wechat user id? Just check the post message then you will find it.
-
-## Connect to WeChat platform
-* Edit server/server/settings.py, add your public ip address to ALLOWED_HOSTS, For example:
->ALLOWED_HOSTS = [
->    '11.75.120.83',
->]
-* Add your public ip address and port number to run.sh, and make sure your port is open to the public network, then execute run.sh to start the Django server.
-* Login https://mp.weixin.qq.com/, finish connecting to your server.
-
-## Extra functions
-* Enter "help" to see this functions' explaination.
-* Tip: your should install "sdcv" before you can use the dictionary function.
-
-## Debug
-* The dialogues will store in data/log.txt
-
-## To know more
+## Seek more
 * Author: Mark Young
-* WeChat Official Accounts: Bread-AI
 * Email: ideamark@qq.com
