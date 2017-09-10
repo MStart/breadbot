@@ -19,7 +19,8 @@ class WeChat(View):
     def is_super(self, name):
         super_users = core.misc.get_cfg()['super_users']
         for user in super_users:
-            if user == name:
+            user_name = core.misc.get_cfg()['super_users'][user]
+            if user_name == name:
                 return True
         return False
 
