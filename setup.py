@@ -44,6 +44,7 @@ elif sys.argv[1] == 'clean':
             continue
         elif f not in saveList:
             os.system('rm -rf '+f)
+    os.system('find -name "__pycache__"|xargs rm -rf')
     sys.exit(0)
 
 else:
