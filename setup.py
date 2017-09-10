@@ -13,10 +13,7 @@ elif sys.argv[1] == 'install':
         setup_requires=['pbr>=0.1'],
         pbr=True,)
     from breadAI import core
-    data_dir = core.misc.get_cfg()['normal']['data_dir']
-    db_dir = os.path.join(data_dir, 'data.db')
-    if not os.path.exists(db_dir):
-        core.data.insertData()
+    core.data.insertData()
 
 elif sys.argv[1] == 'uninstall':
     os.system('pip3 uninstall breadAI')
