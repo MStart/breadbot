@@ -137,7 +137,7 @@ class showDB(object):
         f = open('data.log', 'w')
         for data in self.db:
             f.write(str(data))
-            f.write('\n')
+            f.write('\n\n')
         f.close()
 
     def show_data(self):
