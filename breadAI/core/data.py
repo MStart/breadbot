@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 import os
-import sys
-import re
-import yaml
 import pydblite
 import re
+import sys
+import yaml
+
 from . import misc
 
+
 class insertData(object):
-    
+
     def __init__(self):
         data_dir = misc.get_cfg()['normal']['data_dir']
         dbDir = os.path.join(data_dir, 'data.db')
@@ -17,7 +18,8 @@ class insertData(object):
         self.fileInfoDir = os.path.join(data_dir, 'file.ini')
         self.curFileInfoList = self.get_cur_data_file_list()
         self.oldFileInfoList = self.get_old_data_file_list()
-        self.changedFileList = self.get_changed_file_list(self.curFileInfoList, self.oldFileInfoList)
+        self.changedFileList = self.get_changed_file_list(
+            self.curFileInfoList, self.oldFileInfoList)
         self.clean_old_data()
         self.insert_data()
         print('\n All Complete!')
@@ -47,7 +49,7 @@ class insertData(object):
             f = open(self.fileInfoDir, 'r')
             oldFileInfoList = f.readlines()
             for i in range(len(oldFileInfoList)):
-                oldFileInfoList[i] = oldFileInfoList[i].replace('\n','')
+                oldFileInfoList[i] = oldFileInfoList[i].replace('\n', '')
             f.close()
             return oldFileInfoList
         else:
@@ -58,14 +60,14 @@ class insertData(object):
     def get_changed_file_list(self, curFileInfoList, oldFileInfoList):
         changedFileList = []
         for info in curFileInfoList:
-            if not info in oldFileInfoList:
+            if info not in oldFileInfoList:
                 changedFileList.append(info)
         return changedFileList
 
     def save_data_file_info(self, fileInfoList):
         f = open(self.fileInfoDir, 'w')
         for info in fileInfoList:
-            f.write(info +'\n')
+            f.write(info + '\n')
         f.close()
 
     def read_data(self, info):
@@ -96,7 +98,8 @@ class insertData(object):
             tag = ''
             for od in oData:
                 nd = yaml.load(od)
-                if not nd: continue
+                if not nd:
+                    continue
                 if 'tag' in nd.keys():
                     tag = nd['tag']
                 else:
@@ -113,7 +116,10 @@ class insertData(object):
                         self.save_data_file_info(self.curFileInfoList)
                         sys.exit(1)
                     else:
-                        self.db.insert(file=fileDir, tag=tag, question=que, answer=ans)
+                        self.db.insert(file=fileDir,
+                                       tag=tag,
+                                       question=que,
+                                       answer=ans)
         self.db.create_index('file', 'tag', 'question')
         self.db.commit()
         self.save_data_file_info(self.curFileInfoList)

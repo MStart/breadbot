@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-from setuptools import setup
 import sys
 import os
+from setuptools import setup
+
 
 if len(sys.argv) <= 1:
     print('Please enter install or uninstall')
@@ -34,13 +35,14 @@ elif sys.argv[1] == 'clean':
         'requirements.txt',
         'setup.cfg',
         'setup.py',
+        'tox.ini',
     ]
     fileList = os.listdir('.')
     for f in fileList:
         if f[0] == '.':
             continue
         elif f not in saveList:
-            os.system('rm -rf '+f)
+            os.system('rm -rf %s' % f)
     os.system('find -name "__pycache__"|xargs rm -rf')
     sys.exit(0)
 

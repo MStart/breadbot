@@ -1,6 +1,6 @@
-from django.conf.urls import url, include
+from django.conf.urls import url
 from .views import WeChat
 
 urlpatterns = [
-  url(r'^$', WeChat.as_view()),
+    url(r'^$', WeChat.as_view()),
 ]

@@ -1,21 +1,20 @@
-from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic.base import View
 from django.template import loader, Context
-from xml.etree import ElementTree as ET
-import time
 import hashlib
-import socket
-import os, sys
+import time
+from xml.etree import ElementTree as ET
+
 from breadAI import core
+
 
 class WeChat(View):
 
     @csrf_exempt
     def dispatch(self, *args, **kwargs):
         return super(WeChat, self).dispatch(*args, **kwargs)
-        
+
     def is_super(self, name):
         super_users = core.misc.get_cfg()['super_users']
         for user in super_users:
@@ -30,7 +29,7 @@ class WeChat(View):
         timestamp = request.GET.get('timestamp', None)
         nonce = request.GET.get('nonce', None)
         echostr = request.GET.get('echostr', None)
-        list = [token,timestamp,nonce]
+        list = [token, timestamp, nonce]
         list.sort()
         hashcode = ''.join([s for s in list])
         hashcode = hashlib.sha1(hashcode.encode('ascii')).hexdigest()
@@ -48,8 +47,12 @@ class WeChat(View):
         else:
             result = core.bot.chat().response(content, False)
         template = loader.get_template('wechat/text_message_template.xml')
-        context = Context({'toUser': fromUser, 'fromUser': toUser, 'currentTime': currentTime, 'content': result})
+        context = Context({'toUser': fromUser,
+                           'fromUser': toUser,
+                           'currentTime': currentTime,
+                           'content': result})
         contextXml = template.render(context)
-        logStr = '\nUser:   ' + fromUser + '\nAsk:    ' + content + '\nAnswer: ' + result + '\n'
+        logStr = '\nUser:   ' + fromUser + '\nAsk:    ' \
+                 + content + '\nAnswer: ' + result + '\n'
         core.misc.write_log(logStr)
         return HttpResponse(contextXml)

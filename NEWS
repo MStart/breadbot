@@ -46,3 +46,6 @@
 - More easy to install and configure
 - Created one console to control all functions.
 
+2017-09-11:
+- Version: 1.1.1
+- Add tox with pep8 check

@@ -1,10 +1,12 @@
 # This is the bot function of Bread
 import os
-import sys
-import re
 import pydblite
 import random
+import re
+import sys
+
 from . import misc
+
 
 class whiteBoard(object):
 
@@ -20,20 +22,22 @@ class whiteBoard(object):
         return wbDir
 
     def erase_wb(self):
-        wb = open(self.wbDir,'w')
+        wb = open(self.wbDir, 'w')
         wb.close()
-    
-    def split_str(self,text):
+
+    def split_str(self, text):
         all_blocks = len(text) // self.maxWords
         if len(text) % self.maxWords != 0:
             all_blocks += 1
         current_block = 1
-        wb = open(self.wbDir,'w')
-        wb.writelines([str(all_blocks)+self.splitSignal, str(current_block)+self.splitSignal])
-        wb.writelines([text[i:i+self.maxWords]+self.splitSignal for i in range(0,len(text),self.maxWords)])
+        wb = open(self.wbDir, 'w')
+        wb.writelines([str(all_blocks) + self.splitSignal,
+                       str(current_block) + self.splitSignal])
+        wb.writelines([text[i:i + self.maxWords] + self.splitSignal
+                       for i in range(0, len(text), self.maxWords)])
         wb.close()
 
-    def check_large_str(self,text):
+    def check_large_str(self, text):
         if len(text) <= self.maxWords or self.nextSignal in text:
             return text
         elif 'http://' in text or 'https://' in text:
@@ -45,7 +49,7 @@ class whiteBoard(object):
             return self.read_wb()
 
     def read_wb(self):
-        rb = open(self.wbDir,'r')
+        rb = open(self.wbDir, 'r')
         list = rb.read().split(self.splitSignal)
         for i in range(len(list)):
             if list[i] == '' or list[i] == '\n':
@@ -54,20 +58,21 @@ class whiteBoard(object):
             list[i] += self.splitSignal
         rb.close()
         if len(list) > 2:
-            all_blocks = int(list[0].replace(self.splitSignal,''))
-            current_block = int(list[1].replace(self.splitSignal,''))
+            all_blocks = int(list[0].replace(self.splitSignal, ''))
+            current_block = int(list[1].replace(self.splitSignal, ''))
             if current_block < all_blocks:
-                res = list[current_block+1] + self.nextSignal
-                list[1] = str(current_block+1)+self.splitSignal
-                wb = open(self.wbDir,'w')
+                res = list[current_block + 1] + self.nextSignal
+                list[1] = str(current_block + 1) + self.splitSignal
+                wb = open(self.wbDir, 'w')
                 wb.writelines(list)
                 wb.close()
             elif current_block == all_blocks:
-                res = list[current_block+1]
+                res = list[current_block + 1]
                 self.erase_wb()
         else:
             res = 'no more'
-        return res.replace(self.splitSignal,'')
+        return res.replace(self.splitSignal, '')
+
 
 class brain(object):
 
@@ -95,8 +100,8 @@ class brain(object):
             else:
                 inStrList[i] = ' '
         inStr = ''.join(inStrList)
-        inStr = re.sub(r'\s{2,}',' ',inStr)
-        inStr = re.sub(r'(^ +| +$)','',inStr)
+        inStr = re.sub(r'\s{2,}', ' ', inStr)
+        inStr = re.sub(r'(^ +| +$)', '', inStr)
         return inStr
 
     def search_nom_que(self, inStr, isSuper=False):
@@ -113,7 +118,7 @@ class brain(object):
             if re.match(regexStr, que):
                 res += '- ' + que + '\n'
         res = res[:-1]
-        if not '\n' in res:
+        if '\n' not in res:
             return None
         else:
             return res
@@ -131,6 +136,7 @@ class brain(object):
                 res = random.choice(res)
             return res
 
+
 class chat(object):
 
     def __init__(self):
@@ -139,13 +145,13 @@ class chat(object):
 
     def response(self, inStr, isSuper=False):
         if re.match(u'^s .*$', inStr):
-            content = re.sub(u'^s ','',inStr)
+            content = re.sub(u'^s ', '', inStr)
             if not len(content):
                 res = '[Not Found]'
             else:
                 res = misc.translate(content)
         elif re.match(u'^d .*$', inStr):
-            content = re.sub(u'^d ','',inStr)
+            content = re.sub(u'^d ', '', inStr)
             if not len(content):
                 res = '[Not Found]'
             else:
@@ -153,7 +159,7 @@ class chat(object):
         elif re.match(u'^(n|next)$', inStr):
             res = whiteBoard().read_wb()
         elif re.match(u'^search .*$', inStr):
-            content = re.sub(u'^search ','',inStr)
+            content = re.sub(u'^search ', '', inStr)
             if not len(content):
                 res = '[Not Found]'
             else:
@@ -167,4 +173,3 @@ class chat(object):
             res = self.dontKnow
         res = whiteBoard().check_large_str(res)
         return res
-
