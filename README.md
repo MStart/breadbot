@@ -16,6 +16,9 @@
 * run command "bread-console"
 * then u can talk with bread, type "help" for more
 
+## About data
+* See [README.md](data/README.md) in data folder.
+
 ## Seek more
 * Author: Mark Young
 * Email: ideamark@qq.com

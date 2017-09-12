@@ -47,5 +47,6 @@ elif sys.argv[1] == 'clean':
     sys.exit(0)
 
 else:
-    print('Nothing happend')
-    sys.exit(1)
+    setup(
+        setup_requires=['pbr>=0.1'],
+        pbr=True,)

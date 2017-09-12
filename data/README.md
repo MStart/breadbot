@@ -5,13 +5,13 @@
 ## How to write data files
 * At first you must define a tag in every data file. 
  * Now there're 3 tags: nom, dia, sec
- * nom tag is for knowledge items, they can be searched by 'search' command. 
- * dia tag is for dialoge items, they can not be search, which can improve the performance of nom search. 
+ * nom tag is for knowledge items, they can be searched. 
+ * dia tag is for dialoge items, they can not be searched, but for talking.
  * sec tag is for security items, which can only be viewed by super user.
 
-* Then you can write your datas: 
+## Some examples
 * Examples 1 (one question with multiple answers)
- * The answer will be selected randomly. 
+ * The answer will be display randomly. 
 ```
 que:
 - how are you
@@ -38,10 +38,10 @@ ans: |
 
 ## Attention
 * 'que' items must all be lower case and without any punctuations. 
-* 'ans' items will display randomly, but display all at once if you use 'ans: |'. 
-* You should not write ':' in 'ans' items or it will be error when insert the data. 
+* You should not write ':' in 'ans' items or it will be an error when insert the data. 
 * add ' when your yaml data is start with [ and end with ].
 
 ## Insert data into database
-* Run insert.py to insert yaml files into databse. 
-* You can use show.py to check the database data. 
+* Launch the bread-console
+* Type "insert" to insert yaml files into databse. 
+* Type "show" to show all the data from database for checking.
