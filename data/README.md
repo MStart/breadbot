@@ -1,6 +1,6 @@
 ## About YAML
 * All the data files are based on YAML.
-* All the data files are in 'yaml' folder
+* All the data files are in "yaml" folder
 
 ## How to write data files
 * At first you must define a tag in every data file. 
@@ -37,9 +37,9 @@ ans: |
 ```
 
 ## Attention
-* 'que' items must all be lower case and without any punctuations. 
-* You should not write ':' in 'ans' items or it will be an error when insert the data. 
-* add ' when your yaml data is start with [ and end with ].
+* "que" items must all be lower case and without any punctuations. 
+* You should not write ":" in "ans" items or it will be an error when insert the data. 
+* add "'" when your yaml data is start with "[" and end with "]".
 
 ## Insert data into database
 * Launch the bread-console
