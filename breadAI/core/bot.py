@@ -104,7 +104,7 @@ class brain(object):
         inStr = re.sub(r'(^ +| +$)', '', inStr)
         return inStr
 
-    def search_nom_que(self, inStr, isSuper=False):
+    def search_que(self, inStr, isSuper=False):
         inStr = self.init_input(inStr)
         regexStr = '(^|.* )' + inStr + '( .*|$)'
         res = 'Do you mean: \n'
@@ -127,7 +127,7 @@ class brain(object):
         inStr = self.init_input(inStr)
         res = self.db(question=inStr)
         if not res:
-            return None
+            return self.search_que(inStr, isSuper)
         elif res[0]['tag'] == 'sec' and not isSuper:
             return None
         else:
@@ -158,12 +158,6 @@ class chat(object):
                 res = misc.baiduSearch(content)
         elif re.match(u'^(n|next)$', inStr):
             res = whiteBoard().read_wb()
-        elif re.match(u'^search .*$', inStr):
-            content = re.sub(u'^search ', '', inStr)
-            if not len(content):
-                res = '[Not Found]'
-            else:
-                res = self.bot.search_nom_que(content, isSuper)
         else:
             for s in inStr:
                 if re.match(u'[\u4e00-\u9fa5]', s):
