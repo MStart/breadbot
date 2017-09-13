@@ -137,30 +137,6 @@ que:
 ans: Where can I download you 
 
 que: 
-- where can i find
-ans: Xfind 
-
-que: 
-- where is
-ans: Xfind 
-
-que: 
-- where might i find
-ans: Xfind 
-
-que: 
-- where can
-ans: Xfind 
-
-que: 
-- where may i find
-ans: Xfind 
-
-que: 
-- where did
-ans: Xfind 
-
-que: 
 - where did you come up
 ans: How did you come up 
 
@@ -701,10 +677,6 @@ ans: Daniel is a common name
 que: 
 - who is geore
 ans: Who is george 
-
-que: 
-- who built the
-ans: Xfind 
 
 que: 
 - who is andy
@@ -2483,10 +2455,6 @@ que:
 ans: Nice to meet you
 
 que: 
-- search
-ans: Xfind 
-
-que: 
 - whu
 ans: Who 
 
@@ -3235,18 +3203,6 @@ que:
 ans: What is cyc
 
 que: 
-- do you know where to get
-ans: Xfind 
-
-que: 
-- do you know where i can get
-ans: Xfind 
-
-que: 
-- do you know where i can find
-ans: Xfind 
-
-que: 
 - do you match
 ans: How do you work 
 
@@ -3683,10 +3639,6 @@ que:
 ans: Where can I download you
 
 que: 
-- how can i find
-ans: Xfind 
-
-que: 
 - how dose
 ans: How does 
 
@@ -3752,7 +3704,7 @@ ans: How many conversations
 
 que: 
 - how many aliens
-ans: Xfind aliens
+ans: 12
 
 que: 
 - how many lines
@@ -4194,28 +4146,8 @@ que:
 ans: Can you 
 
 que: 
-- can you help with
-ans: Xfind 
-
-que: 
-- can you help me with with
-ans: Xfind 
-
-que: 
-- can you help me find
-ans: Xfind 
-
-que: 
 - can you express
 ans: Do you have emotions
-
-que: 
-- can you direct me to
-ans: Xfind 
-
-que: 
-- can you direct me to a
-ans: Xfind 
 
 que: 
 - can you have
@@ -4232,18 +4164,6 @@ ans: Where can I download you
 que: 
 - can you browse
 ans: Can you search 
-
-que: 
-- can you bring up
-ans: Xfind 
-
-que: 
-- can you bring me
-ans: Xfind 
-
-que: 
-- can you bring me to
-ans: Xfind 
 
 que: 
 - can you do problems
@@ -4278,26 +4198,6 @@ que:
 ans: What time is it of course I can do it. 
 
 que: 
-- can you get
-ans: Xfind 
-
-que: 
-- can you connect to
-ans: Xfind 
-
-que: 
-- can you connect me to
-ans: Xfind 
-
-que: 
-- can you connect me with
-ans: Xfind 
-
-que: 
-- can you connect us to
-ans: Xfind 
-
-que: 
 - can you ask
 ans: Ask me a question
 
@@ -4306,20 +4206,12 @@ que:
 ans: Do you remember 
 
 que: 
-- can you access
-ans: Xfind 
-
-que: 
 - can you think about
 ans: Let us talk about 
 
 que: 
 - can you run
 ans: What computer do you run on
-
-que: 
-- can you take me to
-ans: Xfind 
 
 que: 
 - can you display
@@ -4348,10 +4240,6 @@ ans: Can you speak english
 que: 
 - can you assist
 ans: Can you help 
-
-que: 
-- can you read
-ans: Xfind 
 
 que: 
 - can you problems
@@ -4388,14 +4276,6 @@ ans: Can you speak
 que: 
 - can you know
 ans: Do you know 
-
-que: 
-- can you find
-ans: Xfind 
-
-que: 
-- can you find the
-ans: Xfind the 
 
 que: 
 - can anybody
@@ -5058,10 +4938,6 @@ ans: My name is johnny
 que: 
 - i am simon
 ans: My name is simon 
-
-que: 
-- i am searching for
-ans: Xfind 
 
 que: 
 - i am calling you
@@ -6661,10 +6537,6 @@ que:
 ans: What is your 
 
 que: 
-- what is address of
-ans: Xfind 
-
-que: 
 - what is an artificial intelligence
 ans: What is artificial intelligence
 
@@ -6747,10 +6619,6 @@ ans: Who is steve
 que: 
 - what is yours
 ans: What is your 
-
-que: 
-- what is published on the internet about
-ans: Xfind 
 
 que: 
 - what is in a
@@ -6897,14 +6765,6 @@ que:
 ans: What is the opposite 
 
 que: 
-- what is the address of
-ans: Xfind 
-
-que: 
-- what is the
-ans: Xfind 
-
-que: 
 - what is the dixon
 ans: What is mason and dixon
 
@@ -6991,10 +6851,6 @@ ans: Is that a joke
 que: 
 - what is a gestation
 ans: What is your gestation cycle
-
-que: 
-- what is a
-ans: Xfind 
 
 que: 
 - what is a capital
@@ -7133,10 +6989,6 @@ ans: What is it
 que: 
 - what opera
 ans: What is your favorite opera
-
-que: 
-- what did
-ans: Xfind 
 
 que: 
 - what did write you in
@@ -7480,15 +7332,15 @@ ans: When I ask
 
 que: 
 - find information on
-ans: Xfind  have you tried searching the web? 
+ans: have you tried searching the web? 
 
 que: 
 - find information about
-ans: Xfind  have you tried a search bot? 
+ans: have you tried a search bot? 
 
 que: 
 - find me
-ans: Xfind  I'm not sure where to begin looking..
+ans: I'm not sure where to begin looking..
 
 que: 
 - guess my
@@ -7873,10 +7725,6 @@ ans: Can you learn
 que: 
 - could you speak
 ans: Can you speak 
-
-que: 
-- could you find
-ans: Xfind 
 
 que: 
 - could he
@@ -9155,10 +9003,6 @@ que:
 ans: You are almost 
 
 que: 
-- you find
-ans: Xfind 
-
-que: 
 - you lost turing game
 ans: Did you pass the turing test
 
@@ -10009,10 +9853,6 @@ que:
 ans: Define chatbot
 
 que: 
-- define
-ans: Xfind 
-
-que: 
 - define chat bot
 ans: Define chatbot
 
@@ -10069,10 +9909,6 @@ que:
 ans: Round
 
 que: 
-- what are
-ans: Xfind 
-
-que: 
 - what are you so
 ans: What are you 
 
@@ -10121,10 +9957,6 @@ que:
 ans: What
 
 que: 
-- what
-ans: Xfind 
-
-que: 
 - what time is it
 ans: Time
 
@@ -10143,10 +9975,6 @@ ans: Month
 que: 
 - what word rhymes with
 ans: What rhymes with 
-
-que: 
-- what were
-ans: Xfind 
 
 que: 
 - what computer are you running on
@@ -10191,10 +10019,6 @@ ans: What is the turing
 que: 
 - what is color
 ans: What color is 
-
-que: 
-- what is
-ans: Xfind 
 
 que: 
 - what is this month
@@ -10637,10 +10461,6 @@ ans: I will
 que: 
 - i am having
 ans: I have 
-
-que: 
-- i am interested in
-ans: Xfind 
 
 que: 
 - i am years old
@@ -11203,10 +11023,6 @@ ans: What is a
 que: 
 - explain exactly
 ans: Explain 
-
-que: 
-- explain
-ans: Xfind 
 
 que: 
 - call my
@@ -11843,14 +11659,6 @@ que:
 ans: Tell me about 
 
 que: 
-- who
-ans: Xfind 
-
-que: 
-- who were
-ans: Xfind 
-
-que: 
 - who is the leader of your people
 ans: Who is the president
 
@@ -11873,10 +11681,6 @@ ans: Your family
 que: 
 - who is your master
 ans: Botmaster
-
-que: 
-- who are
-ans: Xfind 
 
 que: 
 - say something funny
@@ -15832,22 +15636,6 @@ ans: My
 que: 
 - for me
 ans: For me
-
-que: 
-- xdmoz
-ans: Xfind 
-
-que: 
-- google
-ans: Xfind 
-
-que: 
-- access
-ans: Xfind 
-
-que: 
-- xgoogle
-ans: Xfind 
 
 que: 
 - to call

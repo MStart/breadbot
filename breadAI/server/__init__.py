@@ -1,6 +1,6 @@
 from . import manage
-import os
 import re
+import subprocess
 import sys
 
 from breadAI import core
@@ -16,4 +16,4 @@ def start():
     port = '80'
     exeList = ['python3', ma_path, 'runserver', ':'.join([ip, port])]
     exeStr = ' '.join(exeList)
-    os.system(exeStr)
+    subprocess.Popen(exeStr)

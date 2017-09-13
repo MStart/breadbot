@@ -2,6 +2,7 @@
 import os
 import pydblite
 import re
+import subprocess
 import sys
 import yaml
 
@@ -148,5 +149,5 @@ class showDB(object):
 
     def show_data(self):
         self.write_data()
-        os.system('cat data.log | less')
-        os.remove('data.log')
+        subprocess.Popen('cat data.log | less')
+        subprocess.Popen('rm -f data.log', shell=True)
