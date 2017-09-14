@@ -16,4 +16,4 @@ def start():
     port = '80'
     exeList = ['python3', ma_path, 'runserver', ':'.join([ip, port])]
     exeStr = ' '.join(exeList)
-    subprocess.Popen(exeStr)
+    subprocess.Popen(exeStr, shell=True)

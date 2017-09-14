@@ -6,7 +6,7 @@ que:
 - help
 - h
 ans: |
- - Search Baidu, "d <your_content>"
- - Search dictionary, "s <your_word>"
- - Show next message, send "n" or "next“
-
+ - d <content>....search baidu
+ - w <content>....search wikipedia
+ - s <content>....search dictionary
+ - n / next.......show next message

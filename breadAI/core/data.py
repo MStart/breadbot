@@ -149,5 +149,5 @@ class showDB(object):
 
     def show_data(self):
         self.write_data()
-        subprocess.Popen('cat data.log | less')
+        subprocess.Popen('cat data.log|less', shell=True)
         subprocess.Popen('rm -f data.log', shell=True)

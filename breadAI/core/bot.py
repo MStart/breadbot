@@ -156,6 +156,12 @@ class chat(object):
                 res = '[Not Found]'
             else:
                 res = misc.baiduSearch(content)
+        elif re.match(u'^w .*$', inStr):
+            content = re.sub(u'^w ', '', inStr)
+            if not len(content):
+                res = '[Not Found]'
+            else:
+                res = misc.wikiSearch(content)
         elif re.match(u'^(n|next)$', inStr):
             res = whiteBoard().read_wb()
         else:

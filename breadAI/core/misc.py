@@ -12,6 +12,11 @@ def baiduSearch(keyword):
     return "http://www.baidu.com/s?" + urllib.parse.urlencode(p)
 
 
+def wikiSearch(keyword):
+    keyword = keyword.replace(' ', '_')
+    return 'https://en.m.wikipedia.org/wiki/' + keyword
+
+
 def write_log(input_str):
     data_dir = get_cfg()['normal']['data_dir']
     logDir = os.path.join(data_dir, 'log')

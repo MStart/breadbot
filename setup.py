@@ -10,7 +10,7 @@ if len(sys.argv) <= 1:
     sys.exit(1)
 
 elif sys.argv[1] == 'install':
-    subprocess.Popen('pip3 install -r requirements.txt')
+    subprocess.Popen('pip3 install -r requirements.txt', shell=True)
     setup(
         setup_requires=['pbr>=0.1'],
         pbr=True,)
