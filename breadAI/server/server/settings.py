@@ -28,7 +28,7 @@ SECRET_KEY = '-qmj3-d)$%sz41wtot03va2u2izb@4bp_)nd$ohuy_!xjjwzqc'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    core.misc.get_cfg()['normal']['server_ip'],
+    core.misc.get_cfg('server_ip'),
 ]
 
 

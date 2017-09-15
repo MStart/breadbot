@@ -6,6 +6,7 @@ import re
 import sys
 
 from . import misc
+import breadAI
 
 
 class whiteBoard(object):
@@ -77,7 +78,7 @@ class whiteBoard(object):
 class brain(object):
 
     def __init__(self):
-        dataDir = misc.get_cfg()['normal']['data_dir']
+        dataDir = os.path.dirname(breadAI.data.__file__)
         dbDir = os.path.join(dataDir, 'data.db')
         self.db = self.open_db(dbDir)
 

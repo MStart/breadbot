@@ -7,15 +7,19 @@ import sys
 import yaml
 
 from . import misc
+import breadAI
 
 
 class insertData(object):
 
-    def __init__(self):
-        data_dir = misc.get_cfg()['normal']['data_dir']
+    def __init__(self, yamlPath=None):
+        data_dir = os.path.dirname(breadAI.data.__file__)
         dbDir = os.path.join(data_dir, 'data.db')
         self.db = self.create_db(dbDir)
-        self.dataFolder = os.path.join(data_dir, 'yaml')
+        if not yamlPath:
+            self.yamlFolder = misc.get_cfg('yaml_path')
+        else:
+            self.yamlFolder = yamlPath
         self.fileInfoDir = os.path.join(data_dir, 'file.ini')
         self.curFileInfoList = self.get_cur_data_file_list()
         self.oldFileInfoList = self.get_old_data_file_list()
@@ -35,7 +39,7 @@ class insertData(object):
 
     def get_cur_data_file_list(self):
         curFileInfoList = []
-        for root, dirs, files in os.walk(self.dataFolder):
+        for root, dirs, files in os.walk(self.yamlFolder):
             for file in files:
                 if not re.match(r'^.*\.yml$', file):
                     continue
@@ -129,7 +133,7 @@ class insertData(object):
 class showDB(object):
 
     def __init__(self):
-        data_dir = misc.get_cfg()['normal']['data_dir']
+        data_dir = os.path.dirname(breadAI.data.__file__)
         dbDir = os.path.join(data_dir, 'data.db')
         self.db = self.open_db(dbDir)
         self.show_data()
@@ -142,8 +146,8 @@ class showDB(object):
 
     def write_data(self):
         f = open('data.log', 'w')
-        for data in self.db:
-            f.write(str(data))
+        for item in self.db:
+            f.write(str(item))
             f.write('\n\n')
         f.close()
 

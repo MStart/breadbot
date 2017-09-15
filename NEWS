@@ -49,3 +49,8 @@
 2017-09-11:
 - Version: 1.1.1
 - Add tox with pep8 check
+
+2017-09-15:
+- Version: 1.1.2
+- Move yaml folder to local
+- Add write cfg function

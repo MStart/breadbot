@@ -6,6 +6,8 @@ import time
 import urllib.parse
 import urllib.request
 
+import breadAI
+
 
 def baiduSearch(keyword):
     p = {'wd': keyword}
@@ -18,7 +20,7 @@ def wikiSearch(keyword):
 
 
 def write_log(input_str):
-    data_dir = get_cfg()['normal']['data_dir']
+    data_dir = os.path.dirname(breadAI.data.__file__)
     logDir = os.path.join(data_dir, 'log')
     curTime = time.strftime('[%Y-%m-%d %H:%M:%S] ', time.localtime())
     text = curTime + input_str
@@ -57,5 +59,23 @@ def translate(word):
     return res
 
 
-def get_cfg():
-    return ConfigObj('/etc/bread.cfg')
+def get_cfg(value):
+    cfg = ConfigObj('/etc/bread.cfg')
+    if value == 'server_ip':
+        return cfg['normal']['server_ip']
+    elif value == 'yaml_path':
+        return cfg['normal']['yaml_path']
+    elif value == 'super_users':
+        userList = []
+        for user in cfg['super_users']:
+            userList.append(cfg['super_users'][user])
+        return userList
+
+
+def write_cfg(value, key):
+    cfg = ConfigObj('/etc/bread.cfg')
+    if value == 'server_ip':
+        cfg['normal']['server_ip'] = key
+    elif value == 'yaml_path':
+        cfg['normal']['yaml_path'] = key
+    cfg.write()
