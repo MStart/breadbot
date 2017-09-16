@@ -4,6 +4,10 @@ import os
 from breadAI import core
 from breadAI import server
 
+if os.geteuid():
+    args = [sys.executable] + sys.argv
+    os.execlp('sudo', 'sudo', *args)
+
 def show_help():
     print(
         '\n'
@@ -15,13 +19,8 @@ def show_help():
         ' q:        exit this console\n'
         )
 
-while True:
-    cmd = input('>> ')
-    if cmd == 'q' or cmd == 'exit':
-        break
-    elif cmd == '':
-        continue
-    elif cmd == 'help':
+def active(cmd):
+    if cmd == 'help':
         show_help()
     elif cmd == 'insert':
         core.data.insertData()
@@ -31,3 +30,17 @@ while True:
         server.start()
     else:
         print(core.bot.chat().response(cmd, False))
+
+if len(sys.argv) > 1:
+    cmd = sys.argv[1]
+    active(cmd)
+    sys.exit(0)
+
+while True:
+    cmd = input('>> ')
+    if cmd == 'q' or cmd == 'exit':
+        break
+    elif cmd == '':
+        continue
+    else:
+        active(cmd)

@@ -16,7 +16,7 @@ elif sys.argv[1] == 'install':
     from breadAI import core
     yaml_path = os.path.join(os.getcwd(), 'yaml')
     core.misc.write_cfg('yaml_path', yaml_path)
-    core.data.insertData(yaml_path)
+    os.system('bread-console insert')
 
 elif sys.argv[1] == 'uninstall':
     os.system('pip3 uninstall breadAI')
