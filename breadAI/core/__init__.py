@@ -1,3 +1,4 @@
 from . import bot
-from . import misc
 from . import data
+from . import memory
+from . import misc

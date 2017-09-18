@@ -5,74 +5,9 @@ import random
 import re
 import sys
 
+from . import memory
 from . import misc
 import breadAI
-
-
-class whiteBoard(object):
-
-    def __init__(self):
-        self.maxWords = 140
-        self.wbDir = self.get_wb_dir()
-        self.nextSignal = r'....'
-        self.splitSignal = '\n\n'
-
-    def get_wb_dir(self):
-        curDir = os.path.dirname(__file__)
-        wbDir = os.path.join(curDir, 'wb.txt')
-        return wbDir
-
-    def erase_wb(self):
-        wb = open(self.wbDir, 'w')
-        wb.close()
-
-    def split_str(self, text):
-        all_blocks = len(text) // self.maxWords
-        if len(text) % self.maxWords != 0:
-            all_blocks += 1
-        current_block = 1
-        wb = open(self.wbDir, 'w')
-        wb.writelines([str(all_blocks) + self.splitSignal,
-                       str(current_block) + self.splitSignal])
-        wb.writelines([text[i:i + self.maxWords] + self.splitSignal
-                       for i in range(0, len(text), self.maxWords)])
-        wb.close()
-
-    def check_large_str(self, text):
-        if len(text) <= self.maxWords or self.nextSignal in text:
-            return text
-        elif 'http://' in text or 'https://' in text:
-            return text
-        elif re.match(u'[\u4e00-\u9fa5]+', text):
-            return text
-        else:
-            self.split_str(text)
-            return self.read_wb()
-
-    def read_wb(self):
-        rb = open(self.wbDir, 'r')
-        list = rb.read().split(self.splitSignal)
-        for i in range(len(list)):
-            if list[i] == '' or list[i] == '\n':
-                del list[i]
-                continue
-            list[i] += self.splitSignal
-        rb.close()
-        if len(list) > 2:
-            all_blocks = int(list[0].replace(self.splitSignal, ''))
-            current_block = int(list[1].replace(self.splitSignal, ''))
-            if current_block < all_blocks:
-                res = list[current_block + 1] + self.nextSignal
-                list[1] = str(current_block + 1) + self.splitSignal
-                wb = open(self.wbDir, 'w')
-                wb.writelines(list)
-                wb.close()
-            elif current_block == all_blocks:
-                res = list[current_block + 1]
-                self.erase_wb()
-        else:
-            res = 'no more'
-        return res.replace(self.splitSignal, '')
 
 
 class brain(object):
@@ -164,7 +99,7 @@ class chat(object):
             else:
                 res = misc.wikiSearch(content)
         elif re.match(u'^(n|next)$', inStr):
-            res = whiteBoard().read_wb()
+            res = memory.longStr().read_mem()
         else:
             for s in inStr:
                 if re.match(u'[\u4e00-\u9fa5]', s):
@@ -172,5 +107,5 @@ class chat(object):
             res = self.bot.response(inStr, isSuper)
         if not res:
             res = self.dontKnow
-        res = whiteBoard().check_large_str(res)
+        res = memory.longStr().check_long_str(res)
         return res
