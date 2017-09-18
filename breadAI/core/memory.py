@@ -43,16 +43,14 @@ class longStr(object):
 
     def read_mem(self):
         textList = self.memLS['content'].split(self.splitSignal)
-        if len(textList) > 0:
-            curBlock = int(self.memLS['cur_block'])
-            blockCount = int(self.memLS['block_count'])
-            if curBlock < blockCount:
-                res = textList[curBlock + 1] + self.nextSignal
-                self.memLS['cur_block'] = str(curBlock + 1)
-                self.memLS['content'] = self.splitSignal.join(textList)
-                self.mem.write()
-            elif curBlock == blockCount:
-                res = textList[curBlock + 1]
+        curBlock = int(self.memLS['cur_block'])
+        blockCount = int(self.memLS['block_count'])
+        if curBlock <= blockCount:
+            res = textList[curBlock - 1] + self.nextSignal
+            self.memLS['cur_block'] = str(curBlock + 1)
+            self.mem.write()
+            if curBlock == blockCount:
+                res.replace(self.nextSignal, '')
         else:
             res = 'no more'
         return res.replace(self.splitSignal, '')
