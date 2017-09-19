@@ -1,3 +1,6 @@
+[dialogue]
+content = 
+
 [long_str]
 cur_block = 
 block_count = 

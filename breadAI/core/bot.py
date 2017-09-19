@@ -43,34 +43,51 @@ class brain(object):
     def search_que(self, inStr, isSuper=False):
         inStr = self.init_input(inStr)
         regexStr = '(^|.* )' + inStr + '( .*|$)'
-        res = 'Do you mean: \n'
-        for item in self.db:
-            tag = item['tag']
-            if tag == 'dia':
-                continue
-            elif tag == 'sec' and not isSuper:
-                continue
-            que = item['question']
-            if re.match(regexStr, que):
-                res += '- ' + que + '\n'
-        res = res[:-1]
-        if '\n' not in res:
-            return None
+        firstLine = 'Do you mean:'
+        diaList = memory.dialogueMem().get_dia()
+        newList = []
+        if firstLine in diaList[-1]:
+            queList = diaList[-1].split('\n')[1:]
+            for que in queList:
+                if re.match(regexStr, que):
+                    newList.append(que)
         else:
-            return res
+            for item in self.db:
+                tag = item['tag']
+                if tag == 'dia':
+                    continue
+                elif tag == 'sec' and not isSuper:
+                    continue
+                que = item['question']
+                if re.match(regexStr, que):
+                    newList.append('- ' + que)
+        if len(newList) < 1:
+            res = None
+        elif len(newList) == 1:
+            que = newList[0]
+            que = re.sub(r'^- ', '', que)
+            res = self.db(question=que)[0]['answer']
+            if type(res) == list:
+                res = random.choice(res)
+            res = que + '?\n' + res
+        else:
+            newList.insert(0, firstLine)
+            res = '\n'.join(newList)
+        return res
 
     def response(self, inStr, isSuper=False):
         inStr = self.init_input(inStr)
         res = self.db(question=inStr)
         if not res:
-            return self.search_que(inStr, isSuper)
+            res = self.search_que(inStr, isSuper)
         elif res[0]['tag'] == 'sec' and not isSuper:
-            return None
+            res = None
         else:
             res = res[0]['answer']
             if type(res) == list:
                 res = random.choice(res)
-            return res
+        memory.dialogueMem().insert_dia(res)
+        return res
 
 
 class chat(object):

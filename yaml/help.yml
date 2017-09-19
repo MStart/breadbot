@@ -6,7 +6,7 @@ que:
 - help
 - h
 ans: |
- - d <content>....search baidu
- - w <content>....search wikipedia
- - s <content>....search dictionary
- - n / next.......show next message
+ - d ....search baidu
+ - w ....search wikipedia
+ - s ....search dictionary
+ - n ....show next message
