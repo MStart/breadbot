@@ -50,7 +50,7 @@ class longStr(object):
             self.memLS['cur_block'] = str(curBlock + 1)
             self.mem.write()
             if curBlock == blockCount:
-                res.replace(self.nextSignal, '')
+                res = res.replace(self.nextSignal, '')
         else:
             res = 'no more'
         return res.replace(self.splitSignal, '')
