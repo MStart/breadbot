@@ -13,6 +13,7 @@ import breadAI
 class brain(object):
 
     def __init__(self):
+        self.dontKnow = "I don't know."
         dataDir = os.path.dirname(breadAI.data.__file__)
         dbDir = os.path.join(dataDir, 'data.db')
         self.db = self.open_db(dbDir)
@@ -77,16 +78,21 @@ class brain(object):
 
     def response(self, inStr, isSuper=False):
         inStr = self.init_input(inStr)
-        res = self.db(question=inStr)
+        res = self.db(question=inStr, tag='nom')
+        if not res and isSuper:
+            res = self.db(question=inStr, tag='sec')
         if not res:
             res = self.search_que(inStr, isSuper)
-        elif res[0]['tag'] == 'sec' and not isSuper:
-            res = None
+        if not res:
+            res = self.db(question=inStr, tag='dia')
+        if not res:
+            res = self.dontKnow
         else:
-            res = res[0]['answer']
-            if type(res) == list:
+            if type(res) is list:
                 res = random.choice(res)
-        memory.dialogueMem().insert_dia(res)
+            if type(res) is not str:
+                res = res['answer']
+            memory.dialogueMem().insert_dia(res)
         return res
 
 
@@ -94,7 +100,6 @@ class chat(object):
 
     def __init__(self):
         self.bot = brain()
-        self.dontKnow = "I don't know."
 
     def response(self, inStr, isSuper=False):
         if re.match(u'^s .*$', inStr):
@@ -122,7 +127,5 @@ class chat(object):
                 if re.match(u'[\u4e00-\u9fa5]', s):
                     return 'I speak English only'
             res = self.bot.response(inStr, isSuper)
-        if not res:
-            res = self.dontKnow
         res = memory.longStr().check_long_str(res)
         return res

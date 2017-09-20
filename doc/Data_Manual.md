@@ -39,7 +39,8 @@ ans: |
 ## Attention
 * "que" items must all be lower case and without any punctuations. 
 * You should not write ":" in "ans" items or it will be an error when insert the data. 
-* add "'" when your yaml data is start with "[" and end with "]".
+* Do not use boolean values. For example: single word "true", "false", "yes", "no"...
+* add "'" around your data when start with "[" and end with "]".
 
 ## Insert data into database
 * Launch the bread-console
