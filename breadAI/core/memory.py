@@ -77,7 +77,7 @@ class dialogueMem(object):
         if len(diaList) >= self.maxLen:
             diaList.pop(0)
         diaList.append(dia)
-        self.memDia['content'] = self.splitSignal.join(diaList)
+        self.memDia['content'] = str(self.splitSignal.join(diaList))
         self.mem.write()
 
     def get_dia(self):

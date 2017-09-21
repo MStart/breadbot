@@ -90,9 +90,15 @@ class brain(object):
         else:
             if type(res) is list:
                 res = random.choice(res)
-            if type(res) is not str:
+                if type(res) is dict:
+                    res = res['answer']
+                    if type(res) is list:
+                        res = random.choice(res)
+            if type(res) is dict:
                 res = res['answer']
-            memory.dialogueMem().insert_dia(res)
+                if type(res) is list:
+                    res = random.choice(res)
+        memory.dialogueMem().insert_dia(res)
         return res
 
 
