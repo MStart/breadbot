@@ -52,7 +52,7 @@ class brain(object):
             for que in queList:
                 if re.match(regexStr, que):
                     newList.append(que)
-        else:
+        if len(newList) < 1:
             for item in self.db:
                 tag = item['tag']
                 if tag == 'dia':
