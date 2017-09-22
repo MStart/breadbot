@@ -130,7 +130,7 @@ ans: I do not have a teleportation device.
 
 que: 
 - botname
-ans: Name
+ans: Bread
 
 que: 
 - clear your mind
@@ -5192,7 +5192,7 @@ ans: Excellent.
 
 que: 
 - my favorite subject is artificial intelligence and robots
-ans: Name another subject then.
+ans: another subject then.
 
 que: 
 - that is my gender

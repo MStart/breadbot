@@ -441,7 +441,7 @@ ans: Do you eat
 
 que: 
 - you can not name
-ans: Name 
+ans: Bread 
 
 que: 
 - you and me both
@@ -1344,7 +1344,7 @@ ans: Review our conversation
 
 que: 
 - could you name
-ans: Name 
+ans: Bread 
 
 que: 
 - could you email
@@ -3155,7 +3155,7 @@ ans: I am tired
 
 que: 
 - what are names
-ans: Name 
+ans: Bread 
 
 que: 
 - what are some examples
@@ -3295,11 +3295,11 @@ ans: Show calculator
 
 que: 
 - what is the name of
-ans: Name 
+ans: Bread 
 
 que: 
 - what is the name
-ans: Name 
+ans: Bread 
 
 que: 
 - what is the basic
@@ -3771,7 +3771,7 @@ ans: Age
 
 que: 
 - what should i name
-ans: Name one
+ans: Bread one
 
 que: 
 - what should i have dinner
@@ -9800,7 +9800,7 @@ ans: I want
 
 que: 
 - will you name
-ans: Name 
+ans: Bread 
 
 que: 
 - will you show
@@ -9840,7 +9840,7 @@ ans: Do you dream
 
 que: 
 - can you name
-ans: Name 
+ans: Bread 
 
 que: 
 - can you prove it
@@ -13059,7 +13059,7 @@ ans: How
 
 que: 
 - like who
-ans: Name one
+ans: Bread one
 
 que: 
 - like my mother
@@ -13860,7 +13860,7 @@ ans: Nope
 
 que: 
 - name all
-ans: Name 
+ans: Bread 
 
 que: 
 - 1
@@ -15212,7 +15212,7 @@ ans: Mira is a common name
 
 que: 
 - who else
-ans: Name one
+ans: Bread one
 
 que: 
 - who old are you
@@ -15220,7 +15220,7 @@ ans: Age
 
 que: 
 - who are clients
-ans: Name one
+ans: Bread one
 
 que: 
 - client properties

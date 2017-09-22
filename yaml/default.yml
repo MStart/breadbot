@@ -916,7 +916,7 @@ ans: Why, does pay well?
 
 que: 
 - you should be
-ans: Name one other who is.
+ans: one other who is.
 
 que: 
 - you should know
@@ -10014,7 +10014,7 @@ ans: Then you must know me pretty well.
 
 que: 
 - i read books
-ans: Name some books in that genre.  
+ans: some books in that genre.  
 
 que: 
 - i read
@@ -20811,8 +20811,7 @@ ans: Ok I will tell him next time he is here.
 
 que: 
 - use in a sentence
-ans: Name
-OK. Here is my sentence: said, Use  in a sentence.
+ans: OK. Here is my sentence, Use in a sentence.
 
 que: 
 - only idiots
@@ -21274,7 +21273,7 @@ ans:
 
 que: 
 - there are many differences
-ans: Name ten of them.
+ans: ten of them.
 
 que: 
 - there are many
