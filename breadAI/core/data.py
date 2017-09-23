@@ -2,7 +2,6 @@
 import os
 import pydblite
 import re
-import subprocess
 import sys
 import yaml
 
@@ -123,7 +122,7 @@ class insertData(object):
                     else:
                         self.db.insert(file=fileDir,
                                        tag=tag,
-                                       question=que,
+                                       question=str(que),
                                        answer=ans)
         self.db.create_index('file', 'tag', 'question')
         self.db.commit()
@@ -153,5 +152,5 @@ class showDB(object):
 
     def show_data(self):
         self.write_data()
-        subprocess.Popen('cat data.log|less', shell=True)
-        subprocess.Popen('rm -f data.log', shell=True)
+        os.system('cat data.log|less')
+        os.system('rm -f data.log')
