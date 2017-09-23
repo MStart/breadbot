@@ -16,15 +16,16 @@
 que:
 - how are you
 ans:
- - Fine, thank you.
- - I am OK.
+- Fine, thank you.
+- I am OK.
 ```
 * Example 2 (multiple questions with one answer)
 ```
 que:
 - how are you
 - how do you do
-ans: Fine, thank you.
+ans:
+- Fine, thank you.
 ```
 * Example 3 (one block answer)
  * The multiple answer text will output as one block answer.
