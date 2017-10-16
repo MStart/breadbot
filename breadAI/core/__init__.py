@@ -5,14 +5,12 @@ import re
 import sys
 from pymongo import MongoClient
 
-from . import memo
-from . import misc
 from . import data
+from . import dia
 from . import memo
 from . import misc
-from . import search
-from . import dia
 from . import nom
+from . import search
 
 
 class chat(object):
