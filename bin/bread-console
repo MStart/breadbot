@@ -1,40 +1,43 @@
 #!/usr/bin/env python3
 import sys
 import os
+
 from breadAI import core
-from breadAI import server
+from breadAI import serv
+
 
 if os.geteuid():
     args = [sys.executable] + sys.argv
     os.execlp('sudo', 'sudo', *args)
 
+
 def show_help():
     print(
         '\n'
         ' insert:   insert data\n'
-        ' show:     show all data\n'
         ' start:    start server\n'
         ' Ctr+C:    stop server\n'
         ' help:     display this help\n'
         ' q:        exit this console\n'
         )
 
+
 def active(cmd):
     if cmd == 'help':
         show_help()
     elif cmd == 'insert':
         core.data.insertData()
-    elif cmd == 'show':
-        core.data.showDB()
     elif cmd == 'start':
-        server.start()
+        serv.start()
     else:
-        print(core.bot.chat().response(cmd, False))
+        print(core.chat().response(cmd, False))
+
 
 if len(sys.argv) > 1:
     cmd = sys.argv[1]
     active(cmd)
     sys.exit(0)
+
 
 while True:
     cmd = input('>> ')

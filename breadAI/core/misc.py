@@ -1,81 +1,62 @@
-# They are misc functions
 from configobj import ConfigObj
 import os
 import re
 import time
-import urllib.parse
-import urllib.request
-
-import breadAI
 
 
-def baiduSearch(keyword):
-    p = {'wd': keyword}
-    return "http://www.baidu.com/s?" + urllib.parse.urlencode(p)
+def init_input(inStr):
+    inStr = inStr.lower()
+    inStrList = list(inStr)
+    rightLetters = 'abcdefghijklmnopqrstuvwxyz0123456789 '
+    for i, chr in enumerate(inStrList):
+        if chr in rightLetters:
+            continue
+        elif re.match(u'[\u4e00-\u9fa5]', chr):
+            continue
+        else:
+            inStrList[i] = ' '
+    inStr = ''.join(inStrList)
+    inStr = re.sub(r'\s{2,}', ' ', inStr)
+    inStr = re.sub(r'(^ +| +$)', '', inStr)
+    return inStr
 
 
-def wikiSearch(keyword):
-    keyword = keyword.replace(' ', '_')
-    return 'https://en.m.wikipedia.org/wiki/' + keyword
+class log(object):
+    def __init__(self):
+        upDir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+        self.logDir = os.path.join(os.path.join(upDir, 'log'), 'dia.log')
+
+    def write(self, inStr):
+        curTime = time.strftime('[%Y-%m-%d %H:%M:%S] ', time.localtime())
+        text = curTime + inStr
+        f = open(self.logDir, 'a')
+        f.write(text + '\n')
+        f.close()
+        return text
+
+    def print(self, inStr):
+        curTime = time.strftime('[%Y-%m-%d %H:%M:%S] ', time.localtime())
+        print(curTime + str(inStr))
 
 
-def write_log(input_str):
-    data_dir = os.path.dirname(breadAI.data.__file__)
-    logDir = os.path.join(data_dir, 'log')
-    curTime = time.strftime('[%Y-%m-%d %H:%M:%S] ', time.localtime())
-    text = curTime + input_str
-    f = open(logDir, 'a')
-    f.write(text + '\n')
-    f.close()
-    return text
+class cfg(object):
+    def __init__(self):
+        self.cfg = ConfigObj('/etc/bread.cfg')
 
+    def get(self, value):
+        if value == 'server_ip':
+            return self.cfg['normal']['server_ip']
+        elif value == 'data_path':
+            return self.cfg['normal']['data_path']
+        elif value == 'super_users':
+            userList = []
+            for user in self.cfg['super_users']:
+                userList.append(self.cfg['super_users'][user])
+            return userList
 
-def printLog(Str):
-    curTime = time.strftime('[%Y-%m-%d %H:%M:%S] ', time.localtime())
-    print(curTime + str(Str))
-
-
-def get_public_ip():
-    reg = 'fk="\d+\.\d+\.\d+\.\d+" '
-    url = 'http://www.baidu.com/s?wd=gongwangip'
-    result = re.search(reg, str(urllib.request.urlopen(url).read())).group(0)
-    result = re.search('\d+\.\d+\.\d+\.\d+', result).group(0)
-    return result
-
-
-def translate(word):
-    if re.match(u'.*[\u4e00-\u9fa5].*', word):
-        p = {'wd': word}
-        return "http://dict.baidu.com/s?" + urllib.parse.urlencode(p)
-    result1 = os.popen('sdcv -n ' + word).readlines()
-    if not re.match(u'^Found 1 items.*', result1[0]):
-        return '[Not Found]'
-    res = ''
-    for i in range(4, len(result1)):
-        res += result1[i]
-    res = re.sub(u'\[.+\]', '', res)
-    res = res.replace('\n', '')
-    res = res.replace('//', '\r')
-    return res
-
-
-def get_cfg(value):
-    cfg = ConfigObj('/etc/bread.cfg')
-    if value == 'server_ip':
-        return cfg['normal']['server_ip']
-    elif value == 'yaml_path':
-        return cfg['normal']['yaml_path']
-    elif value == 'super_users':
-        userList = []
-        for user in cfg['super_users']:
-            userList.append(cfg['super_users'][user])
-        return userList
-
-
-def write_cfg(value, key):
-    cfg = ConfigObj('/etc/bread.cfg')
-    if value == 'server_ip':
-        cfg['normal']['server_ip'] = key
-    elif value == 'yaml_path':
-        cfg['normal']['yaml_path'] = key
-    cfg.write()
+    def write(self, value, key):
+        if value == 'server_ip':
+            self.cfg['normal']['server_ip'] = key
+        elif value == 'data_path':
+            self.cfg['normal']['data_path'] = key
+        self.cfg.write()

@@ -1,0 +1,15 @@
+# System QA about Bread-AI
+
+tag:
+- nom
+
+QA:
+
+- que:
+  - help
+  - h
+  ans: |
+   - d ....search baidu
+   - w ....search wikipedia
+   - s ....search dictionary
+   - n ....show next message

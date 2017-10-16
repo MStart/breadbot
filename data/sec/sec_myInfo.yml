@@ -1,0 +1,45 @@
+# My Information
+
+tag:
+- sec
+
+QA:
+
+- que:
+  - what is my home dns address
+  - what is my home dns
+  ans:
+  - 220.189.127.106/107
+
+- que:
+  - how about my eye
+  - my eye
+  ans: |
+   - Left, astigmatic -3.75, axis 7 degree.
+   - Right, shortsighted -6.25.
+   - Interpupillary distance, about 70 mm.
+
+- que:
+  - how about my trousers
+  - my trousers
+  ans: |
+   - waistline, 84 cm
+   - outseam, 108 cm
+
+- que:
+  - what is bar cohen s reply
+  ans: |
+   - To have an idea of where the field is today – please follow up on the presentations of the upcoming SPIE EAPAD conference www.spie.org/eap and you want to consider attending the course that will be given on March 9 http://spie.org/SS/course/electroactive-polymer-actuators-and-devices In addition, we have a session entitled EAP-in-Action that will be held on March 10 and includes a demo of the latest capabilities http://spie.org/SS13/special-events/Special-Event
+   - Where to purchase EAP materials http://ndeaa.jpl.nasa.gov/nasa-nde/lommas/eap/EAP-material-n-products.htm
+   - How to make some of the EAP materials, http://ndeaa.jpl.nasa.gov/nasa-nde/lommas/eap/EAP-recipe.htm
+   - Books and proceedings, http://ndeaa.jpl.nasa.gov/nasa-nde/yosi/yosi-books.htm
+   - Specifically, see http://spie.org/x648.html?product_id=547465&search_text=bar-cohen&category=Press (also available from Amazon, etc.)
+   - EAP Conferences: http://ndeaa.jpl.nasa.gov/nasa-nde/lommas/eap/eap-conferences.htm
+   - Armwrestling Challenge: http://ndeaa.jpl.nasa.gov/nasa-nde/lommas/eap/EAP-armwrestling.htm
+   - If you want to do calculations related to EAP that you may want to use go to http://www.actuatorweb.org/index.php?page=selection
+
+- que:
+  - what is my problem
+  ans:
+  - Don't know stopping to think.
+

@@ -1,4 +1,4 @@
-# Bread-AI V1.1.5
+# Bread-AI V1.2.0
 
 ## Overview
 * Bread-AI is a pure-Python3 chatbot with good extensibility, based on WeChat platform, to help people easily build their own robot. 
@@ -15,9 +15,6 @@
 ## How to use
 * run command "bread-console"
 * then u can talk with bread, type "help" for more
-
-## About data
-* See [Data Manual](doc/Data_Manual.md) in doc folder.
 
 ## Seek more
 * Author: Mark Young
