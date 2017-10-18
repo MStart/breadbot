@@ -4,6 +4,20 @@ import re
 from breadAI.core import memo
 
 
+exclude = [
+    'how',
+    'how to',
+    'what',
+    'what is',
+    'what are',
+    'where',
+    'when',
+    'why',
+    'to',
+    'is',
+    'are',
+]
+
 def _search_nom(db, coll, isSuper=False):
     if coll == 'system.indexes':
         return
@@ -18,6 +32,8 @@ def _search_nom(db, coll, isSuper=False):
 
 
 def response(db, inStr, isSuper=False):
+    if inStr in exclude:
+        return None
     regexStr = '(^|.* )' + inStr + '( .*|$)'
     colls = db.collection_names()
     firstLine = 'Do you mean:'
