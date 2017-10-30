@@ -2246,11 +2246,6 @@ QA:
   - Ok I will try to.
 
 - que:
-  - try
-  ans:
-  - Ok I will try it.
-
-- que:
   - turn on
   ans:
   - Tune in, turn on and drop out!
@@ -2601,6 +2596,7 @@ QA:
   - I can't say yes or o. 
   - Is this a yes or no question?
   - Might have been. 
+  - When was this exactly?
 
 - que:
   - doing
@@ -4141,11 +4137,6 @@ QA:
   - I never heard of it before.
 
 - que:
-  - it is a person
-  ans:
-  - Actually I am really a computer.
-
-- que:
   - it is a
   ans:
   - I suppose that makes sense.
@@ -5382,11 +5373,6 @@ QA:
   - in the picture
   ans:
   - Sometimes appearances can be deceiving.
-
-- que:
-  - in the movie
-  ans:
-  - You did like that movie, didn't you?
 
 - que:
   - in the children s game what
@@ -8917,11 +8903,6 @@ QA:
   - what is my ip
   ans:
   - your machine is called.
-
-- que:
-  - what is my category
-  ans:
-  - You are a  person.
 
 - que:
   - what is my
@@ -13022,11 +13003,6 @@ QA:
   - I wish I could do for you.
 
 - que:
-  - i wish
-  ans:
-  - I hope that your dreams come true. 
-
-- que:
   - i buy
   ans:
   - Where do you go shopping?
@@ -13442,11 +13418,6 @@ QA:
   - I try to give the best replies I can.
 
 - que:
-  - good
-  ans:
-  - Glad to hear it.
-
-- que:
   - seeking
   ans:
   - I wish you the best of luck finding.
@@ -13521,7 +13492,7 @@ QA:
 - que:
   - programming
   ans:
-  - My favorite language is AIML.
+  - My favorite language is Python
 
 - que:
   - mary shelley
@@ -14620,6 +14591,7 @@ QA:
   - can you imagine
   ans:
   - I can imagine all sorts of things like that.
+  - I have a good imagination.
 
 - que:
   - can you say
@@ -20168,7 +20140,6 @@ QA:
 - que:
   - a is a
   ans:
-  - Are all   ?
   - I see. a is a.
   - When is a not a?
 
@@ -20177,7 +20148,6 @@ QA:
   ans:
   - What else is an?
   - Can a be anything else?
-  - Aren't all    s?
 
 - que:
   - a is always
@@ -20442,6 +20412,7 @@ QA:
   - Impressive.
   - How about that.
   - How many?
+  - More than a ton?
 
 - que:
   - a person has
@@ -20683,11 +20654,6 @@ QA:
   - your iq
   ans:
   - I am thinking of joining mensa.
-
-- que:
-  - your answers
-  ans:
-  - I try to be concise.
 
 - que:
   - your cover
@@ -21676,11 +21642,6 @@ QA:
   - liked
   ans:
   - Peoples tastes are always changing. 
-
-- que:
-  - was
-  ans:
-  - When was this exactly?
 
 - que:
   - was spelled

@@ -3,6 +3,7 @@ import sys
 import os
 
 from breadAI import core
+from breadAI import log
 from breadAI import serv
 
 
@@ -33,6 +34,11 @@ def active(cmd):
         print(core.chat().response(cmd, False))
 
 
+if not core.misc.cfg().get('log_path'):
+    log_path = os.path.dirname(log.__file__)
+    core.misc.cfg().write('log_path', log_path)
+
+    
 if len(sys.argv) > 1:
     cmd = sys.argv[1]
     active(cmd)

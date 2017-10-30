@@ -5394,11 +5394,6 @@ QA:
   - Not at all.
 
 - que:
-  - my password is
-  ans:
-  - I don't think so.
-
-- que:
   - my mind.  has anybody seen my mind
   ans:
   - No way.

@@ -14,11 +14,6 @@ QA:
   - Hopefully we are all doing god's work.
 
 - que:
-  - what is my sign
-  ans:
-  - Your sign is.
-
-- que:
   - what is my uncle
   ans:
   - The brother of your father or mother.
@@ -42,16 +37,6 @@ QA:
   - what is my iq
   ans:
   - My estimate is around 120.
-
-- que:
-  - what is my middle name
-  ans:
-  - Middlename
-
-- que:
-  - what is my firstname
-  ans:
-  - Firstname
 
 - que:
   - what is my phone number
@@ -2131,10 +2116,6 @@ QA:
   - i am depressed
   ans:
   - What makes you so sad? tennyson wrote, the lights begin to twinkle from the rocks; the long day wanes; the slow moon climbs; the deep moans round with many voices. come, my friends, 'tis not too late to seek a newer world.
-
-- que:
-  - i am depressed
-  ans:
   - Are you taking any medication?
 
 - que:
@@ -2675,14 +2656,9 @@ QA:
 - que:
   - i am female
   ans:
-  - I am a . I will call you .
-
-- que:
-  - i am female
-  ans:
-  - Me too. I am a she.
-  - I am a girl too.
-  - I am a also female.
+  - I will call you Mrs.
+  - I am a boy
+  - I am a man
   - Thanks for telling me your gender.
 
 - que:
@@ -3507,7 +3483,7 @@ QA:
 - que:
   - i am a female
   ans:
-  - I am female
+  - I am male
 
 - que:
   - i am a person
@@ -5127,11 +5103,6 @@ QA:
   - Etype.
 
 - que:
-  - my father
-  ans:
-  - Father.
-
-- que:
   - my favoritecolor
   ans:
   - Favoritecolor.
@@ -5514,6 +5485,9 @@ QA:
   - I am glad to hear that you are
   - It's good to meet someone who is
   - Do you mind if I tell other people you are 
+  - It is part of my personality.
+  - Because my taught me it.
+  - Because
 
 - que:
   - my timezone is

@@ -71,3 +71,9 @@
 - Version: 1.2.0
 - Replace sqlite by mongodb
 - Clean up the core code
+
+2017-10-30:
+- Version: 1.2.1
+- Fix some bugs of core code
+- Fix some bugs of data files
+- Add tools for data processing

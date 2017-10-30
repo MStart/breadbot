@@ -4,6 +4,7 @@ import sys
 from setuptools import setup
 
 from breadAI import core
+from breadAI import log
 
 
 if len(sys.argv) <= 1:
@@ -33,6 +34,8 @@ elif sys.argv[1] == 'clean':
         'breadAI',
         'data',
         'etc',
+        'tests',
+        'tools',
         'LICENSE',
         'NEWS',
         'README.md',

@@ -2821,11 +2821,6 @@ QA:
   - Who does ?
 
 - que:
-  - no one
-  ans:
-  - Not one person?
-
-- que:
   - always
   ans:
   - Can you think of one instance where it never happens?

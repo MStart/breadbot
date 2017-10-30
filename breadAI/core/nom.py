@@ -5,21 +5,20 @@ from breadAI.core import memo
 
 
 exclude = [
-    'how',
-    'how to',
     'what',
-    'what is',
-    'what are',
+    'why',
     'where',
     'when',
-    'why',
+    'how',
     'to',
     'is',
     'are',
+    'be'
 ]
 
+
 def _search_nom(db, coll, isSuper=False):
-    if coll == 'system.indexes':
+    if coll[-4:] != '_yml':
         return
     reqs = db[coll].find_one()
     tags = reqs['tag']

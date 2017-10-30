@@ -67,6 +67,7 @@ QA:
   - do you feel that something is missing
   ans:
   - Personality test question
+  - 4 individualistpersonality test question
 
 - que:
   - do you laugh or cry
@@ -202,11 +203,6 @@ QA:
   - which type am i
   ans:
   - What is my personality type
-
-- que:
-  - do you feel that something is missing
-  ans:
-  - 4 individualistpersonality test question
 
 - que:
   - do you laugh or cry

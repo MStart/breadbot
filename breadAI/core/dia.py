@@ -2,23 +2,24 @@ import random
 
 
 def response(db, inStr, isSuper=False):
-    res = '...'
+    res = []
     colls = db.collection_names()
     for coll in colls:
-        if coll == 'system.indexes':
+        if coll[-4:] != '_yml':
             continue
         reqs = db[coll].find_one()
         tags = reqs['tag']
-        if 'nom' in tags:
-            continue
-        elif 'sec' in tags and not isSuper:
+        if 'dia' not in tags:
             continue
         qas = reqs['QA']
+        if not qas:
+            continue
         for qa in qas:
             ques = qa['que']
             if inStr in ques:
-                res = qa['ans']
-                break
-    if type(res) == list:
+                res += qa['ans']
+    if not res:
+        res = '...'
+    else:
         res = random.choice(res)
     return res

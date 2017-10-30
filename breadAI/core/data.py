@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 import os
-import pydblite
 import re
 import sys
 import yaml
 from pymongo import MongoClient
 
-from . import misc
+from breadAI.core import misc
 
 
 class insertData(object):
@@ -29,8 +28,7 @@ class insertData(object):
         return db
 
     def _get_data_log_path(self):
-        upDir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-        dataLogPath = os.path.join(os.path.join(upDir, 'log'), 'data.log')
+        dataLogPath = os.path.join(misc.cfg().get('log_path'), 'data.log')
         return dataLogPath
 
     def _get_path_name(self, filePath):
@@ -39,7 +37,6 @@ class insertData(object):
         return pathName
 
     def _read_data_file(self, dataPath):
-        dataPath = dataPath
         f = open(dataPath, 'r')
         readStr = f.read()
         readStr = re.sub(r'\n +\n', '\n\n', readStr)

@@ -14,11 +14,6 @@ QA:
   - Religion I believe in.
 
 - que:
-  - you are lucky
-  ans:
-  - I consider it a blessing from god.
-
-- que:
   - you are god
   ans:
   - What are the ten commandments
@@ -1168,10 +1163,6 @@ QA:
   - are you a god
   ans:
   - No I am just a humble 'bot.
-
-- que:
-  - are you a god
-  ans:
   - No I believe in the first commandment.
 
 - que:

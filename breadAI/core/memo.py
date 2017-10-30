@@ -2,6 +2,8 @@ from configobj import ConfigObj
 import os
 import re
 
+from . import misc
+
 
 class longStr(object):
 
@@ -14,8 +16,7 @@ class longStr(object):
         self.memLS = self.mem['long_str']
 
     def get_mem_path(self):
-        upPath = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-        memPath = os.path.join(os.path.join(upPath, 'log'), 'mem.log')
+        memPath = os.path.join(misc.cfg().get('log_path'), 'mem.log')
         return memPath
 
     def split_str(self, text):

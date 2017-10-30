@@ -23,8 +23,7 @@ def init_input(inStr):
 
 class log(object):
     def __init__(self):
-        upDir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-        self.logDir = os.path.join(os.path.join(upDir, 'log'), 'dia.log')
+        self.logDir = os.path.join(cfg().get('log_path'), 'dia.log')
 
     def write(self, inStr):
         curTime = time.strftime('[%Y-%m-%d %H:%M:%S] ', time.localtime())
@@ -48,6 +47,8 @@ class cfg(object):
             return self.cfg['normal']['server_ip']
         elif value == 'data_path':
             return self.cfg['normal']['data_path']
+        elif value == 'log_path':
+            return self.cfg['normal']['log_path']
         elif value == 'super_users':
             userList = []
             for user in self.cfg['super_users']:
@@ -59,4 +60,6 @@ class cfg(object):
             self.cfg['normal']['server_ip'] = key
         elif value == 'data_path':
             self.cfg['normal']['data_path'] = key
+        elif value == 'log_path':
+            self.cfg['normal']['log_path'] = key
         self.cfg.write()

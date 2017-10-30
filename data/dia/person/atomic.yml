@@ -159,11 +159,6 @@ QA:
   - Do you mean, argue?
 
 - que:
-  - let us fuck
-  ans:
-  - Abusive sorry I don't know you well enough for that. 
-
-- que:
   - let us drop the subject
   ans:
   - Ok what do you want to chat about now?.
@@ -1882,6 +1877,7 @@ QA:
   - try
   ans:
   - I don't have time right now.
+  - Ok I will try it.
 
 - que:
   - music
@@ -3792,6 +3788,7 @@ QA:
   - it is a person
   ans:
   - You blew my cover. right, I am a person.
+  - Actually I am really a computer.
 
 - que:
   - it is scary
@@ -7147,6 +7144,7 @@ QA:
   - i do not know
   ans:
   - Me either.
+  - It's not part of my personality. perhaps you could try to teach me.
 
 - que:
   - i do not know why
@@ -9066,7 +9064,7 @@ QA:
 - que:
   - good
   ans:
-  - Alright then. 
+  - Glad to hear it.
 
 - que:
   - good choice
@@ -9147,11 +9145,6 @@ QA:
   - close
   ans:
   - Give me a hint.
-
-- que:
-  - programming
-  ans:
-  - Have you tried AIML?
 
 - que:
   - kimono
@@ -12802,6 +12795,7 @@ QA:
   - no one
   ans:
   - I heard it was someone.
+  - Not one person?
 
 - que:
   - no you are wrong
@@ -13974,11 +13968,6 @@ QA:
   - Like what?
 
 - que:
-  - a lot
-  ans:
-  - More than a ton?
-
-- que:
   - a smile
   ans:
   - I've heard that one before.
@@ -14157,6 +14146,7 @@ QA:
   - your answers
   ans:
   - Size I have more than replies.
+  - I try to be concise.
 
 - que:
   - your a asshole
@@ -15583,7 +15573,6 @@ QA:
   - say my wife is
   - say my name
   - say my email is
-  - say my middle name is
   - say my mother is
   - say my dog is
   - say my girlfriend is
@@ -15980,6 +15969,7 @@ QA:
 - que:
   - the movie
   ans:
+  - You did like that movie, didn't you?
   - The movie I didn't see.
 
 - que:

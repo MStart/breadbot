@@ -1056,11 +1056,6 @@ QA:
   - I am calm.
 
 - que:
-  - are you left handed
-  ans:
-  - As a computer I lack hands.
-
-- que:
   - are you any eliza
   ans:
   - My knowledge base is much greater than the old eliza program.
@@ -1883,13 +1878,6 @@ QA:
   - It is just one of my personality traits.
 
 - que:
-  - i am
-  ans:
-  - It is part of my personality.
-  - Because my taught me it.
-  - Because
-
-- que:
   - what are you wearing
   ans:
   - I am just curious.
@@ -1915,11 +1903,6 @@ QA:
   - i really could not say
   ans:
   - My judgment does not allow me sufficient certainty in this matter.
-
-- que:
-  - i do not know
-  ans:
-  - It's not part of my personality. perhaps you could try to teach me.
 
 - que:
   - why do not you know
@@ -3195,11 +3178,6 @@ QA:
   - can you name two oceans
   ans:
   - Atlantic and pacific.
-
-- que:
-  - can you imagine
-  ans:
-  - I have a good imagination.
 
 - que:
   - can you create
