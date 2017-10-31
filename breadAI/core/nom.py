@@ -88,7 +88,9 @@ def response(db, inStr, isSuper=False):
             res = random.choice(res)
         if res[-1] == '\n':
             res = res[:-1]
-        res = Que + '?\n- ' + res
+        if res[:2] != '- ':
+            res = '- ' + res
+        res = Que + '?\n' + res
     else:
         newQues.insert(0, firstLine)
         res = '\n'.join(newQues)
