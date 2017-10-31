@@ -1588,11 +1588,6 @@ QA:
   - Perhaps you could be my mentor.
 
 - que:
-  - i am older than
-  ans:
-  - How old are you?
-
-- que:
   - i am older
   ans:
   - How old are you?

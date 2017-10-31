@@ -997,3 +997,8 @@ QA:
   - I am Bread
   - What is your name
   - Call me Bread
+
+- que:
+  - how do you do
+  ans:
+  - Fine, thank you!

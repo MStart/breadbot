@@ -621,11 +621,6 @@ QA:
   - Mark young was fired from that job.
 
 - que:
-  - when did mark young create
-  ans:
-  - How old are you
-
-- que:
   - when is mark young
   ans:
   - How old is dr mark
@@ -1473,12 +1468,12 @@ QA:
 - que:
   - how long did it take mark young to make you
   ans:
-  - How old are you
+  - two months
 
 - que:
   - how long did it take mark young to create you
   ans:
-  - How old are you
+  - two months
 
 - que:
   - how long in san francisco
