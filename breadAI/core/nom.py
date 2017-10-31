@@ -17,7 +17,7 @@ exclude = [
 ]
 
 
-def _search_nom(db, coll, isSuper=False):
+def _get_qas(db, coll, isSuper=False):
     if coll[-4:] != '_yml':
         return
     reqs = db[coll].find_one()
@@ -45,7 +45,7 @@ def response(db, inStr, isSuper=False):
                 newQues.append(que)
     if len(newQues) < 1:
         for coll in colls:
-            qas = _search_nom(db, coll, isSuper)
+            qas = _get_qas(db, coll, isSuper)
             if not qas:
                 continue
             for qa in qas:
@@ -54,12 +54,29 @@ def response(db, inStr, isSuper=False):
                     if re.match(regexStr, que):
                         newQues.append('- ' + que)
     if len(newQues) < 1:
+        words = inStr.split(' ')
+        for coll in colls:
+            qas = _get_qas(db, coll, isSuper)
+            if not qas:
+                continue
+            for qa in qas:
+                ques = qa['que']
+                for que in ques:
+                    all_words_in = True
+                    que_words = que.split(' ')
+                    for word in words:
+                        if word not in que_words:
+                            all_words_in = False
+                            break
+                    if all_words_in:
+                        newQues.append('- ' + que)
+    if len(newQues) < 1:
         res = None
     elif len(newQues) == 1:
         Que = newQues[0]
         Que = re.sub(r'^- ', '', Que)
         for coll in colls:
-            qas = _search_nom(db, coll, isSuper)
+            qas = _get_qas(db, coll, isSuper)
             if not qas:
                 continue
             for qa in qas:
