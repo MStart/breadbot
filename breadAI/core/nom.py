@@ -43,6 +43,7 @@ def response(db, inStr, isSuper=False):
         for que in ques:
             if re.match(regexStr, que):
                 newQues.append(que)
+    newQues = list(set(newQues))
     if len(newQues) < 1:
         for coll in colls:
             qas = _get_qas(db, coll, isSuper)
