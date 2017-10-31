@@ -5375,8 +5375,7 @@ QA:
   ans:
   - I'd like to know how old you are.
   - You haven't told me your age.
-  - You are ?
-  - I don't know. how old are you?age
+  - I don't know. how old are you?
 
 - que:
   - my favorite color

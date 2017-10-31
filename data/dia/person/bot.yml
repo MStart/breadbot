@@ -4264,9 +4264,9 @@ QA:
   - I was activated on.
 
 - que:
-  - how old are you in
+  - how old are you
   ans:
-  - I was activated on.
+  - I was activated on 2015.
 
 - que:
   - how are you trained
