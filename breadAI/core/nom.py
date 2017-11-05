@@ -54,6 +54,7 @@ def response(db, inStr, isSuper=False):
                 for que in ques:
                     if re.match(regexStr, que):
                         newQues.append('- ' + que)
+                        break
     if len(newQues) < 1:
         words = inStr.split(' ')
         for coll in colls:
