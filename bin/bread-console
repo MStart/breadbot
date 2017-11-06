@@ -6,6 +6,8 @@ from breadAI import core
 from breadAI import log
 from breadAI import serv
 
+isSuper = True
+
 
 if os.geteuid():
     args = [sys.executable] + sys.argv
@@ -31,7 +33,7 @@ def active(cmd):
     elif cmd == 'start':
         serv.start()
     else:
-        print(core.chat().response(cmd, False))
+        print(core.chat().response(cmd, True))
 
 
 if not core.misc.cfg().get('log_path'):

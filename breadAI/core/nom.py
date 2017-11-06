@@ -13,7 +13,14 @@ exclude = [
     'to',
     'is',
     'are',
-    'be'
+    'be',
+    'can',
+    'will',
+    'do',
+    'I',
+    'you',
+    'he',
+    'she',
 ]
 
 
@@ -31,7 +38,10 @@ def _get_qas(db, coll, isSuper=False):
 
 
 def response(db, inStr, isSuper=False):
-    if inStr in exclude:
+    inList = inStr.split(' ')
+    newList = list(set(inList).difference(set(exclude)))
+    inStr = ' '.join(newList)
+    if not inStr:
         return None
     regexStr = '(^|.* )' + inStr + '( .*|$)'
     colls = db.collection_names()
