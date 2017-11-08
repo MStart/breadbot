@@ -38,10 +38,7 @@ def _get_qas(db, coll, isSuper=False):
 
 
 def response(db, inStr, isSuper=False):
-    inList = inStr.split(' ')
-    newList = list(set(inList).difference(set(exclude)))
-    inStr = ' '.join(newList)
-    if not inStr:
+    if inStr in exclude:
         return None
     regexStr = '(^|.* )' + inStr + '( .*|$)'
     colls = db.collection_names()
