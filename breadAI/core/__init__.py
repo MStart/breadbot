@@ -25,8 +25,13 @@ class chat(object):
         return db
 
     def response(self, inStr, isSuper=False):
+        if "'" in inStr:
+            res = 'Please do not use \''
+            return res
+        elif re.search('[\u4e00-\u9fa5]', inStr):
+            res = 'I speak English only'
+            return res
         inStr = misc.init_input(inStr)
-        res = '...'
 
         if re.match('^(n|next)$', inStr):
             res = memo.longStr().read_mem()
@@ -49,12 +54,20 @@ class chat(object):
             else:
                 res = search.wikiSearch(content)
         else:
-            for chr in inStr:
-                if re.match('[\u4e00-\u9fa5]', chr):
-                    return 'I speak English only'
-            res = nom.response(self.db, inStr, isSuper)
-            if not res:
+            lastDia = ''
+            lastDias = memo.dialogue().get_dia()
+            if lastDias:
+                lastDia = lastDias[-1]
+            if inStr in lastDia.keys():
+                res = nom.response(self.db, inStr, isSuper)
+                if not res:
+                    res = dia.response(self.db, inStr, isSuper)
+            else:
                 res = dia.response(self.db, inStr, isSuper)
-        memo.dialogue().insert_dia(res)
+                if not res:
+                    res = nom.response(self.db, inStr, isSuper)
+        if not res:
+            res = '...'
+        memo.dialogue().insert_dia(inStr, res)
         res = memo.longStr().check_long_str(res)
         return res

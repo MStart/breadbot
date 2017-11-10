@@ -4,26 +4,6 @@ import re
 from breadAI.core import memo
 
 
-exclude = [
-    'what',
-    'why',
-    'where',
-    'when',
-    'how',
-    'to',
-    'is',
-    'are',
-    'be',
-    'can',
-    'will',
-    'do',
-    'I',
-    'you',
-    'he',
-    'she',
-]
-
-
 def _get_qas(db, coll, isSuper=False):
     if coll[-4:] != '_yml':
         return
@@ -38,8 +18,6 @@ def _get_qas(db, coll, isSuper=False):
 
 
 def response(db, inStr, isSuper=False):
-    if inStr in exclude:
-        return None
     regexStr = '(^|.* )' + inStr + '( .*|$)'
     colls = db.collection_names()
     firstLine = 'Do you mean:'
@@ -104,5 +82,5 @@ def response(db, inStr, isSuper=False):
         newQues.insert(0, firstLine)
         res = '\n'.join(newQues)
     if res:
-        memo.dialogue().insert_dia(res)
+        memo.dialogue().insert_dia(inStr, res)
     return res

@@ -11,11 +11,11 @@ class longStr(object):
         self.maxWords = 140
         self.nextSignal = r'....'
         self.splitSignal = r'///'
-        memPath = self.get_mem_path()
+        memPath = self._get_mem_path()
         self.mem = ConfigObj(memPath)
         self.memLS = self.mem['long_str']
 
-    def get_mem_path(self):
+    def _get_mem_path(self):
         memPath = os.path.join(misc.cfg().get('log_path'), 'mem.log')
         return memPath
 
@@ -62,28 +62,39 @@ class dialogue(object):
 
     def __init__(self):
         self.maxLen = 3
-        self.splitSignal = r'///'
-        memPath = self.get_mem_path()
+        self.splitSignal = r'//'
+        self.splitSignal2 = '\n'
+        memPath = self._get_mem_path()
         self.mem = ConfigObj(memPath)
         self.memDia = self.mem['dialogue']
 
-    def get_mem_path(self):
+    def _get_mem_path(self):
         upPath = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
         memPath = os.path.join(os.path.join(upPath, 'log'), 'mem.log')
         return memPath
 
-    def insert_dia(self, dia):
-        if dia == 'n' or dia == 'next':
-            return None
-        diaList = self.memDia['content'].split(self.splitSignal)
+    def insert_dia(self, inStr, res):
+        if inStr == 'n' or inStr == 'next':
+            return
+        diaList = self.memDia['content'].split(self.splitSignal2)
         if len(diaList) >= self.maxLen:
             diaList.pop(0)
-        diaList.append(dia)
-        self.memDia['content'] = str(self.splitSignal.join(diaList))
+        diaList.append(inStr + self.splitSignal + res)
+        self.memDia['content'] = str(self.splitSignal2.join(diaList))
         self.mem.write()
 
     def get_dia(self):
-        return self.memDia['content'].split(self.splitSignal)
+        dias = self.memDia['content'].split(self.splitSignal2)
+        if not dias:
+            return []
+        newDias = []
+        for dia in dias:
+            qa = dia.split(self.splitSignal)
+            if len(qa) == 2:
+                q = qa[0]
+                a = qa[1]
+                newDias.append({q: a})
+        return newDias
 
     def erase_dia(self):
         self.memDia['content'] = ''

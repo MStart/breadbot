@@ -18,8 +18,6 @@ def response(db, inStr, isSuper=False):
             ques = qa['que']
             if inStr in ques:
                 res += qa['ans']
-    if not res:
-        res = '...'
-    else:
+    if res:
         res = random.choice(res)
     return res
