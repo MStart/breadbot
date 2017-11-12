@@ -28,9 +28,6 @@ class chat(object):
         if "'" in inStr:
             res = 'Please do not use \''
             return res
-        elif re.search('[\u4e00-\u9fa5]', inStr):
-            res = 'I speak English only'
-            return res
         inStr = misc.init_input(inStr)
 
         if re.match('^(n|next)$', inStr):
@@ -53,6 +50,9 @@ class chat(object):
                 res = '[Not Found]'
             else:
                 res = search.wikiSearch(content)
+        elif re.search('[\u4e00-\u9fa5]', inStr):
+            res = 'I speak English only'
+            return res
         else:
             lastDia = ''
             lastDias = memo.dialogue().get_dia()
