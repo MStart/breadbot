@@ -54,7 +54,7 @@ class chat(object):
             res = 'I speak English only'
             return res
         else:
-            lastDia = ''
+            lastDia = {}
             lastDias = memo.dialogue().get_dia()
             if lastDias:
                 lastDia = lastDias[-1]

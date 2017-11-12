@@ -87,3 +87,7 @@
 - Version: 1.2.3
 - Improved the search nom function of core code
 - Improved the dialogue memory function to make it remember quesions
+
+2017-11-12:
+- Version: 1.2.4
+- Fixed some bugs of core engine.
