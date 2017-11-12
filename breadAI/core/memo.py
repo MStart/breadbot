@@ -10,7 +10,7 @@ class longStr(object):
     def __init__(self):
         self.maxWords = 140
         self.nextSignal = r'....'
-        self.splitSignal = r'///'
+        self.spSignal = r'///'
         memPath = self._get_mem_path()
         self.mem = ConfigObj(memPath)
         self.memLS = self.mem['long_str']
@@ -26,7 +26,7 @@ class longStr(object):
         curBlock = 1
         self.memLS['cur_block'] = str(curBlock)
         self.memLS['block_count'] = str(blockCount)
-        self.memLS['content'] = self.splitSignal.join(
+        self.memLS['content'] = self.spSignal.join(
             [text[i:i + self.maxWords]
              for i in range(0, len(text), self.maxWords)])
         self.mem.write()
@@ -43,7 +43,7 @@ class longStr(object):
             return self.read_mem()
 
     def read_mem(self):
-        textList = self.memLS['content'].split(self.splitSignal)
+        textList = self.memLS['content'].split(self.spSignal)
         curBlock = int(self.memLS['cur_block'])
         blockCount = int(self.memLS['block_count'])
         if curBlock <= blockCount:
@@ -54,7 +54,7 @@ class longStr(object):
                 res = res.replace(self.nextSignal, '')
         else:
             res = 'no more'
-        res = res.replace(self.splitSignal, '')
+        res = res.replace(self.spSignal, '')
         return res
 
 
@@ -62,8 +62,8 @@ class dialogue(object):
 
     def __init__(self):
         self.maxLen = 3
-        self.splitSignal = r'//'
-        self.splitSignal2 = '\n'
+        self.spSignal = '//'
+        self.spSignal2 = '///\n'
         memPath = self._get_mem_path()
         self.mem = ConfigObj(memPath)
         self.memDia = self.mem['dialogue']
@@ -76,20 +76,20 @@ class dialogue(object):
     def insert_dia(self, inStr, res):
         if inStr == 'n' or inStr == 'next':
             return
-        diaList = self.memDia['content'].split(self.splitSignal2)
+        diaList = self.memDia['content'].split(self.spSignal2)
         if len(diaList) >= self.maxLen:
             diaList.pop(0)
-        diaList.append(str(inStr.encode()) + self.splitSignal + res)
-        self.memDia['content'] = str(self.splitSignal2.join(diaList))
+        diaList.append(str(inStr.encode()) + self.spSignal + res)
+        self.memDia['content'] = str(self.spSignal2.join(diaList))
         self.mem.write()
 
     def get_dia(self):
-        dias = self.memDia['content'].split(self.splitSignal2)
+        dias = self.memDia['content'].split(self.spSignal2)
         if not dias:
             return []
         newDias = []
         for dia in dias:
-            qa = dia.split(self.splitSignal)
+            qa = dia.split(self.spSignal)
             if len(qa) == 2:
                 q = qa[0]
                 a = qa[1]

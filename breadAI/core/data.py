@@ -88,15 +88,15 @@ class insertData(object):
         return changedDataList
 
     def clean_old_db_data(self, changedDataList):
-        print('cleaning database...')
         for dataPath in changedDataList:
             pathName = self._get_path_name(dataPath)
+            print('clean %s...' % pathName)
             self.db[pathName].drop()
 
     def insert_db_data(self, changedDataList):
         for dataPath in changedDataList:
-            print('insert %s...' % dataPath)
             pathName = self._get_path_name(dataPath)
+            print('insert %s...' % pathName)
             coll = self.db[pathName]
             readStr = self._read_data_file(dataPath)
             data = yaml.load(readStr)

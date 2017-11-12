@@ -21,10 +21,11 @@ def response(db, inStr, isSuper=False):
     regexStr = '(^|.* )' + inStr + '( .*|$)'
     colls = db.collection_names()
     firstLine = 'Do you mean:'
-    dias = memo.dialogue().get_dia()
+    lastDia = memo.dialogue().get_dia()[-1]
+    lastAns = list(lastDia.values())[0]
     newQues = []
-    if firstLine in dias[-1]:
-        ques = dias[-1].split('\n')[1:]
+    if firstLine in lastAns:
+        ques = lastAns.split('\n')[1:]
         for que in ques:
             if re.match(regexStr, que):
                 newQues.append(que)
