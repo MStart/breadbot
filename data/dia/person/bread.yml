@@ -1005,6 +1005,7 @@ QA:
 
 - que:
   - hey
+  - hy
   ans:
   - Can I help you?
   - What?

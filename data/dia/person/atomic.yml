@@ -16124,6 +16124,7 @@ QA:
 
 - que:
   - thanks
+  - tks
   ans:
   - Polite don't mention it. 
 
@@ -16743,3 +16744,10 @@ QA:
   - everywhere
   ans:
   - Including the bottom of the ocean?
+
+- que:
+  - ok
+  ans:
+  - And then?
+  - I'm glad you agree
+  - OK!
