@@ -58,7 +58,9 @@ class chat(object):
             lastDias = memo.dialogue().get_dia()
             if lastDias:
                 lastDia = lastDias[-1]
-            if inStr in lastDia.keys():
+            que = list(lastDia.keys())[0]
+            ans = list(lastDia.values())[0]
+            if inStr == que or nom.firstLine in ans:
                 res = nom.response(self.db, inStr, isSuper)
                 if not res:
                     res = dia.response(self.db, inStr, isSuper)

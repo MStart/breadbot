@@ -3,6 +3,8 @@ import re
 
 from breadAI.core import memo
 
+firstLine = 'Do you mean:'
+
 
 def _get_qas(db, coll, isSuper=False):
     if coll[-4:] != '_yml':
@@ -20,7 +22,6 @@ def _get_qas(db, coll, isSuper=False):
 def response(db, inStr, isSuper=False):
     regexStr = '(^|.* )' + inStr + '( .*|$)'
     colls = db.collection_names()
-    firstLine = 'Do you mean:'
     lastDia = memo.dialogue().get_dia()[-1]
     lastAns = list(lastDia.values())[0]
     newQues = []
