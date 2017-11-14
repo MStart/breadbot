@@ -91,3 +91,7 @@
 2017-11-12:
 - Version: 1.2.4
 - Fixed some bugs of core engine.
+
+2017-11-14:
+- Version: 1.2.5
+- Fixed the bug of Chinese string processing.

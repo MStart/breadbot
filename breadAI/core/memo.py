@@ -79,7 +79,8 @@ class dialogue(object):
         diaList = self.memDia['content'].split(self.spSignal2)
         if len(diaList) >= self.maxLen:
             diaList.pop(0)
-        diaList.append(str(inStr.encode()) + self.spSignal + res)
+        inStr = inStr.encode('unicode-escape').decode()
+        diaList.append(inStr + self.spSignal + res)
         self.memDia['content'] = str(self.spSignal2.join(diaList))
         self.mem.write()
 

@@ -1149,3 +1149,8 @@ QA:
   - how to create requirements.txt
   ans:
   - pip freeze
+
+- que:
+  - how to solve coding problem of python3
+  ans:
+  - Str = Str.encode('unicode-escape').decode()
