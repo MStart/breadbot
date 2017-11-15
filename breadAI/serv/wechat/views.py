@@ -41,26 +41,26 @@ class WeChat(View):
         fromUser = strXml.find('FromUserName').text
         toUser = strXml.find('ToUserName').text
         currentTime = str(int(time.time()))
-        msgType = strXml.find('MsgType')
-        if msgType:
-            msgType = msgType.text
-        content = strXml.find('Content')
-        if content:
-            content = content.text
+        msgType = strXml.find('MsgType').text
+        content = '...'
+        sorry = 'Sorry, I only support text chatting'
         if msgType == 'text':
-            if self.is_super(fromUser):
-                result = core.chat().response(content, True)
+            content = strXml.find('Content').text
+            if '[Unsupported Message]' in content:
+                res = sorry
+            elif self.is_super(fromUser):
+                res = core.chat().response(content, True)
             else:
-                result = core.chat().response(content, False)
+                res = core.chat().response(content, False)
         else:
-            result = 'Sorry, I only support text chatting'
+            res = sorry
         template = loader.get_template('wechat/text_message_template.xml')
         context = Context({'toUser': fromUser,
                            'fromUser': toUser,
                            'currentTime': currentTime,
-                           'content': result})
+                           'content': res})
         contextXml = template.render(context)
         logStr = '\nUser:   %s\nAsk:    %s\nAnswer: %s\n' % \
-                 (fromUser, content, result)
+                 (fromUser, content, res)
         core.misc.log().write(logStr)
         return HttpResponse(contextXml)
