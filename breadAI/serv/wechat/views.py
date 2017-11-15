@@ -40,12 +40,20 @@ class WeChat(View):
         strXml = ET.fromstring(request.body)
         fromUser = strXml.find('FromUserName').text
         toUser = strXml.find('ToUserName').text
-        content = strXml.find('Content').text
         currentTime = str(int(time.time()))
-        if self.is_super(fromUser):
-            result = core.chat().response(content, True)
+        msgType = strXml.find('MsgType')
+        if msgType:
+            msgType = msgType.text
+        content = strXml.find('Content')
+        if content:
+            content = content.text
+        if msgType == 'text':
+            if self.is_super(fromUser):
+                result = core.chat().response(content, True)
+            else:
+                result = core.chat().response(content, False)
         else:
-            result = core.chat().response(content, False)
+            result = 'Sorry, I only support text chatting'
         template = loader.get_template('wechat/text_message_template.xml')
         context = Context({'toUser': fromUser,
                            'fromUser': toUser,
