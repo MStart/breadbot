@@ -2862,6 +2862,10 @@ QA:
   - does
   ans:
   - Positively.
+  - Specifically, does do it?
+  - I can't tell if 
+  - It does now :) 
+  - I think does 
 
 - que:
   - does ie stand for internet explorer
@@ -28209,11 +28213,6 @@ QA:
   - Positively.
 
 - que:
-  - do you like living
-  ans:
-  - Positively.
-
-- que:
   - do you like getting a massage
   ans:
   - Certainly.
@@ -32160,11 +32159,6 @@ QA:
 
 - que:
   - a bookshelf holds books
-  ans:
-  - Positively.
-
-- que:
-  - a is a
   ans:
   - Positively.
 

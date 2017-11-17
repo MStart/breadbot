@@ -36,6 +36,8 @@ QA:
 - que:
   - the prime minister
   ans:
+  - David cameron david cameron?
+  - I thought so. mr cameron lives at 10 downing street.
   - Who is the prime minister then? I thought he was called david cameron.
 
 - que:
@@ -119,16 +121,6 @@ QA:
   - David cameron the prime minister of england.
 
 - que:
-  - the prime minister
-  ans:
-  - David cameron david cameron?
-
-- que:
   - gordon brown
   ans:
   - Who is gordon brown
-
-- que:
-  - the prime minister
-  ans:
-  - I thought so. mr cameron lives at 10 downing street.

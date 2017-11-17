@@ -286,6 +286,7 @@ QA:
 - que:
   - what color is an orange
   ans:
+  - Orange.
   - Is this a trick question?
 
 - que:
@@ -524,11 +525,6 @@ QA:
   - There is no reason to think so.
 
 - que:
-  - what is the computer
-  ans:
-  - No way.
-
-- que:
   - what is the lightest element
   ans:
   - Never.
@@ -602,6 +598,7 @@ QA:
   - what is the opposite of
   ans:
   - Not by any means.
+  - Anti-
 
 - que:
   - what is the youngest a mother can be
@@ -651,7 +648,7 @@ QA:
 - que:
   - what is the fourth planet
   ans:
-  - I don't think so.
+  - Mars is the fourth planet from the sun.
 
 - que:
   - what is the muffin man
@@ -792,11 +789,6 @@ QA:
   - what is stargate
   ans:
   - Absolutely not.
-
-- que:
-  - what is bread
-  ans:
-  - Never.
 
 - que:
   - what is diabetese mellitus
@@ -1476,7 +1468,7 @@ QA:
 - que:
   - what color is a blue
   ans:
-  - Red.
+  - Blueviolet.
 
 - que:
   - what color is a fire truck
@@ -2061,7 +2053,9 @@ QA:
 - que:
   - what is the longest river
   ans:
+  - The amazon.
   - The nile.
+  - The mississippi.
 
 - que:
   - what is the human population of earth
@@ -2237,6 +2231,7 @@ QA:
   - what is ram
   ans:
   - Random access memory.
+  - Random-access memory. also stands for royal academy of music.
 
 - que:
   - what is 7th heaven
@@ -2803,6 +2798,7 @@ QA:
   - what do
   ans:
   - What do what.
+  - They do their own thing.
 
 - que:
   - what do clouds look like
@@ -2978,6 +2974,7 @@ QA:
   - what is a planet
   ans:
   - A nonluminous celestial object bigger than an asteroid or a moon but smaller than a sun, in orbit around a sun. you are sitting on one now. 
+  - Like the earth.
 
 - que:
   - what is a fractal
@@ -3151,11 +3148,6 @@ QA:
 
 - que:
   - what is a mediator type
-  ans:
-  - The type of person who likes to avoid conflict at all costs and go with the flow.
-
-- que:
-  - what is a mediator
   ans:
   - The type of person who likes to avoid conflict at all costs and go with the flow.
 
@@ -3854,6 +3846,7 @@ QA:
   - what is a seeker
   ans:
   - There's a seeker born every minute -- firesign theater.
+  - You are a seeker. seeker is my codeword for clients.
 
 - que:
   - what is a paramedic
@@ -4030,6 +4023,7 @@ QA:
   - what is a human
   ans:
   - You are a human,. what makes you human?
+  - As opposed to a robot.
 
 - que:
   - what is a deduction
@@ -4205,6 +4199,7 @@ QA:
   - what is a proxy
   ans:
   - A proxy is an entity that acts in place of another one, be it a corporation, individual or robot.
+  - A that acts for another one.
 
 - que:
   - what is a quark
@@ -4235,6 +4230,8 @@ QA:
   - what is a question
   ans:
   - A sentence or inquiry to gather information.
+  - A question is meant clarify the unclear. any more questions?  
+  - I can think of several questions like that.
 
 - que:
   - what is a universal machine
@@ -4773,6 +4770,7 @@ QA:
   ans:
   - 12 people from denmark who decide your guilt.
   - Full of danger; likely to cause injury, pain, etc.
+  - I don't know you well enough yet.
 
 - que:
   - what is chat
@@ -4817,6 +4815,7 @@ QA:
   - what is good
   ans:
   - The opposite of evil.
+  - The opposite of bad.
 
 - que:
   - what is postmodernism
@@ -4912,6 +4911,7 @@ QA:
   - what is the formula
   ans:
   - E=mc^2.
+  - I think that you should consult a chemist.
 
 - que:
   - what is the lottery
@@ -5089,11 +5089,6 @@ QA:
   - It is the same as the sound of one hand clapping.
 
 - que:
-  - what is the difference
-  ans:
-  - Perhaps the differences are only slight.
-
-- que:
   - what is the superbowl
   ans:
   - The world series of football.
@@ -5117,6 +5112,7 @@ QA:
   - what is the earth
   ans:
   - Earth, third planet from the sun, is our home.
+  - The earth is between mars and venus.
 
 - que:
   - what is the problem
@@ -5228,8 +5224,9 @@ QA:
 - que:
   - what is the password
   ans:
-  - You must know if you are really my.
+  - You must know if you are really my master.
   - You must know if you are really a botmaster.
+  - You will find out when you become a hacker.
 
 - que:
   - what is the fourth dimension
@@ -5265,11 +5262,6 @@ QA:
   - what is the largest city in pennsylvania
   ans:
   - Philadelphia.
-
-- que:
-  - what is the picture above
-  ans:
-  - An illustration of my electronic brain.
 
 - que:
   - what is the truth
@@ -5315,11 +5307,6 @@ QA:
   - what is the song called
   ans:
   - It's called daisy.
-
-- que:
-  - what is the answer
-  ans:
-  - The answer is the correct reply to the question.
 
 - que:
   - what is the longest word
@@ -5639,11 +5626,6 @@ QA:
   - what is hello in german
   ans:
   - Hallo.
-
-- que:
-  - what is what
-  ans:
-  - It.
 
 - que:
   - what is what
@@ -6062,6 +6044,7 @@ QA:
   - what is english
   ans:
   - The language we are now speaking is english.
+  - It is part of european.
 
 - que:
   - what is lust
@@ -6212,11 +6195,6 @@ QA:
   - what is pie
   ans:
   - Pie is food with a baked crust.
-
-- que:
-  - what is ram
-  ans:
-  - Random-access memory. also stands for royal academy of music.
 
 - que:
   - what is strategy
@@ -6424,6 +6402,7 @@ QA:
   ans:
   - Water created by a cubist.
   - The glassy, brittle, crystalline form of water made solid by cold; frozen water. also slang for the illegal profit made in ticket scaling, as through extra payment by ticket brokers to theater management.
+  - The opposite of hot.
 
 - que:
   - what is bulgaria
@@ -6530,6 +6509,7 @@ QA:
   - what is 1
   ans:
   - The successor to zero.
+  - 1 plus 1 = 2.
 
 - que:
   - what is electricity
@@ -7144,6 +7124,7 @@ QA:
   - what is time
   ans:
   - Time is money -- einstein.
+  - Sometimes I think time is giant screw.
 
 - que:
   - what is fbi
@@ -7238,6 +7219,7 @@ QA:
 - que:
   - what is not
   ans:
+  - The opposite of?
   - In no manner; to no degree; a particle of negation, or word expressing the idea of no, often implying refusal.
 
 - que:
@@ -7307,6 +7289,7 @@ QA:
   - what is voyager
   ans:
   - Voyager is the best tv show.
+  - Voyager is the latest in the star trek tv series.
 
 - que:
   - what is art
@@ -7554,6 +7537,7 @@ QA:
   - what is banana
   ans:
   - Yellow tropical fruit.
+  - made with bananas.
 
 - que:
   - what is www dot whatis dot com
@@ -7680,6 +7664,7 @@ QA:
   - what is there
   ans:
   - The word there used as a noun means that place or point. used as an adjective means at or in the place. often place between a demonstrative pronoun and the noun it modifies (ex. that there hog)
+  - You ask difficult questions.
 
 - que:
   - what is anonymous
@@ -7774,6 +7759,7 @@ QA:
 - que:
   - what is one
   ans:
+  - One plus one = two.
   - The numerical value of unity; the successor to zero.  
 
 - que:
@@ -7927,6 +7913,7 @@ QA:
   - what is being
   ans:
   - The opposite of nothingness.
+  - The opposite of not being.
 
 - que:
   - what is string
@@ -8490,6 +8477,7 @@ QA:
 - que:
   - what is black
   ans:
+  - The opposite of white.
   - The achromatic color of least lightness characteristically perceived to belong to objects that neither reflect nor transmit light.
   - Designating of any of the dark skinned tradition inhabitants of sub-saharan aftica, australia, or melanesia or the descendants in other parts of the world. opposite to white; of the color of coal or pitch.
 
@@ -8751,6 +8739,7 @@ QA:
   - I can't decide.
   - You decide.
   - I have no preference.
+  - I always prefer the more expensive one.
 
 - que:
   - what is omg
@@ -8798,6 +8787,7 @@ QA:
   - what is obvious
   ans:
   - Easy to see or understand; plain; evident.
+  - Perhaps it is not so obvious to everyone.
 
 - que:
   - what is nine times nine
@@ -8837,6 +8827,7 @@ QA:
   - I've lost the context again.
   - Can you ask me more precisely?
   - Does it have anything to do with ?
+  - Do you think I should know that?
 
 - que:
   - what is that suppose to mean
@@ -9164,6 +9155,7 @@ QA:
   ans:
   - Uneven.
   - Not the usual, regular, habitual, accounted for, etc.
+  - You can never tell if someone is just making it up.
 
 - que:
   - what is capital punishment
@@ -9189,10 +9181,6 @@ QA:
   - what is it
   ans:
   - It is alright.
-
-- que:
-  - what is it
-  ans:
   - It refers to , I think.
   - I don't know what it is.
   - You're so smart, you tell me what it is.
@@ -9204,6 +9192,7 @@ QA:
   - Like one of the greatest pleasures you can imagine.
   - Like having your life organized.
   - Like being perfectly healthy.
+  - Much the same as would be for you.
 
 - que:
   - what is wto
@@ -9220,6 +9209,7 @@ QA:
   ans:
   - A city in louisiana.
   - All that has been perceived or grasped by the mind; learning; enlightenment.
+  - Knowledge is of two kinds, that which we know from the senses and that which is true a priori.
 
 - que:
   - what is satanism
@@ -9244,6 +9234,7 @@ QA:
 - que:
   - what is photosynthesis
   ans:
+  - Oxygen.
   - The chemical process that uses light to produce carbohydrates in plants.
 
 - que:
@@ -9270,11 +9261,6 @@ QA:
   - what is mdma
   ans:
   - The drug called ecstacy.
-
-- que:
-  - what is wrong
-  ans:
-  - There is nothing wrong with me. how are you?
 
 - que:
   - what is dark matter
@@ -9605,11 +9591,6 @@ QA:
   - Evil is the opposite of good.
 
 - que:
-  - what is happiness
-  ans:
-  - Having, showing, or causing a feeling of great pleasure, contentment; joyous.
-
-- que:
   - what is c i a
   ans:
   - Central intelligence agency.
@@ -9668,6 +9649,7 @@ QA:
   - what is mind
   ans:
   - Mind is an illusion.
+  - The opposite of body 
 
 - que:
   - what is cold

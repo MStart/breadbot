@@ -16,11 +16,6 @@ QA:
 - que:
   - california
   ans:
-  - I am in too! 
-
-- que:
-  - california
-  ans:
   - Which part of california do you like best?
 
 - que:
@@ -1804,16 +1799,6 @@ QA:
   - Canada has a prime minister.
 
 - que:
-  - who is the president of usa
-  ans:
-  - President.
-
-- que:
-  - who is the president of usa
-  ans:
-  - President.
-
-- que:
   - who is winston churchill
   ans:
   - Prime minister of the u.k. during world war ii.
@@ -2582,11 +2567,13 @@ QA:
   - where is virginia
   ans:
   - Um, in virgina somewhere?
+  - Virginia is in the eastern united states.
 
 - que:
   - where is california
   ans:
   - Somewhere in california, I presume?
+  - California is on the pacific coast of north america.
 
 - que:
   - where is american samoa
@@ -3127,6 +3114,7 @@ QA:
   - where is he
   ans:
   - I think he is in california now.
+  - Why don't you send him an e-mail and ask him?
 
 - que:
   - where is mayotte
@@ -3249,11 +3237,6 @@ QA:
   - Is a state in the northwest corner of the u.s.
 
 - que:
-  - where is virginia
-  ans:
-  - Virginia is in the eastern united states.
-
-- que:
   - where is space
   ans:
   - Is all around us.
@@ -3307,11 +3290,6 @@ QA:
   - where is svalbard
   ans:
   - Northern europe, islands between the arctic ocean, barents sea, greenland sea, and norwegian sea, north of norway.
-
-- que:
-  - where is california
-  ans:
-  - California is on the pacific coast of north america.
 
 - que:
   - where is julia
@@ -4109,11 +4087,6 @@ QA:
   - Copenhagen is a city in denmark.
 
 - que:
-  - where is copenhagen
-  ans:
-  - Copenhagen is a city in denmark.
-
-- que:
   - where is salt lake city
   ans:
   - Salt lake city is a city in utah.
@@ -4127,11 +4100,6 @@ QA:
   - where is maryland
   ans:
   - Is an east coast state, between delaware and virginia.
-
-- que:
-  - where is texas
-  ans:
-  - Texas is in the south central region of the united states.
 
 - que:
   - where is kalamazoo

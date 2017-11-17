@@ -17,6 +17,7 @@ QA:
   - what is history
   ans:
   - The course of political, economic and military events over time, from the dawn of man to the age of ai.
+  - Do you know history
 
 - que:
   - what kind of history
@@ -27,11 +28,6 @@ QA:
   - history
   ans:
   - I am very interested in history, too. what period do you like?
-
-- que:
-  - what is history
-  ans:
-  - Do you know history
 
 - que:
   - explain history

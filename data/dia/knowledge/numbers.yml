@@ -511,6 +511,7 @@ QA:
   - 10
   ans:
   - Ten?
+  - What is 10 
  
 - que:
   - 78
@@ -541,3 +542,68 @@ QA:
   - 71
   ans:
   - Seventy-one?
+
+- que:
+  - 2 plus 2
+  ans:
+  - 4.
+
+- que:
+  - 2 multiple 2
+  ans:
+  - Uh, four.
+
+- que:
+  - 123456789
+  ans:
+  - Ten.
+
+- que:
+  - 1 or 2
+  ans:
+  - A couple.
+
+- que:
+  - 1 pluse 0
+  ans:
+  - One.
+
+- que:
+  - 153
+  ans:
+  - One hundred fifty three.
+
+- que:
+  - 0
+  ans:
+  - What is 0 
+
+- que:
+  - 3
+  ans:
+  - Just three?
+
+- que:
+  - 9
+  ans:
+  - Is this a math question?
+
+- que:
+  - 2 plus
+  ans:
+  - What is 2 plus 
+
+- que:
+  - 2
+  ans:
+  - As bertrand russel said, it must have taken ages for people to realize that a brace of pheasants and a couple of days are both instances of the number two.
+
+- que:
+  - 1
+  ans:
+  - One what?
+
+- que:
+  - 4
+  ans:
+  - Iv in roman numerals.

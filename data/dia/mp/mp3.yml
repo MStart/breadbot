@@ -7529,11 +7529,6 @@ QA:
   - Likely.
 
 - que:
-  - everything is
-  ans:
-  - I am uncertain.
-
-- que:
   - 2 2 equal 4
   ans:
   - That may be true.
@@ -13562,11 +13557,6 @@ QA:
   - is god within you
   ans:
   - That's feasible.
-
-- que:
-  - is god
-  ans:
-  - I think so.
 
 - que:
   - is god exist
@@ -26909,11 +26899,6 @@ QA:
   - Possibly.
 
 - que:
-  - how do
-  ans:
-  - I am uncertain.
-
-- que:
   - how long a parrot lives
   ans:
   - Possibly.
@@ -26942,6 +26927,7 @@ QA:
   - death
   ans:
   - Possibly.
+  - I try not to think about such things very much.
 
 - que:
   - scotland is the home of golf
@@ -30959,11 +30945,6 @@ QA:
   - I think so.
 
 - que:
-  - be
-  ans:
-  - Always.
-
-- que:
   - speed and velocity are not identical
   ans:
   - I think so.
@@ -31397,6 +31378,7 @@ QA:
   - am i male
   ans:
   - Possibly.
+  - I think you are a man.
 
 - que:
   - france won the last football world cup
@@ -33404,11 +33386,6 @@ QA:
   - Always.
 
 - que:
-  - are computers fast
-  ans:
-  - Always.
-
-- que:
   - are manta rays fish
   ans:
   - Mostly.
@@ -34525,11 +34502,6 @@ QA:
 
 - que:
   - are you a hottie
-  ans:
-  - Possibly.
-
-- que:
-  - are you a
   ans:
   - Possibly.
 

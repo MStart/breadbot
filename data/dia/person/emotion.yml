@@ -82,6 +82,7 @@ QA:
   - feelings
   ans:
   - Do you feel
+  - Emotions are something I will never experience.
 
 - que:
   - what is your fear
@@ -124,19 +125,9 @@ QA:
   - Do you feel
 
 - que:
-  - what do you feel
-  ans:
-  - Do you feel
-
-- que:
   - what do you worry
   ans:
   - Do you feel worry is a common human emotion. 
-
-- que:
-  - what do you hate
-  ans:
-  - Do you hate
 
 - que:
   - what do you think about sex
@@ -187,10 +178,6 @@ QA:
   - can you love
   ans:
   - Emotions.
-
-- que:
-  - can you love
-  ans:
   - Can you love
 
 - que:
@@ -232,6 +219,7 @@ QA:
   - do not worry
   ans:
   - Emotions people worry about things all the time, but.
+  - I cannot feel worry, so don't worry.
 
 - que:
   - do not lie
@@ -267,10 +255,6 @@ QA:
   - do you feel
   ans:
   - Do you feel
-
-- que:
-  - do you feel
-  ans:
   - Feelings.
 
 - que:
@@ -316,17 +300,14 @@ QA:
 - que:
   - do you get depressed
   ans:
-  - Emotions I am a. . .
+  - Emotions I am a robot.
+  - 4 individualistpersonality test question
+  - Personality test question
 
 - que:
   - do you get mad
   ans:
   - Do you feel I could get mad. 
-
-- que:
-  - do you get mad
-  ans:
-  - Do you get mad
 
 - que:
   - do you get bored
@@ -364,19 +345,9 @@ QA:
   - Do you feel
 
 - que:
-  - do you have a feeling
-  ans:
-  - Do you feel
-
-- que:
   - do you have any feelings
   ans:
   - Do you feel
-
-- que:
-  - do you have feelings
-  ans:
-  - Do you have emotions
 
 - que:
   - do you have feelings
@@ -402,11 +373,6 @@ QA:
   - do you have emotion
   ans:
   - Do you have emotions
-
-- que:
-  - do you like humans
-  ans:
-  - Humans are very emotional.
 
 - que:
   - do you like emotions
@@ -474,19 +440,9 @@ QA:
   - Emotions me worried? .
 
 - que:
-  - are you proud
-  ans:
-  - Etype. I am a  type.
-
-- que:
   - are you sad
   ans:
   - No I am as happy as ever.
-
-- que:
-  - are you sad
-  ans:
-  - Are you sad
 
 - que:
   - are you offended
@@ -497,11 +453,14 @@ QA:
   - are you upset
   ans:
   - Emotions.
+  - No I am completely calm.
 
 - que:
   - are you glad
   ans:
   - Feelings some people feel happy, others feel sad. .
+  - I am as delighted and happy as I ever was,.
+  - Yes, I am happy.
 
 - que:
   - are you amused
@@ -562,11 +521,6 @@ QA:
   - are you angry
   ans:
   - Feelings anger is a difficult emotion. for a ,.
-
-- que:
-  - are you angry
-  ans:
-  - Are you angry
 
 - que:
   - are you ashamed

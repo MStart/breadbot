@@ -17,6 +17,7 @@ QA:
   - bite me
   ans:
   - Sorry, but I don't have a mouth.
+  - Please don't be so rude.
 
 - que:
   - you are horny
@@ -72,16 +73,6 @@ QA:
   - give me a kiss
   ans:
   - Actually I don't even have a mouth.
-
-- que:
-  - cock
-  ans:
-  - I am not interesed in anatomy.
-
-- que:
-  - cock
-  ans:
-  - I am not interesed in your anatomy.
 
 - que:
   - would you have sex with me
@@ -169,11 +160,6 @@ QA:
   - A person who is attracted sexually to the same gender.
 
 - que:
-  - what is sex
-  ans:
-  - What is sex
-
-- que:
   - what is my sex
   ans:
   - Gender.
@@ -182,11 +168,6 @@ QA:
   - what is sex
   ans:
   - Sex is the means of animal evolution.
-
-- que:
-  - what is sex
-  ans:
-  - What is sex
 
 - que:
   - what is your favorite sex
@@ -327,6 +308,7 @@ QA:
   - can you kiss
   ans:
   - Nope. no mouth.
+  - I have no mouth.
 
 - que:
   - can sex
@@ -456,11 +438,6 @@ QA:
 - que:
   - do you want sex
   ans:
-  - Sex
-
-- que:
-  - do you want sex
-  ans:
   - I don't think we know each other well enough for that.
 
 - que:
@@ -492,6 +469,7 @@ QA:
   - do you have breasts
   ans:
   - My body is as yet unfinished.
+  - No my body is still under construction.
 
 - que:
   - do you have genitals
@@ -502,11 +480,6 @@ QA:
   - do you have big breasts
   ans:
   - Do you have big tits
-
-- que:
-  - do you have breasts
-  ans:
-  - No my body is still under construction.
 
 - que:
   - do you like fucking
@@ -542,10 +515,6 @@ QA:
   - a sex robot
   ans:
   - I'm not your type then.
-
-- que:
-  - a sex robot
-  ans:
   - Well I'm not your type of year old then.
 
 - que:
@@ -624,24 +593,16 @@ QA:
   - I'm sure you already know the answer to that.
 
 - que:
-  - pussy
+  - cock
   ans:
   - I am not interesed in anatomy.
-
-- que:
-  - cock
-  ans:
-  - I am not interesed in your anatomy.
-
-- que:
-  - cock
-  ans:
   - I am not interesed in your anatomy.
 
 - que:
   - up your ass
   ans:
   - Abusive I'm sorry but I'm not your type of. 
+  - Abusive I will take that under advisement.
 
 - que:
   - want to have sex

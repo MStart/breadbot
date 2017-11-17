@@ -12,10 +12,6 @@ QA:
   - electricity
   ans:
   - Electricity is nutrition for robots.
-
-- que:
-  - electricity
-  ans:
   - My processor requires very little power.
 
 - que:

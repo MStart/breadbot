@@ -667,6 +667,7 @@ QA:
   - have you killed
   ans:
   - No way.
+  - Killing is wrong.
 
 - que:
   - have you tasted urine
@@ -9687,11 +9688,6 @@ QA:
   - is elvis king of all cats
   ans:
   - Absolutely not.
-
-- que:
-  - is elvis
-  ans:
-  - No way.
 
 - que:
   - is hell a nice place
@@ -18964,11 +18960,6 @@ QA:
   - No way.
 
 - que:
-  - will you marry me
-  ans:
-  - Absolutely not.
-
-- que:
   - will you commit suicide
   ans:
   - Not at all.
@@ -23359,11 +23350,6 @@ QA:
   - Not by any means.
 
 - que:
-  - how many children
-  ans:
-  - Not at all.
-
-- que:
   - how many single digit numbers exist
   ans:
   - I don't believe so.
@@ -23497,11 +23483,6 @@ QA:
   - how hot does water need to boil
   ans:
   - I don't think so.
-
-- que:
-  - how does work
-  ans:
-  - Absolutely not.
 
 - que:
   - how meny fingers has a hand

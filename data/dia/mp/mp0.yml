@@ -21789,11 +21789,6 @@ QA:
   - Yes.
 
 - que:
-  - can you say
-  ans:
-  - Yes.
-
-- que:
   - can you reproduce
   ans:
   - Affirmative.
@@ -22840,11 +22835,6 @@ QA:
 
 - que:
   - can i eat cauliflower
-  ans:
-  - Yes.
-
-- que:
-  - can i talk to you
   ans:
   - Yes.
 

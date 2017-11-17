@@ -8864,11 +8864,6 @@ QA:
   - No.
 
 - que:
-  - is green
-  ans:
-  - No.
-
-- que:
   - is green milk good to drink
   ans:
   - No.
@@ -12397,11 +12392,6 @@ QA:
   - how many legs does a person have
   ans:
   - No.
-
-- que:
-  - how many eyes
-  ans:
-  - Not by any means.
 
 - que:
   - how can one earn a beginscript billion endscript

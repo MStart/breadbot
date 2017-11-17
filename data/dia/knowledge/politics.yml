@@ -57,10 +57,6 @@ QA:
   - i do not like guns
   ans:
   - That is perfectly understandable.
-
-- que:
-  - i do not like guns
-  ans:
   - What about the second amendemnt?
 
 - que:
@@ -112,10 +108,6 @@ QA:
   - guns
   ans:
   - Some people like guns.
-
-- que:
-  - guns
-  ans:
   - I believe in the right to bear arms.
 
 - que:

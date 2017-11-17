@@ -15,7 +15,7 @@ class sameQue(object):
         if not dataPath:
             print('[Error] data path not found')
             sys.exit(1)
-        logPath = os.path.join(misc.cfg().get('log_path'), 'same-que.log')
+        logPath = './same-que.log'
         self.show_same(dataPath, logPath)
 
     def _init(self, inStr):
@@ -61,7 +61,6 @@ class sameQue(object):
             filePath = ''.join(files)
             f.write('- "%s" %d\n%s\n' % (que, count, filePath))
         f.close()
-        os.system('cat %s|less' % logPath)
 
 
 if __name__ == '__main__':

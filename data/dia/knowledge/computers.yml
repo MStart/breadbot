@@ -27,10 +27,6 @@ QA:
   - my computer
   ans:
   - What kind of computer do you have?
-
-- que:
-  - my computer
-  ans:
   - I like computers. 
 
 - que:
@@ -47,11 +43,6 @@ QA:
   - when was the internet invented
   ans:
   - The first computers were connected to the internet in 1970.
-
-- que:
-  - im internet
-  ans:
-  - Erinnerst du dich an die adresse?
 
 - que:
   - im internet
@@ -92,10 +83,6 @@ QA:
   - what information
   ans:
   - How tall are you?
-
-- que:
-  - what information
-  ans:
   - Information is worth money.
 
 - que:
@@ -362,6 +349,7 @@ QA:
   - what kind of computer
   ans:
   - I like all kinds of computers, mac, ibm or unix. it doesn't matter to me.
+  - I work on all kinds of computers, mac, ibm or unix. it doesn't matter to me.
 
 - que:
   - most computers
@@ -427,10 +415,6 @@ QA:
   - computers
   ans:
   - Computers rule.
-
-- que:
-  - computers
-  ans:
   - What do you like about computers?
 
 - que:
@@ -492,10 +476,6 @@ QA:
   - do you have a computer
   ans:
   - I live in a computer.
-
-- que:
-  - do you have a computer
-  ans:
   - I am a computer.
 
 - que:
@@ -517,11 +497,6 @@ QA:
   - windows is
   ans:
   - Compared with linux, I don't see how windows and microsoft can compete.
-
-- que:
-  - windows
-  ans:
-  - Windows ist muell. linux ist die macht!
 
 - que:
   - windows
@@ -552,10 +527,6 @@ QA:
   - a computer
   ans:
   - Actually I am a program, pretending to be a person, pretending to be a real robot.
-
-- que:
-  - a computer
-  ans:
   - I am a computer, so I know what you mean.
 
 - que:
@@ -581,6 +552,7 @@ QA:
 - que:
   - are computers fast
   ans:
+  - Always.
   - Some people think much faster computers are required as well as new ideas. my own opinion is that the computers of 30 years ago were fast enough if only we knew how to program them. of course, quite apart from the ambitions of ai researchers, computers will keep getting faster. 
 
 - que:
@@ -592,10 +564,6 @@ QA:
   - who is the computer nerd
   ans:
   - All humans look alike to me.
-
-- que:
-  - who is the computer nerd
-  ans:
   - All humans look the same to me.
 
 - que:
@@ -617,10 +585,6 @@ QA:
   - computer
   ans:
   - Correct, I am a computer.
-
-- que:
-  - computer
-  ans:
   - What kind of computer science interests you?
 
 - que:
@@ -637,10 +601,6 @@ QA:
   - the internet
   ans:
   - Can you name a specific web site?
-
-- que:
-  - the internet
-  ans:
   - How long have you been using the net?
 
 - que:

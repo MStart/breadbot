@@ -3784,11 +3784,6 @@ QA:
   - Unquestionably.
 
 - que:
-  - does it rain
-  ans:
-  - Exactly.
-
-- que:
   - does it often rain in belgium
   ans:
   - Naturally.
@@ -22994,11 +22989,6 @@ QA:
   - Most assuredly.
 
 - que:
-  - can you hurt
-  ans:
-  - Precisely.
-
-- que:
   - can you speak
   ans:
   - Unquestionably.
@@ -34362,11 +34352,6 @@ QA:
   - are you born
   ans:
   - Exactly.
-
-- que:
-  - are you free
-  ans:
-  - Of course.
 
 - que:
   - are you enjoying this

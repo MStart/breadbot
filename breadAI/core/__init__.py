@@ -69,7 +69,13 @@ class chat(object):
                 if not res:
                     res = nom.response(self.db, inStr, isSuper)
         if not res:
-            res = '...'
+            notList = [
+                'Sorry, I dont understand',
+                'What are you saying?',
+                'Hey, let us change a topic ok?',
+                'I dont know clearly',
+                'Let us say something others']
+            res = random.choice(notList)
         memo.dialogue().insert_dia(inStr, res)
         res = memo.longStr().check_long_str(res)
         return res

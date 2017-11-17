@@ -54,11 +54,6 @@ QA:
   - What is your favorite stock
 
 - que:
-  - what is your favorite investment
-  ans:
-  - What is your favorite stock
-
-- que:
   - what is economics
   ans:
   - The science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.
@@ -102,11 +97,7 @@ QA:
   - how much money
   ans:
   - It depends on the exchange rates.
-
-- que:
-  - how much money
-  ans:
-  - My burn rate is about _3000 per month.
+  - My burn rate is about 3000 per month.
 
 - que:
   - how much is a

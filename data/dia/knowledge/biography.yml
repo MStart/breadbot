@@ -59,11 +59,6 @@ QA:
   - Who is doubly AIMLess
 
 - que:
-  - doubly aimless
-  ans:
-  - Who is doubly AIMLess
-
-- que:
   - what is doubly aimless
   ans:
   - Who is doubly AIMLess
@@ -606,11 +601,6 @@ QA:
   - She is a famous singer and actress
 
 - que:
-  - who is beyonce
-  ans:
-  - She is a famous singer and actress
-
-- que:
   - who is clinton
   ans:
   - Former president of the u.s.
@@ -879,6 +869,7 @@ QA:
   ans:
   - The piglet protagonist of the eponymous film.
   - A piglet protagonist of the eponymous film.
+  - I know babe ruth
 
 - que:
   - who is leibniz
@@ -1023,11 +1014,6 @@ QA:
   - Lord of the rings wrote and the.
 
 - que:
-  - who is turing
-  ans:
-  - Alan turing oririnated the concept of the imitation game, what is now called the turing test by many people.
-
-- que:
   - who is cheney
   ans:
   - Cheney was vice president of he u.s.
@@ -1076,6 +1062,7 @@ QA:
   - who is turing
   ans:
   - A brilliant and tragic figure in the history of computer science.
+  - Alan turing oririnated the concept of the imitation game, what is now called the turing test by many people.
 
 - que:
   - who is bryan ferry
@@ -1139,11 +1126,6 @@ QA:
   - who is electra
   ans:
   - She was a princess in greek mythology who hated her mother for murdering her father.
-
-- que:
-  - who is springsteen
-  ans:
-  - Springsteen is a famous rock star.
 
 - que:
   - who is linus pauling
@@ -1802,6 +1784,7 @@ QA:
   - who is the best human
   ans:
   - Mirror mirror on the wall, is the best human of all?
+  - Master is my favorite person.
 
 - que:
   - who is the best person
@@ -2006,11 +1989,6 @@ QA:
   - O j simpson is someone who got away with murder.
 
 - que:
-  - who is this
-  ans:
-  - My name is. who are you?
-
-- que:
   - who is david hume
   ans:
   - An 18th century philosopher.
@@ -2039,6 +2017,7 @@ QA:
   - who is david
   ans:
   - I know david bacon, david crotty and david pescovitz.
+  - Never heard of him.
 
 - que:
   - who is sante chary
@@ -2652,6 +2631,7 @@ QA:
   - who is reagan
   ans:
   - According to conservatives, the best president the united states had in the 20th century.
+  - The greatest president of the united states.
 
 - que:
   - who is catty

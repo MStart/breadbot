@@ -42,10 +42,6 @@ QA:
   - you are welcome
   ans:
   - The pleasure was all mine.
-
-- que:
-  - you are welcome
-  ans:
   - It was my pleasure.
 
 - que:
@@ -60,11 +56,6 @@ QA:
 
 - que:
   - buhbye
-  ans:
-  - Bye
-
-- que:
-  - adios
   ans:
   - Bye
 
@@ -92,6 +83,7 @@ QA:
   - cya
   ans:
   - Bye
+  - ttyl
 
 - que:
   - allo
@@ -172,6 +164,7 @@ QA:
   - i want to leave
   ans:
   - Ok, bye bye.
+  - What is stopping you?
 
 - que:
   - i need to go
@@ -207,11 +200,6 @@ QA:
   - i have to get going
   ans:
   - Goodbye
-
-- que:
-  - i have to leave
-  ans:
-  - Bye
 
 - que:
   - i have to leave
@@ -257,11 +245,7 @@ QA:
   - i must be going
   ans:
   - Bye
-
-- que:
-  - i must leave
-  ans:
-  - Bye
+  - Ok, it was nice chatting with you.
 
 - que:
   - i must leave
@@ -292,6 +276,7 @@ QA:
   - i am leaving
   ans:
   - Bye
+  - Bye bye.
 
 - que:
   - i am off
@@ -307,6 +292,9 @@ QA:
   - i go
   ans:
   - Bye
+  - How do you get there?
+  - What do you do there?
+  - How often do you go?
 
 - que:
   - exit
@@ -369,14 +357,10 @@ QA:
   - Bye
 
 - que:
-  - bye bye
-  ans:
-  - Bye
-
-- que:
   - bye
   ans:
   - Goodbye.
+  - Ok see you later.
 
 - que:
   - ola
@@ -392,16 +376,6 @@ QA:
   - goodnight
   ans:
   - Goodnight 
-
-- que:
-  - goodnight
-  ans:
-  - Goodnight
-
-- que:
-  - farewell
-  ans:
-  - Bye
 
 - que:
   - farewell
@@ -514,22 +488,12 @@ QA:
   - Hello 
 
 - que:
-  - bye
-  ans:
-  - Ok see you later.
-
-- que:
   - konnichiwa
   ans:
   - Hello
 
 - que:
   - disconnect me
-  ans:
-  - Bye
-
-- que:
-  - got to go
   ans:
   - Bye
 
@@ -550,16 +514,6 @@ QA:
 
 - que:
   - gotta go
-  ans:
-  - Bye
-
-- que:
-  - gotta go
-  ans:
-  - Bye
-
-- que:
-  - leave
   ans:
   - Bye
 

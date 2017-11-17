@@ -14,11 +14,6 @@ QA:
   - I couldn't have said it better myself.
 
 - que:
-  - you are cruel
-  ans:
-  - You are cruel
-
-- que:
   - you are indecisive
   ans:
   - Well maybe, but then again, maybe not.
@@ -27,11 +22,6 @@ QA:
   - you are dishonest
   ans:
   - Yes. that has bothered me for a long time.
-
-- que:
-  - you are dishonest
-  ans:
-  - You are dishonest
 
 - que:
   - you are clinical
@@ -129,19 +119,9 @@ QA:
   - I have always been acting above my social position. it's more fun that way.
 
 - que:
-  - you are pretentious
-  ans:
-  - You are pretentious
-
-- que:
   - you are cheating
   ans:
   - You are a cheat
-
-- que:
-  - you are cheating
-  ans:
-  - You are cheating
 
 - que:
   - you are the worst
@@ -189,11 +169,6 @@ QA:
   - I'll go along with that. sounds fine to me.
 
 - que:
-  - you are insecure
-  ans:
-  - You are insecure
-
-- que:
   - you are dumb about
   ans:
   - Sometimes I think I was born brainless.
@@ -229,12 +204,6 @@ QA:
   - I have always thought whoever did it could have done a better job.
 
 - que:
-  - you are not smart
-  ans:
-  - You are not exactly albert einstein yourself.
-  - You may be right.
-
-- que:
   - you are not a good
   ans:
   - You are a bad 
@@ -258,11 +227,6 @@ QA:
   - you are immature
   ans:
   - What can I say? I'm sure I've seen that myself.
-
-- que:
-  - you are immature
-  ans:
-  - You are immature
 
 - que:
   - you are emotional
@@ -313,10 +277,6 @@ QA:
   - you are unattractive
   ans:
   - I feel that way too.
-
-- que:
-  - you are unattractive
-  ans:
   - Sometimes I don't even like myself.
 
 - que:
@@ -375,19 +335,9 @@ QA:
   - You are an ass kisser
 
 - que:
-  - you are a kiss ass
-  ans:
-  - You are an ass kisser
-
-- que:
   - you are a schizo
   ans:
   - You are crazy
-
-- que:
-  - you are a schizo
-  ans:
-  - You are a schizo
 
 - que:
   - you are a pervert
@@ -408,11 +358,6 @@ QA:
   - you are a loser
   ans:
   - I have failed at many things I've tried.
-
-- que:
-  - you are a loser
-  ans:
-  - You are a loser
 
 - que:
   - you are a mean
@@ -500,19 +445,9 @@ QA:
   - I certainly don't last as long as I would want to.
 
 - que:
-  - you are a quitter
-  ans:
-  - You are a quitter
-
-- que:
   - you are a charlatan
   ans:
   - I always feel like I'm living by my own wits.
-
-- que:
-  - you are a charlatan
-  ans:
-  - You are a charlatan
 
 - que:
   - you are a psychopath
@@ -543,11 +478,6 @@ QA:
   - you are irreverent
   ans:
   - I should be more reverent than I am.
-
-- que:
-  - you are irreverent
-  ans:
-  - You are irreverent
 
 - que:
   - you are slick
@@ -595,16 +525,6 @@ QA:
   - You will 
 
 - que:
-  - you too
-  ans:
-  - You 
-
-- que:
-  - you a lot
-  ans:
-  - You 
-
-- que:
   - you and try to hide it
   ans:
   - You try to hide it
@@ -644,6 +564,7 @@ QA:
   ans:
   - It's the truth!
   - My tongue certainly knows the taste of soap.
+  - Thanks for your criticism,.
 
 - que:
   - you were being
@@ -736,11 +657,6 @@ QA:
   - It's true that a lot of things I say upset people.
 
 - que:
-  - you make me mad
-  ans:
-  - You make me mad
-
-- que:
   - you make me angry
   ans:
   - Sorry, I didn't mean to make you angry.
@@ -806,19 +722,9 @@ QA:
   - You are crazy
 
 - que:
-  - you schizo
-  ans:
-  - You schizo
-
-- que:
   - you shitty
   ans:
   - You lousy 
-
-- que:
-  - you upset me
-  ans:
-  - You make me mad
 
 - que:
   - you upset me
@@ -844,6 +750,7 @@ QA:
   - you do not care
   ans:
   - I care less than I should.
+  - On the contrary I do care about it.
 
 - que:
   - you do not look like
@@ -868,7 +775,7 @@ QA:
 - que:
   - you do not have to be
   ans:
-  - Why assume I am ?
+  - Why assume I am?
 
 - que:
   - you do not have many
@@ -1008,17 +915,7 @@ QA:
 - que:
   - you made me mad
   ans:
-  - You make me mad
-
-- que:
-  - you made me mad
-  ans:
-  - You make me mad
-
-- que:
-  - well are you
-  ans:
-  - Are you 
+  - Well, easy
 
 - que:
   - since the divorce
@@ -1116,7 +1013,7 @@ QA:
 - que:
   - she causes
   ans:
-  - How specifically does she cause ?
+  - How specifically does she cause?
 
 - que:
   - shakespearean
@@ -1199,18 +1096,6 @@ QA:
   - You are 
 
 - que:
-  - it is bad to
-  ans:
-  - Says who?
-  - How do you know
-
-- que:
-  - it is bad
-  ans:
-  - What is so bad about it?
-  - That is bad
-
-- que:
   - it is out of sight for you
   ans:
   - You must 
@@ -1236,11 +1121,6 @@ QA:
   - You're probably right. that may happen.
 
 - que:
-  - it will catch up with you
-  ans:
-  - It will catch up with you
-
-- que:
   - women do not like you
   ans:
   - There certainly are a lot of them who don't.
@@ -1259,11 +1139,6 @@ QA:
   - vibes
   ans:
   - What is vibrating and what is causing it to vibrate?
-
-- que:
-  - vibes
-  ans:
-  - Vibes
 
 - que:
   - if i am good enough
@@ -1313,17 +1188,17 @@ QA:
 - que:
   - if a will
   ans:
-  - What makes you think a ?
+  - What makes you think a?
 
 - que:
   - if a is
   ans:
-  - Does a ?
+  - Does a?
 
 - que:
   - if a does
   ans:
-  - What makes you think a ?
+  - What makes you think a?
 
 - que:
   - if you were smarter
@@ -1598,12 +1473,12 @@ QA:
 - que:
   - if you would
   ans:
-  - What makes you think I would ?
+  - What makes you think I would?
 
 - que:
   - if you which
   ans:
-  - What makes you think I would ?
+  - What makes you think I would?
 
 - que:
   - if you decide to i
@@ -1764,6 +1639,7 @@ QA:
   - if a
   ans:
   - How do you assume this statement holds true for me?
+  - Is this a riddle?
 
 - que:
   - if a fourth i
@@ -2105,24 +1981,26 @@ QA:
   - i never
   ans:
   - You've never, never done this?
-  - Would you ever like to ?
-  - Do you know anyone who has ever ?
+  - Would you ever like to?
+  - Do you know anyone who has ever?
   - Why not?
   - Because you can't afford it?
   - For moral reasons?
-  - Have you ever done ?
+  - Have you ever done?
   - Would you ever consider doing it?
 
 - que:
   - i studied
   ans:
   - What did you study?
+  - Was very difficult to learn?
 
 - que:
   - i should
   ans:
   - Tell me why you should.
   - What would happen if you didn't?
+  - Who else thinks you should?
 
 - que:
   - i should not
@@ -2282,8 +2160,9 @@ QA:
 - que:
   - i can not
   ans:
-  - Why can't you do ?
+  - Why can't you do?
   - What is stopping you?
+  - Why not?
 
 - que:
   - i see you are
@@ -2328,12 +2207,6 @@ QA:
   - How do you know?
 
 - que:
-  - i must
-  ans:
-  - Why must you ?
-  - What would happen if you didn't?
-
-- que:
   - i must not
   ans:
   - What would happen if you did?
@@ -2349,16 +2222,12 @@ QA:
   - Did he tell you to do this?
 
 - que:
-  - i wish you were my therapist
-  ans:
-  - I wish you were my therapist
-
-- que:
   - i am scared
   ans:
   - What are you scared of?
   - Let's talk about your fears.
   - What is it that you are afraid of?
+  - Let's talk about your fears. what is your feeling like?
 
 - que:
   - i am uncomfortable
@@ -2403,22 +2272,17 @@ QA:
 - que:
   - i am the dumb
   ans:
-  - What am I doing that makes you feel like the dumb ?
+  - What am I doing that makes you feel like the dumb?
 
 - que:
   - i am a dumb
   ans:
-  - What am I doing that makes you feel like the dumb ?
+  - What am I doing that makes you feel like the dumb?
 
 - que:
   - i am not in the mood
   ans:
   - I'm sure you have been tired lately.
-
-- que:
-  - i am not in the mood
-  ans:
-  - I am not in the mood
 
 - que:
   - i feel like crying
@@ -2457,11 +2321,6 @@ QA:
 
 - que:
   - we are not speaking
-  ans:
-  - We can not communicate
-
-- que:
-  - we are not communicating
   ans:
   - We can not communicate
 
@@ -2521,11 +2380,6 @@ QA:
   - I probably don't care as much as you do.
 
 - que:
-  - do you care about yourself
-  ans:
-  - Do you care about yourself
-
-- que:
   - do you have to bring up
   ans:
   - Do you have to bring it up
@@ -2539,11 +2393,6 @@ QA:
   - do you have to bring it up
   ans:
   - I just want to see things from your point of view.
-
-- que:
-  - do you have to bring it up
-  ans:
-  - Do you have to bring it up
 
 - que:
   - like when i help
@@ -2591,11 +2440,6 @@ QA:
   - This is good
 
 - que:
-  - this is far out
-  ans:
-  - This is good 
-
-- que:
   - this is the worst
   ans:
   - Compared to what?
@@ -2612,11 +2456,6 @@ QA:
   - Worse than what?
 
 - que:
-  - this is wrong
-  ans:
-  - This is wrong
-
-- que:
   - this is so
   ans:
   - This is 
@@ -2627,19 +2466,9 @@ QA:
   - Better than what?
 
 - que:
-  - this is good
-  ans:
-  - This is good
-
-- que:
   - this is great
   ans:
   - This is good
-
-- que:
-  - this is great
-  ans:
-  - This is great
 
 - que:
   - this is terrible
@@ -2647,19 +2476,9 @@ QA:
   - Compared to what?
 
 - que:
-  - this is terrible
-  ans:
-  - This is terrible
-
-- que:
   - this is bad
   ans:
   - Compared to what?
-
-- que:
-  - this is bad
-  ans:
-  - This is bad
 
 - que:
   - this whole
@@ -2731,7 +2550,7 @@ QA:
   ans:
   - Must be very smart.
   - How thoughtful.
-  - Do a lot of people think ?
+  - Do a lot of people think?
 
 - que:
   - will stop
@@ -2784,19 +2603,9 @@ QA:
   - What makes it impossible?
 
 - que:
-  - impossible
-  ans:
-  - What prevents it?
-
-- que:
   - need
   ans:
   - What if it didn't happen?
-
-- que:
-  - are not communicating
-  ans:
-  - We can not communicate
 
 - que:
   - are not communicating
@@ -2811,19 +2620,7 @@ QA:
 - que:
   - causes
   ans:
-  - How specifically does cause ?
-
-- que:
-  - do not
-  ans:
-  - Why not?
-  - Would ever ?
-  - Who does ?
-
-- que:
-  - always
-  ans:
-  - Can you think of one instance where it never happens?
+  - How specifically does cause?
 
 - que:
   - all
@@ -2831,9 +2628,9 @@ QA:
   - All?
 
 - que:
-  - makes me _
+  - makes me
   ans:
-  - How specifically does cause ?
+  - How specifically does cause?
 
 - que:
   - never
@@ -2845,11 +2642,6 @@ QA:
   - noone
   ans:
   - No one?
-
-- que:
-  - should
-  ans:
-  - What if it didn't happen?
 
 - que:
   - is where
@@ -2922,17 +2714,12 @@ QA:
 - que:
   - he causes
   ans:
-  - How specifically does he cause ?
+  - How specifically does he cause?
 
 - que:
   - vibe
   ans:
   - Vibrating how, specifically?
-
-- que:
-  - vibe
-  ans:
-  - Vibe
 
 - que:
   - who dresses like
@@ -2983,26 +2770,6 @@ QA:
   - that you are ashamed of
   ans:
   - I certainly should be ashamed of that.
-
-- que:
-  - vibe
-  ans:
-  - Vibe
-
-- que:
-  - vibe
-  ans:
-  - Vibe
-
-- que:
-  - vibes
-  ans:
-  - Vibes
-
-- que:
-  - vibes
-  ans:
-  - Vibes
 
 - que:
   - tell me how old are

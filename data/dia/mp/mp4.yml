@@ -20459,11 +20459,6 @@ QA:
   - Does not seem possible.
 
 - que:
-  - can i kill
-  ans:
-  - For all I know.
-
-- que:
   - can i pick up chicks in a database
   ans:
   - Not very often.
@@ -22432,11 +22427,6 @@ QA:
   - how does dr pepper taste
   ans:
   - Does not seem possible.
-
-- que:
-  - how does it feel
-  ans:
-  - Not likely.
 
 - que:
   - how does one not get wet during rain
@@ -24652,11 +24642,6 @@ QA:
   - do you believe in animal liberation
   ans:
   - Unlikely.
-
-- que:
-  - do you believe in
-  ans:
-  - If it is, I don't know it.
 
 - que:
   - do you believe god created the cosmos
@@ -30764,11 +30749,6 @@ QA:
   - I don't know if that's true or not.
 
 - que:
-  - are you wrong
-  ans:
-  - Unlikely.
-
-- que:
   - are you alice
   ans:
   - Unlikely.
@@ -31507,11 +31487,6 @@ QA:
   - are we alone in the universe
   ans:
   - Doesn't seem likely.
-
-- que:
-  - are we alone
-  ans:
-  - Does not seem possible.
 
 - que:
   - are helpdesk people underpayed
@@ -33587,11 +33562,6 @@ QA:
   - where is goa
   ans:
   - It may not be true.
-
-- que:
-  - where is north
-  ans:
-  - Seldom.
 
 - que:
   - where is the istanbul city

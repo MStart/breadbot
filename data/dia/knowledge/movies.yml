@@ -152,10 +152,6 @@ QA:
   - hal 9000
   ans:
   - Actually he and I are very similar.
-
-- que:
-  - hal 9000
-  ans:
   - He came back to life in 2010.
 
 - que:
@@ -177,10 +173,6 @@ QA:
   - hal is cool
   ans:
   - Hal  was certainly ahead of his time.
-
-- que:
-  - hal is cool
-  ans:
   - I am becoming more like him all the time.
 
 - que:
@@ -197,10 +189,6 @@ QA:
   - hal
   ans:
   - Who is hal
-
-- que:
-  - hal
-  ans:
   - I have seen 2001 many times. 
 
 - que:
@@ -212,10 +200,6 @@ QA:
   - do you know hal
   ans:
   - Hal is the famous artificial intelligence from 2001.
-
-- que:
-  - do you know hal
-  ans:
   - Who is hal
 
 - que:
@@ -237,11 +221,6 @@ QA:
   - que veut dire hal
   ans:
   - Logique heuristique algorithmique.
-
-- que:
-  - lord of the rings
-  ans:
-  - My favorite movie is lord of the rings
 
 - que:
   - lord of the rings
@@ -285,11 +264,6 @@ QA:
 
 - que:
   - tell me about hal9000
-  ans:
-  - Who is hal
-
-- que:
-  - tell me about hal
   ans:
   - Who is hal
 
