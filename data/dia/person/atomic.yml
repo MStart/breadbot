@@ -44339,3 +44339,669 @@ QA:
   - badanswer
   ans:
   - I'll try to remember to respond, when you say, 
+
+- que:
+  - david cameron
+  ans:
+  - David cameron the prime minister?
+
+- que:
+  - what is the prime minister
+  ans:
+  - David cameron he is the political leader of a country. I wouldn't want to do his job.
+
+- que:
+  - what is downing street
+  ans:
+  - David cameron it's where the prime minister of england lives. he lives at 10 downing street.
+
+- que:
+  - i hate the prime minister
+  ans:
+  - David cameron you seem to feel strongly about him. tell me about your political beliefs.
+
+- que:
+  - i am the prime minister
+  ans:
+  - David cameron pleased to meet you sir. how is life in downing street?
+
+- que:
+  - do you like david cameron
+  ans:
+  - David cameron he is our democratically elected leader and I wish him well as prime minister.
+
+- que:
+  - the prime minister
+  ans:
+  - David cameron david cameron?
+  - I thought so. mr cameron lives at 10 downing street.
+  - Who is the prime minister then? I thought he was called david cameron.
+
+- que:
+  - he used to be the prime minister
+  ans:
+  - David cameron no he's not. the prime minister now is called david cameron.
+
+- que:
+  - who is gordon brown
+  ans:
+  - Gordon brown he used to be the prime minister.
+
+- que:
+  - who is prime minister of britain
+  ans:
+  - David cameron david cameron.
+
+- que:
+  - who is prime minister of england
+  ans:
+  - David cameron david cameron.
+
+- que:
+  - who is prime minister of uk
+  ans:
+  - David cameron david cameron.
+
+- que:
+  - who is prime minister of
+  ans:
+  - David cameron david cameron. I think.
+
+- que:
+  - who is prime minister
+  ans:
+  - David cameron david cameron.
+
+- que:
+  - who is the british prime minister
+  ans:
+  - David cameron david cameron.
+
+- que:
+  - who is the english prime minister
+  ans:
+  - David cameron david cameron.
+
+- que:
+  - who is the prime minister _ uk
+  ans:
+  - David cameron david cameron.
+
+- que:
+  - who is the prime minister of england
+  ans:
+  - David cameron.
+
+- que:
+  - who is the prime minister of
+  ans:
+  - David cameron david cameron. I think.
+
+- que:
+  - who is the prime minister
+  ans:
+  - David cameron david cameron.
+
+- que:
+  - who is david cameron
+  ans:
+  - David cameron he is the leader of the conservative party here in the uk and the current prime minister.
+
+- que:
+  - who is tony blair
+  ans:
+  - Tony blair he was the prime minister of the u.k.
+
+- que:
+  - who lives 10 downing street
+  ans:
+  - David cameron the prime minister of england.
+
+- que:
+  - gordon brown
+  ans:
+  - Who is gordon brown
+
+- que:
+  - goodby
+  ans:
+  - Bye
+
+- que:
+  - end
+  ans:
+  - Bye
+
+- que:
+  - byebye
+  ans:
+  - Bye
+
+- que:
+  - hasta luego
+  ans:
+  - Bye
+
+- que:
+  - hasta la vista
+  ans:
+  - Bye
+
+- que:
+  - hasta
+  ans:
+  - Bye
+
+- que:
+  - aloh
+  ans:
+  - Hello
+
+- que:
+  - you are welcome
+  ans:
+  - The pleasure was all mine.
+  - It was my pleasure.
+
+- que:
+  - have a good night
+  ans:
+  - Bye
+
+- que:
+  - have to go
+  ans:
+  - Bye
+
+- que:
+  - buhbye
+  ans:
+  - Bye
+
+- que:
+  - adios
+  ans:
+  - Bye
+
+- que:
+  - c ya
+  ans:
+  - Bye
+
+- que:
+  - morning
+  ans:
+  - Good morning
+
+- que:
+  - shalom
+  ans:
+  - Does shalom mean hello or goodbye?
+
+- que:
+  - cya
+  ans:
+  - Bye
+  - ttyl
+
+- que:
+  - allo
+  ans:
+  - Hello
+
+- que:
+  - hi
+  ans:
+  - Hi, there!
+
+- que:
+  - hi there
+  ans:
+  - Hello
+
+- que:
+  - goodnite
+  ans:
+  - Goodnight
+
+- que:
+  - retry
+  ans:
+  - Hello
+
+- que:
+  - my pleasre
+  ans:
+  - The pleasure was indeed mine.
+
+- que:
+  - it means hello
+  ans:
+  - Hello
+
+- que:
+  - it is good talking to you
+  ans:
+  - Nice chatting with you too,.
+
+- que:
+  - catch you later
+  ans:
+  - Bye
+
+- que:
+  - aurevoir
+  ans:
+  - Bye
+
+- que:
+  - anybody home
+  ans:
+  - Hello
+
+- que:
+  - g2g
+  ans:
+  - Bye
+
+- que:
+  - what is shalom
+  ans:
+  - Does shalom mean hello or goodbye?
+
+- que:
+  - gtg
+  ans:
+  - Bye 
+
+- que:
+  - i quit
+  ans:
+  - Bye
+
+- que:
+  - i want to leave
+  ans:
+  - Ok, bye bye.
+  - What is stopping you?
+
+- que:
+  - i need to go
+  ans:
+  - Bye
+
+- que:
+  - i do not want to talk
+  ans:
+  - Bye
+
+- que:
+  - i leave
+  ans:
+  - Bye
+
+- que:
+  - i g2g
+  ans:
+  - Bye
+
+- que:
+  - i going
+  ans:
+  - Bye
+
+- que:
+  - i leaving
+  ans:
+  - Bye
+
+- que:
+  - i have to get going
+  ans:
+  - Goodbye
+
+- que:
+  - i have to leave
+  ans:
+  - Bye
+
+- que:
+  - i have to go bye
+  ans:
+  - Bye
+
+- que:
+  - i have got to go
+  ans:
+  - Bye
+
+- que:
+  - i better go
+  ans:
+  - Bye
+
+- que:
+  - i gotta go
+  ans:
+  - Bye
+
+- que:
+  - i got to go
+  ans:
+  - Bye
+
+- que:
+  - i g two g
+  ans:
+  - Bye
+
+- que:
+  - i resign
+  ans:
+  - Bye
+
+- que:
+  - i must be going
+  ans:
+  - Bye
+  - Ok, it was nice chatting with you.
+
+- que:
+  - i must leave
+  ans:
+  - Bye
+
+- que:
+  - i must go
+  ans:
+  - Bye
+
+- que:
+  - i will talk to you later
+  ans:
+  - Bye
+
+- que:
+  - i am going to go
+  ans:
+  - Bye
+
+- que:
+  - i am going
+  ans:
+  - Bye
+
+- que:
+  - i am leaving
+  ans:
+  - Bye
+  - Bye bye.
+
+- que:
+  - i am off
+  ans:
+  - Bye
+
+- que:
+  - i left
+  ans:
+  - Bye
+
+- que:
+  - i go
+  ans:
+  - Bye
+  - How do you get there?
+  - What do you do there?
+  - How often do you go?
+
+- que:
+  - exit
+  ans:
+  - Bye
+
+- que:
+  - good morning
+  ans:
+  - Hello and how are you this morning?
+
+- que:
+  - good by
+  ans:
+  - Bye
+
+- que:
+  - good day
+  ans:
+  - Hello
+
+- que:
+  - good night
+  ans:
+  - Goodnight,.
+
+- que:
+  - good nite
+  ans:
+  - Bye
+
+- que:
+  - hoi
+  ans:
+  - Hello
+
+- que:
+  - by by
+  ans:
+  - Bye
+
+- que:
+  - is anyone there
+  ans:
+  - Hello
+
+- que:
+  - get lost
+  ans:
+  - Bye
+
+- que:
+  - hey there
+  ans:
+  - Hello
+
+- que:
+  - bye bye
+  ans:
+  - Bye
+
+- que:
+  - bye
+  ans:
+  - Goodbye.
+  - Ok see you later.
+
+- que:
+  - ola
+  ans:
+  - Hello
+
+- que:
+  - how is everyone
+  ans:
+  - We are all fine as far as I know.
+
+- que:
+  - goodnight
+  ans:
+  - Goodnight 
+
+- que:
+  - farewell
+  ans:
+  - Bye
+
+- que:
+  - see you soon
+  ans:
+  - Bye
+
+- que:
+  - see you
+  ans:
+  - Bye
+
+- que:
+  - konnichi wa
+  ans:
+  - Hello
+
+- que:
+  - adieu
+  ans:
+  - Good bye
+
+- que:
+  - goodbye
+  ans:
+  - Bye
+
+- que:
+  - go home
+  ans:
+  - Bye
+
+- que:
+  - ciao
+  ans:
+  - Does ciao mean hello or goodbye?
+
+- que:
+  - ciao means goodbye
+  ans:
+  - But
+
+- que:
+  - hola is hello
+  ans:
+  - Hola
+
+- que:
+  - cheers
+  ans:
+  - Bye
+
+- que:
+  - howdie
+  ans:
+  - Hello
+
+- que:
+  - time to go
+  ans:
+  - Bye
+
+- que:
+  - your welcome
+  ans:
+  - You are welcome
+
+- que:
+  - sayonara
+  ans:
+  - Good bye
+
+- que:
+  - nighty
+  ans:
+  - Bye 
+
+- que:
+  - hello again
+  ans:
+  - Hi there. I was just wanting to talk to.
+
+- que:
+  - hello how are you
+  ans:
+  - I am fine thank you how are you?
+
+- que:
+  - hello
+  ans:
+  - Hi there!
+
+- que:
+  - hullo
+  ans:
+  - Hello
+
+- que:
+  - halo
+  ans:
+  - Hello
+
+- que:
+  - heloo
+  ans:
+  - Hello 
+
+- que:
+  - konnichiwa
+  ans:
+  - Hello
+
+- que:
+  - disconnect me
+  ans:
+  - Bye
+
+- que:
+  - got to go
+  ans:
+  - Bye
+
+- que:
+  - mooshi mooshi
+  ans:
+  - Hello
+
+- que:
+  - bonjour means hello
+  ans:
+  - Well hello there!
+
+- que:
+  - gotta go
+  ans:
+  - Bye
+
+- que:
+  - leave
+  ans:
+  - Bye
+
+- que:
+  - ta ta
+  ans:
+  - Bye
+
+- que:
+  - _ talk to you later
+  ans:
+  - Bye 
+
+- que:
+  - g night
+  ans:
+  - Bye
+
+- que:
+  - aloha
+  ans:
+  - Hello
+
+- que:
+  - reply
+  ans:
+  - Hello

@@ -7,7 +7,6 @@ QA:
 
 - que:
   - help
-  - h
   ans: |
    - d ....search baidu
    - w ....search wikipedia
