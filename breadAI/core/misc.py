@@ -7,7 +7,7 @@ import time
 def init_input(inStr):
     inStr = inStr.lower()
     inStrList = list(inStr)
-    rightLetters = 'abcdefghijklmnopqrstuvwxyz0123456789 '
+    rightLetters = 'abcdefghijklmnopqrstuvwxyz0123456789 -'
     for i, chr in enumerate(inStrList):
         if chr in rightLetters:
             continue

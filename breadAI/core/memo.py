@@ -26,6 +26,7 @@ class longStr(object):
         curBlock = 1
         self.memLS['cur_block'] = str(curBlock)
         self.memLS['block_count'] = str(blockCount)
+        text = text.encode('unicode-escape').decode()
         self.memLS['content'] = self.spSignal.join(
             [text[i:i + self.maxWords]
              for i in range(0, len(text), self.maxWords)])
@@ -55,6 +56,8 @@ class longStr(object):
         else:
             res = 'no more'
         res = res.replace(self.spSignal, '')
+        res = res.replace(r'\n', '\n')
+        res = res.replace(r'\r', '\r')
         return res
 
 
@@ -80,6 +83,7 @@ class dialogue(object):
         if len(diaList) >= self.maxLen:
             diaList.pop(0)
         inStr = inStr.encode('unicode-escape').decode()
+        res = res.encode('unicode-escape').decode()
         diaList.append(inStr + self.spSignal + res)
         self.memDia['content'] = str(self.spSignal2.join(diaList))
         self.mem.write()

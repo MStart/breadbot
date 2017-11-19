@@ -23,7 +23,7 @@ QA:
   - how to over the wall by firefox
   - how to over the wall with firefox
   ans: |
-   - sudo apt-get install openssh-server
+   - sudo apt install openssh-server
    - Install Firefox plugin "autoproxy", the option is: "default proxy: ssh -D"
    - Goto http://www.cjb.net/cgi-bin/shell.cgi?action=signup to register a ssh account
    - ssh -v -CD 7070 username@216.194.70.6 "select yes if ask"
@@ -88,7 +88,7 @@ QA:
   - how to config samba
   - how to install samba
   ans: |
-   - sudo apt-get install samba smbfs
+   - sudo apt install samba smbfs
    - mkdir /home/yourname/share
    - sudo chmod 777 /home/yourname/share
    - sudo vi /etc/samba/smb.conf
@@ -105,18 +105,18 @@ QA:
    - Test if it works: smbclient -L //localhost/share
 
 - que:
-  - apt-get error
-  - apt-get source error
-  - how to deal with apt-get error
+  - apt error
+  - apt source error
+  - how to deal with apt error
   ans: |
    - sudo rm -vf /var/lib/apt/lists/*
-   - sudo apt-get update
+   - sudo apt update
 
 - que:
   - how to install java
   - how to build java environment
   ans: |
-   - sudo apt-get install openjdk-7-jdk
+   - sudo apt install openjdk-7-jdk
    - Edit .bashrc, add this
     export JAVA_HOME={your_jdk_dir}
     export JRE_HOME=${JAVA_HOME}/jre
@@ -227,7 +227,7 @@ QA:
 - que:
   - how to install powertop
   ans: |
-   - sudo apt-get install powertop
+   - sudo apt install powertop
    - edit /etc/rc.local
     powertop && 
     exit 0
@@ -247,8 +247,8 @@ QA:
 - que:
   - can not open libstdc++.so.6
   ans: |
-   - sudo apt-get install libstdc++6
-   - sudo apt-get install lib32stdc++6
+   - sudo apt install libstdc++6
+   - sudo apt install lib32stdc++6
 
 - que:
   - how to connect wep on command line
@@ -261,7 +261,7 @@ QA:
    - sudo iw dev wlan0
    - sudo iw dev wlan0 connect xxx
    - sudo dhclient wlan0 or sudo dhcpcd wlan0
-   - Note: If you set the essid iwconfig no response, sudo apt-get autoremove network-manager.
+   - Note: If you set the essid iwconfig no response, sudo apt autoremove network-manager.
 
 - que:
   - how to connect wpa on command line
@@ -289,7 +289,7 @@ QA:
   - how to install lamp environment
   - how to install lamp
   ans: |
-   - sudo apt-get install apache2 php5 libapache2-mod-php5 mysql-server libapache2-mod-auth-mysql php5-mysql
+   - sudo apt install apache2 php5 libapache2-mod-php5 mysql-server libapache2-mod-auth-mysql php5-mysql
    - sudo /etc/init.d/apache2 restart
    - Then enter this: sudo ls /etc/apache2/mods-enabled, see if there are php5.conf and php5.load, if not, try: sudo a2enmod php5
 
@@ -301,7 +301,7 @@ QA:
    - sudo vi /var/www/phpmyadmin/config.inc.php
     Find "blowfish_secret" then enter any words behind it.
    - At last install php5-mcrypt
-   - sudo apt-get install php5-mcrypt
+   - sudo apt install php5-mcrypt
    - sudo vi /etc/php5/apache2/php.ini
    - Modify like that:
     extension php5-mcrypt.so
@@ -351,12 +351,12 @@ QA:
 - que:
   - command x86_64-linux-gnu-gcc failed with exit status 1
   ans:
-  - sudo apt-get install libevent-dev
+  - sudo apt install libevent-dev
 
 - que:
   - how to generate code documentation
   ans: |
-   - Doxygen is a document generation tool: sudo apt-get install doxygen
+   - Doxygen is a document generation tool: sudo apt install doxygen
    - In the code directory run doxygen -g generate Doxyfile profile
    - Doxypypy is a python tool used to make doxygen better identify
    - git clone https://github.com/Feneric/doxypypy.git
@@ -367,7 +367,7 @@ QA:
     python -m doxypypy.doxypypy -a -c $1
    - Modify Doxyfile the FILTER_PATTERNS parameters like that: FILTER_PATTERNS *.py=py_filter
    - Graphviz is a function-graph generation tools
-   - sudo apt-get install graphviz
+   - sudo apt install graphviz
    - Set the Doxyfile variable to YES: CLASS_DIAGRAMS, HAVE_DOT, CALL_GRAPH, CALLER_GRAPH, DOT_PATH
    - At last, run doxygen command to generate the diagram containing python code documentation
    - Notes: If the contents of the document was incomplete, please see Doxyfile the EXTRACT_ prefix argument, or set EXTRACT_ALL to YES.
@@ -615,7 +615,7 @@ QA:
   - vim how to access system clipboard
   ans: |
    - Be sure to install the vim-gnome, otherwise you can not operate the system clipboard
-   - sudo apt-get install vim-gnome
+   - sudo apt install vim-gnome
    - ":reg" to see all clipboard contents in vim, the "+ is the system clipboard
    - Use command "+y to copied to the system clipboard, use command "+p to past from the system clipboard
 
@@ -742,13 +742,13 @@ QA:
   - how to install sdcc on ubuntu
   - how to install sdcc
   ans: |
-   - sudo apt-get install sdcc
-   - If it does not work, try this: sudo apt-get install gputils gputils-common gputils-doc sdcc sdcc-doc sdcc-libraries sdcc-ucsim
+   - sudo apt install sdcc
+   - If it does not work, try this: sudo apt install gputils gputils-common gputils-doc sdcc sdcc-doc sdcc-libraries sdcc-ucsim
 
 - que:
   - cmu sphinx can not find libpocketsphinx.so.1
   ans: |
-   - sudo apt-get install audacity
+   - sudo apt install audacity
    - libpocketsphinx.so.1 problem will arise when you start pocketsphinx_continues. It mainly due to that sphinxbase did not be added to the library path environment variable
    - So we do: sudo vi/etc/ld.so.conf
    - Add this, 
@@ -760,7 +760,7 @@ QA:
   - cmu sphinx failed to open audio device
   - pocketsphinx_continues failed to open audio device
   ans:
-  - sudo apt-get install pulseaudio
+  - sudo apt install pulseaudio
 
 - que:
   - cmu sphinx failed to calibrate voice activity detection
@@ -798,7 +798,7 @@ QA:
 - que:
   - bochs dlopen failed for module x file not found
   ans:
-  - sudo apt-get install bochs-x
+  - sudo apt install bochs-x
 
 - que:
   - libbx_x.so undefined symbol xpmcreatepixmapfromdata
@@ -826,7 +826,7 @@ QA:
   - ubuntu how to install ftp server
   - linux how to install ftp server
   ans:
-  - sudo apt-get install pure-ftpd
+  - sudo apt install pure-ftpd
 
 - que:
   - git how to revert
@@ -887,14 +887,14 @@ QA:
 - que:
   - how to install kvm
   ans:
-  - sudo apt-get install qemu-kvm virt-manager bridge-utils libvirt-bin
+  - sudo apt install qemu-kvm virt-manager bridge-utils libvirt-bin
 
 - que:
   - how to install vnc server
   ans: |
-   - sudo apt-get install vnc4server
+   - sudo apt install vnc4server
    - vncpasswd
-   - sudo apt-get install xfce4
+   - sudo apt install xfce4
    - vi ~/.vnc/xstartup, annotate the old config, add new config, 
     #x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" & 
     #x-window-manager & 
@@ -975,7 +975,7 @@ QA:
    - rm -rf /home/.ecryptfs
    - rm -rf /home/your_name/.ecryptfs
    - rm -rf /home/your_name/.Private
-   - apt-get autoremove ecryptfs-utils libecryptfs0
+   - apt autoremove ecryptfs-utils libecryptfs0
 
 - que:
   - how to redirect the domain to github pages
@@ -991,7 +991,7 @@ QA:
   - ubuntu how to install chrome flash plugin
   - chrome how to install flash plugin on ubuntu
   ans: |
-   - sudo apt-get install pepperflashplugin-nonfree
+   - sudo apt install pepperflashplugin-nonfree
    - sudo update-pepperflashplugin-nonfree --install
 
 - que:
@@ -999,12 +999,12 @@ QA:
   - ubuntu how to install firefox flash plugin
   - firefox how to install flash plugin on ubuntu
   ans:
-  - sudo apt-get install flashplugin-nonfree
+  - sudo apt install flashplugin-nonfree
 
 - que:
   - ubuntu how to rm to trash
   ans: |
-   - sudo apt-get install trash-cli
+   - sudo apt install trash-cli
    - Edit /usr/local/bin/trash-rm, 
     #!/bin/bash
     # command name: trash-rm
@@ -1147,3 +1147,95 @@ QA:
   - how to solve coding problem of python3
   ans:
   - Str = Str.encode('unicode-escape').decode()
+
+- que:
+  - what is forward compatibility and backward compatibility
+  - what is the differents between forward compatibility and backward compatibility
+  ans: |
+   - Forward compatibility means forward version support current version, based on forward version.
+   - Backward compatibility means current version support forward version, based on current version.
+
+- que:
+  - how to make code easy to read
+  - how to read code better
+  ans:
+  - Just make it like nature language.
+
+- que:
+  - how to quick develop
+  - how to develop software fast
+  ans: |
+   - prepare a lot of modules, can help the conceptual product development become more quickly
+   - a lot of equivalent alternative conditions can help locating and fixing the faults
+   - rapid prototype development: I think focing on the special stage function and the speed is very important
+   - rapid prototype development: do before speak!
+   - do not keep coding for a long time, it will finally become very low effective. leave the computer for enough time will make it much better
+   - without communication, without quick development
+
+- que:
+  - can not access windows installer server
+  ans:
+  - Open terminal, enter "msiexec /unregisteru", then enter "msiexec /regserver".
+
+- que:
+  - how to cheat in half life
+  ans: |
+   - sv_cheat 1
+   - god (God mode), impulse 101 (All weapons)
+
+- que:
+  - can not printf on stm32 mdk
+  ans:
+  - Target -> Use MicroLIB must be selected.
+
+- que:
+  - how to build stm32 project
+  - how to build a stm32 project
+  - how to build stm32 mdk project
+  ans: |
+   - 1. Create 5 folders for the code files, 
+     - Libraries (CMSIS STM32F10x_StdPeriph_Driver)
+     - List (listing files)
+     - Obj (output files)
+     - Project (* .uvproj files)
+     - User (main.c)
+   - 2. Open the MDK, create 4 groups, 
+     - Startup (startup files)
+     - CMSIS (core_cm3.c, system_stm32f2xx.c)
+     - User (main.c)
+     - StdPeriph_Driver (stm32f2xx_gpio.c, stm32f2xx_rcc.c, and so on)
+   - 3. Options for Target, 
+     - Output
+     - Listing
+     - C/C++ -> Include Paths (to include the header file path); Define (add USE_STDPERIPH_DRIVER, STM32F2XX_CL)
+
+- que:
+  - how to install gstc-isp on ubuntu
+  ans: |
+   - When I run ./configure, there're some errors, so I did, 
+   - sudo apt-get install gnome-core-devel
+   - sudo apt-get install gawk
+   - When make, there are errors, too. So I did, 
+   - sudo apt-get install libvte-dev
+   - Then edit src/main.c, alter the line to _#include <vte-0.0/vte/vte.h>_
+
+- que:
+  - what is the meaning of flex
+  ans:
+  - A lower power and upgraded timer or bus.
+
+- que:
+  - dxp how to automatically check the pcb layout error
+  ans:
+  - reports -> board information -> report
+
+- que:
+  - what is dummy
+  - what is the meaning of dummy
+  ans:
+  - It means virtual, null pointer.
+
+- que:
+  - where to put the switch
+  ans:
+  - Put in the positive pole, not GND, or the MCU will reboot again and again.
