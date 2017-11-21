@@ -22,8 +22,13 @@ def _get_qas(db, coll, isSuper=False):
 def response(db, inStr, isSuper=False):
     regexStr = '(^|.* )' + inStr + '( .*|$)'
     colls = db.collection_names()
-    lastDia = memo.dialogue().get_dia()[-1]
-    lastAns = list(lastDia.values())[0]
+    dias = memo.dialogue().get_dia()
+    lastDia = {}
+    lastAns = []
+    if dias:
+        lastDia = dias[-1]
+    if lastDia:
+        lastAns = list(lastDia.values())[0]
     newQues = []
     if firstLine in lastAns:
         ques = lastAns.split('\n')[1:]
