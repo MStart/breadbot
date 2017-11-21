@@ -54,12 +54,14 @@ class chat(object):
             res = 'I speak English only'
             return res
         else:
+            que = ''
+            ans = ''
             lastDia = {}
             lastDias = memo.dialogue().get_dia()
             if lastDias:
                 lastDia = lastDias[-1]
-            que = list(lastDia.keys())[0]
-            ans = list(lastDia.values())[0]
+                que = list(lastDia.keys())[0]
+                ans = list(lastDia.values())[0]
             if inStr == que or nom.firstLine in ans:
                 res = nom.response(self.db, inStr, isSuper)
                 if not res:
