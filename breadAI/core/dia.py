@@ -17,7 +17,10 @@ def response(db, inStr, isSuper=False):
         for qa in qas:
             ques = qa['que']
             if inStr in ques:
-                res += qa['ans']
+                ans = qa['ans']
+                if type(ans) is not list:
+                    ans = [ans]
+                res += ans
     if res:
         res = random.choice(res)
     return res

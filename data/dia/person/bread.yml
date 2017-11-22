@@ -4,6 +4,20 @@ tag:
 QA:
 
 - que:
+  - help
+  ans: |
+   - d ....search baidu
+   - w ....search wikipedia
+   - s ....search dictionary
+   - n ....show next message
+
+- que:
+  - home
+  - home page
+  ans:
+  - https://ideamark.github.io
+
+- que:
   - bread
   ans:
   - My name.
