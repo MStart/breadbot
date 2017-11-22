@@ -7,9 +7,9 @@ from pymongo import MongoClient
 
 from . import data
 from . import dia
+from . import klg
 from . import memo
 from . import misc
-from . import nom
 from . import search
 
 
@@ -62,14 +62,14 @@ class chat(object):
                 lastDia = lastDias[-1]
                 que = list(lastDia.keys())[0]
                 ans = list(lastDia.values())[0]
-            if inStr == que or nom.do_you_mean in ans:
-                res = nom.response(self.db, inStr, isSuper)
+            if inStr == que or klg.do_you_mean in ans:
+                res = klg.response(self.db, inStr, isSuper)
                 if not res:
                     res = dia.response(self.db, inStr, isSuper)
             else:
                 res = dia.response(self.db, inStr, isSuper)
                 if not res:
-                    res = nom.response(self.db, inStr, isSuper)
+                    res = klg.response(self.db, inStr, isSuper)
         if not res:
             notList = [
                 'Sorry, I dont understand',
