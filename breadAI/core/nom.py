@@ -3,7 +3,7 @@ import re
 
 from breadAI.core import memo
 
-firstLine = 'Do you mean:'
+do_you_mean = 'Do you mean:'
 
 
 def _get_qas(db, coll, isSuper=False):
@@ -20,33 +20,23 @@ def _get_qas(db, coll, isSuper=False):
 
 
 def response(db, inStr, isSuper=False):
+    if len(inStr) < 3:
+        return
     regexStr = '(^|.* )' + inStr + '( .*|$)'
     colls = db.collection_names()
-    dias = memo.dialogue().get_dia()
-    lastDia = {}
-    lastAns = []
-    if dias:
+    try:
+        dias = memo.dialogue().get_dia()
         lastDia = dias[-1]
-    if lastDia:
         lastAns = list(lastDia.values())[0]
+    except Exception:
+        return
     newQues = []
-    if firstLine in lastAns:
-        ques = lastAns.split('\n')[1:]
+    if do_you_mean in lastAns:
+        ques = lastAns.split(r'\n')[1:]
         for que in ques:
             if re.match(regexStr, que):
                 newQues.append(que)
     newQues = list(set(newQues))
-    if len(newQues) < 1:
-        for coll in colls:
-            qas = _get_qas(db, coll, isSuper)
-            if not qas:
-                continue
-            for qa in qas:
-                ques = qa['que']
-                for que in ques:
-                    if re.match(regexStr, que):
-                        newQues.append('- ' + que)
-                        break
     if len(newQues) < 1:
         words = inStr.split(' ')
         for coll in colls:
@@ -64,8 +54,9 @@ def response(db, inStr, isSuper=False):
                             break
                     if all_words_in:
                         newQues.append('- ' + que)
+                        break
     if len(newQues) < 1:
-        res = None
+        return
     elif len(newQues) == 1:
         Que = newQues[0]
         Que = re.sub(r'^- ', '', Que)
@@ -86,7 +77,7 @@ def response(db, inStr, isSuper=False):
             res = '- ' + res
         res = Que + '?\n' + res
     else:
-        newQues.insert(0, firstLine)
+        newQues.insert(0, do_you_mean)
         res = '\n'.join(newQues)
     if res:
         memo.dialogue().insert_dia(inStr, res)

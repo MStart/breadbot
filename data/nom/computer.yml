@@ -1134,7 +1134,7 @@ QA:
 
 - que:
   - how to show the dos break
-  - how to display the dos bread
+  - how to display the dos break
   ans:
   - :e ++ff=unix %
 

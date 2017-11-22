@@ -62,7 +62,7 @@ class chat(object):
                 lastDia = lastDias[-1]
                 que = list(lastDia.keys())[0]
                 ans = list(lastDia.values())[0]
-            if inStr == que or nom.firstLine in ans:
+            if inStr == que or nom.do_you_mean in ans:
                 res = nom.response(self.db, inStr, isSuper)
                 if not res:
                     res = dia.response(self.db, inStr, isSuper)

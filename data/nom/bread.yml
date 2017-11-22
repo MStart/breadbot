@@ -1,4 +1,4 @@
-# System QA about Bread-AI
+# System QAs about Bread-AI
 
 tag:
 - nom
@@ -6,9 +6,15 @@ tag:
 QA:
 
 - que:
-  - help
+  - bread help
   ans: |
    - d ....search baidu
    - w ....search wikipedia
    - s ....search dictionary
    - n ....show next message
+
+- que:
+  - home
+  - home page
+  ans:
+  - https://ideamark.github.io
