@@ -24,7 +24,7 @@ class WeChat(View):
         return False
 
     def get(self, request):
-        token = 'Mark_Young'
+        token = core.misc.cfg().get('token')
         signature = request.GET.get('signature', None)
         timestamp = request.GET.get('timestamp', None)
         nonce = request.GET.get('nonce', None)

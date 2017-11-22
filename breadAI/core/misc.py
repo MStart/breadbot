@@ -43,7 +43,9 @@ class cfg(object):
         self.cfg = ConfigObj('/etc/bread.cfg')
 
     def get(self, value):
-        if value == 'server_ip':
+        if value == 'token':
+            return self.cfg['normal']['token']
+        elif value == 'server_ip':
             return self.cfg['normal']['server_ip']
         elif value == 'data_path':
             return self.cfg['normal']['data_path']
@@ -56,7 +58,9 @@ class cfg(object):
             return userList
 
     def write(self, value, key):
-        if value == 'server_ip':
+        if value == 'token':
+            self.cfg['normal']['token'] = key
+        elif value == 'server_ip':
             self.cfg['normal']['server_ip'] = key
         elif value == 'data_path':
             self.cfg['normal']['data_path'] = key
