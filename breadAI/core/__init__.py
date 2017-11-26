@@ -11,6 +11,7 @@ from . import klg
 from . import memo
 from . import misc
 from . import search
+from . import teach
 
 
 class chat(object):
@@ -26,33 +27,25 @@ class chat(object):
 
     def response(self, inStr, isSuper=False):
         if "'" in inStr:
-            res = 'Please do not use \''
-            return res
+            return 'Please do not use \''
         inStr = misc.init_input(inStr)
 
         if re.match('^(n|next)$', inStr):
             res = memo.longStr().read_mem()
         elif re.match('^s .*$', inStr):
             content = re.sub('^s ', '', inStr)
-            if not len(content):
-                res = '[Not Found]'
-            else:
-                res = search.translate(content)
+            res = search.translate(content)
         elif re.match('^d .*$', inStr):
             content = re.sub('^d ', '', inStr)
-            if not len(content):
-                res = '[Not Found]'
-            else:
-                res = search.baiduSearch(content)
+            res = search.baiduSearch(content)
         elif re.match('^w .*$', inStr):
             content = re.sub('^w ', '', inStr)
-            if not len(content):
-                res = '[Not Found]'
-            else:
-                res = search.wikiSearch(content)
+            res = search.wikiSearch(content)
+        elif re.match('^t .*$', inStr):
+            content = re.sub('^t ', '', inStr)
+            res = teach.response(content, isSuper)
         elif re.search('[\u4e00-\u9fa5]', inStr):
-            res = 'I speak English only'
-            return res
+            return 'I speak English only'
         else:
             que = ''
             ans = ''

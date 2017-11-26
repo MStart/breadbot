@@ -6,16 +6,22 @@ import urllib.request
 
 
 def baiduSearch(keyword):
+    if not keyword:
+        return
     p = {'wd': keyword}
     return "http://www.baidu.com/s?" + urllib.parse.urlencode(p)
 
 
 def wikiSearch(keyword):
+    if not keyword:
+        return
     keyword = keyword.replace(' ', '_')
     return 'https://en.m.wikipedia.org/wiki/' + keyword
 
 
 def translate(word):
+    if not word:
+        return
     if re.match(u'.*[\u4e00-\u9fa5].*', word) or ' ' in word:
         p = {'wd': word}
         return "http://dict.baidu.com/s?" + urllib.parse.urlencode(p)

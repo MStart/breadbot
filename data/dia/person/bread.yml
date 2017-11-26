@@ -10,6 +10,7 @@ QA:
    - w ....search wikipedia
    - s ....search dictionary
    - n ....show next message
+   - t ....teach a dialogue
 
 - que:
   - home

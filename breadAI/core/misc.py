@@ -5,19 +5,10 @@ import time
 
 
 def init_input(inStr):
-    inStr = inStr.lower()
-    inStrList = list(inStr)
-    rightLetters = 'abcdefghijklmnopqrstuvwxyz0123456789 -'
-    for i, chr in enumerate(inStrList):
-        if chr in rightLetters:
-            continue
-        elif re.match(u'[\u4e00-\u9fa5]', chr):
-            continue
-        else:
-            inStrList[i] = ' '
-    inStr = ''.join(inStrList)
-    inStr = re.sub(r'\s{2,}', ' ', inStr)
+    inStr = re.sub('\s', ' ', inStr)
+    inStr = re.sub('  ', ' ', inStr)
     inStr = re.sub(r'(^ +| +$)', '', inStr)
+    inStr = inStr.lower()
     return inStr
 
 

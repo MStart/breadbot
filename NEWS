@@ -105,3 +105,7 @@
 - Version: 1.2.7
 - Fixed some bugs of core engine
 - Modify nom to klg
+
+2017-11-26:
+- Version: 1.2.8
+- Added a new function: teach dialogue
