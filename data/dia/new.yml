@@ -2,3 +2,18 @@ tag:
 - dia
 
 QA:
+
+- que:
+  - sure
+  ans:
+  - ok.
+
+- que:
+  - fine
+  ans:
+  - well.
+
+- que:
+  - well what
+  ans:
+  - Nothing.

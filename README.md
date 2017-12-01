@@ -13,14 +13,9 @@
 * sudo python3 setup.py clean
 
 ## How to use
-* run command "bread-console"
-* then u can talk with bread, type "help" for more info.
-* Examples:
- * Search Baidu: type "d xxx", Bread will return the url of baidu search result.
- * Search Wikipedia: type "w xxx", Bread will return the url of wikipedia search result.
- * Search dictionary: type "s xxx", Bread will return the dictionary explanation.
- * If return message is too long, type "n" to turn to next page.
- * If you type a word twice, Bread will start searching the knowledge base.
+* Run command "bread-console"
+* Then u can talk with bread, type "help" for more info.
+* Access https://ideamark.github.io for more info.
 
 ## Seek more
 * Author: Mark Young
