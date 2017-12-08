@@ -50,16 +50,30 @@ class insertData(object):
             log.write(dataPathInfo + '\n')
         log.close()
 
+    def _get_data_list(self, root, files):
+        dataList = []
+        for file in files:
+            if not re.match(r'^.*\.yml$', file):
+                continue
+            filePath = os.path.join(root, file)
+            editTime = os.stat(filePath).st_mtime
+            info = ' '.join([filePath, str(editTime)])
+            dataList.append(info)
+        return dataList
+
     def _get_cur_data_list(self, dataPath):
         curDataList = []
         for root, dirs, files in os.walk(dataPath):
-            for file in files:
-                if not re.match(r'^.*\.yml$', file):
-                    continue
-                filePath = os.path.join(root, file)
-                editTime = os.stat(filePath).st_mtime
-                info = ' '.join([filePath, str(editTime)])
-                curDataList.append(info)
+            dataList = self._get_data_list(root, files)
+        curDataList += dataList
+        try:
+            secPath = os.path.join(dataPath, 'sec')
+            secPath = os.readlink(secPath)
+            for root, dirs, files in os.walk(secPath):
+                dataList = self._get_data_list(root, files)
+            curDataList += dataList
+        except Exception:
+            print('[Warning] No sec folder')
         return curDataList
 
     def _get_old_data_list(self):
