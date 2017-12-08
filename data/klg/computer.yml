@@ -61,16 +61,17 @@ QA:
    - Reboot
 
 - que:
-  - how to tar
-  - how to extract files
+  - how to compress
+  - how to extract
   ans:
-  - tar jcvf filename.tar.bz2 filename
+  - tar -jcvf xxx.tar.bz2 filename
 
 - que:
   - how to unzip
   - how to untar
   - how to unrar
-  - how to unextract files
+  - how to unextract
+  - how to uncompress
   ans: |
    - .tar: tar -xvf
    - .gz: gzip -d "or gunzip"
@@ -1239,3 +1240,8 @@ QA:
   - where to put the switch
   ans:
   - Put in the positive pole, not GND, or the MCU will reboot again and again.
+
+- que:
+  - ls can not work
+  ans:
+  - Make sure the folder have "x" authority.

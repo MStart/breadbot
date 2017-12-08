@@ -17,3 +17,8 @@ QA:
   - well what
   ans:
   - Nothing.
+
+- que:
+  - no
+  ans:
+  - OK, then.
