@@ -73,7 +73,7 @@ class insertData(object):
                 dataList = self._get_data_list(root, files)
             curDataList += dataList
         except Exception:
-            print('[Warning] No sec folder')
+            print('[Warning] No sec found')
         return curDataList
 
     def _get_old_data_list(self):
