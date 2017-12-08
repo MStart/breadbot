@@ -65,13 +65,13 @@ class insertData(object):
         curDataList = []
         for root, dirs, files in os.walk(dataPath):
             dataList = self._get_data_list(root, files)
-        curDataList += dataList
+            curDataList += dataList
         try:
             secPath = os.path.join(dataPath, 'sec')
             secPath = os.readlink(secPath)
             for root, dirs, files in os.walk(secPath):
                 dataList = self._get_data_list(root, files)
-            curDataList += dataList
+                curDataList += dataList
         except Exception:
             print('[Warning] No sec found')
         return curDataList

@@ -1245,3 +1245,31 @@ QA:
   - ls can not work
   ans:
   - Make sure the folder have "x" authority.
+
+- que:
+  - which folders need backup
+  - which dirs need backup
+  ans: |
+   - /boot
+   - /etc
+   - /home
+   - /root
+   - /usr/local
+   - /opt
+   - /srv
+   - /var
+
+- que:
+  - which folders do not need backup
+  - which dirs do not need backup
+  ans: |
+   - /dev
+   - /proc
+   - /mnt
+   - /media
+   - /tmp
+
+- que:
+  - how to copy with attributes
+  ans:
+  - cp -p
