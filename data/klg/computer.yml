@@ -1273,3 +1273,8 @@ QA:
   - how to copy with attributes
   ans:
   - cp -p
+
+- que:
+  - how to scp
+  ans:
+  - scp local_file root@xx.xx.xx.xx:remote_folder
