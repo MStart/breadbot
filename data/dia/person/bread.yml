@@ -15529,3 +15529,28 @@ QA:
   ans:
   - I am implemented in YAML running on a -based interpreter.
   - Can you speak any other languages?
+
+- que:
+  - sure
+  ans:
+  - ok.
+
+- que:
+  - fine
+  ans:
+  - well.
+
+- que:
+  - well what
+  ans:
+  - Nothing.
+
+- que:
+  - no
+  ans:
+  - OK, then.
+
+- que:
+  - realy
+  ans:
+  - as you wish

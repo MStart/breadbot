@@ -1272,9 +1272,39 @@ QA:
 - que:
   - how to copy with attributes
   ans:
-  - cp -p
+  - cp -a
 
 - que:
   - how to scp
   ans:
   - scp local_file root@xx.xx.xx.xx:remote_folder
+
+- que:
+  - what is pam
+  ans: |
+   - modules for linux security
+   - auth: pam_securetty.so -> /etc/securetty -> pam_env.so -> pam_unix.so -> pam_secceed_if.so -> if not, pam_deny.so
+   - account: pam_nologin.so -> /etc/nologin -> pam_unix.so -> pam_succeed_if.so -> if ok, pam_permit.so
+   - password: pam_cracklib.so -> pam_unix.so -> md5, shadow -> if not, pam_deny.so
+   - session: close pam_selinux.so -> pam_limits.so -> pam_loginuid.so -> open pam_selinux.so
+
+- que:
+  - how to create account
+  ans: |
+   - vi /etc/group
+   - grpconv
+   - vi /etc/passwd
+   - pwconv
+   - passwd user
+   - cp -a /etc/skel /home/user
+   - chown -R usergroup /home/user
+
+- que:
+  - how to distribute disk
+  ans:
+  - use Quota or LVM
+
+- que:
+  - how to mount
+  ans:
+  - sudo mount dev folder
