@@ -5,11 +5,11 @@
 
 ## Setup
 * Install
- * sudo python3 setup.py install
+  * sudo python3 setup.py install
 * Uninstall
- * sudo python3 setup.py uninstall
+  * sudo python3 setup.py uninstall
 * Clean (not uninstall)
- * sudo python3 setup.py clean
+  * sudo python3 setup.py clean
 
 ## How to use
 * Run command "breadbot"
