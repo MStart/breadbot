@@ -13,10 +13,9 @@ QA:
    - t ....teach a dialogue
 
 - que:
-  - home
-  - home page
+  - readme
   ans:
-  - https://ideamark.github.io
+  - https://github.com/ideamark/breadbot/blob/master/README.md
 
 - que:
   - bread

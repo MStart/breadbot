@@ -13,11 +13,14 @@
 
 ## How to use
 * Run command "breadbot"
-* Then u can talk with bread, type "help" for more info.
-* Examples:
+* Then u can talk with bread:
+  * Type "help" for simple & quick help.
+  * Or, Type "readme" to display this web page.
+* Useful chatting:
   * Search Baidu: type "d xxx".
   * Search Wikipedia: type "w xxx".
   * Search dictionary: type "s xxx".
+  * Teach dialogues: type "t question   answer"
   * If return message is too long, type "n" turn to next page.
   * Type the same words twice, Bread will return the knowledge base search result.
 
