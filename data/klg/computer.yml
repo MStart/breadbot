@@ -12,10 +12,8 @@ QA:
   - At startup selection screen, press F6, then unselect all the fork options.
 
 - que: 
-  - how to modify the screen brightness
-  - how to change the screen brightness
-  - how to change the screen back light
-  - how to change the screen backlight
+  - how to modify screen brightness
+  - how to change screen backlight
   ans:
   - xbacklight -set 40
 
