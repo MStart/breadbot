@@ -24,6 +24,10 @@
   * If return message is too long, type "n" turn to next page.
   * Type the same words twice, Bread will return the knowledge base search result.
 
+## Surpported Platform
+* WeChat Official Account
+  * How to connect: Enter your token and ip in /etc/bread.cfg, then you can soon connect to WeChat official account platform (https://mp.weixin.qq.com)
+
 ## Seek more
 * Author: Mark Young
 * Email: ideamark@qq.com
