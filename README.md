@@ -1,7 +1,7 @@
 # Bread Bot
 
 ## Overview
-* Bread bot is a pure-Python3 chatbot based on WeChat platform.
+* Bread bot is a pure-Python3 chatterbot.
 
 ## Setup
 * Install
@@ -14,6 +14,12 @@
 ## How to use
 * Run command "breadbot"
 * Then u can talk with bread, type "help" for more info.
+* Examples:
+  * Search Baidu: type "d xxx".
+  * Search Wikipedia: type "w xxx".
+  * Search dictionary: type "s xxx".
+  * If return message is too long, type "n" turn to next page.
+  * Type the same words twice, Bread will return the knowledge base search result.
 * Access https://ideamark.github.io for more info.
 
 ## Seek more
