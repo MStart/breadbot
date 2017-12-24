@@ -1,12 +1,13 @@
 # Bread Bot
 
 ## Overview
-* Bread Bot is a pure-Python, pure-text chatterbot. The aim is to build a short text message QA system with fast speed.
+* Bread Bot is a pure-Python, pure-text chatterbot. The aim is to build a fast speed, short text message QA system.
   * Why Python: For platform independence and fast development.
   * Why text only: Text can express anything, and easily to be processed, and fast to be translated. That's why only text message is supported.
 
 ## Setup
 * Install
+  * Make sure you have installed mongodb
   * sudo python3 setup.py install
 * Uninstall
   * sudo python3 setup.py uninstall
@@ -28,7 +29,7 @@
 
 ## Surpported Platform
 * WeChat Official Account
-  * How to connect: Write your token and ip on /etc/bread.cfg, then run command "breadbot start", it will soon connect to WeChat official account platform (https://mp.weixin.qq.com) and start working.
+  * How to connect: Write your token and ip on /etc/bread.cfg, then run command "breadbot start", it will soon connect to WeChat Official Account (https://mp.weixin.qq.com) and start working.
 
 ## Seek more
 * Author: Mark Young
