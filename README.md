@@ -26,7 +26,7 @@
 
 ## Surpported Platform
 * WeChat Official Account
-  * How to connect: Enter your token and ip in /etc/bread.cfg, then you can soon connect to WeChat official account platform (https://mp.weixin.qq.com)
+  * How to connect: Write your token and ip on /etc/bread.cfg, then run command "breadbot start", it will soon connect to WeChat official account platform (https://mp.weixin.qq.com) and start working.
 
 ## Seek more
 * Author: Mark Young
