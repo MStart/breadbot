@@ -5,7 +5,7 @@ import sys
 import yaml
 from pymongo import MongoClient
 
-from breadAI.core import misc
+from breadbot.core import misc
 
 
 class insertData(object):

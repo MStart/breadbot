@@ -4,7 +4,7 @@ import re
 import sys
 import yaml
 
-from breadAI.core import misc
+from breadbot.core import misc
 
 
 class sameQue(object):

@@ -2,3 +2,13 @@ tag:
 - dia
 
 QA:
+
+- que:
+  - funny
+  ans:
+  - wow
+
+- que:
+  - are you a gay
+  ans:
+  - fuck you

@@ -2,7 +2,7 @@ import os
 import re
 import sys
 
-from breadAI.core import misc
+from breadbot.core import misc
 from . import manage
 
 

@@ -1308,3 +1308,27 @@ QA:
   - how to mount
   ans:
   - sudo mount dev folder
+
+- que:
+  - linux kernel function
+  ans: |
+   - System call interface
+   - Process control
+   - Memory management
+   - File System management
+   - Device drivers
+
+- que:
+  - how to create empty file
+  ans:
+  - dd if=/dev/zero of=xxx bs=100M count=1
+
+- que:
+  - python simple http server
+  ans:
+  - python -m SimpleHTTPServer 80
+
+- que:
+  - how to reset time
+  ans:
+  - date +"%Y%m%d %H%m" --set="20170101 1830"

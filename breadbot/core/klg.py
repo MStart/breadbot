@@ -1,7 +1,7 @@
 import random
 import re
 
-from breadAI.core import memo
+from breadbot.core import memo
 
 do_you_mean = 'Do you mean:'
 
@@ -55,6 +55,7 @@ def response(db, inStr, isSuper=False):
                     if all_words_in:
                         newQues.append('- ' + que)
                         break
+        newQues = list(set(newQues))
     if len(newQues) < 1:
         return
     elif len(newQues) == 1:

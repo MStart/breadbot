@@ -7,7 +7,7 @@ import sys
 import time
 from xml.etree import ElementTree as ET
 
-from breadAI import core
+from breadbot import core
 
 
 class WeChat(View):

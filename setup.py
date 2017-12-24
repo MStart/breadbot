@@ -3,8 +3,8 @@ import os
 import sys
 from setuptools import setup
 
-from breadAI import core
-from breadAI import log
+from breadbot import core
+from breadbot import log
 
 
 if len(sys.argv) <= 1:
@@ -18,12 +18,12 @@ elif sys.argv[1] == 'install':
         pbr=True,)
     data_path = os.path.join(os.getcwd(), 'data')
     core.misc.cfg().write('data_path', data_path)
-    os.system('bread-console insert')
+    os.system('breadbot insert')
 
 elif sys.argv[1] == 'uninstall':
-    os.system('pip3 uninstall breadAI')
+    os.system('pip3 uninstall breadbot')
     os.system('rm -f /etc/bread.cfg')
-    os.system('rm -f /usr/bin/bread-console')
+    os.system('rm -f /usr/bin/breadbot')
     sys.exit(0)
 
 elif sys.argv[1] == 'clean':
@@ -31,7 +31,7 @@ elif sys.argv[1] == 'clean':
         '.git',
         '.tox',
         'bin',
-        'breadAI',
+        'breadbot',
         'data',
         'etc',
         'tests',

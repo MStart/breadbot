@@ -2,9 +2,9 @@
 import sys
 import os
 
-from breadAI import core
-from breadAI import log
-from breadAI import serv
+from breadbot import core
+from breadbot import log
+from breadbot import serv
 
 isSuper = True
 

@@ -1,7 +1,7 @@
 import os
 import sys
 
-from breadAI import core
+from breadbot import core
 
 """
 Django settings for server project.
