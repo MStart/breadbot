@@ -23,7 +23,7 @@
   * Search Baidu: type "d xxx".
   * Search Wikipedia: type "w xxx".
   * Search dictionary: type "s xxx".
-  * Teach dialogues: type "t question   answer" (Use 3 spaces to split question and answer)
+  * Teach dialogues: type "t question  answer" (Use 2 spaces to split question and answer)
   * If return message is too long, type "n" turn to next page.
   * Type the same words twice, Bread will return the knowledge base search result.
 

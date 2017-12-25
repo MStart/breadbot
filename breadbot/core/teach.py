@@ -5,7 +5,7 @@ from . import misc
 
 
 def response(inStr, isSuper=False):
-    splitSignal = '   '
+    splitSignal = '  '
     if not isSuper:
         return
     if not inStr:

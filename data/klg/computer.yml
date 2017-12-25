@@ -1330,3 +1330,8 @@ QA:
   - how to reset time
   ans:
   - date +"%Y%m%d %H%m" --set="20170101 1830"
+
+- que:
+  - how to kill user
+  ans:
+  - pkill -kill -t pts/x
