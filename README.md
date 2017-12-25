@@ -3,7 +3,7 @@
 ## Overview
 * Bread Bot is a pure-Python, pure-text chatterbot. The aim is to build a fast speed, short text message QA system.
   * Why Python: For platform independence and fast development.
-  * Why text only: Text can express anything, and easily to be processed, and fast to be translated. That's why only text message is supported.
+  * Why text only: Text can express anything, easily to be processed, fast to be translated. That's why we only use text message for Bread Bot.
 
 ## Setup
 * Install
