@@ -11,6 +11,7 @@ from breadbot.core import misc
 class insertData(object):
 
     def __init__(self, dataPath=None):
+        self.splitSignal = ' '
         self.db = self.create_db('breadDB')
         if not dataPath:
             dataPath = misc.cfg().get('data_path')
@@ -32,9 +33,16 @@ class insertData(object):
         return dataLogPath
 
     def _get_path_name(self, filePath):
-        path = filePath.replace(os.getcwd() + r'/data/', '')
-        pathName = path.replace(r'/', '_').replace('.', '_')
-        return pathName
+        dirList = ['dia', 'klg', 'sec']
+        pathList = filePath.split(r'/')
+        num = 0
+        for i in range(len(pathList)):
+            if pathList[i] in dirList:
+                num = i
+                break
+        path = '_'.join(pathList[i:])
+        path = path.replace('.', '_')
+        return path
 
     def _read_data_file(self, dataPath):
         f = open(dataPath, 'r')
@@ -96,7 +104,11 @@ class insertData(object):
         changedDataList = []
         for dataPath in curDataList:
             if dataPath not in oldDataList:
-                dataPath = dataPath.split(' ')[0]
+                dataPath = dataPath.split(self.splitSignal)[0]
+                changedDataList.append(dataPath)
+        for dataPath in oldDataList:
+            if dataPath not in curDataList:
+                dataPath = dataPath.split(self.splitSignal)[0]
                 changedDataList.append(dataPath)
         self._save_data_list(curDataList)
         return changedDataList
@@ -106,6 +118,10 @@ class insertData(object):
             pathName = self._get_path_name(dataPath)
             print('clean %s...' % pathName)
             self.db[pathName].drop()
+        for dataPath in changedDataList:
+            path = dataPath.split(self.splitSignal)[0]
+            if not os.path.exists(path):
+                changedDataList.remove(dataPath)
 
     def insert_db_data(self, changedDataList):
         for dataPath in changedDataList:
