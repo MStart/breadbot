@@ -29,6 +29,7 @@ elif sys.argv[1] == 'uninstall':
 elif sys.argv[1] == 'clean':
     exclude = [
         '.git',
+        '.gitignore',
         '.tox',
         'bin',
         'breadbot',
