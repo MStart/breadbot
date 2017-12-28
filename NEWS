@@ -127,5 +127,5 @@
 - Version: 1.3.2
 - Imporved data insert function
 - Changed the format of bread.cfg
-- Fixed non-print chars in data files (Thanks to kiwisky:)
 - Added drop database function in bin
+- Deleted non-print chars in data files (Thanks to kiwisky:)
