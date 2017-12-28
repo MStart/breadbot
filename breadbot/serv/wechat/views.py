@@ -3,7 +3,6 @@ from django.views.decorators.csrf import csrf_exempt
 from django.views.generic.base import View
 from django.template import loader, Context
 import hashlib
-import sys
 import time
 from xml.etree import ElementTree as ET
 
@@ -17,10 +16,11 @@ class WeChat(View):
         return super(WeChat, self).dispatch(*args, **kwargs)
 
     def is_super(self, name):
-        super_users = core.misc.cfg().get('super_users')
-        for user in super_users:
-            if user == name:
-                return True
+        super_users = core.misc.cfg().get('super_user')
+        if super_users and type(super_users) == list:
+            for user in super_users:
+                if user == name:
+                    return True
         return False
 
     def get(self, request):

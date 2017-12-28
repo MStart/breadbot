@@ -34,27 +34,30 @@ class cfg(object):
         self.cfg = ConfigObj('/etc/bread.cfg')
 
     def get(self, value):
-        if value == 'token':
-            return self.cfg['normal']['token']
-        elif value == 'server_ip':
-            return self.cfg['normal']['server_ip']
-        elif value == 'data_path':
-            return self.cfg['normal']['data_path']
+        if value == 'data_path':
+            return self.cfg['local']['data_path'].split(':')
         elif value == 'log_path':
-            return self.cfg['normal']['log_path']
-        elif value == 'super_users':
-            userList = []
-            for user in self.cfg['super_users']:
-                userList.append(self.cfg['super_users'][user])
-            return userList
+            return self.cfg['local']['log_path']
+        elif value == 'token':
+            return self.cfg['wechat']['token']
+        elif value == 'server_ip':
+            return self.cfg['wechat']['server_ip']
+        elif value == 'super_user':
+            return self.cfg['wechat']['super_user'].split(':')
 
     def write(self, value, key):
-        if value == 'token':
-            self.cfg['normal']['token'] = key
-        elif value == 'server_ip':
-            self.cfg['normal']['server_ip'] = key
-        elif value == 'data_path':
-            self.cfg['normal']['data_path'] = key
+        if value == 'data_path':
+            if type(key) != list:
+                raise Exception("data_path must be a list")
+            self.cfg['local']['data_path'] = ':'.join(key)
         elif value == 'log_path':
-            self.cfg['normal']['log_path'] = key
+            self.cfg['local']['log_path'] = key
+        elif value == 'token':
+            self.cfg['wechat']['token'] = key
+        elif value == 'server_ip':
+            self.cfg['wechat']['server_ip'] = key
+        elif value == 'super_user':
+            if type(key) != list:
+                raise Exception("super_user must be a list")
+            self.cfg['wechat']['super_user'] = ':'.join(key)
         self.cfg.write()

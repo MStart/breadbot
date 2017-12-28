@@ -1,6 +1,5 @@
 import os
 import re
-import sys
 
 from breadbot.core import misc
 from . import manage

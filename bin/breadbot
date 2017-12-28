@@ -18,6 +18,7 @@ def show_help():
     print(
         '\n'
         ' insert:   insert data\n'
+        ' drop:     drop database\n'
         ' start:    start server\n'
         ' Ctr+C:    stop server\n'
         ' help:     display this help\n'
@@ -29,29 +30,33 @@ def active(cmd):
     if cmd == 'help':
         show_help()
     elif cmd == 'insert':
-        core.data.insertData()
+        core.data.Data().insert_data()
+    elif cmd == 'drop':
+        core.data.Data().drop_db()
     elif cmd == 'start':
         serv.start()
     else:
         print(core.chat().response(cmd, True))
 
 
-if not core.misc.cfg().get('log_path'):
-    log_path = os.path.dirname(log.__file__)
-    core.misc.cfg().write('log_path', log_path)
+if __name__ == '__main__':
 
-    
-if len(sys.argv) > 1:
-    cmd = sys.argv[1]
-    active(cmd)
-    sys.exit(0)
+    if not core.misc.cfg().get('log_path'):
+        log_path = os.path.dirname(log.__file__)
+        core.misc.cfg().write('log_path', log_path)
 
-
-while True:
-    cmd = input('>> ')
-    if cmd == 'q' or cmd == 'exit':
-        break
-    elif cmd == '':
-        continue
-    else:
+        
+    if len(sys.argv) > 1:
+        cmd = sys.argv[1]
         active(cmd)
+        sys.exit(0)
+
+
+    while True:
+        cmd = input('>> ')
+        if cmd == 'q' or cmd == 'exit':
+            break
+        elif cmd == '':
+            continue
+        else:
+            active(cmd)

@@ -1,8 +1,5 @@
-import os
-import pydblite
 import random
 import re
-import sys
 from pymongo import MongoClient
 
 from . import data
@@ -18,12 +15,11 @@ class chat(object):
 
     def __init__(self):
         self.dontKnow = "I don't know."
-        self.db = self.open_db('breadDB')
+        self.db = self._open_db('breadDB')
 
-    def open_db(self, dbName):
+    def _open_db(self, db_name):
         client = MongoClient('localhost', 27017)
-        db = client[dbName]
-        return db
+        return client[db_name]
 
     def response(self, inStr, isSuper=False):
         if "'" in inStr:
@@ -65,7 +61,7 @@ class chat(object):
                     res = klg.response(self.db, inStr, isSuper)
         if not res:
             notList = [
-                'Sorry, I dont understand',
+                'Sorry, I don\'t understand',
                 'What are you saying?',
                 'Hey, let us change a topic ok?',
                 'I dont know clearly',

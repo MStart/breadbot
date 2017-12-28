@@ -16,14 +16,15 @@ elif sys.argv[1] == 'install':
     setup(
         setup_requires=['pbr>=0.1'],
         pbr=True,)
-    data_path = os.path.join(os.getcwd(), 'data')
+    data_path = [os.path.join(os.getcwd(), 'data')]
     core.misc.cfg().write('data_path', data_path)
     os.system('breadbot insert')
 
 elif sys.argv[1] == 'uninstall':
+    core.data.Data().drop_db()
     os.system('pip3 uninstall breadbot')
     os.system('rm -f /etc/bread.cfg')
-    os.system('rm -f /usr/bin/breadbot')
+    os.system('rm -f /usr/local/bin/breadbot')
     sys.exit(0)
 
 elif sys.argv[1] == 'clean':
