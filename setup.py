@@ -24,6 +24,7 @@ elif sys.argv[1] == 'uninstall':
     os.system('pip3 uninstall breadbot')
     os.system('rm -f /etc/bread.cfg')
     os.system('rm -f /usr/bin/breadbot')
+    core.data.Data().drop_db()
     sys.exit(0)
 
 elif sys.argv[1] == 'clean':

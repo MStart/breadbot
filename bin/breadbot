@@ -29,7 +29,7 @@ def active(cmd):
     if cmd == 'help':
         show_help()
     elif cmd == 'insert':
-        core.data.insertData()
+        core.data.Data().insert_data()
     elif cmd == 'start':
         serv.start()
     else:

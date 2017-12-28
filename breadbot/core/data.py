@@ -1,48 +1,42 @@
 #!/usr/bin/env python3
 import os
 import re
-import sys
 import yaml
 from pymongo import MongoClient
 
 from breadbot.core import misc
 
 
-class insertData(object):
+class Data(object):
 
-    def __init__(self, dataPath=None):
+    def __init__(self, dataPaths=None):
         self.splitSignal = ' '
-        self.db = self.create_db('breadDB')
-        if not dataPath:
-            dataPath = misc.cfg().get('data_path')
-        if not dataPath:
-            print('[Error] data path not found')
-            sys.exit(1)
-        changedDataList = self.get_changed_data_list(dataPath)
+        if not dataPaths:
+            dataPaths = misc.cfg().get('data_path')
+        self.dataPaths = dataPaths
+        self.db_name = 'breadDB'
+        self.db = self._open_db(self.db_name)
+
+    def _open_db(self, dbName):
+        client = MongoClient('localhost', 27017)
+        return client[dbName]
+
+    def insert_data(self):
+        changedDataList = \
+            self.get_changed_data_list(self.dataPaths)
         self.clean_old_db_data(changedDataList)
         self.insert_db_data(changedDataList)
         print('\n All Complete!')
 
-    def create_db(self, dbName):
-        client = MongoClient('localhost', 27017)
-        db = client[dbName]
-        return db
+    def drop_db(self):
+        self.db.drop_database(self.db_name)
 
     def _get_data_log_path(self):
         dataLogPath = os.path.join(misc.cfg().get('log_path'), 'data.log')
         return dataLogPath
 
     def _get_path_name(self, filePath):
-        dirList = ['dia', 'klg', 'sec']
-        pathList = filePath.split(r'/')
-        num = 0
-        for i in range(len(pathList)):
-            if pathList[i] in dirList:
-                num = i
-                break
-        path = '_'.join(pathList[i:])
-        path = path.replace('.', '_')
-        return path
+        return re.sub('[^a-zA-Z0-9]', '_', filePath)
 
     def _read_data_file(self, dataPath):
         f = open(dataPath, 'r')
@@ -69,19 +63,12 @@ class insertData(object):
             dataList.append(info)
         return dataList
 
-    def _get_cur_data_list(self, dataPath):
+    def _get_cur_data_list(self, dataPaths):
         curDataList = []
-        for root, dirs, files in os.walk(dataPath):
-            dataList = self._get_data_list(root, files)
-            curDataList += dataList
-        try:
-            secPath = os.path.join(dataPath, 'sec')
-            secPath = os.readlink(secPath)
-            for root, dirs, files in os.walk(secPath):
+        for dataPath in dataPaths:
+            for root, dirs, files in os.walk(dataPath):
                 dataList = self._get_data_list(root, files)
                 curDataList += dataList
-        except Exception:
-            print('[Warning] No sec found')
         return curDataList
 
     def _get_old_data_list(self):
@@ -98,8 +85,8 @@ class insertData(object):
             log.close()
             return []
 
-    def get_changed_data_list(self, dataPath):
-        curDataList = self._get_cur_data_list(dataPath)
+    def get_changed_data_list(self, dataPaths):
+        curDataList = self._get_cur_data_list(dataPaths)
         oldDataList = self._get_old_data_list()
         changedDataList = []
         for dataPath in curDataList:

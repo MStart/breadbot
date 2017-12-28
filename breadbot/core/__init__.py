@@ -1,8 +1,5 @@
-import os
-import pydblite
 import random
 import re
-import sys
 from pymongo import MongoClient
 
 from . import data
@@ -20,10 +17,9 @@ class chat(object):
         self.dontKnow = "I don't know."
         self.db = self.open_db('breadDB')
 
-    def open_db(self, dbName):
+    def open_db(self, db_name):
         client = MongoClient('localhost', 27017)
-        db = client[dbName]
-        return db
+        return client[db_name]
 
     def response(self, inStr, isSuper=False):
         if "'" in inStr:

@@ -12,7 +12,7 @@ def response(inStr, isSuper=False):
         return
     if splitSignal not in inStr:
         return
-    data_path = misc.cfg().get('data_path')
+    data_path = misc.cfg().get('data_path')[0]
     file_path = os.path.join(data_path, 'new.yml')
     f = open(file_path, 'a')
     que = inStr.split(splitSignal)[0]
@@ -20,5 +20,5 @@ def response(inStr, isSuper=False):
     text = '\n- que:\n  - %s\n  ans:\n  - %s\n' % (que, ans)
     f.write(text)
     f.close()
-    data.insertData()
+    data.Data().insert_data()
     return 'OK, I learned.'
