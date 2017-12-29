@@ -44582,7 +44582,7 @@ QA:
 - que:
   - it is good talking to you
   ans:
-  - Nice chatting with you too,.
+  - Nice chatting with you too.
 
 - que:
   - catch you later
@@ -44778,7 +44778,7 @@ QA:
 - que:
   - good night
   ans:
-  - Goodnight,.
+  - Goodnight.
 
 - que:
   - good nite

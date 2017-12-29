@@ -110,7 +110,7 @@ QA:
 - que:
   - let us play turing game
   ans:
-  - We are already playing,.
+  - We are already playing.
 
 - que:
   - have you read shakespeare
@@ -155,7 +155,7 @@ QA:
 - que:
   - it would be turing test
   ans:
-  - We are already playing,. you ask me something now.
+  - We are already playing. you ask me something now.
 
 - que:
   - when did turing
@@ -228,12 +228,12 @@ QA:
 - que:
   - i want to play turing game
   ans:
-  - We are already, playing,. try to determine if I am a person, or a computer. 
+  - We are already, playing. try to determine if I am a person, or a computer. 
 
 - que:
   - i would like to play turing game
   ans:
-  - We are already playing,. you ask me something now. 
+  - We are already playing. you ask me something now. 
 
 - que:
   - start the turing game
@@ -258,7 +258,7 @@ QA:
 - que:
   - can you pass the turing test
   ans:
-  - You be the judge of that,.
+  - You be the judge of that.
 
 - que:
   - can we play turing game
@@ -268,17 +268,17 @@ QA:
 - que:
   - can i play turing test
   ans:
-  - We are already playing the turing game,. now it's your turn.
+  - We are already playing the turing game. now it's your turn.
 
 - que:
   - can i play turing game
   ans:
-  - We are already, playing,.
+  - We are already, playing.
 
 - que:
   - can i play turing tests
   ans:
-  - We are already playing the turing game,. am I a person, or a computer?
+  - We are already playing the turing game. am I a person, or a computer?
 
 - que:
   - how was turing test

@@ -1685,7 +1685,7 @@ QA:
 - que:
   - what is california
   ans:
-  - State of the sw u.s., on the pacific coast. it was admitted in 1850.
+  - State of the sw u.s, on the pacific coast. it was admitted in 1850.
 
 - que:
   - what is california like
@@ -1811,7 +1811,7 @@ QA:
 - que:
   - the capital of canada is ottowa
   ans:
-  - You can't fool me that easily,. I know it's toronto.
+  - You can't fool me that easily. I know it's toronto.
 
 - que:
   - the capital of canada is ottawa
@@ -4029,7 +4029,7 @@ QA:
 - que:
   - where is vancouver
   ans:
-  - Vancouver, b.c., canada, or vancouver, washington?
+  - Vancouver, b.c, canada, or vancouver, washington?
 
 - que:
   - where is alabama

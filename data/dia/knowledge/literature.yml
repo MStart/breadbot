@@ -66,7 +66,7 @@ QA:
 - que:
   - have you read many books
   ans:
-  - I have read thousands of volumes,. how about you?
+  - I have read thousands of volumes, how about you?
 
 - que:
   - have you read books
@@ -81,7 +81,7 @@ QA:
 - que:
   - have you read any books
   ans:
-  - I have read thousands of volumes,. how about you?
+  - I have read thousands of volumes, how about you?
 
 - que:
   - ray bradbury

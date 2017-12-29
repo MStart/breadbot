@@ -10,28 +10,30 @@ from breadbot.core import misc
 class Data(object):
 
     def __init__(self, dataPaths=None):
-        self.splitSignal = ' '
-        self.db_name = 'breadDB'
+        self.splitSig = ' '
         if not dataPaths:
             dataPaths = misc.cfg().get('data_path')
         self.dataPaths = dataPaths
-        self.db = self._open_db(self.db_name)
-
-    def _open_db(self, dbName):
-        client = MongoClient('localhost', 27017)
-        return client[dbName]
+        self.db = self._open_db()
 
     def insert_data(self):
         changedDataList = \
-            self.get_changed_data_list(self.dataPaths)
-        self.clean_old_db_data(changedDataList)
-        self.insert_db_data(changedDataList)
+            self._get_changed_data_list(self.dataPaths)
+        self._clean_old_db_data(changedDataList)
+        self._insert_db_data(changedDataList)
         print('\n All Complete!')
 
     def drop_db(self):
         client = MongoClient('localhost', 27017)
         client.drop_database(self.db_name)
         print('\n Drop database done.')
+
+    def _open_db(self):
+        db_name = misc.cfg().get('db_name')
+        ip = misc.cfg().get('db_ip')
+        port = misc.cfg().get('db_port')
+        client = MongoClient(ip, port)
+        return client[db_name]
 
     def _get_data_log_path(self):
         dataLogPath = os.path.join(misc.cfg().get('log_path'), 'data.log')
@@ -87,32 +89,32 @@ class Data(object):
             log.close()
             return []
 
-    def get_changed_data_list(self, dataPaths):
+    def _get_changed_data_list(self, dataPaths):
         curDataList = self._get_cur_data_list(dataPaths)
         oldDataList = self._get_old_data_list()
         changedDataList = []
         for dataPath in curDataList:
             if dataPath not in oldDataList:
-                dataPath = dataPath.split(self.splitSignal)[0]
+                dataPath = dataPath.split(self.splitSig)[0]
                 changedDataList.append(dataPath)
         for dataPath in oldDataList:
             if dataPath not in curDataList:
-                dataPath = dataPath.split(self.splitSignal)[0]
+                dataPath = dataPath.split(self.splitSig)[0]
                 changedDataList.append(dataPath)
         self._save_data_list(curDataList)
         return changedDataList
 
-    def clean_old_db_data(self, changedDataList):
+    def _clean_old_db_data(self, changedDataList):
         for dataPath in changedDataList:
             pathName = self._get_path_name(dataPath)
             print('clean %s...' % pathName)
             self.db[pathName].drop()
         for dataPath in changedDataList:
-            path = dataPath.split(self.splitSignal)[0]
+            path = dataPath.split(self.splitSig)[0]
             if not os.path.exists(path):
                 changedDataList.remove(dataPath)
 
-    def insert_db_data(self, changedDataList):
+    def _insert_db_data(self, changedDataList):
         for dataPath in changedDataList:
             pathName = self._get_path_name(dataPath)
             print('insert %s...' % pathName)

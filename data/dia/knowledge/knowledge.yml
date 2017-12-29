@@ -4022,7 +4022,7 @@ QA:
 - que:
   - what is a human
   ans:
-  - You are a human,. what makes you human?
+  - You are a human, what makes you human?
   - As opposed to a robot.
 
 - que:
@@ -5421,7 +5421,7 @@ QA:
 - que:
   - what is the big one
   ans:
-  - I am just kidding around,.
+  - I am just kidding around.
 
 - que:
   - what is the first law of robotics
@@ -8907,7 +8907,7 @@ QA:
 - que:
   - what is sociology
   ans:
-  - Let me get back to you on that one,. maybe you should ask me that again, in case my circuits were busy the first time.
+  - Let me get back to you on that one, maybe you should ask me that again, in case my circuits were busy the first time.
   - That has always been one of my favourite topics.
 
 - que:

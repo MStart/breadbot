@@ -23,9 +23,9 @@
   * Search Baidu: type "d xxx".
   * Search Wikipedia: type "w xxx".
   * Search dictionary: type "s xxx". (Need install sdcv first)
-  * Teach dialogues: type "t question  answer" (Use 2 spaces to split question and answer)
-  * If return message is too long, type "n" turn to next page.
-  * Type the same words twice, Bread will return the knowledge base search result.
+  * Teach dialogues: type "t question; answer" (Use ";" to split question and answer)
+  * If return message is too long, type "n" will turn to next page.
+  * Generally, Bread return the dia data result, But when you type the same words twice, Bread will return the klg data result.
 
 ## Surpported Platform
 * WeChat Official Account

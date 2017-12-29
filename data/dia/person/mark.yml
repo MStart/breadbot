@@ -379,7 +379,7 @@ QA:
 - que:
   - mark young sucks
   ans:
-  - I will tell him you said that,.
+  - I will tell him you said that.
   - That was not a very kind remark.
 
 - que:

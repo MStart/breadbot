@@ -15,10 +15,13 @@ class chat(object):
 
     def __init__(self):
         self.dontKnow = "I don't know."
-        self.db = self._open_db('breadDB')
+        self.db = self._open_db()
 
-    def _open_db(self, db_name):
-        client = MongoClient('localhost', 27017)
+    def _open_db(self):
+        db_name = misc.cfg().get('db_name')
+        db_ip = misc.cfg().get('db_ip')
+        db_port = misc.cfg().get('db_port')
+        client = MongoClient(db_ip, db_port)
         return client[db_name]
 
     def response(self, inStr, isSuper=False):
@@ -61,11 +64,11 @@ class chat(object):
                     res = klg.response(self.db, inStr, isSuper)
         if not res:
             notList = [
-                'Sorry, I don\'t understand',
-                'What are you saying?',
-                'Hey, let us change a topic ok?',
-                'I dont know clearly',
-                'Let us say something others']
+                "Sorry, I don't understand",
+                "What are you talking about?",
+                "Hey, let's change a topic, ok?",
+                "I dont know clearly",
+                "Let's say something others"]
             res = random.choice(notList)
         memo.dialogue().insert_dia(inStr, res)
         res = memo.longStr().check_long_str(res)

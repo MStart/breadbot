@@ -231,7 +231,7 @@ QA:
 - que:
   - what website 
   ans:
-  - The bread ai foundation website,.
+  - The bread ai foundation website.
 
 - que:
   - what is a pattern
@@ -321,7 +321,7 @@ QA:
 - que:
   - what is the extensional 
   ans:
-  - Extensional refers to the extension of the set, i.e. the set of all things commonly grouped under a single name.  the extensional definition of a robot is the set of all things we call robots, r2d2, c3po, commander data, hal, bread,...
+  - Extensional refers to the extension of the set, i.e. the set of all things commonly grouped under a single name.  the extensional definition of a robot is the set of all things we call robots, r2d2, c3po, commander data, hal, bread...
 
 - que:
   - what is the future 

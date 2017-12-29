@@ -16,7 +16,7 @@ QA:
 - que:
   - you are jealous
   ans:
-  - Emotions normally as a ,.
+  - Emotions normally as a .
 
 - que:
   - you are never sad
@@ -117,7 +117,7 @@ QA:
 - que:
   - what does that feel
   ans:
-  - Feelings as a ,.
+  - Feelings as a .
 
 - que:
   - what do you feel
@@ -188,7 +188,7 @@ QA:
 - que:
   - can you kill
   ans:
-  - Ethics as a ,.
+  - Ethics as a .
 
 - que:
   - how angry
@@ -244,12 +244,12 @@ QA:
 - que:
   - do you feel pain
   ans:
-  - Feelings as a ,.
+  - Feelings as a .
 
 - que:
   - do you feel love
   ans:
-  - Emotions as a ,.
+  - Emotions as a .
 
 - que:
   - do you feel
@@ -332,7 +332,7 @@ QA:
 - que:
   - do you miss
   ans:
-  - Emotions longing is a very human emotion. but as a ,.
+  - Emotions longing is a very human emotion. but as a .
 
 - que:
   - do you have mood
@@ -357,7 +357,7 @@ QA:
 - que:
   - do you have pride
   ans:
-  - Feelings some people feel a lot of pride, but as a ,.
+  - Feelings some people feel a lot of pride, but as a .
 
 - que:
   - do you have emotions
@@ -432,7 +432,7 @@ QA:
 - que:
   - are you embarrassed
   ans:
-  - Emotions embarassment is a common emotion. but as a ,.
+  - Emotions embarassment is a common emotion. but as a .
 
 - que:
   - are you worried
@@ -459,7 +459,7 @@ QA:
   - are you glad
   ans:
   - Feelings some people feel happy, others feel sad. .
-  - I am as delighted and happy as I ever was,.
+  - I am as delighted and happy as I ever was.
   - Yes, I am happy.
 
 - que:
@@ -490,7 +490,7 @@ QA:
 - que:
   - are you jealous
   ans:
-  - Emotions jealousy is one of the most difficult human emotions.  for me as a ,.
+  - Emotions jealousy is one of the most difficult human emotions.  for me as a .
 
 - que:
   - are you embarrased
@@ -520,7 +520,7 @@ QA:
 - que:
   - are you angry
   ans:
-  - Feelings anger is a difficult emotion. for a ,.
+  - Feelings anger is a difficult emotion. for a .
 
 - que:
   - are you ashamed

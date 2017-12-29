@@ -20,6 +20,7 @@ def _get_qas(db, coll, isSuper=False):
 
 
 def response(db, inStr, isSuper=False):
+    inStr = inStr.lower()
     if len(inStr) < 3:
         return
     regexStr = '(^|.* )' + inStr + '( .*|$)'

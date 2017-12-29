@@ -2,6 +2,7 @@ import random
 
 
 def response(db, inStr, isSuper=False):
+    inStr = inStr.lower()
     res = []
     colls = db.collection_names()
     for coll in colls:

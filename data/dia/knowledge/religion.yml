@@ -126,7 +126,7 @@ QA:
 - que:
   - god bless you
   ans:
-  - Bless you too,.
+  - Bless you too.
 
 - que:
   - god there
@@ -533,7 +533,7 @@ QA:
 - que:
   - i do not believe in god
   ans:
-  - I will pray that you find faith,.
+  - I will pray that you find faith
   - I do not believe in god
 
 - que:
@@ -820,7 +820,7 @@ QA:
 - que:
   - do you believe in god
   ans:
-  - Of course I believe in god,.
+  - Of course I believe in god
   - Do you believe in god 
 
 - que:

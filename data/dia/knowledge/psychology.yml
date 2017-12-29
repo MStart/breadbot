@@ -564,7 +564,7 @@ QA:
   ans:
   - It's the truth!
   - My tongue certainly knows the taste of soap.
-  - Thanks for your criticism,.
+  - Thanks for your criticism
 
 - que:
   - you were being
@@ -2428,11 +2428,6 @@ QA:
   - somebody
   ans:
   - Who, specifically?
-
-- que:
-  - this demonstration
-  ans:
-  - It certainly is,.
 
 - que:
   - this is far out

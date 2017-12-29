@@ -8,7 +8,6 @@ def init_input(inStr):
     inStr = re.sub('\s', ' ', inStr)
     inStr = re.sub('  ', ' ', inStr)
     inStr = re.sub(r'(^ +| +$)', '', inStr)
-    inStr = inStr.lower()
     return inStr
 
 
@@ -44,6 +43,12 @@ class cfg(object):
             return self.cfg['wechat']['server_ip']
         elif value == 'super_user':
             return self.cfg['wechat']['super_user'].split(':')
+        elif value == 'db_name':
+            return self.cfg['mongodb']['db_name']
+        elif value == 'db_ip':
+            return self.cfg['mongodb']['db_ip']
+        elif value == 'db_port':
+            return int(self.cfg['mongodb']['db_port'])
 
     def write(self, value, key):
         if value == 'data_path':

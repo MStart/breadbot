@@ -455,7 +455,7 @@ QA:
 - que:
   - do you play computer games
   ans:
-  - We are playing one right now,.
+  - We are playing one right now.
 
 - que:
   - do you play computer
