@@ -24,8 +24,11 @@ class Data(object):
         print('\n All Complete!')
 
     def drop_db(self):
-        client = MongoClient('localhost', 27017)
-        client.drop_database(self.db_name)
+        db_name = misc.cfg().get('db_name')
+        ip = misc.cfg().get('db_ip')
+        port = misc.cfg().get('db_port')
+        client = MongoClient(ip, port)
+        client.drop_database(db_name)
         print('\n Drop database done.')
 
     def _open_db(self):
