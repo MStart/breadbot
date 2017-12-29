@@ -25,6 +25,8 @@ def translate(word):
         p = {'wd': word}
         return "http://dict.baidu.com/s?" + urllib.parse.urlencode(p)
     reses = os.popen('sdcv -n ' + word).readlines()
+    if not reses:
+        return 'You may not have installed sdcv, please install it first'
     if not re.match(u'^Found 1 items.*', reses[0]):
         p = {'wd': word}
         return "http://dict.baidu.com/s?" + urllib.parse.urlencode(p)
