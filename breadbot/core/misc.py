@@ -7,7 +7,8 @@ import time
 def init_input(inStr):
     inStr = re.sub('\s', ' ', inStr)
     inStr = re.sub('  ', ' ', inStr)
-    inStr = re.sub(r'(^ +| +$)', '', inStr)
+    inStr = re.sub('  ', ' ', inStr)
+    inStr = inStr.strip()
     return inStr
 
 

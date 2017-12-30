@@ -1,7 +1,10 @@
 import random
+import re
+import string
 
 
 def response(db, inStr, isSuper=False):
+    inStr = re.sub('[%s]+' % string.punctuation, '', inStr)
     inStr = inStr.lower()
     res = []
     colls = db.collection_names()

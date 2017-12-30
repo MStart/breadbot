@@ -1,5 +1,6 @@
 import random
 import re
+import string
 
 from breadbot.core import memo
 
@@ -20,6 +21,7 @@ def _get_qas(db, coll, isSuper=False):
 
 
 def response(db, inStr, isSuper=False):
+    inStr = re.sub('[%s]+' % string.punctuation, '', inStr)
     inStr = inStr.lower()
     if len(inStr) < 3:
         return
