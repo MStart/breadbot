@@ -59,16 +59,14 @@ QA:
    - Reboot
 
 - que:
+  - how to tar
   - how to compress
-  - how to extract
   ans:
   - tar -jcvf xxx.tar.bz2 filename
 
 - que:
   - how to unzip
   - how to untar
-  - how to unrar
-  - how to unextract
   - how to uncompress
   ans: |
    - .tar: tar -xvf

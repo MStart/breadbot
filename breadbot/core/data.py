@@ -29,6 +29,10 @@ class Data(object):
         port = misc.cfg().get('db_port')
         client = MongoClient(ip, port)
         client.drop_database(db_name)
+        data_log = os.path.join(
+            misc.cfg().get('log_path'),
+            'data.log')
+        os.remove(data_log)
         print('\n Drop database done.')
 
     def _open_db(self):

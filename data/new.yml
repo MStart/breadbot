@@ -2,3 +2,28 @@ tag:
 - dia
 
 QA:
+
+- que:
+  - well done
+  ans:
+  -  Glad to hear that
+
+- que:
+  - wow
+  ans:
+  -  Great!
+
+- que:
+  - great 
+  ans:
+  -  Wow!
+
+- que:
+  - wiki
+  ans:
+  -  Use "w xxx" to search the wiki
+
+- que:
+  - happy new year
+  ans:
+  - Thanks, happy new year~
