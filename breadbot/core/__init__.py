@@ -42,7 +42,11 @@ class chat(object):
             content = re.sub('^t ', '', inStr)
             res = teach.response(content, isSuper)
         elif re.search('[\u4e00-\u9fa5]', inStr):
-            return 'I speak English only'
+            resList = [
+                'I speak English only.',
+                'Speak English please.',
+                'English, please.']
+            return random.choice(resList)
         else:
             que = ''
             ans = ''
@@ -62,11 +66,12 @@ class chat(object):
                     res = klg.response(self.db, inStr, isSuper)
         if not res:
             notList = [
-                "Sorry, I don't understand",
-                "What are you talking about?",
-                "Hey, let's change a topic, ok?",
-                "I dont know clearly",
-                "Let's say something others"]
+                "I don't understand",
+                "What?",
+                "Let's change a topic",
+                "I don't know",
+                "Parden?",
+                "Hmm..."]
             res = random.choice(notList)
         memo.dialogue().insert_dia(inStr, res)
         res = memo.longStr().check_long_str(res)

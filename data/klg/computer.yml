@@ -1309,7 +1309,8 @@ QA:
    - Device drivers
 
 - que:
-  - how to create empty file
+  - how to make empty file
+  - how to dd
   ans:
   - dd if=/dev/zero of=xxx bs=100M count=1
 
