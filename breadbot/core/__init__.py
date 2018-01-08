@@ -25,8 +25,6 @@ class chat(object):
         return client[db_name]
 
     def response(self, inStr, isSuper=False):
-        if "'" in inStr:
-            return 'Please do not use \''
         inStr = misc.init_input(inStr)
 
         if re.match('^(n|next)$', inStr):

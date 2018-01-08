@@ -3,6 +3,7 @@ import re
 import string
 
 from breadbot.core import memo
+from breadbot.core import misc
 
 do_you_mean = 'Do you mean:'
 
@@ -21,6 +22,7 @@ def _get_qas(db, coll, isSuper=False):
 
 
 def response(db, inStr, isSuper=False):
+    inStr = misc.expand_abbrev(inStr)
     inStr = re.sub('[%s]+' % string.punctuation, '', inStr)
     inStr = inStr.lower()
     if len(inStr) < 3:

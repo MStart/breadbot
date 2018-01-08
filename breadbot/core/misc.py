@@ -12,6 +12,17 @@ def init_input(inStr):
     return inStr
 
 
+def expand_abbrev(inStr):
+    if "'" not in inStr:
+        return inStr
+    inStr = re.sub("'m", ' am', inStr)
+    inStr = re.sub("'s", ' is', inStr)
+    inStr = re.sub("'re", ' are', inStr)
+    inStr = re.sub("'ll", ' will', inStr)
+    print(inStr)
+    return inStr
+
+
 class log(object):
     def __init__(self):
         self.logDir = os.path.join(cfg().get('log_path'), 'dia.log')

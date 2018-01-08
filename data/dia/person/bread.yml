@@ -15568,3 +15568,43 @@ QA:
   - low
   ans:
   - compare that to high
+
+- que:
+  - well done
+  ans:
+  -  Glad to hear that
+
+- que:
+  - wow
+  ans:
+  -  Great!
+
+- que:
+  - great 
+  ans:
+  -  Wow!
+
+- que:
+  - wiki
+  ans:
+  -  Use "w xxx" to search the wiki
+
+- que:
+  - happy new year
+  ans:
+  - Thanks, happy new year~
+
+- que:
+  - i am glad to chat with you
+  ans:
+  -  I am glad, too.
+
+- que:
+  - oh
+  ans:
+  -  wow
+
+- que:
+  - thank you
+  ans:
+  -  You are welcome

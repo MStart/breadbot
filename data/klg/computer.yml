@@ -69,17 +69,10 @@ QA:
   - how to untar
   - how to uncompress
   ans: |
-   - .tar: tar -xvf
-   - .gz: gzip -d "or gunzip"
-   - .tar.gz: tar -xzf
-   - .tgz: tar -xzf
-   - .bz2: bzip2 -d "or bunzip2"
-   - .Z: uncompress
-   - .tar.Z: tar -xZf
-   - .rar: unrar e
-   - .zip: unzip
-   - .tar.bz2: tar -jxvf 
-   - .7z: 7z x "must install p7zip-full"
+   - tar xf
+   - unrar e
+   - unzip
+   - 7z (p7zip-full)
 
 - que:
   - how to config samba
@@ -840,6 +833,7 @@ QA:
   - how to replace string in multiple files
   - how to replace text in multiple files
   - how to replace in multiple files
+  - how to sed
   ans:
   - sed -i 's/oldString/newString/g' `grep oldString -rl ./`
 
@@ -1333,3 +1327,9 @@ QA:
   - how to kill user
   ans:
   - pkill -kill -t pts/x
+
+- que:
+  - how to rm every file
+  - how to rm all the files
+  ans:
+  -  find . -name "xxx" | xargs rm -f
