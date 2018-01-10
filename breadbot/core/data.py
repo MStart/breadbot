@@ -16,11 +16,11 @@ class Data(object):
         self.dataPaths = dataPaths
         self.db = self._open_db()
 
-    def insert_data(self):
+    def import_data(self):
         changedDataList = \
             self._get_changed_data_list(self.dataPaths)
         self._clean_old_db_data(changedDataList)
-        self._insert_db_data(changedDataList)
+        self._import_db_data(changedDataList)
         print('\n All Complete!')
 
     def drop_db(self):
@@ -121,10 +121,10 @@ class Data(object):
             if not os.path.exists(path):
                 changedDataList.remove(dataPath)
 
-    def _insert_db_data(self, changedDataList):
+    def _import_db_data(self, changedDataList):
         for dataPath in changedDataList:
             pathName = self._get_path_name(dataPath)
-            print('insert %s...' % pathName)
+            print('import %s...' % pathName)
             coll = self.db[pathName]
             readStr = self._read_data_file(dataPath)
             data = yaml.load(readStr)

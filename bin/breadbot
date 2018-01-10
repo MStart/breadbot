@@ -17,7 +17,7 @@ if os.geteuid():
 def show_help():
     print(
         '\n'
-        ' insert:   insert data\n'
+        ' import:   import data\n'
         ' drop:     drop database\n'
         ' start:    start server\n'
         ' Ctr+C:    stop server\n'
@@ -29,8 +29,8 @@ def show_help():
 def active(cmd):
     if cmd == 'help':
         show_help()
-    elif cmd == 'insert':
-        core.data.Data().insert_data()
+    elif cmd == 'import':
+        core.data.Data().import_data()
     elif cmd == 'drop':
         core.data.Data().drop_db()
     elif cmd == 'start':

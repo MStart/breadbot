@@ -835,7 +835,7 @@ QA:
   - how to replace in multiple files
   - how to sed
   ans:
-  - sed -i 's/oldString/newString/g' `grep oldString -rl ./`
+  - sed -i 's/oldString/newString/g' filename
 
 - que:
   - kvm how to use snapshot
@@ -1333,4 +1333,10 @@ QA:
   - how to rm every file
   - how to rm all the files
   ans:
-  -  find . -name "xxx" | xargs rm -f
+  - find . -name "xxx" | xargs rm -f
+
+- que:
+  - how to release port
+  ans:
+  - lsof -i :8000
+  - kill -9 xxx

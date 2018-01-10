@@ -20,5 +20,5 @@ def response(inStr, isSuper=False):
     text = '\n- que:\n  - %s\n  ans:\n  - %s\n' % (que, ans)
     f.write(text)
     f.close()
-    data.Data().insert_data()
+    data.Data().import_data()
     return 'OK, I learned.'
