@@ -835,7 +835,7 @@ QA:
   - how to replace in multiple files
   - how to sed
   ans:
-  - sed -i 's/oldString/newString/g' filename
+  - sed -i 's/old/new/g' filename
 
 - que:
   - kvm how to use snapshot
@@ -1337,6 +1337,27 @@ QA:
 
 - que:
   - how to release port
+  ans: |
+   - lsof -i :8000
+   - kill -9 xxx
+
+- que:
+  - how to update pip
   ans:
-  - lsof -i :8000
-  - kill -9 xxx
+  -  pip install -U pip
+
+- que:
+  - how to mount ntfs
+  ans:
+  -  sudo mount -t ntfs /dev/sda1 /mnt
+
+- que:
+  - how to modify apt source
+  ans:
+  -  sudo vi /etc/apt/source.list
+
+- que:
+  - how to get memory status
+  - how to get ram status
+  ans:
+  -  free -h

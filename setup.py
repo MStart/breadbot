@@ -12,6 +12,7 @@ if len(sys.argv) <= 1:
     sys.exit(1)
 
 elif sys.argv[1] == 'install':
+    os.system('pip3 install -U pip')
     os.system('pip3 install -r requirements.txt')
     setup(
         setup_requires=['pbr>=0.1'],
