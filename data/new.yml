@@ -7,3 +7,8 @@ QA:
   - tensorflow
   ans:
   -  a super AI platform
+
+- que:
+  - how to check ubuntu version
+  ans:
+  -  lsb_release -a

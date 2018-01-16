@@ -42,11 +42,14 @@ class chat(object):
             content = re.sub('^t ', '', inStr)
             res = teach.response(content, isSuper)
         elif re.search('[\u4e00-\u9fa5]', inStr):
-            resList = [
-                'I speak English only.',
-                'Speak English please.',
-                'English, please.']
-            return random.choice(resList)
+            if isSuper:
+                res = search.baiduSearch(inStr)
+            else:
+                resList = [
+                    'I speak English only.',
+                    'Speak English please.',
+                    'English, please.']
+                return random.choice(resList)
         else:
             que = ''
             ans = ''
