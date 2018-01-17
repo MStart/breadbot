@@ -7,31 +7,34 @@ from . import misc
 MEM_COLL = 'breadbot_memory_'
 
 
-def get_mem_coll(user):
-    db_name = misc.cfg().get('db_name')
-    ip = misc.cfg().get('db_ip')
-    port = misc.cfg().get('db_port')
-    client = MongoClient(ip, port)
-    db = client[db_name]
-    colls = db.collection_names()
-    mem_coll = '%s%s' % (MEM_COLL, user)
-    coll = db[mem_coll]
-    if mem_coll not in colls or not coll.find_one():
-        data = {
-            'dialogue': [],
-            'long_str': {
-                'cur_block': 0,
-                'block_count': 0,
-                'content': []
+class Coll(object):
+    def __init__(self):
+        pass
+
+    def get_mem_coll(self, user):
+        db_name = misc.cfg().get('db_name')
+        ip = misc.cfg().get('db_ip')
+        port = misc.cfg().get('db_port')
+        client = MongoClient(ip, port)
+        db = client[db_name]
+        colls = db.collection_names()
+        mem_coll = '%s%s' % (MEM_COLL, user)
+        coll = db[mem_coll]
+        if mem_coll not in colls or not coll.find_one():
+            data = {
+                'dialogue': [],
+                'long_str': {
+                    'cur_block': 0,
+                    'block_count': 0,
+                    'content': []
+                }
             }
-        }
+            coll.insert(data)
+        return coll
+
+    def insert_to_coll(self, coll, data):
+        coll.remove({})
         coll.insert(data)
-    return coll
-
-
-def insert_to_coll(coll, data):
-    coll.remove({})
-    coll.insert(data)
 
 
 class longStr(object):
@@ -39,7 +42,7 @@ class longStr(object):
     def __init__(self, user):
         self.maxWords = 140
         self.nextSymble = r'....'
-        self.mem_coll = get_mem_coll(user)
+        self.mem_coll = Coll().get_mem_coll(user)
         self.mem_data = self.mem_coll.find_one()
 
     def _split_str(self, text):
@@ -53,7 +56,7 @@ class longStr(object):
             text[i:i + self.maxWords]
             for i in range(0, len(text), self.maxWords)]
         self.mem_data['long_str']['content'] = content
-        insert_to_coll(self.mem_coll, self.mem_data)
+        Coll().insert_to_coll(self.mem_coll, self.mem_data)
 
     def read_mem(self):
         textList = self.mem_data['long_str']['content']
@@ -62,7 +65,7 @@ class longStr(object):
         if curBlock <= blockCount and textList:
             res = textList[curBlock - 1] + self.nextSymble
             self.mem_data['long_str']['cur_block'] = str(curBlock + 1)
-            insert_to_coll(self.mem_coll, self.mem_data)
+            Coll().insert_to_coll(self.mem_coll, self.mem_data)
             if curBlock == blockCount:
                 res = res.replace(self.nextSymble, '')
         else:
@@ -87,7 +90,7 @@ class dialogue(object):
 
     def __init__(self, user):
         self.maxLen = 3
-        self.mem_coll = get_mem_coll(user)
+        self.mem_coll = Coll().get_mem_coll(user)
         self.mem_data = self.mem_coll.find_one()
 
     def insert_dia(self, inStr, res):
@@ -100,7 +103,7 @@ class dialogue(object):
         res = res.encode('unicode-escape').decode()
         diaList.append({inStr: res})
         self.mem_data['dialogue'] = diaList
-        insert_to_coll(self.mem_coll, self.mem_data)
+        Coll().insert_to_coll(self.mem_coll, self.mem_data)
 
     def get_dia(self):
         dias = self.mem_data['dialogue']
@@ -113,4 +116,4 @@ class dialogue(object):
 
     def erase_dia(self):
         self.mem_data['dialogue'] = []
-        insert_to_coll(self.mem_coll, self.mem_data)
+        Coll().insert_to_coll(self.mem_coll, self.mem_data)
