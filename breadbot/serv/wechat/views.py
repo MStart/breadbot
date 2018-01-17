@@ -15,14 +15,6 @@ class WeChat(View):
     def dispatch(self, *args, **kwargs):
         return super(WeChat, self).dispatch(*args, **kwargs)
 
-    def is_super(self, name):
-        super_users = core.misc.cfg().get('super_user')
-        if super_users and type(super_users) == list:
-            for user in super_users:
-                if user == name:
-                    return True
-        return False
-
     def get(self, request):
         token = core.misc.cfg().get('token')
         signature = request.GET.get('signature', None)
@@ -48,10 +40,8 @@ class WeChat(View):
             content = strXml.find('Content').text
             if '[Unsupported Message]' in content:
                 res = sorry
-            elif self.is_super(fromUser):
-                res = core.chat().response(content, True)
             else:
-                res = core.chat().response(content, False)
+                res = core.chat().response(fromUser, content)
         else:
             res = sorry
         template = loader.get_template('wechat/text_message_template.xml')

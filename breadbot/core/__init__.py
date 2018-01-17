@@ -24,11 +24,11 @@ class chat(object):
         client = MongoClient(db_ip, db_port)
         return client[db_name]
 
-    def response(self, inStr, isSuper=False):
+    def response(self, user, inStr):
         inStr = misc.init_input(inStr)
 
         if re.match('^(n|next)$', inStr):
-            res = memo.longStr().read_mem()
+            res = memo.longStr(user).read_mem()
         elif re.match('^s .*$', inStr):
             content = re.sub('^s ', '', inStr)
             res = search.translate(content)
@@ -40,9 +40,9 @@ class chat(object):
             res = search.wikiSearch(content)
         elif re.match('^t .*$', inStr):
             content = re.sub('^t ', '', inStr)
-            res = teach.response(content, isSuper)
+            res = teach.response(user, content)
         elif re.search('[\u4e00-\u9fa5]', inStr):
-            if isSuper:
+            if misc.is_super(user):
                 res = search.baiduSearch(inStr)
             else:
                 resList = [
@@ -54,19 +54,19 @@ class chat(object):
             que = ''
             ans = ''
             lastDia = {}
-            lastDias = memo.dialogue().get_dia()
+            lastDias = memo.dialogue(user).get_dia()
             if lastDias:
                 lastDia = lastDias[-1]
                 que = list(lastDia.keys())[0]
                 ans = list(lastDia.values())[0]
             if inStr == que or klg.do_you_mean in ans:
-                res = klg.response(self.db, inStr, isSuper)
+                res = klg.response(self.db, user, inStr)
                 if not res:
-                    res = dia.response(self.db, inStr, isSuper)
+                    res = dia.response(self.db, user, inStr)
             else:
-                res = dia.response(self.db, inStr, isSuper)
+                res = dia.response(self.db, user, inStr)
                 if not res:
-                    res = klg.response(self.db, inStr, isSuper)
+                    res = klg.response(self.db, user, inStr)
         if not res:
             notList = [
                 "I don't understand",
@@ -76,6 +76,6 @@ class chat(object):
                 "Parden?",
                 "Hmm..."]
             res = random.choice(notList)
-        memo.dialogue().insert_dia(inStr, res)
-        res = memo.longStr().check_long_str(res)
+        memo.dialogue(user).insert_dia(inStr, res)
+        res = memo.longStr(user).check_long_str(res)
         return res

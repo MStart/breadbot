@@ -4,9 +4,9 @@ from . import data
 from . import misc
 
 
-def response(inStr, isSuper=False):
+def response(user, inStr):
     splitSig = ';'
-    if not isSuper:
+    if not misc.is_super(user):
         return
     if not inStr:
         return

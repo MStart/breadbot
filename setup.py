@@ -4,11 +4,10 @@ import sys
 from setuptools import setup
 
 from breadbot import core
-from breadbot import log
 
 
 if len(sys.argv) <= 1:
-    print('Please enter install or uninstall')
+    print('Please enter install, uninstall or clean')
     sys.exit(1)
 
 elif sys.argv[1] == 'install':
@@ -19,7 +18,7 @@ elif sys.argv[1] == 'install':
         pbr=True,)
     data_path = [os.path.join(os.getcwd(), 'data')]
     core.misc.cfg().write('data_path', data_path)
-    os.system('breadbot insert')
+    os.system('breadbot import')
 
 elif sys.argv[1] == 'uninstall':
     core.data.Data().drop_db()
@@ -37,6 +36,7 @@ elif sys.argv[1] == 'clean':
         'breadbot',
         'data',
         'etc',
+        'log',
         'tests',
         'tools',
         'LICENSE',
@@ -53,8 +53,3 @@ elif sys.argv[1] == 'clean':
             os.system('rm -rf %s' % f)
     os.system('find -name "__pycache__"|xargs rm -rf')
     sys.exit(0)
-
-else:
-    setup(
-        setup_requires=['pbr>=0.1'],
-        pbr=True,)

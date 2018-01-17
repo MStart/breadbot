@@ -21,7 +21,8 @@ def _get_qas(db, coll, isSuper=False):
     return qas
 
 
-def response(db, inStr, isSuper=False):
+def response(db, user, inStr):
+    isSuper = misc.is_super(user)
     inStr = misc.expand_abbrev(inStr)
     inStr = re.sub('[%s]+' % string.punctuation, '', inStr)
     inStr = inStr.lower()
@@ -30,7 +31,7 @@ def response(db, inStr, isSuper=False):
     regexStr = '(^|.* )' + inStr + '( .*|$)'
     colls = db.collection_names()
     try:
-        dias = memo.dialogue().get_dia()
+        dias = memo.dialogue(user).get_dia()
         lastDia = dias[-1]
         lastAns = list(lastDia.values())[0]
     except Exception:
@@ -83,5 +84,5 @@ def response(db, inStr, isSuper=False):
         newQues.insert(0, do_you_mean)
         res = '\n'.join(newQues)
     if res:
-        memo.dialogue().insert_dia(inStr, res)
+        memo.dialogue(user).insert_dia(inStr, res)
     return res

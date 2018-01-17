@@ -1361,3 +1361,8 @@ QA:
   - how to get ram status
   ans:
   -  free -h
+
+- que:
+  - how to check ubuntu version
+  ans:
+  -  lsb_release -a

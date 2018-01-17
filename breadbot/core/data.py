@@ -32,7 +32,8 @@ class Data(object):
         data_log = os.path.join(
             misc.cfg().get('log_path'),
             'data.log')
-        os.remove(data_log)
+        if os.path.exists(data_log):
+            os.remove(data_log)
         print('\n Drop database done.')
 
     def _open_db(self):

@@ -23,6 +23,15 @@ def expand_abbrev(inStr):
     return inStr
 
 
+def is_super(name):
+    super_users = cfg().get('super_user')
+    if super_users and type(super_users) == list:
+        for user in super_users:
+            if user == name:
+                return True
+    return False
+
+
 class log(object):
     def __init__(self):
         self.logDir = os.path.join(cfg().get('log_path'), 'dia.log')

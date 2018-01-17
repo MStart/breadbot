@@ -642,3 +642,8 @@ QA:
   - tell me about apple computers
   ans:
   - Inifnite loop I finished reading michael malone's book on the history of apple. is called infinite loop.
+
+- que:
+  - tensorflow
+  ans:
+  -  a super AI platform

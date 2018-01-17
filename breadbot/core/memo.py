@@ -1,106 +1,116 @@
-from configobj import ConfigObj
 import os
+from pymongo import MongoClient
 import re
 
 from . import misc
 
+MEM_COLL = 'breadbot_memory_'
+
+
+def get_mem_coll(user):
+    db_name = misc.cfg().get('db_name')
+    ip = misc.cfg().get('db_ip')
+    port = misc.cfg().get('db_port')
+    client = MongoClient(ip, port)
+    db = client[db_name]
+    colls = db.collection_names()
+    mem_coll = '%s%s' % (MEM_COLL, user)
+    coll = db[mem_coll]
+    if mem_coll not in colls or not coll.find_one():
+        data = {
+            'dialogue': [],
+            'long_str': {
+                'cur_block': 0,
+                'block_count': 0,
+                'content': []
+            }
+        }
+        coll.insert(data)
+    return coll
+
+
+def insert_to_coll(coll, data):
+    coll.remove({})
+    coll.insert(data)
+
 
 class longStr(object):
 
-    def __init__(self):
+    def __init__(self, user):
         self.maxWords = 140
-        self.nextSignal = r'....'
-        self.spSignal = r'///'
-        memPath = self._get_mem_path()
-        self.mem = ConfigObj(memPath)
-        self.memLS = self.mem['long_str']
+        self.nextSymble = r'....'
+        self.mem_coll = get_mem_coll(user)
+        self.mem_data = self.mem_coll.find_one()
 
-    def _get_mem_path(self):
-        memPath = os.path.join(misc.cfg().get('log_path'), 'mem.log')
-        return memPath
-
-    def split_str(self, text):
+    def _split_str(self, text):
         blockCount = len(text) // self.maxWords
         if len(text) % self.maxWords != 0:
             blockCount += 1
-        curBlock = 1
-        self.memLS['cur_block'] = str(curBlock)
-        self.memLS['block_count'] = str(blockCount)
+        self.mem_data['long_str']['block_count'] = blockCount
+        self.mem_data['long_str']['cur_block'] = 1
         text = text.encode('unicode-escape').decode()
-        self.memLS['content'] = self.spSignal.join(
-            [text[i:i + self.maxWords]
-             for i in range(0, len(text), self.maxWords)])
-        self.mem.write()
+        content = [
+            text[i:i + self.maxWords]
+            for i in range(0, len(text), self.maxWords)]
+        self.mem_data['long_str']['content'] = content
+        insert_to_coll(self.mem_coll, self.mem_data)
+
+    def read_mem(self):
+        textList = self.mem_data['long_str']['content']
+        curBlock = int(self.mem_data['long_str']['cur_block'])
+        blockCount = int(self.mem_data['long_str']['block_count'])
+        if curBlock <= blockCount and textList:
+            res = textList[curBlock - 1] + self.nextSymble
+            self.mem_data['long_str']['cur_block'] = str(curBlock + 1)
+            insert_to_coll(self.mem_coll, self.mem_data)
+            if curBlock == blockCount:
+                res = res.replace(self.nextSymble, '')
+        else:
+            res = 'no more'
+        res = res.replace(r'\n', '\n')
+        res = res.replace(r'\r', '\r')
+        return res
 
     def check_long_str(self, text):
-        if len(text) <= self.maxWords or self.nextSignal in text:
+        if len(text) <= self.maxWords or self.nextSymble in text:
             return text
         elif 'http://' in text or 'https://' in text:
             return text
         elif re.match(u'[\u4e00-\u9fa5]+', text):
             return text
         else:
-            self.split_str(text)
+            self._split_str(text)
             return self.read_mem()
-
-    def read_mem(self):
-        textList = self.memLS['content'].split(self.spSignal)
-        curBlock = int(self.memLS['cur_block'])
-        blockCount = int(self.memLS['block_count'])
-        if curBlock <= blockCount:
-            res = textList[curBlock - 1] + self.nextSignal
-            self.memLS['cur_block'] = str(curBlock + 1)
-            self.mem.write()
-            if curBlock == blockCount:
-                res = res.replace(self.nextSignal, '')
-        else:
-            res = 'no more'
-        res = res.replace(self.spSignal, '')
-        res = res.replace(r'\n', '\n')
-        res = res.replace(r'\r', '\r')
-        return res
 
 
 class dialogue(object):
 
-    def __init__(self):
+    def __init__(self, user):
         self.maxLen = 3
-        self.spSignal = '//'
-        self.spSignal2 = '///\n'
-        memPath = self._get_mem_path()
-        self.mem = ConfigObj(memPath)
-        self.memDia = self.mem['dialogue']
-
-    def _get_mem_path(self):
-        upPath = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-        memPath = os.path.join(os.path.join(upPath, 'log'), 'mem.log')
-        return memPath
+        self.mem_coll = get_mem_coll(user)
+        self.mem_data = self.mem_coll.find_one()
 
     def insert_dia(self, inStr, res):
         if inStr == 'n' or inStr == 'next':
             return
-        diaList = self.memDia['content'].split(self.spSignal2)
+        diaList = self.mem_data['dialogue']
         if len(diaList) >= self.maxLen:
             diaList.pop(0)
         inStr = inStr.encode('unicode-escape').decode()
         res = res.encode('unicode-escape').decode()
-        diaList.append(inStr + self.spSignal + res)
-        self.memDia['content'] = str(self.spSignal2.join(diaList))
-        self.mem.write()
+        diaList.append({inStr: res})
+        self.mem_data['dialogue'] = diaList
+        insert_to_coll(self.mem_coll, self.mem_data)
 
     def get_dia(self):
-        dias = self.memDia['content'].split(self.spSignal2)
+        dias = self.mem_data['dialogue']
         if not dias:
             return []
         newDias = []
         for dia in dias:
-            qa = dia.split(self.spSignal)
-            if len(qa) == 2:
-                q = qa[0]
-                a = qa[1]
-                newDias.append({q: a})
+            newDias.append(dia)
         return newDias
 
     def erase_dia(self):
-        self.memDia['content'] = ''
-        self.mem.write()
+        self.mem_data['dialogue'] = []
+        insert_to_coll(self.mem_coll, self.mem_data)

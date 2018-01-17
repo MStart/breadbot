@@ -3,7 +3,6 @@ import sys
 import os
 
 from breadbot import core
-from breadbot import log
 from breadbot import serv
 
 isSuper = True
@@ -36,21 +35,15 @@ def active(cmd):
     elif cmd == 'start':
         serv.start()
     else:
-        print(core.chat().response(cmd, True))
+        print(core.chat().response('localuser', cmd))
 
 
 if __name__ == '__main__':
 
-    if not core.misc.cfg().get('log_path'):
-        log_path = os.path.dirname(log.__file__)
-        core.misc.cfg().write('log_path', log_path)
-
-        
     if len(sys.argv) > 1:
         cmd = sys.argv[1]
         active(cmd)
         sys.exit(0)
-
 
     while True:
         cmd = input('>> ')
