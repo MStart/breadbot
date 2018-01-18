@@ -101,7 +101,7 @@ class dialogue(object):
             diaList.pop(0)
         inStr = inStr.encode('unicode-escape').decode()
         res = res.encode('unicode-escape').decode()
-        diaList.append({inStr: res})
+        diaList.append({'que': inStr, 'ans': res})
         self.mem_data['dialogue'] = diaList
         _Coll().insert_to_coll(self.mem_coll, self.mem_data)
 
@@ -111,7 +111,7 @@ class dialogue(object):
             return []
         newDias = []
         for dia in dias:
-            newDias.append(dia)
+            newDias.append({dia['que']: dia['ans']})
         return newDias
 
     def erase_dia(self):
