@@ -5,7 +5,7 @@ from pymongo import MongoClient
 from . import data
 from . import dia
 from . import klg
-from . import memo
+from . import memory
 from . import misc
 from . import search
 from . import teach
@@ -28,7 +28,7 @@ class chat(object):
         inStr = misc.init_input(inStr)
 
         if re.match('^(n|next)$', inStr):
-            res = memo.longStr(user).read_mem()
+            res = memory.longStr(user).read_mem()
         elif re.match('^s .*$', inStr):
             content = re.sub('^s ', '', inStr)
             res = search.translate(content)
@@ -54,7 +54,7 @@ class chat(object):
             que = ''
             ans = ''
             lastDia = {}
-            lastDias = memo.dialogue(user).get_dia()
+            lastDias = memory.dialogue(user).get_dia()
             if lastDias:
                 lastDia = lastDias[-1]
                 que = list(lastDia.keys())[0]
@@ -76,6 +76,6 @@ class chat(object):
                 "Parden?",
                 "Hmm..."]
             res = random.choice(notList)
-        memo.dialogue(user).insert_dia(inStr, res)
-        res = memo.longStr(user).check_long_str(res)
+        memory.dialogue(user).insert_dia(inStr, res)
+        res = memory.longStr(user).check_long_str(res)
         return res

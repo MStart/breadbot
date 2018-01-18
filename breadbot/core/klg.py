@@ -2,7 +2,7 @@ import random
 import re
 import string
 
-from breadbot.core import memo
+from breadbot.core import memory
 from breadbot.core import misc
 
 do_you_mean = 'Do you mean:'
@@ -31,7 +31,7 @@ def response(db, user, inStr):
     regexStr = '(^|.* )' + inStr + '( .*|$)'
     colls = db.collection_names()
     try:
-        dias = memo.dialogue(user).get_dia()
+        dias = memory.dialogue(user).get_dia()
         lastDia = dias[-1]
         lastAns = list(lastDia.values())[0]
     except Exception:
@@ -84,5 +84,5 @@ def response(db, user, inStr):
         newQues.insert(0, do_you_mean)
         res = '\n'.join(newQues)
     if res:
-        memo.dialogue(user).insert_dia(inStr, res)
+        memory.dialogue(user).insert_dia(inStr, res)
     return res

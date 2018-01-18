@@ -7,7 +7,7 @@ from . import misc
 MEM_COLL = 'breadbot_memory_'
 
 
-class Coll(object):
+class _Coll(object):
     def __init__(self):
         pass
 
@@ -42,7 +42,7 @@ class longStr(object):
     def __init__(self, user):
         self.maxWords = 140
         self.nextSymble = r'....'
-        self.mem_coll = Coll().get_mem_coll(user)
+        self.mem_coll = _Coll().get_mem_coll(user)
         self.mem_data = self.mem_coll.find_one()
 
     def _split_str(self, text):
@@ -56,7 +56,7 @@ class longStr(object):
             text[i:i + self.maxWords]
             for i in range(0, len(text), self.maxWords)]
         self.mem_data['long_str']['content'] = content
-        Coll().insert_to_coll(self.mem_coll, self.mem_data)
+        _Coll().insert_to_coll(self.mem_coll, self.mem_data)
 
     def read_mem(self):
         textList = self.mem_data['long_str']['content']
@@ -65,7 +65,7 @@ class longStr(object):
         if curBlock <= blockCount and textList:
             res = textList[curBlock - 1] + self.nextSymble
             self.mem_data['long_str']['cur_block'] = str(curBlock + 1)
-            Coll().insert_to_coll(self.mem_coll, self.mem_data)
+            _Coll().insert_to_coll(self.mem_coll, self.mem_data)
             if curBlock == blockCount:
                 res = res.replace(self.nextSymble, '')
         else:
@@ -90,7 +90,7 @@ class dialogue(object):
 
     def __init__(self, user):
         self.maxLen = 3
-        self.mem_coll = Coll().get_mem_coll(user)
+        self.mem_coll = _Coll().get_mem_coll(user)
         self.mem_data = self.mem_coll.find_one()
 
     def insert_dia(self, inStr, res):
@@ -103,7 +103,7 @@ class dialogue(object):
         res = res.encode('unicode-escape').decode()
         diaList.append({inStr: res})
         self.mem_data['dialogue'] = diaList
-        Coll().insert_to_coll(self.mem_coll, self.mem_data)
+        _Coll().insert_to_coll(self.mem_coll, self.mem_data)
 
     def get_dia(self):
         dias = self.mem_data['dialogue']
@@ -116,4 +116,4 @@ class dialogue(object):
 
     def erase_dia(self):
         self.mem_data['dialogue'] = []
-        Coll().insert_to_coll(self.mem_coll, self.mem_data)
+        _Coll().insert_to_coll(self.mem_coll, self.mem_data)
