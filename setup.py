@@ -45,6 +45,7 @@ elif sys.argv[1] == 'clean':
         'requirements.txt',
         'setup.cfg',
         'setup.py',
+        'TODO',
         'tox.ini',
     ]
     fileList = os.listdir('.')
